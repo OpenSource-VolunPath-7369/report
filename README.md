@@ -262,6 +262,10 @@ Sabremos que hemos tenido éxito cuando al menos el 25% de los usuarios gratuito
 
 
 ##### 1.2.2.4. Lean UX Canvas
+<img alt="upc-logo" src="Assets/Chapter-01/Lean UX Canvas.png" width="100%"/>
+
+**Enlace al Lean UX Canvas:** [**Ver en Miro**](https://miro.com/app/board/uXjVJK4zkZs=/?share_link_id=341368825653)
+
 ### 1.3. Segmentos objetivo
 ## Capítulo II: Requirements Elicitation & Analysis
 ---
@@ -344,6 +348,7 @@ Sabremos que hemos tenido éxito cuando al menos el 25% de los usuarios gratuito
 # Bibliografía
 
 # Anexos
+
 
 
 
