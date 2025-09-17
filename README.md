@@ -267,6 +267,15 @@ Sabremos que hemos tenido éxito cuando al menos el 25% de los usuarios gratuito
 **Enlace al Lean UX Canvas:** [**Ver en Miro**](https://miro.com/app/board/uXjVJK4zkZs=/?share_link_id=341368825653)
 
 ### 1.3. Segmentos objetivo
+**Primer segmento objetivo:**  
+Las organizaciones sociales (ONGs, fundaciones y colectivos comunitarios) que aún gestionan sus proyectos de forma manual o con herramientas dispersas.  
+Buscan una plataforma que centralice la coordinación de voluntarios, tareas y calendarios para mejorar su eficiencia e impacto social.  
+
+**Segundo segmento objetivo:**  
+Los voluntarios, principalmente jóvenes y adultos entre 18 y 45 años, interesados en causas sociales.  
+Requieren un sistema accesible y confiable que les permita integrarse fácilmente, visualizar sus tareas y mantener la motivación en su participación.
+
+
 ## Capítulo II: Requirements Elicitation & Analysis
 ---
 ### 2.1. Competidores
@@ -348,6 +357,7 @@ Sabremos que hemos tenido éxito cuando al menos el 25% de los usuarios gratuito
 # Bibliografía
 
 # Anexos
+
 
 
 
