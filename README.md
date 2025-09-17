@@ -124,3 +124,16 @@
 - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+---
+
+
+#### 1.1.2. Perfiles de integrantes del equipo
+
+| Estudiante | Descripción | Conocimientos |
+|------------|-------------|---------------|
+| (foto) <br> Nombres Apellidos <br> Código | Descripción del estudiante | Conocimientos del estudiante |
+| (foto) <br> Nombres Apellidos <br> Código | Descripción del estudiante | Conocimientos del estudiante |
+| (foto) <br> Nombres Apellidos <br> Código | Descripción del estudiante | Conocimientos del estudiante |
+| (foto) <br> Nombres Apellidos <br> Código | Descripción del estudiante | Conocimientos del estudiante |
+| <img src="assets/images/fotoJean.png" alt="fotoJean" height="150" /> <br> Jean Pool Huaman De La Cruz <br> U20201E781 | Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 22 años. A lo largo de mi formación me he destacado por mi compromiso con el aprendizaje constante, siempre buscando reforzar mis conocimientos y mejorar en las áreas que lo requieren. | Conocimientos en Python, C++ y otros lenguajes de programación. |
+
