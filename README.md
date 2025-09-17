@@ -244,6 +244,23 @@ Estas limitaciones se traducen en consecuencias directas: duplicidad de esfuerzo
 - ¿Cómo debe comportarse? Con un diseño intuitivo, notificaciones claras, acceso desde cualquier dispositivo y soporte colaborativo. 
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
+**Hipótesis 01**  
+Creemos que las organizaciones sociales mejorarán la coordinación de sus proyectos si utilizan una plataforma que centralice tareas, roles y calendarios.  
+Sabremos que hemos tenido éxito cuando al menos el 70% de los usuarios registren y gestionen actividades directamente en VolunPath durante el primer mes.  
+
+**Hipótesis 02**  
+Creemos que los voluntarios estarán más motivados y activos si cuentan con un sistema que muestre sus tareas, logros e impacto en la comunidad.  
+Sabremos que hemos tenido éxito cuando la retención de voluntarios activos aumente un 20% tras 3 meses de uso.  
+
+**Hipótesis 03**  
+Creemos que las organizaciones atraerán a más personas si sus proyectos son visibles públicamente a través de la plataforma.  
+Sabremos que hemos tenido éxito cuando el número de voluntarios nuevos aumente un 30% respecto a los métodos tradicionales.  
+
+**Hipótesis 04**  
+Creemos que la adopción de la plataforma será mayor si ofrecemos un plan gratuito básico con funciones esenciales y planes de pago escalables para organizaciones más grandes.  
+Sabremos que hemos tenido éxito cuando al menos el 25% de los usuarios gratuitos migren a un plan de pago en los primeros seis meses.  
+
+
 ##### 1.2.2.4. Lean UX Canvas
 ### 1.3. Segmentos objetivo
 ## Capítulo II: Requirements Elicitation & Analysis
@@ -327,6 +344,7 @@ Estas limitaciones se traducen en consecuencias directas: duplicidad de esfuerzo
 # Bibliografía
 
 # Anexos
+
 
 
 
