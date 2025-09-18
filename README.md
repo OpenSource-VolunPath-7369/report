@@ -201,11 +201,88 @@ Se eligieron las fuentes tipográficas de Angkor, Chango y Dongle, cada una con 
 El diseño asegura una experiencia fluida para el usuario en todos los dispositivos al enfocarse en la accesibilidad, la adaptabilidad y la sencillez. Se dio preferencia a los principios de usabilidad y diseño adaptable, asegurando que los componentes visuales y textuales mantengan su nitidez e impacto en pantallas móviles y computadoras de escritorio.
 
 ### 4.2. Information Architecture
+En esta sección explicaremos cómo organizar, estructurar y etiquetar el contenido de Volunpath Landing Page y la aplicación web de manera que sea fácil de entender y usar para los usuarios. Nos concentramos en el diseño de sistemas de información como sitios web y sistemas de gestión de contenido con el objetivo de mejorar la usabilidad y la experiencia del usuario.
+
 #### 4.2.1. Organization Systems
+**Organización jerárquica (visual hierarchy)**
+
+El dashboard principal de VolunPath organiza la aplicación web de manera jerárquica, lo que facilita el acceso a las funciones más importantes: la gestión de voluntarios y miembros, la creación de eventos, la administración del inventario y la generación de reportes. En un nivel secundario, los usuarios tienen acceso a datos de soporte como estadísticas pormenorizadas, registro de actividades y de interacciones dentro de la organización. Finalmente, en una etapa más avanzada, los administradores tienen la posibilidad de realizar configuraciones de perfiles, permisos personalizados y controlar las notificaciones. Esta jerarquía visual hace más fácil la navegación y posibilita que los usuarios, de forma intuitiva, prioricen sus quehaceres, lo cual optimiza la gestión del impacto social.
+
+**Organización secuencial (step-by-step to accomplish)**
+
+En VolunPath, se utiliza la organización secuencial en procedimientos que necesitan ser llevados a cabo siguiendo una sucesión de pasos ordenados. Un ejemplo es el registro de nuevos voluntarios u organizaciones, que dirige a los usuarios por medio de un proceso gradual: creación de cuenta, configuración del perfil, definición de roles y aceptación de términos. La creación de eventos es otro caso, en el que los administradores siguen una serie de pasos: determinar objetivos, documentar recursos, asignar responsabilidades y hacer público el evento. Esta perspectiva secuencial facilita la experiencia, disminuye el esfuerzo cognitivo y garantiza que los procedimientos esenciales se realicen de manera estructurada y clara.
+
+**Organización de tipo matricial**
+
+En las áreas de VolunPath donde se cruzan varias categorías al mismo tiempo, se emplea la estructura matricial. Por ejemplo, cuando se trata de gestionar a los voluntarios y miembros, es posible estructurar los datos cruzando dimensiones como la experiencia, las habilidades y la disponibilidad. Otro ejemplo es el apartado de informes, en el cual se pueden poner filtros según el tipo de evento, la duración de tiempo o las métricas de impacto social. Esta organización matricial posibilita que los usuarios hallen con rapidez conexiones entre datos, lo cual favorece el análisis de información compleja y optimiza la toma de decisiones estratégicas.
+
 #### 4.2.2. Labeling Systems
+La aplicación web utiliza un sistema de etiquetado para asegurar la claridad y optimizar la experiencia de uso, lo que permite a los usuarios distinguir con rapidez las funciones principales y secundarias. A continuación, se explican las etiquetas empleadas y su finalidad:
+
+| Etiqueta | Descripción |
+|----------|-------------|
+|Perfil de Usuario|Facilita que el usuario administre su información personal, intereses, competencias, antecedentes de voluntariado, preferencias comunicativas y ajustes de privacidad.|
+| Dashboard | Ofrece una perspectiva centralizada de los voluntariados en funcionamiento, así como de las labores asignadas, roles, agenda de actividades y reportes de avance dentro de cada proyecto u organización.|
+| Comunidad | Lugar en el que voluntarios y organizaciones pueden interactuar, compartir vivencias, exhibir historias con impacto y participar en foros temáticos vinculados a diferentes causas sociales.|
+|Mensajes|Incorpora mensajes directos entre usuarios, anuncios oficiales de las organizaciones y mensajes grupales organizacionales. Permite la coordinación de actividades y una comunicación en tiempo real.|
+|Soporte y Ayuda|Sección que incluye recursos de autoayuda, como tutoriales y preguntas frecuentes (FAQ), la posibilidad de comunicarse directamente con el soporte técnico y la opción de informar sobre problemas o incidentes en la plataforma.|
+|Búsqueda Global|Una barra de búsqueda universal para buscar oportunidades de voluntariado, filtrar organizaciones, localizar usuarios y acceder a recursos o documentos importantes con rapidez.|
+|Donaciones (opcional)|Lugar en el que los usuarios tienen la posibilidad de observar campañas de recaudación, hacer contribuciones monetarias o en especie y verificar la transparencia de las metas logradas y los fondos.|
+|Gamificación (opcional)|Sistema de recompensas, insignias y logros que incentiva la participación activa, al reconocer el compromiso y el esfuerzo de las organizaciones y los voluntarios.|
+
 #### 4.2.3. SEO Tags and Meta Tags
+Los metatags y las etiquetas de optimización para motores de búsqueda (SEO) son fundamentales, ya que posibilitan que la plataforma obtenga mayor visibilidad, credibilidad y un mejor lugar en los resultados de búsqueda. Para VolunPath, estos componentes están enfocados en comunicar confianza, comunidad e impacto social, de acuerdo con la meta de unir a los voluntarios con las entidades.
+
+**Landing Page:**
+
+Título: VolunPath — Conecta. Organiza. Potencia tu impacto.
+
+Descripción: VolunPath es la plataforma que conecta voluntarios con organizaciones. Gestiona perfiles, proyectos, inventario y reportes en un solo lugar, potenciando tu impacto social.
+
+Palabras clave: voluntariado, impacto social, gestión de organizaciones, dashboard, reportes, voluntarios, proyectos sociales, ONG, comunidad solidaria.
+
+Autores: Equipo de VolunPath
+
+**Aplicación web:**
+
+Título: VolunPath — Conecta. Organiza. Potencia tu impacto.
+
+Descripción: Herramienta digital para gestionar perfiles, coordinar tareas, administrar inventario, generar reportes y fortalecer comunidades solidarias.
+
+Palabras clave: voluntarios, organizaciones, gestión de proyectos, dashboard colaborativo, tareas, inventario, reportes, comunidad, impacto social, solidaridad, ONG.
+
+Autor: Equipo de VolunPath
+
 #### 4.2.4. Searching Systems
+
+El sistema de búsqueda de VolunPath tiene como objetivo simplificar que tanto los voluntarios como las instituciones tengan acceso a información fundamental. Este sistema se enlaza a una base de datos central donde hay información acerca de perfiles de usuarios, proyectos en curso, voluntariados que están disponibles, eventos y organizaciones que están registradas.
+
+El buscador posibilita filtrar y llegar rápidamente a:
+
+Perfiles de organizaciones o voluntarios, que simplifican la comunicación entre las partes.
+
+Eventos y proyectos activos en los que los usuarios tienen la posibilidad de registrarse o pedir colaboración.
+
+Roles y tareas que se asignan en el tablero de control, con el fin de mejorar la administración interna de los equipos.
+
+Comunidades y mensajes, lo que posibilita la localización de grupos o diálogos específicos.
+
+Los usuarios podrán acceder fácilmente a la información que necesiten, ya que este sistema de búsqueda estará presente en las secciones principales de la plataforma: Dashboard, Comunidad, Mensajes e Inventario.
+
+Así, el buscador de VolunPath no solo hace más rápida la navegación, sino que también mejora la interacción entre los usuarios y el manejo de recursos en la plataforma.
+
 #### 4.2.5. Navigation Systems
+
+Los sistemas de navegación que se emplean en VolunPath son los siguientes:
+
+Landing Page: barra de navegación para entrar a secciones importantes como Cómo funciona, Funcionalidades, Registro, Planes y Entrar.
+
+Aplicación web: menú centralizado con secciones tales como Dashboard, comunidad, perfil, mensajes, notificaciones y asistencia.
+
+Tarjetas interactivas: empleadas en Dashboard, Comunidad y Planes para examinar de modo visual y veloz proyectos, voluntariados y recursos.
+
+Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a cualquier dispositivo.
+
 ### 4.3. Landing Page UI Design
 #### 4.3.1. Landing Page Wireframe
 #### 4.3.2. Landing Page Mock-up
