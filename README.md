@@ -174,6 +174,23 @@ Carmen Quispe
 <img alt="mapping-voluntario" src="/Assets/Chapter-03/mapping_voluntarios.jpg" width="2000"/><br>
 
 ### 3.2. User Stories
+
+|             Epic / Story ID              |    Título    |    Descripción    |    Criterios de Aceptación    |    Relacionado con (Epic ID)    |
+|:-------------------------------:|:----------:|:----------:|:----------:|:----------:|
+|  US01 |    Registro de Voluntarios     |    Como organización, quiero registrar fácilmente a nuevos voluntarios para tener un control centralizado de sus datos.     |    El sistema permite crear un perfil de voluntario con nombre, contacto y disponibilidad. Se puede editar y eliminar información de voluntarios. Cada voluntario recibe confirmación por correo o notificación.     |    EP01     |
+|  US02 |    ...     |    ...     |    ...     |    EP01     |
+|  US03 | **** |    ...     |    ...     |    EP01     |
+|  US04 |    ...     |    ...     |    ...     |   EP02    |
+|            US05             |    Code    |    ...     |    ...     |    EP02     |
+|  US06 |    ...     |    ...     |    ...     |    EP03     |
+|  US07 |    ...     |    ...     |    ...     |    EP03     |
+| US08 | **** |    ...     |    ...     |    EP04    |
+|  US09 |    ...     |    ...     |    ...     |    ...     |
+|             Member              |    Code    |    ...     |    ...     |    EP04     |
+|  US010 |    ...     |    ...     |    ...     |    EP05     |
+|  US011 |    ...     |    ...     |    ...     |    EP05    |
+
+
 ### 3.3. Impact Mapping
 ### 3.4. Product Backlog
 
@@ -234,6 +251,7 @@ Carmen Quispe
 # Bibliografía
 
 # Anexos
+
 
 
 
