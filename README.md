@@ -309,6 +309,19 @@ Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a 
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups
+
+![inicio sesion mockup](Assets/Chapter-04/iniciar-sesion-mockup.png)
+
+![escoger que registrar mockup](Assets/Chapter-04/registrar-escoger-mockup.png)
+
+![registrar voluntario mockup](Assets/Chapter-04/registrar-voluntario-mockup.png)
+
+![registrar organizacion mockup](Assets/Chapter-04/registrar-organizacion-mockup.png)
+
+![aplicacion para organizacion mockup](Assets/Chapter-04/aplicacion-organizacion-mockup.png)
+
+![aplicacion para voluntario mockup](Assets/Chapter-04/aplicacion-voluntario-mockup.png)
+
 #### 4.4.4. Web Applications User Flow Diagrams
 ### 4.5. Web Applications Prototyping
 ### 4.6. Domain-Driven Software Architecture
