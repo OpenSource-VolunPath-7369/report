@@ -308,6 +308,11 @@ Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a 
 ![aplicacion para voluntario wireframe](Assets/Chapter-04/aplicacion-voluntario-wireframes.png)
 
 #### 4.4.2. Web Applications Wireflow Diagrams
+
+![wireflow 1](Assets/Chapter-04/wireflow-1.png)
+
+![wireflow 2](Assets/Chapter-04/wireflow-2.png)
+
 #### 4.4.3. Web Applications Mock-ups
 
 ![inicio sesion mockup](Assets/Chapter-04/inicio-sesion-mockup.png)
