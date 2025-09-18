@@ -252,6 +252,21 @@ En esta sección se detalla el diseño de entrevistas realizadas a los segmentos
 #### 2.2.3. Análisis de entrevistas
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
+
+A través de perfiles detallados, esta sección describe a los diferentes User Personas, explorando sus características demográficas, motivaciones, necesidades, comportamientos y frustraciones. El análisis permite identificar patrones comunes y específicos en los segmentos objetivo, facilitando el diseño de soluciones alineadas con sus expectativas, optimizando su experiencia y resolviendo los desafíos más relevantes que enfrentan en su contexto.
+
+Segmento 1 → Organizaciones de voluntariado
+
+<p align="center">
+  <img alt="UserPersonaLider" src="Assets/Chapter-02/UserPersonaLider.png" width="800"/>
+</p>
+
+Segmento 2 → Voluntarios
+
+<p align="center">
+  <img alt="UserPersonaVoluntario" src="Assets/Chapter-02/UserPersonaVoluntario.png" width="800"/>
+</p>
+
 #### 2.3.2. User Task Matrix
 #### 2.3.3. User Journey Mapping
 #### 2.3.4. Empathy Mapping
@@ -322,6 +337,7 @@ En esta sección se detalla el diseño de entrevistas realizadas a los segmentos
 # Bibliografía
 
 # Anexos
+
 
 
 
