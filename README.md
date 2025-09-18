@@ -143,10 +143,61 @@
 ##### 1.2.2.4. Lean UX Canvas
 ### 1.3. Segmentos objetivo
 ## Capítulo II: Requirements Elicitation & Analysis
----
+
 ### 2.1. Competidores
+
+En este apartado se describen las principales plataformas que hoy dominan el sector de voluntariado digital. Analizar sus características permite identificar fortalezas y vacíos que VolunPath puede aprovechar para posicionarse estratégicamente.
+
+| **Competidor**       | **Descripción**                                                                                   | **Características principales**                                                                 |
+|-----------------------|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| **Idealist.org**      | Plataforma global que conecta personas con oportunidades de voluntariado, empleo social y proyectos comunitarios. | - Buscador avanzado de oportunidades <br> - Perfil público de organizaciones <br> - Publicación de eventos y proyectos <br> - Gran comunidad internacional |
+| **VolunteerMatch.org** | Plataforma estadounidense que vincula ONGs y voluntarios mediante listados detallados de actividades. | - Sistema de emparejamiento entre voluntarios y organizaciones <br> - Integración con programas de voluntariado corporativo <br> - Publicación gratuita de oportunidades <br> - Comunidad sólida en EE. UU. |
+| **GoVolunteer.com**   | Plataforma europea que conecta voluntarios con proyectos sociales y comunitarios, con énfasis en Alemania. | - Perfiles de organizaciones y proyectos <br> - Buscador filtrado por intereses y disponibilidad <br> - Promoción de proyectos sociales locales <br> - Espacio de comunidad digital |
+
+---
+
 #### 2.1.1. Análisis competitivo
+
+En esta sección se presenta una tabla comparativa que resume el **perfil, propuesta de valor, mercado objetivo y estrategias clave** de los competidores frente a **VolunPath**, destacando las diferencias y ventajas competitivas.
+
+| **Perfil / Categoría** | **VolunPath** | **Idealist.org** | **VolunteerMatch.org** | **GoVolunteer.com** |
+|-------------------------|---------------|------------------|------------------------|----------------------|
+| **Overview** | Plataforma web que conecta voluntarios y organizaciones, con perfiles públicos y dashboards privados para gestión interna (roles, tareas, inventarios, presupuestos, calendarios y métricas). | Plataforma global que conecta organizaciones y voluntarios. | Plataforma líder en EE.UU. para conectar ONGs y voluntarios. | Plataforma europea enfocada en proyectos sociales locales (principalmente Alemania). |
+| **Ventaja Competitiva / Valor ofrecido** | Gestión integral interna **+** visibilidad pública en un mismo sistema; diseñada específicamente para ONGs latinoamericanas. | Comunidad internacional y amplia visibilidad. | Emparejamiento avanzado y programas corporativos. | Enfoque local con cercanía cultural y lingüística. |
+| **Mercado Objetivo** | ONGs pequeñas/medianas, universidades, grupos comunitarios y voluntarios en América Latina. | ONGs, universidades, voluntarios y grupos comunitarios. | ONGs, corporaciones y voluntarios en EE.UU. | Voluntarios y ONGs en Europa (sobre todo Alemania). |
+| **Estrategias de Marketing** | Alianzas con universidades, redes de voluntariado y gobiernos locales; marketing digital y gamificación. | Comunidad digital global y alianzas estratégicas. | Programas de responsabilidad social corporativa. | Marketing local y redes comunitarias. |
+| **Productos / Servicios** | Perfiles públicos, dashboards internos, métricas de impacto y reportes automáticos. | Perfiles públicos y gestión básica de actividades. | Listado de oportunidades y matching corporativo. | Perfiles de proyectos locales y comunidad digital. |
+| **Precios y Costos** | MVP gratuito + planes premium escalables según tamaño de la organización. | Gratuito con opciones premium para ONGs. | Gratuito para voluntarios, pago para ONGs premium. | Generalmente gratuito (financiado por apoyos sociales). |
+| **Canales de Distribución** | Web responsive y app móvil en desarrollo. | Web responsive y futura app móvil. | Web + integraciones corporativas. | Web (principalmente en alemán). |
+| **Fortalezas** | Plataforma integral, diseñada para el sector social latinoamericano. | Alcance global y visibilidad. | Matching avanzado y enfoque corporativo. | Conexión local y relevancia cultural. |
+| **Debilidades** | Startup nueva, sin base de usuarios inicial ni posicionamiento consolidado. | Limitado en gestión interna. | Poca presencia fuera de EE.UU. | Alcance muy localizado. |
+| **Oportunidades** | Digitalización creciente en América Latina y necesidad de transparencia. | Digitalización y confianza para donantes. | Expansión a otros países. | Crecer fuera de Alemania. |
+| **Amenazas** | Competidores globales con mayor base de usuarios y capital. | Competencia emergente. | Saturación de mercado en EE.UU. | Dificultad para escalar internacionalmente. |
+
+---
+
 #### 2.1.2. Estrategias y tácticas frente a competidores
+
+En este punto se desarrolla una **matriz FODA** que analiza la situación actual de VolunPath, identificando fortalezas, debilidades, oportunidades y amenazas. A partir de ese análisis, se plantean estrategias FO, DO, FA y DA para guiar la toma de decisiones estratégicas.
+
+| **Fortalezas** | **Debilidades** |
+|-----------------|-----------------|
+| **Las fortalezas son los aspectos internos positivos que diferencian a VolunPath.** <br><br>- Gestión interna integral (roles, inventarios, presupuestos, calendarios). <br> - Combina perfil público + panel privado. <br> - Transparencia con métricas de impacto. <br> - Enfoque en ONGs pequeñas y medianas en LATAM. | **Las debilidades son limitaciones internas que pueden afectar la competitividad.** <br><br>- Startup nueva, sin base de usuarios inicial. <br> - Recursos limitados frente a competidores globales. <br> - Dependencia de adopción tecnológica por ONGs con baja digitalización. <br> - Menor reconocimiento de marca. |
+
+| **Oportunidades** | **Estrategia FO** |
+|--------------------|-------------------|
+| **Las oportunidades representan condiciones externas favorables en el entorno.** <br><br>- Digitalización creciente de ONGs en LATAM. <br> - Demanda de transparencia y métricas para donantes. <br> - Brechas de mercado poco cubiertas en la región. <br> - Alianzas con universidades y gobiernos locales. <br> - Tendencia de gamificación y aprendizaje digital. | **Las estrategias FO aprovechan fortalezas internas para capitalizar oportunidades externas.** <br><br>- Ofrecer dashboards integrales para ONGs. <br> - Posicionar la transparencia como valor diferenciador. <br> - Crear alianzas institucionales para acelerar adopción. |
+
+| **Estrategia DO** | **Amenazas** |
+|-------------------|--------------|
+| **Las estrategias DO buscan superar debilidades internas aprovechando oportunidades externas.** <br><br>- Brindar capacitaciones gratuitas en digitalización. <br> - Modelo freemium para facilitar adopción inicial. <br> - Alianzas con universidades/gobiernos para soporte. | **Las amenazas son factores externos que representan riesgos para VolunPath.** <br><br>- Competidores globales con gran base de usuarios. <br> - Nuevos entrantes con más capital. <br> - Saturación de plataformas similares. <br> - Resistencia cultural a la digitalización. |
+
+| **Estrategia FA** | **Estrategia DA** |
+|-------------------|-------------------|
+| **Las estrategias FA utilizan las fortalezas para enfrentar amenazas externas.** <br><br>- Diferenciarse con gestión interna única (no solo matching). <br> - Construir comunidad sólida con gamificación. <br> - Posicionarse como la plataforma más accesible en LATAM. | **Las estrategias DA buscan reducir debilidades internas mientras se enfrentan amenazas.** <br><br>- Fidelizar usuarios desde etapas iniciales. <br> - Reducir barreras de entrada con onboarding simple. <br> - Diversificar usuarios entre ONGs, universidades y voluntarios. |
+
+
+
 ### 2.2. Entrevistas
 #### 2.2.1. Diseño de entrevistas
 #### 2.2.2. Registro de entrevistas
@@ -223,5 +274,6 @@
 # Bibliografía
 
 # Anexos
+
 
 
