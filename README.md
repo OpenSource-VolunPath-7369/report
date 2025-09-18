@@ -307,9 +307,26 @@ Segmento 2 → Voluntarios
 | Informarse sobre proyectos e impacto del voluntariado | Mensual | Media | Le interesa ver los resultados y sentir que su aporte genera impacto positivo. |
 
 
-
-
 #### 2.3.3. User Journey Mapping
+
+#### Segmento 1 – Organizaciones
+En el caso de las organizaciones de voluntariado, el User Journey Mapping refleja cómo coordinadores como Kevin interactúan con la gestión de voluntarios desde la planeación de actividades hasta la evaluación de resultados. Este recorrido permite identificar los puntos de dolor en procesos clave como la asignación de roles, el manejo de recursos, la comunicación con equipos y la necesidad de reportes de impacto. Así, se evidencia cómo la plataforma puede aportar valor al optimizar tiempos, centralizar información y dar mayor visibilidad frente a aliados y donantes.
+
+<p align="center">
+  <img alt="JourneyMapUpdateLider" src="Assets/Chapter-02/JourneyMapUpdateLider.png" width="800"/>
+</p>
+
+
+#### Segmento 2 – Voluntarios
+En el caso de los voluntarios individuales, el User Journey Mapping permite comprender cómo participantes como Carmen descubren, se inscriben y colaboran en actividades solidarias. Este análisis muestra sus motivaciones, expectativas y dificultades a lo largo del proceso: desde encontrar oportunidades confiables, organizar su tiempo entre trabajo/estudios y voluntariado, hasta recibir reconocimiento por su aporte. De esta manera, se identifican momentos críticos donde la plataforma puede generar confianza, motivación y sentido de pertenencia para aumentar la retención y el compromiso del voluntariado.
+
+
+<p align="center">
+  <img alt="JourneyMapVooluntario" src="Assets/Chapter-02/JourneyMapVooluntario.png" width="800"/>
+</p>
+
+
+
 #### 2.3.4. Empathy Mapping
 #### 2.3.5. As-is Scenario Mapping
 ### 2.4. Ubiquitous Language
@@ -378,6 +395,7 @@ Segmento 2 → Voluntarios
 # Bibliografía
 
 # Anexos
+
 
 
 
