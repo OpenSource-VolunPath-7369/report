@@ -164,7 +164,7 @@
 Segmento Objetivo #1: Organizaciones sociales
 Kevin Pachas
 
-<img alt="mapping-organizador" src="/Assets/Chapter-03/mapping_organizadores.jpg" width="200"/><br>
+<img alt="mapping-organizador" src="/Assets/Chapter-03/mapping_organizadores.jpg" width="2000"/><br>
 
 Segmento Objetivo #2: Voluntarios
 Carmen Quispe
@@ -230,5 +230,6 @@ Carmen Quispe
 # Bibliografía
 
 # Anexos
+
 
 
