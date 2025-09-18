@@ -199,7 +199,55 @@ En este punto se desarrolla una **matriz FODA** que analiza la situación actual
 
 
 ### 2.2. Entrevistas
+
+En esta sección se presenta la investigación realizada mediante entrevistas a representantes de los segmentos objetivo de la plataforma: organizaciones de voluntariado y voluntarios individuales.
+El propósito de estas entrevistas fue comprender las necesidades, motivaciones, problemas y expectativas de los usuarios en relación a la gestión de voluntarios y la participación en actividades solidarias. Esta información es fundamental para orientar el diseño del MVP y asegurar que la plataforma responda a los retos reales que enfrentan los usuarios.
+
 #### 2.2.1. Diseño de entrevistas
+
+
+En esta sección se detalla el diseño de entrevistas realizadas a los segmentos objetivo de la plataforma: organizaciones de voluntariado y voluntarios individuales. Se incluyen tanto las preguntas principales, enfocadas en entender procesos, necesidades y problemas, como las preguntas complementarias, destinadas a recolectar información demográfica y conductual para construir arquetipos de usuario.
+
+
+## A. Para organizaciones  
+
+1. Nombre de la organización y antigüedad  
+2. Ubicación (distrito, ciudad, país)  
+3. Número de miembros activos y roles principales  
+4. Canales digitales utilizados para comunicación y coordinación (WhatsApp, correo, redes sociales)  
+5. Nivel de familiaridad con herramientas digitales de gestión y métricas  
+6. Personalidad del equipo (proactivo, colaborativo, innovador)  
+7. Habilidades clave del equipo para el voluntariado  
+8. Plataformas, marcas o influencias que siguen para informarse o capacitarse  
+9. Objetivos principales al gestionar voluntarios  
+10. Frustraciones actuales en la coordinación de actividades y comunicación  
+11. ¿Cómo coordinan actualmente a sus voluntarios y asignan roles durante las actividades?  
+12. ¿Qué herramientas digitales utilizan para organizar tareas, eventos o proyectos? ¿Qué limitaciones encuentran en ellas?  
+13. ¿Cómo gestionan inventarios, recursos y presupuestos para sus actividades de voluntariado?  
+14. ¿Qué dificultades enfrentan al comunicar eventos y tareas a los voluntarios?  
+15. Si existiera una plataforma que centralice todo esto, ¿qué funcionalidades serían imprescindibles para ustedes?  
+
+
+## B. Para voluntarios  
+
+1. ¿Cuál es tu nombre completo y cuántos años tienes?  
+2. ¿Cómo te identificas en cuanto a género?  
+3. ¿En qué distrito o ciudad resides actualmente?  
+4. ¿Cuál es tu estado civil? (soltero/a, casado/a, conviviente, otro)  
+5. ¿Vives solo/a, con tu familia o con compañeros?  
+6. ¿Cuál es tu ocupación actual o nivel de estudios?  
+7. ¿Cómo te describirías en cuanto a tu forma de relacionarte con los demás y tu nivel de compromiso o proactividad?  
+8. ¿Qué habilidades, talentos o conocimientos consideras que podrías aportar al voluntariado?  
+9. ¿Qué redes sociales, plataformas o influencias digitales sueles usar para informarte o mantenerte conectado/a?  
+10. ¿Qué dispositivos utilizas con mayor frecuencia (móvil, laptop, tablet) y qué canales digitales prefieres para comunicarte o recibir información (WhatsApp, correo, apps, redes sociales)?  
+11. ¿Cómo descubres actualmente oportunidades de voluntariado?  
+12. ¿Qué dificultades encuentras al participar en actividades voluntarias?  
+13. Cuando participas, ¿cómo organizas tus tareas y actividades?  
+14. ¿Qué te motiva a seguir participando en voluntariados?  
+15. ¿Qué tipo de reconocimiento o historial de participación te gustaría tener en una plataforma?  
+
+
+
 #### 2.2.2. Registro de entrevistas
 #### 2.2.3. Análisis de entrevistas
 ### 2.3. Needfinding
@@ -274,6 +322,7 @@ En este punto se desarrolla una **matriz FODA** que analiza la situación actual
 # Bibliografía
 
 # Anexos
+
 
 
 
