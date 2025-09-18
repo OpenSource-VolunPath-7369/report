@@ -326,8 +326,32 @@ En el caso de los voluntarios individuales, el User Journey Mapping permite comp
 </p>
 
 
+### 2.3.2. Empathy Mapping  
 
-#### 2.3.4. Empathy Mapping
+En esta sección se desarrolla el **Empathy Mapping** para los segmentos objetivo identificados. Esta herramienta permite visualizar cómo piensan, sienten, dicen y hacen los usuarios en relación con el voluntariado y el uso de herramientas digitales. Su propósito es profundizar en la comprensión de sus motivaciones, frustraciones y expectativas, generando insights que orienten el diseño del MVP.  
+
+
+#### Empathy Mapping – Segmento 1 (Kevin, líder de organización)  
+
+Este mapa se centra en comprender la perspectiva de un **líder organizacional** que gestiona voluntarios y proyectos sociales. Se busca identificar sus principales dolores en la coordinación, gestión de recursos y visibilidad, así como las aspiraciones que lo motivan a adoptar una plataforma digital centralizada.  
+
+<p align="center">
+  <img alt="EmpathyMapLider" src="Assets/Chapter-02/EmpathyMapLider.png" width="800"/>
+</p>
+
+
+#### Empathy Mapping – Segmento 2 (Carmen, voluntaria)  
+
+Este mapa explora la experiencia de una **voluntaria activa** que busca oportunidades claras, bien organizadas y con reconocimiento. El análisis se orienta a entender cómo vive su rol dentro de los proyectos sociales, qué la motiva a participar y qué barreras enfrenta al equilibrar su tiempo personal con el voluntariado.  
+
+
+<p align="center">
+  <img alt="EmpathyMapVoluntario" src="Assets/Chapter-02/EmpathyMapVoluntario.png" width="800"/>
+</p>
+
+
+
+
 #### 2.3.5. As-is Scenario Mapping
 ### 2.4. Ubiquitous Language
 
@@ -395,6 +419,7 @@ En el caso de los voluntarios individuales, el User Journey Mapping permite comp
 # Bibliografía
 
 # Anexos
+
 
 
 
