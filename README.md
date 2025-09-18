@@ -189,9 +189,28 @@ Carmen Quispe
 |  US010 |    Mensajería Interna   |    Como voluntario, quiero poder comunicarme con el coordinador dentro de la plataforma para resolver dudas.   |    Se pueden enviar y recibir mensajes entre voluntarios y coordinadores. Se reciben notificaciones por mensajes nuevos. El historial de conversaciones queda guardado.   |    EP05     |
 |  US011 |    Notificaciones de Actividades   |    Como voluntario, quiero recibir notificaciones sobre mis tareas para mantenerme informado.    |  El sistema envía notificaciones automáticas al asignar nuevas tareas. También notifica cambios en el calendario o fechas límite próximas. Se puede elegir recibir notificaciones por correo o dentro de la app.   |    EP05    |
 
-
 ### 3.3. Impact Mapping
+
+
+
 ### 3.4. Product Backlog
+
+|             # Orden              |   User Story Id   |    Título    |    Descripción   |    Story Points (1 / 2 / 3 / 5 / 8)    |
+|:-------------------------------:|:----------:|:----------:|:----------:|:----------:|
+|  1 |    US01     |    Asignar roles y tareas     |    Como presidente de organización, deseo asignar roles y tareas a mis miembros para organizar el trabajo sin depender de mensajes dispersos.     |   5  |
+|  2 |    US02     |    Calendario de eventos     |    Como miembro activo, deseo ver en un calendario compartido los eventos programados para organizar mi tiempo con anticipación.   |    3     |
+|  3 | US03 | Registrar avance de proyectos     |    Como coordinador de proyectos, deseo registrar el avance y resultados con fotos y documentos para sistematizar el impacto de las actividades.   |   5    |
+|  4 |    US04    |    Realizar asambleas virtuales |  Como líder de la organización, deseo realizar asambleas virtuales desde la misma plataforma para evitar costos adicionales y pérdida de tiempo.  |   3   |
+|            5             |    US05   |   Registro de finanzas   |   Como administrador de finanzas, deseo llevar un registro de ingresos y gastos para planificar mejor nuestras actividades comunitarias.  |   5    |
+|  6 |    US06   |   Panel de métricas   |   Como presidente de organización, deseo ver métricas de participación y alcance para evaluar el desempeño de nuestra organización.  |  8     |
+|  7 |   US07    |   Repositorio de materiales  |    Como coordinador, deseo almacenar y compartir documentos y evidencias de actividades para mantener la información organizada.  |  3   |
+| 8 | US01 |  Ver proyectos activos  |  Como voluntario nuevo, deseo ver una lista de proyectos activos para postularme a los que se ajustan a mis intereses.  |   5   |
+|  9 |    US02  | Notificaciones de tareas |  Como voluntario con poco tiempo, deseo recibir notificaciones de mis tareas pendientes para no olvidarlas y cumplir a tiempo.  |  3     |
+|  10 |    US03   |   Tablero personal de tareas |    Como voluntario, deseo tener un tablero con mis tareas asignadas para organizar mi tiempo y responsabilidades.  |  5   |
+|  11 |    US04   |   Historial de participación   | Como voluntario activo, deseo ver mi progreso e historial de participaciones para sentir motivación y recibir reconocimiento.  |    3 |
+|  12 |    US05   |  Certificados de participación  |  Como voluntario, deseo descargar un certificado de participación para acreditar mi experiencia. |    2   |
+|  13 |    US06   |  Mensajes a participantes   |  Como coordinador de voluntarios, deseo enviar mensajes grupales a todos los participantes de un proyecto para mantener la comunicación clara.  |  3  |
+|  14 |    US07   |    Perfil de voluntario   |  Como voluntario, deseo crear un perfil con mis intereses y disponibilidad para recibir recomendaciones adecuadas de proyectos.  |   5   |
 
 ## Capítulo IV: Product Design
 ---
@@ -250,6 +269,7 @@ Carmen Quispe
 # Bibliografía
 
 # Anexos
+
 
 
 
