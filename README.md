@@ -191,7 +191,17 @@ Carmen Quispe
 
 ### 3.3. Impact Mapping
 
+Segmento Objetivo #1: Organizaciones sociales
 
+Kevin Pachas
+
+<img alt="impact-organizador" src="/Assets/Chapter-03/impact-organizador.jpg" width="2000"/><br>
+
+Segmento Objetivo #2: Voluntarios
+
+Carmen Quispe
+
+<img alt="impact-voluntario" src="/Assets/Chapter-03/impact-voluntario.jpg" width="2000"/><br>
 
 ### 3.4. Product Backlog
 
@@ -269,6 +279,7 @@ Carmen Quispe
 # Bibliografía
 
 # Anexos
+
 
 
 
