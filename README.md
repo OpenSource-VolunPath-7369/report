@@ -328,6 +328,21 @@ Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a 
 ![aplicacion para voluntario mockup](Assets/Chapter-04/aplicacion-voluntario-mockup.png)
 
 #### 4.4.4. Web Applications User Flow Diagrams
+
+![user flow 1](Assets/Chapter-04/user-flow-1.png)
+
+![user flow 2](Assets/Chapter-04/user-flow-2.png)
+
+![user flow 3](Assets/Chapter-04/user-flow-3.png)
+
+![user flow 4](Assets/Chapter-04/user-flow-4.png)
+
+![user flow 5](Assets/Chapter-04/user-flow-5.png)
+
+![user flow 6](Assets/Chapter-04/user-flow-6.png)
+
+![user flow 7](Assets/Chapter-04/user-flow-7.png)
+
 ### 4.5. Web Applications Prototyping
 ### 4.6. Domain-Driven Software Architecture
 #### 4.6.1. Software Architecture Context Diagram
