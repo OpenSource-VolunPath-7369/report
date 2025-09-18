@@ -162,12 +162,16 @@
 ---
 ### 3.1. To-Be Scenario Mapping
 Segmento Objetivo #1: Organizaciones sociales
+
 Kevin Pachas
 
 <img alt="mapping-organizador" src="/Assets/Chapter-03/mapping_organizadores.jpg" width="2000"/><br>
 
 Segmento Objetivo #2: Voluntarios
+
 Carmen Quispe
+
+<img alt="mapping-voluntario" src="/Assets/Chapter-03/mapping_voluntarios.jpg" width="2000"/><br>
 
 ### 3.2. User Stories
 ### 3.3. Impact Mapping
@@ -230,6 +234,7 @@ Carmen Quispe
 # Bibliografía
 
 # Anexos
+
 
 
 
