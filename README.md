@@ -268,6 +268,47 @@ Segmento 2 → Voluntarios
 </p>
 
 #### 2.3.2. User Task Matrix
+
+Segmento 1 → Organizaciones de voluntariado
+
+**Nombre:** Kevin  
+**Edad:** 27 años  
+**Interés:** Tener una plataforma centralizada y asequible que les permita organizarse mejor, ahorrar recursos, aumentar su visibilidad y demostrar el impacto de su labor social.  
+
+#### Tareas del Usuario
+
+| Tarea | Frecuencia | Importancia | Comentarios |
+|-------|------------|-------------|-------------|
+| Coordinar voluntarios y asignar roles | Alta (semanal o diaria en eventos) | Muy alta | Actualmente usan WhatsApp y reuniones largas; buscan reducir el tiempo invertido y evitar confusiones. |
+| Planificar actividades y proyectos | Media-alta (mensual/trimestral) | Muy alta | La planificación consume tiempo por la dispersión de herramientas; una plataforma integrada ayudaría a centralizar. |
+| Gestionar recursos (tiempo, dinero, materiales) | Media (según proyecto) | Alta | Es clave para la sostenibilidad de las actividades; necesitan control de gastos y presupuestos. |
+| Sistematizar experiencias y generar reportes | Media (al finalizar proyectos) | Alta | Recolectar evidencias es importante para transparencia y aprendizaje, pero actualmente es engorroso. |
+| Difundir iniciativas y logros | Alta (semanal/mensual) | Alta | Necesitan mayor visibilidad para atraer voluntarios y aliados; hoy lo hacen en redes sociales de forma poco estructurada. |
+| Usar plataformas de comunicación y gestión | Alta (diaria/semanal) | Media | Actualmente recurren a Zoom y Drive, pero buscan soluciones más económicas y adaptadas. |
+
+---
+
+Segmento 2 → Voluntarios
+
+**Nombre:** Carmen  
+**Edad:** 27 años  
+**Interés:** Como voluntaria, participar en proyectos con impacto social claro, bien organizados y que reconozcan su esfuerzo.  
+
+#### Tareas del Usuario
+
+| Tarea | Frecuencia | Importancia | Comentarios |
+|-------|------------|-------------|-------------|
+| Descubrir oportunidades de voluntariado | Semanal | Alta | Usa redes sociales, publicaciones de amigos, páginas de organizaciones y WhatsApp. |
+| Comunicarse y coordinar con voluntarios y líderes | Diaria | Alta | Prefiere WhatsApp para comunicación rápida y correo electrónico para lo formal. |
+| Participar en actividades voluntarias (proyectos/eventos) | Mensual / Quincenal | Alta | Se motiva por el impacto social y la conexión con otras personas. |
+| Organizar y planificar sus tareas personales y de voluntariado | Semanal | Alta | Usa recordatorios, divide actividades por días y reparte responsabilidades. |
+| Manejar conflictos de tiempo (trabajo, estudios, voluntariado) | Frecuente | Alta | Dificultad principal: falta de tiempo y superposición de actividades. |
+| Recibir reconocimiento y validar historial de participación | Ocasional | Media-Alta | Desea certificados digitales, insignias y un historial con horas y proyectos. |
+| Informarse sobre proyectos e impacto del voluntariado | Mensual | Media | Le interesa ver los resultados y sentir que su aporte genera impacto positivo. |
+
+
+
+
 #### 2.3.3. User Journey Mapping
 #### 2.3.4. Empathy Mapping
 #### 2.3.5. As-is Scenario Mapping
@@ -337,6 +378,7 @@ Segmento 2 → Voluntarios
 # Bibliografía
 
 # Anexos
+
 
 
 
