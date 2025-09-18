@@ -178,17 +178,16 @@ Carmen Quispe
 |             Epic / Story ID              |    Título    |    Descripción    |    Criterios de Aceptación    |    Relacionado con (Epic ID)    |
 |:-------------------------------:|:----------:|:----------:|:----------:|:----------:|
 |  US01 |    Registro de Voluntarios     |    Como organización, quiero registrar fácilmente a nuevos voluntarios para tener un control centralizado de sus datos.     |    El sistema permite crear un perfil de voluntario con nombre, contacto y disponibilidad. Se puede editar y eliminar información de voluntarios. Cada voluntario recibe confirmación por correo o notificación.     |    EP01     |
-|  US02 |    ...     |    ...     |    ...     |    EP01     |
-|  US03 | **** |    ...     |    ...     |    EP01     |
-|  US04 |    ...     |    ...     |    ...     |   EP02    |
-|            US05             |    Code    |    ...     |    ...     |    EP02     |
-|  US06 |    ...     |    ...     |    ...     |    EP03     |
-|  US07 |    ...     |    ...     |    ...     |    EP03     |
-| US08 | **** |    ...     |    ...     |    EP04    |
-|  US09 |    ...     |    ...     |    ...     |    ...     |
-|             Member              |    Code    |    ...     |    ...     |    EP04     |
-|  US010 |    ...     |    ...     |    ...     |    EP05     |
-|  US011 |    ...     |    ...     |    ...     |    EP05    |
+|  US02 |    Asignación de Roles y Tareas     |    Como coordinador, quiero asignar roles y tareas a los voluntarios para organizar mejor las actividades.     |    Se puede asignar uno o varios roles/tareas a un voluntario desde su perfil. Los voluntarios reciben notificación de sus tareas asignadas. Las tareas quedan registradas con estado y fecha límite.     |    EP01     |
+|  US03 | Seguimiento de Actividades |    Como coordinador, quiero hacer seguimiento al avance de tareas para verificar el progreso de los voluntarios.     |    El sistema muestra el estado (pendiente/en proceso/completado) de cada tarea. Los voluntarios pueden actualizar el estado de sus tareas. El coordinador recibe alertas de tareas vencidas.   |    EP01     |
+|  US04 |    Creación de Proyectos     |    Como organización, quiero crear proyectos con objetivos, responsables y fechas para planificar el trabajo.     |    Se pueden crear proyectos con nombre, descripción, fechas y responsable. Cada proyecto tiene un tablero de actividades relacionadas. Se puede modificar o archivar proyectos.     |   EP02    |
+|            US05             |    Calendario de Actividades   |    Como voluntario, quiero ver un calendario con mis actividades para organizarme mejor.    |    El sistema muestra un calendario con las tareas asignadas al usuario. Se pueden filtrar actividades por proyecto o estado. Las tareas se pueden sincronizar con el calendario del dispositivo.   |    EP02     |
+|  US06 |    Perfil con Historial de Participación    |   Como voluntario, quiero tener un historial de mis actividades realizadas para ver mi progreso.     |    El perfil del voluntario muestra tareas completadas y horas dedicadas. Se puede generar un reporte/constancia descargable de participación. El historial se actualiza automáticamente.   |    EP03     |
+|  US07 |   Sistema de Insignias y Logros    |    Como voluntario, quiero recibir insignias y reconocimientos al completar actividades para sentirme motivado.   |    Se asignan automáticamente insignias por cantidad de tareas completadas. Los logros aparecen visibles en el perfil. El sistema notifica al voluntario cuando gana una nueva insignia.   |  EP03     |
+| US08 | Página Pública de Proyectos |   Como organización, quiero publicar proyectos en una página visible para que personas externas puedan inscribirse.    |   Los proyectos marcados como públicos son visibles sin iniciar sesión. Se muestra descripción, fechas y número de vacantes disponibles. Hay un botón de “Postularme” que crea una solicitud de voluntariado.   |    EP04    |
+|  US09 |    Integración con Redes Sociales   |   Como organización, quiero compartir los proyectos en redes sociales para atraer más voluntarios.   |   Cada proyecto tiene botones para compartir en redes sociales. El enlace compartido lleva directamente a la página pública del proyecto. Se registra cuántos clics provienen de redes.   |    EP04     |
+|  US010 |    Mensajería Interna   |    Como voluntario, quiero poder comunicarme con el coordinador dentro de la plataforma para resolver dudas.   |    Se pueden enviar y recibir mensajes entre voluntarios y coordinadores. Se reciben notificaciones por mensajes nuevos. El historial de conversaciones queda guardado.   |    EP05     |
+|  US011 |    Notificaciones de Actividades   |    Como voluntario, quiero recibir notificaciones sobre mis tareas para mantenerme informado.    |  El sistema envía notificaciones automáticas al asignar nuevas tareas. También notifica cambios en el calendario o fechas límite próximas. Se puede elegir recibir notificaciones por correo o dentro de la app.   |    EP05    |
 
 
 ### 3.3. Impact Mapping
@@ -251,6 +250,7 @@ Carmen Quispe
 # Bibliografía
 
 # Anexos
+
 
 
 
