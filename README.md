@@ -344,6 +344,9 @@ Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a 
 ![user flow 7](Assets/Chapter-04/user-flow-7.png)
 
 ### 4.5. Web Applications Prototyping
+
+Link de Figma: https://www.figma.com/design/aM9rO7pEqiztLkzXoCDExr/Volunpath?node-id=0-1&t=OmI73NqEb7ZuBqSi-1
+
 ### 4.6. Domain-Driven Software Architecture
 #### 4.6.1. Software Architecture Context Diagram
 
