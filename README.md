@@ -346,8 +346,18 @@ Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a 
 ### 4.5. Web Applications Prototyping
 ### 4.6. Domain-Driven Software Architecture
 #### 4.6.1. Software Architecture Context Diagram
+
+![Software Architecture Context Diagram](Assets/Chapter-04/context.png)
+
 #### 4.6.2. Software Architecture Container Diagrams
+
+![Software Architecture Container Diagram](Assets/Chapter-04/container.png)
+
 #### 4.6.3. Software Architecture Components Diagrams
+
+![Software Architecture Components Diagram](Assets/Chapter-04/components.png)
+
+
 ### 4.7. Software Object-Oriented Design
 #### 4.7.1. Class Diagrams
 #### 4.7.2. Class Dictionary
