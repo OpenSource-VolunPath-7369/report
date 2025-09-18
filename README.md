@@ -247,8 +247,72 @@ En esta sección se detalla el diseño de entrevistas realizadas a los segmentos
 15. ¿Qué tipo de reconocimiento o historial de participación te gustaría tener en una plataforma?  
 
 
-
 #### 2.2.2. Registro de entrevistas
+
+## Segmento 1: Líderes de la Organización
+
+|Entrevistado 1|Luis Espiritu|
+|-|-|
+|Edad|24|
+|Distrito|San Juan de Miraflores, Lima|
+|Foto|![Foto-Entrevista-Lider2](Assets/Chapter-02/Foto-Entrevista-Lider2.png)|
+|Link de la Entrevista|[Entrevista a Luis Espiritu](https://youtu.be/og09EQwGQzM)|
+|Time | 0:03 - 07:01 |
+|Análisis de Entrevista| Luis, representante de Educere con 5 años de existencia, describe un voluntariado enfocado en talleres y reforzamiento educativo para niños de 7 a 13 años en dos distritos de Lima, con el objetivo de empoderarlos y fomentar liderazgo comunitario. La organización cuenta con aproximadamente 10-15 voluntarios por sede, proactivos y comprometidos socialmente, aunque algunos requieren tiempo para adaptarse. La coordinación interna se realiza principalmente por WhatsApp y la planificación por Excel y Word, con recursos autogestionados. Sus principales dificultades son la deserción de voluntarios y la coincidencia de horarios para reuniones. Luis resalta la importancia de una plataforma digital centralizada para convocatorias, comunicación, seguimiento de actividades y presentación atractiva de los proyectos de manera intuitiva, para captar y mantener el interés de los jóvenes voluntarios. |
+
+---
+
+|Entrevistado 2|Kevin|
+|-|-|
+|Edad|27|
+|Distrito|Lima|
+|Foto|![Foto-Entrevista-Lider1](Assets/Chapter-02/Foto-Entrevista-Lider1.png)|
+|Link de la Entrevista|[Entrevista a Kevin Co-Fundador de Educere](https://www.youtube.com/watch?v=7-Bnvm3Mgr0)|
+|Time | 0:00 - 15:54 |
+|Análisis de Entrevista| Kevin, presidente de Educere, detalla cómo la organización promueve la educación mediante proyectos sociales y voluntariados. La comunicación interna se realiza por WhatsApp y la difusión externa mediante Facebook, Instagram, TikTok y LinkedIn. Utilizan Zoom, Google Meet y OBS para capacitaciones, aunque los costos y restricciones son limitantes. Emplean Canvas y Excel para planificación y gestión de recursos, financiándose mediante rifas y actividades comunitarias. El equipo es proactivo y colaborativo, con algunos miembros inactivos por estudios o trabajo. Los objetivos principales incluyen democratizar la educación, promover el conocimiento y garantizar acceso a educación de calidad. Entre las dificultades destacan organización interna poco sistematizada, comunicación externa dispersa y limitaciones presupuestarias. Kevin subraya la necesidad de una plataforma centralizada para gestionar voluntarios, roles, tareas, eventos, finanzas básicas, experiencias con evidencias y, de ser posible, un sistema de videollamadas accesible y económicamente sostenible. |
+
+
+## Segmento 2: Voluntarios
+
+
+|Entrevistado 1|George|
+|-|-|
+|Edad|28|
+|Distrito|Lima|
+|Foto|![Foto-Entrevista-Voluntario1](Assets/Chapter-02/Foto-Entrevista-Voluntario1.png)|
+|Link de la Entrevista|[Entrevista a George](https://www.youtube.com/watch?v=G24DPcCZRKE)|
+|Time | 0:00 - 15:58 |
+|Análisis de Entrevista| George, voluntario de 28 años, residente en Lima, se muestra comprometido y constante, motivado por contribuir a la comunidad y desarrollar experiencia profesional. Descubre oportunidades de voluntariado a través de recomendaciones, correos universitarios y redes sociales (Facebook e Instagram), coordinándose mediante su celular con recordatorios y agenda. Sus principales dificultades incluyen falta de información clara sobre horarios y responsabilidades, así como problemas de coordinación inicial. Valora una plataforma que muestre sus logros, estadísticas de participación y certificados digitales, como respaldo para oportunidades laborales, y prefiere canales ágiles de comunicación como WhatsApp y correo electrónico. |
+
+---
+
+|Entrevistado 2|Carmen Rosa Quispe|
+|-|-|
+|Edad|27|
+|Distrito|Lima|
+|Foto|![Foto-Entrevista-Voluntario2](Assets/Chapter-02/Foto-Entrevista-Voluntario2.png)|
+|Link de la Entrevista|[Entrevista a Carmen Rosa Quispe](https://www.youtube.com/watch?v=klmW76gVbFQ)|
+|Time | 0:00 - 16:06 |
+|Análisis de Entrevista| Carmen Rosa, de 27 años, residente en Lima, es proactiva, organizada y comunicativa, disfruta planificar tareas y coordinar actividades. Se entera de voluntariados mediante Instagram, TikTok, Facebook, recomendaciones de amigos, grupos de WhatsApp y anuncios universitarios. Prefiere WhatsApp y correo electrónico para coordinarse. Sus principales dificultades son falta de tiempo por estudios y trabajo, y escasa coordinación en algunos proyectos. Para organizarse utiliza recordatorios, planificación diaria y reparto de responsabilidades con otros voluntarios. Busca una plataforma que registre historial de participaciones, horas dedicadas, proyectos colaborados, certificados digitales e insignias que reconozcan su esfuerzo y contribuyan a su desarrollo profesional. |
+
+---
+
+|Entrevistado 3|Romina Lopa|
+|-|-|
+|Edad|21|
+|Distrito|San Juan de Lurigancho, Lima|
+|Foto|![Foto-Entrevista-Voluntario3](Assets/Chapter-02/Foto-Entrevista-Voluntario3.png)|
+|Link de la Entrevista|[Entrevista a Romina Lopa](https://youtu.be/0qkLYH6JgH4)|
+|Time | 0:00 - 16:13 |
+|Análisis de Entrevista| Romina, residente en San Juan de Lurigancho, es social y proactiva, aportando habilidades comunicativas y expresivas a los voluntariados. Usa Instagram y TikTok para mantenerse informada y dispositivos como celular, laptop y ocasionalmente televisión para conectarse a los canales de difusión. Descubre oportunidades de voluntariado por Instagram. Sus principales dificultades incluyen falta de organización, olvidos y falta de tiempo en los voluntariados. Para organizarse usa libretas y apoyo de miembros encargados de recordar tareas y roles. Desea una plataforma que permita visibilizar sus logros y eventos en los que ha participado en las organizaciones. |
+
+
+
+
+
+
+
+
 #### 2.2.3. Análisis de entrevistas
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
@@ -475,6 +539,7 @@ Este lenguaje común permitirá que conceptos como *voluntario, líder, tarea, i
 # Bibliografía
 
 # Anexos
+
 
 
 
