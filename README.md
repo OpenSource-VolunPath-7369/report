@@ -294,6 +294,19 @@ Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a 
 
 ### 4.4. Web Applications UX/UI Design
 #### 4.4.1. Web Applications Wireframes
+
+![inicio sesion wireframe](Assets/Chapter-04/iniciar-sesion-wireframe.png)
+
+![escoger que registrar wireframe](Assets/Chapter-04/registrar-escoger-wireframe.png)
+
+![registrar voluntario wireframe](Assets/Chapter-04/registrar-voluntario-wireframe.png)
+
+![registrar organizacion wireframe](Assets/Chapter-04/registrar-organizacion-wireframe.png)
+
+![aplicacion para organizacion wireframe](Assets/Chapter-04/aplicacion-organizacion-wireframes.png)
+
+![aplicacion para voluntario wireframe](Assets/Chapter-04/aplicacion-voluntario-wireframes.png)
+
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups
 #### 4.4.4. Web Applications User Flow Diagrams
