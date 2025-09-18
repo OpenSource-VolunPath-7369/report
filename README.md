@@ -310,7 +310,7 @@ Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a 
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups
 
-![inicio sesion mockup](Assets/Chapter-04/iniciar-sesion-mockup.png)
+![inicio sesion mockup](Assets/Chapter-04/inicio-sesion-mockup.png)
 
 ![escoger que registrar mockup](Assets/Chapter-04/registrar-escoger-mockup.png)
 
