@@ -169,8 +169,37 @@
 ## Capítulo IV: Product Design
 ---
 ### 4.1. Style Guidelines
+Los conjuntos de reglas y sugerencias que se establecieron para estandarizar la presentación, el estilo y la accesibilidad de la Landing Page y las aplicaciones web se conocen como guías de estilo.
 #### 4.1.1. General Style Guidelines
+La gama de colores que se eligió para la página de aterrizaje y la aplicación web es:
+
+![paleta de colores](Assets/Chapter-04/paleta-colores.png)
+Los colores azules expresan seriedad, profesionalismo y confianza. El amarillo muestra motivación, optimismo y energía; el verde representa la comunidad, la sostenibilidad y el crecimiento.
+
+En general, esta paleta transmite un equilibrio entre la credibilidad institucional, el propósito social y la energía de la juventud, lo que fortalece la identidad de VolunPath como una plataforma de confianza e innovadora.
+
+
+Las fuentes elegidas para la identidad visual son:
+
+![paleta de colores](Assets/Chapter-04/fuentes-letras.png)
+
+Dongle proporciona un estilo moderno y tecnológico, con un diseño liviano y minimalista que mejora la legibilidad en ambientes digitales.Con un diseño fuerte y singular, Angkor comunica seriedad, propósito y fuerza, a la vez que le brinda a la marca una tonalidad institucional y cultural. Chango, con sus líneas expresivas y redondeadas, brinda un matiz optimista, jovial y próximo, lo que ayuda a vincularse con la comunidad de donantes y voluntarios.
+
+La mezcla de estos tipos de letra establece un balance entre lo institucional y lo humano, presentando a VolunPath como una plataforma confiable e inclusiva.
+
+La forma de comunicarse que se utiliza en VolunPath es tranquila y amistosa.
+
+Esta tonalidad es coherente con el tipo de plataforma que se trata: un espacio diseñado para organizaciones sociales y voluntarios, donde son esenciales la empatía, la confianza y la claridad.
+
+El objetivo del carácter amigable es crear cercanía con el usuario empleando un lenguaje positivo, motivador y accesible que fomente la acción y potencie el concepto de comunidad. Por otro lado, la tranquilidad en el diseño y la redacción ayuda a comunicar profesionalismo, orden y calma, elementos cruciales en una herramienta de gestión organizacional.
+
 #### 4.1.2. Web Style Guidelines
+Para la creación de la landing page y de la aplicación web de VolunPath, se estableció una paleta cromática que consta esencialmente de colores verdes y azules, a los que se les añadieron toques amarillos. Estos colores posibilitan que se transmita dinamismo, crecimiento y confianza, conservando la coherencia con la identidad de la plataforma.
+
+Se eligieron las fuentes tipográficas de Angkor, Chango y Dongle, cada una con un rol particular en la jerarquía visual. Se utiliza Chango para secciones clave de comunicación, ya que aporta un toque juvenil y próximo; Angkor es reservado para títulos con una naturaleza institucional y sólida; mientras que Dongle se usa en la mayoría de los textos debido a su legibilidad en ambientes digitales y a su estilo minimalista.
+
+El diseño asegura una experiencia fluida para el usuario en todos los dispositivos al enfocarse en la accesibilidad, la adaptabilidad y la sencillez. Se dio preferencia a los principios de usabilidad y diseño adaptable, asegurando que los componentes visuales y textuales mantengan su nitidez e impacto en pantallas móviles y computadoras de escritorio.
+
 ### 4.2. Information Architecture
 #### 4.2.1. Organization Systems
 #### 4.2.2. Labeling Systems
