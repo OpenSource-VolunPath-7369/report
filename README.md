@@ -308,12 +308,46 @@ En esta sección se detalla el diseño de entrevistas realizadas a los segmentos
 
 
 
-
-
-
-
-
 #### 2.2.3. Análisis de entrevistas
+
+### Segmento 1: Líderes 
+
+**Características Objetivas:**
+- **Experiencia en voluntariado:** Luis y Kevin lideran una organización, con años de existencia, gestionando programas de voluntariado enfocados en educación para niños de 7 a 13 años.
+- **Número de voluntarios:** Cada sede cuenta con aproximadamente 10-15 voluntarios activos.
+- **Canales de coordinación:** Principalmente WhatsApp para comunicación interna; utilizan Word y Excel para planificación y gestión de recursos.
+- **Uso de plataformas externas:** Kevin menciona uso de Zoom, Google Meet y OBS para capacitaciones, aunque con limitaciones de costo.
+- **Gestión de recursos:** Financiamiento autogestionado mediante rifas, campeonatos y actividades comunitarias; uso de Canvas y Excel para planificación y presupuestos.
+
+**Características Subjetivas:**
+- **Actitud del equipo:** Los líderes destacan iniciativa, compromiso social y proactividad; algunos voluntarios presentan inactividad temporal debido a estudios, trabajo o salud.
+- **Motivación:** Promover educación de calidad, empoderar a los niños y fomentar liderazgo comunitario.
+- **Frustraciones:** Deserción de voluntarios, dificultades de comunicación interna y externa, costos de plataformas, falta de metodologías ágiles y registro sistematizado de experiencias.
+- **Expectativas de plataforma:** Desean una plataforma centralizada para convocatorias, gestión de voluntarios, coordinación de eventos, administración básica de finanzas, sistematización de experiencias con evidencia de impacto y videollamadas accesibles.
+
+**Conclusión:**
+Los líderes de Educere muestran una fuerte orientación hacia la organización efectiva de voluntarios y la expansión de proyectos educativos. La principal oportunidad es desarrollar una plataforma centralizada que integre gestión de voluntarios, planificación de actividades y seguimiento del impacto, facilitando la coordinación interna y la comunicación externa de manera intuitiva y accesible.
+
+---
+
+### Segmento 2: Voluntarios 
+
+**Características Objetivas:**
+- **Perfil de los voluntarios:** George (28 años), Carmen Rosa (27 años) y Romina Lopa, residentes en Lima, comprometidos con el voluntariado y motivados por aportar a la comunidad y desarrollar experiencia profesional.
+- **Canales de descubrimiento:** Redes sociales (Facebook, Instagram, TikTok), recomendaciones de amigos, correos universitarios y anuncios institucionales.
+- **Herramientas de coordinación:** WhatsApp, correo electrónico, recordatorios y agendas personales.
+- **Participación y roles:** Los voluntarios participan activamente en talleres y actividades, aunque algunos presentan limitaciones de tiempo o coordinación debido a estudios o trabajo.
+
+**Características Subjetivas:**
+- **Motivación:** Impacto positivo en la comunidad, desarrollo profesional, interacción con personas de intereses similares.
+- **Dificultades:** Falta de información clara sobre horarios y responsabilidades, desorganización en algunas actividades, descoordinación inicial.
+- **Preferencias de plataforma:** Desean visualizar logros, historial de participaciones, horas dedicadas, proyectos colaborativos, certificados digitales e insignias que reconozcan su esfuerzo y sirvan para oportunidades laborales o desarrollo profesional.
+
+**Conclusión:**
+Los voluntarios de Educere valoran la claridad, el reconocimiento y la facilidad de coordinación en sus actividades. Existe una oportunidad de ofrecer una plataforma digital que centralice información sobre tareas, logros, certificaciones y comunicación, facilitando la organización y aumentando la motivación para mantener su participación activa.
+
+
+
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
 
@@ -539,6 +573,7 @@ Este lenguaje común permitirá que conceptos como *voluntario, líder, tarea, i
 # Bibliografía
 
 # Anexos
+
 
 
 
