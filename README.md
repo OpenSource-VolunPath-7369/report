@@ -381,6 +381,36 @@ Se examinan los medios utilizados (redes sociales, contactos directos, WhatsApp)
 
 ### 2.4. Ubiquitous Language
 
+El **Ubiquitous Language** es un concepto central en el diseño de software dentro del enfoque de *Domain-Driven Design (DDD)*.  
+Consiste en construir un lenguaje común y compartido entre los miembros del equipo técnico, los stakeholders y los usuarios finales, evitando ambigüedades y garantizando que todos comprendan de la misma manera los términos clave del dominio.  
+
+En el caso de VolunPath, el desarrollo de un lenguaje ubicuo resulta esencial para asegurar que las funcionalidades de la plataforma reflejen con precisión las necesidades del sector social.  
+Este lenguaje común permitirá que conceptos como *voluntario, líder, tarea, inventario, presupuesto, métrica de impacto* o *dashboard* se definan claramente, facilitando la comunicación, la documentación y el diseño colaborativo de la solución.  
+
+
+| **Término**              | **Definición en el contexto**                                                                 |
+|---------------------------|-----------------------------------------------------------------------------------------------|
+| **Voluntario / Voluntaria** | Persona que se une a los proyectos y asume roles según su disponibilidad.                   |
+| **Rol**                   | Función o responsabilidad asignada dentro de un proyecto (ej. coordinador, facilitador, apoyo logístico). |
+| **Proyecto**              | Iniciativa social, educativa, cultural o ambiental organizada por Educere.                   |
+| **Actividad**             | Acciones concretas dentro de un proyecto (ej. rifa, capacitación, campaña).                  |
+| **Asamblea**              | Reunión formal de los miembros para tomar decisiones.                                         |
+| **Oportunidad de voluntariado** | Actividad o evento en el que los voluntarios pueden colaborar.                          |
+| **Disponibilidad de tiempo** | Capacidad del voluntario para equilibrar estudios, trabajo, familia y voluntariado.         |
+| **Planificación**         | Proceso de organizar recursos, tiempos y presupuestos.                                        |
+| **Comunicación**          | Intercambio de información entre voluntarios y organizadores, normalmente a través de WhatsApp, Facebook o correo electrónico. |
+| **Difusión**              | Publicación y comunicación de proyectos en redes sociales.                                    |
+| **Métrica de impacto**    | Indicador para medir resultados (ej. seguidores, alcance, número de participantes, impacto social). |
+| **Sistematización**       | Registro y organización de experiencias y aprendizajes de un proyecto.                       |
+| **Repositorio digital**   | Espacio centralizado para almacenar documentos, evidencias y materiales.                      |
+| **Certificado digital**   | Reconocimiento formal que valida la participación del voluntario en una actividad o proyecto. |
+| **Historial de participación** | Registro de proyectos, horas y actividades en los que el voluntario ha colaborado.       |
+| **Reconocimiento**        | Valoración al esfuerzo del voluntario mediante insignias, certificados o menciones.           |
+| **Motivación**            | Razón principal que impulsa al voluntario a seguir participando (impacto positivo, comunidad, desarrollo personal). |
+| **Dificultad / Dolor**    | Obstáculos que enfrenta el voluntario (falta de tiempo, desorganización, poca coordinación).  |
+| **Impacto social**        | Resultado visible de las actividades, que refleja cómo las acciones del voluntariado benefician a la comunidad. |
+
+
 ## Capítulo III: Requirements Specification
 ---
 ### 3.1. To-Be Scenario Mapping
@@ -445,6 +475,7 @@ Se examinan los medios utilizados (redes sociales, contactos directos, WhatsApp)
 # Bibliografía
 
 # Anexos
+
 
 
 
