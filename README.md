@@ -285,7 +285,13 @@ Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a 
 
 ### 4.3. Landing Page UI Design
 #### 4.3.1. Landing Page Wireframe
+
+![landing wireframe](Assets/Chapter-04/landing-wireframe.png)
+
 #### 4.3.2. Landing Page Mock-up
+
+![landing mock-up](Assets/Chapter-04/landing-mockup.png)
+
 ### 4.4. Web Applications UX/UI Design
 #### 4.4.1. Web Applications Wireframes
 #### 4.4.2. Web Applications Wireflow Diagrams
