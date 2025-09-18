@@ -349,10 +349,36 @@ Este mapa explora la experiencia de una **voluntaria activa** que busca oportuni
   <img alt="EmpathyMapVoluntario" src="Assets/Chapter-02/EmpathyMapVoluntario.png" width="800"/>
 </p>
 
-
-
-
 #### 2.3.5. As-is Scenario Mapping
+
+El **As-is Scenario Mapping** permite describir y analizar los procesos actuales que siguen los usuarios en sus actividades cotidianas, antes de implementar una nueva solución tecnológica.  
+Este mapeo ayuda a identificar los pasos, herramientas y canales que utilizan hoy tanto las organizaciones de voluntariado como los voluntarios individuales, así como las dificultades y puntos de fricción que experimentan en dichas interacciones.  
+
+En el contexto de VolunPath, el objetivo de esta técnica es **comprender la situación actual de gestión y participación en voluntariado**, para luego diseñar un MVP que optimice estos procesos, reduzca barreras y mejore la experiencia de los usuarios.  
+
+
+
+#### Segmento 1: Líder de organización (Kevin)  
+
+En el caso de los líderes de organizaciones, el As-is Scenario Mapping busca detallar cómo gestionan actualmente a sus voluntarios, los recursos disponibles y la comunicación interna.  
+Se analizan las herramientas que emplean (WhatsApp, reuniones presenciales, hojas de cálculo), las dificultades más frecuentes (duplicación de tareas, falta de centralización, baja trazabilidad) y los puntos críticos que generan sobrecarga de tiempo y recursos.  
+
+<p align="center">
+  <img alt="ScenarioMapLider" src="Assets/Chapter-02/ScenarioMapLider.png" width="800"/>
+</p>
+
+
+#### Segmento 2: Voluntaria individual (Carmen)  
+
+Para los voluntarios individuales, el As-is Scenario Mapping describe cómo descubren oportunidades, se comunican con los líderes y participan en actividades.  
+Se examinan los medios utilizados (redes sociales, contactos directos, WhatsApp), los problemas habituales (falta de información clara, desorganización de horarios, baja visibilidad del impacto) y las expectativas no cubiertas que pueden afectar su motivación y continuidad en el voluntariado.  
+
+
+<p align="center">
+  <img alt="ScenarioMapVoluntario" src="Assets/Chapter-02/ScenarioMapVoluntario.png" width="800"/>
+</p>
+
+
 ### 2.4. Ubiquitous Language
 
 ## Capítulo III: Requirements Specification
@@ -419,6 +445,7 @@ Este mapa explora la experiencia de una **voluntaria activa** que busca oportuni
 # Bibliografía
 
 # Anexos
+
 
 
 
