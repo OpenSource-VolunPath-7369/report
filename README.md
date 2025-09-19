@@ -147,9 +147,9 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
     <!-- Criterio 1 -->
     <tr>
       <td rowspan="5">Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
-      <td>Alumno 1</td>
+      <td>Aldair Joaquin Ramos Aguirre</td>
       <td>
-        TB1:<br>
+        TB1: Participé activamente en los grupos para la coordinación mediante llamadas, tratando de comunicar mis ideas con efectividad.<br>
         TP:<br>
         TB2:<br>
         TF:
@@ -195,9 +195,9 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
     <!-- Criterio 2 -->
     <tr>
       <td rowspan="5">Comunica por escrito con efectividad a diferentes rangos de audiencia </td>
-      <td>Alumno 1</td>
+      <td>Aldair Joaquin Ramos Aguirre</td>
       <td>
-        TB1:<br>
+        TB1: Trate de aportar activamente en los grupos para la coordinación mediante los grupos como whatsapp y discord para la repartición de tareas.<br>
         TP:<br>
         TB2:<br>
         TF:
@@ -473,6 +473,7 @@ Requieren un sistema accesible y confiable que les permita integrarse fácilment
 # Bibliografía
 
 # Anexos
+
 
 
 
