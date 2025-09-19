@@ -24,7 +24,7 @@
 |  Bertha Roxmeri Román Rodriguez |   u20211c654   |
 | Mel Andree Orellana Rodriguez | U202116018 |
 |  Jean Pool Huaman De La Cruz |    U20201E781     |
-|  ======== |    ...     |
+|  Alex Gabriel Cusimayta Lobo | U202019131 |
 
 <strong> Setiembre 2025</strong><br>
 </div>
