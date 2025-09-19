@@ -21,7 +21,7 @@
 |             Member              |    Code    |
 |:-------------------------------:|:----------:|
 |  ===== |    ...     |
-|  == |    ...     |
+|  Bertha Román Rodriguez |   u20211c654     |
 | === | **** |
 |  ======== |    ...     |
 
@@ -124,4 +124,5 @@
 - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+
 
