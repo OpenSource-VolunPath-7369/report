@@ -7,12 +7,12 @@
 <strong>Ingeniería de Software - 2025-2</strong><br>
 <strong>1ASI0729 - Desarrollo de Aplicaciones Open Source</strong><br>
 <strong>NRC: 7369</strong><br>
-<strong>Profesor: Nombre del docente</strong><br>
+<strong>Profesor: Wilder Julio Espinoza Bravo</strong><br>
 
 <br><strong>Informe del Trabajo Final</strong><br><br>
 
-<strong>Startup: nombre </strong><br>
-<strong>Producto: name </strong><br>
+<strong>Startup: InnovaSocial </strong><br>
+<strong>Producto: VolunPath </strong><br>
 
 
 
@@ -20,10 +20,11 @@
 
 |             Member              |    Code    |
 |:-------------------------------:|:----------:|
-|  ===== |    ...     |
-|  == |    ...     |
-| === | **** |
-|  ======== |    ...     |
+|  Aldair Ramos |    U20201F051     |
+|  Bertha Roxmeri Román Rodriguez |   u20211c654   |
+| Mel Andree Orellana Rodriguez | U202116018 |
+|  Jean Pool Huaman De La Cruz |    U20201E781     |
+|  Alex Gabriel Cusimayta Lobo | U202019131 |
 
 <strong> Setiembre 2025</strong><br>
 </div>
@@ -124,6 +125,30 @@
 - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+
+
+#### 1.1.2. Perfiles de integrantes del equipo
+
+| Estudiante | Descripción | Conocimientos |
+|------------|-------------|---------------|
+|  <img src="Assets/ImageMembers/FotoAldair.jpg" height="150" /> <br> Aldair Joaquin Ramos Aguirre <br> U20201F051 | Soy estudiante de Ingeniería de software en la UPC, me gusta todo lo relacionado a la tecnología y desarrollo. Confió en que puedo aportar algo para el desarrollo de este proyecto.  | Conocimientos mayormente en C++, Python, CSS, HMTL Y SQL |
+| (foto) <br> Nombres Apellidos <br> Código | Descripción del estudiante | Conocimientos del estudiante |
+| <img src="Assets/ImageMembers/fotoBertha.PNG" height="150" /> <br> Bertha Roxmeri Román Rodriguez <br> u20211c654 | En estos momentos estoy cursando la carrera de ingeniería de software, en la cual obtengo conocimientos variados ya que integra distintas ciencias como computación, ciencias básicas y ciencias aplicadas. Puedo usar estos conocimientos para transformarlos en un producto industrial usando bases de la ingeniería para desarrollar algo innovador. | Conocimientos de HTML, CSS, C++ y Python |
+| <img src="Assets/ImageMembers/Integrante-Mel-Andree-Orellana.jpeg" height="150" /> <br> Mel Andree Oreellana Rodriguez  <br> U202116018 | Estudiante de Ingeniería de Software, comprometido con el trabajo en equipo, proactivo y orientado a resultados, con interés en aportar soluciones tecnológicas innovadoras. | HTML, CSS, JavaScript, SQL (frontend y bases de datos), Python (programación, automatización y análisis). |
+| <img src="Assets/ImageMembers/fotoJean.png" height="150" /> <br> Jean Pool Huaman De La Cruz <br> U20201E781 | Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 22 años. A lo largo de mi formación me he destacado por mi compromiso con el aprendizaje constante, siempre buscando reforzar mis conocimientos y mejorar en las áreas que lo requieren. | Conocimientos en Python, C++ y otros lenguajes de programación. |
+
+
+
+
+
+
+
+
+
+
+
+
+=======
 
 
 
@@ -1188,4 +1213,5 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
+
 
