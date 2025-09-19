@@ -125,11 +125,8 @@
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
----
-# Student Outcome
-=======
----
-# Student Outcome
+
+
 ---
 # Student Outcome
 ### ABET – EAC - Student Outcome 3  
@@ -250,21 +247,147 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
 
 
 
-## Capítulo I: Introducción
----
-### 1.1. Startup Profile
-#### 1.1.1. Descripción de la Startup
+=======
+En InnovaSocial, apostamos por la innovación tecnológica al servicio del voluntariado y las organizaciones sociales. Nuestro producto principal, VolunPath, es una plataforma web diseñada para ser un puente entre instituciones y personas que desean involucrarse en actividades solidarias.
+Además de facilitar la conexión, la herramienta brinda a las organizaciones un espacio público para difundir su historia, proyectos, fotografías y eventos; junto con un panel privado que les permite gestionar de manera integral sus operaciones internas, como la asignación de roles, planificación de tareas, control de inventarios, manejo de calendarios y presupuestos. De esta manera, buscamos impulsar comunidades más organizadas y voluntarios con mayores oportunidades de desarrollo personal
 
-#### 1.1.2. Perfiles de integrantes del equipo
+**Misión**  
+Desarrollar soluciones digitales que fortalezcan el vínculo entre voluntarios y organizaciones sociales, ofreciendo una plataforma confiable, intuitiva y práctica para la gestión de sus actividades, con el fin de promover la solidaridad, la participación activa y el bienestar colectivo.
+
+**Visión**  
+Ser reconocidos como un startup líder en América Latina en el desarrollo de plataformas digitales para el sector social, destacando por la innovación continua, el enfoque humano y la contribución a la modernización de los procesos en el ámbito del voluntariado.
+
+
+
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
+El voluntariado ha representado a lo largo del tiempo una de las expresiones más significativas de la participación ciudadana, aportando al progreso social, al apoyo de comunidades en situación de vulnerabilidad y al fortalecimiento de la cultura solidaria. No obstante, en la actualidad numerosas organizaciones enfrentan serias complicaciones para coordinar y sostener sus programas. Entre las principales dificultades se encuentran la carencia de recursos suficientes para una gestión adecuada, la escasa visibilidad de sus iniciativas, la falta de estrategias efectivas para captar nuevos voluntarios y la ausencia de procedimientos claros para asignar funciones y responsabilidades. Estas deficiencias ocasionan una menor eficiencia, desánimo entre los participantes y una disminución en el verdadero impacto que los proyectos sociales podrían alcanzar. 
+### 5W + 2H – VolunPath  
+
+#### **WHAT (QUÉ)**  
+**¿Cuál es el problema?**  
+Las organizaciones sociales y de voluntariado experimentan serias dificultades para coordinar, organizar y dar seguimiento a sus actividades. La mayoría depende de registros manuales o de herramientas aisladas (como hojas de cálculo, correos electrónicos o redes sociales), lo que genera desorganización, pérdida de información y poca visibilidad de sus proyectos.  
+
+**¿Qué consecuencias tiene?**  
+Esto limita la eficiencia de los programas, complica la atracción y retención de voluntarios, desmotiva la participación, genera duplicidad de esfuerzos y reduce el impacto real en las comunidades beneficiadas.  
+
+
+#### **WHEN (CUÁNDO)**  
+**¿Cuándo sucede el problema?**  
+Cada vez que las organizaciones intentan gestionar tareas, roles, calendarios o presupuestos sin contar con herramientas centralizadas. También al difundir iniciativas de voluntariado y no lograr alcanzar suficiente audiencia o confianza entre los potenciales voluntarios.  
+
+**¿Cuándo utiliza el cliente el producto?**  
+La plataforma se usaría de manera continua, en cualquier momento que la organización necesite coordinar proyectos, registrar actividades, asignar voluntarios o dar a conocer sus campañas sociales.  
+
+#### **WHERE (DÓNDE)**  
+**¿Dónde se presenta el problema?**  
+En ONGs, fundaciones, colectivos comunitarios y asociaciones que operan en ámbitos como salud, educación, medio ambiente o asistencia social. El problema es más evidente en regiones como América Latina, donde los procesos de digitalización en el sector social aún son limitados.  
+
+**¿Dónde se usa el producto?**  
+VolunPath puede ser utilizado desde cualquier dispositivo con conexión a internet, ya sea en oficinas institucionales, centros comunitarios o de manera remota, facilitando la gestión de equipos distribuidos.  
+
+#### **WHO (QUIÉN)**  
+**¿Quién tiene este problema?**  
+Las entidades sociales que requieren optimizar la coordinación de sus programas y los voluntarios que desean participar, pero carecen de información clara y espacios organizados para integrarse.  
+
+**¿Quién se beneficia del producto?**  
+- Las organizaciones sociales, al mejorar su gestión interna.  
+- Los voluntarios, al acceder a oportunidades claras y confiables.  
+- Las comunidades, al recibir un apoyo más eficiente y con mayor impacto.  
+
+
+
+#### **WHY (POR QUÉ)**  
+**¿Por qué ocurre el problema?**  
+Porque muchas organizaciones sociales carecen de recursos para invertir en herramientas especializadas y siguen utilizando procesos manuales o soluciones poco adaptadas a sus necesidades.  
+
+**¿Por qué es importante resolverlo?**  
+Porque modernizar la gestión del voluntariado permite fortalecer la participación ciudadana, fomentar la confianza y aumentar el impacto de los proyectos sociales.  
+
+Como señala la *Plataforma del Voluntariado de España (2023)*, uno de los principales desafíos actuales es avanzar hacia modelos de gestión más innovadores que logren atraer a nuevas generaciones de voluntarios.  
+
+
+
+#### **HOW (CÓMO)**  
+**¿Cómo soluciona el producto el problema?**  
+VolunPath actúa como un espacio digital integral que centraliza la organización de roles, tareas, calendarios y presupuestos, al mismo tiempo que facilita la difusión de proyectos y la visibilidad de las iniciativas.  
+
+De este modo, promueve la transparencia, la confianza y una colaboración más efectiva entre voluntarios y organizaciones.  
+
+
+#### **HOW MUCH (CUÁNTO)**  
+**¿Cuánto mejora el producto la situación actual?**  
+La implementación de la plataforma disminuye significativamente el tiempo invertido en gestiones manuales, reduce los errores y pérdidas de información, mejora la comunicación y aumenta la eficiencia en la ejecución de los proyectos.  
+
+**¿Qué beneficios se obtienen?**  
+Un mayor orden interno, más motivación en los voluntarios, la capacidad de llegar a un número más amplio de personas interesadas y, como resultado, un impacto social más fuerte y sostenible.  
+ 
+
 #### 1.2.2. Lean UX Process
 ##### 1.2.2.1. Lean UX Problem Statements
-##### 1.2.2.2. Lean UX Assumptions
-##### 1.2.2.3. Lean UX Hypothesis Statements
-##### 1.2.2.4. Lean UX Canvas
-### 1.3. Segmentos objetivo
+En el ámbito social y del voluntariado, muchas organizaciones (ONGs, fundaciones y colectivos) enfrentan grandes dificultades para coordinar y dar seguimiento a sus proyectos. La mayoría aún depende de herramientas manuales o dispersas, como hojas de cálculo, correos electrónicos o redes sociales, lo que genera desorganización, pérdida de información y baja visibilidad de sus iniciativas.  
+Estas limitaciones se traducen en consecuencias directas: duplicidad de esfuerzos, poca transparencia, desmotivación en los voluntarios y un impacto reducido en las comunidades beneficiadas.  
+**Ante ello, VolunPath se plantea responder a preguntas clave:**  
+- ¿Cómo centralizar en una sola plataforma la gestión de voluntarios y actividades?  
+- ¿De qué manera incrementar la motivación y retención de los voluntarios?  
+- ¿Cómo evitar la pérdida de datos y fortalecer la transparencia de los proyectos sociales?  
+- ¿Qué estrategias permiten dar mayor visibilidad a las iniciativas comunitarias?  
+- ¿Cómo facilitar el acceso de nuevas personas al voluntariado mediante un sistema confiable y accesible?
 
+
+##### 1.2.2.2. Lean UX Assumptions
+**Business Assumptions**  
+
+- Existe una necesidad creciente de profesionalizar la gestión del voluntariado en organizaciones sociales.  
+- Una plataforma integral que centralice roles, tareas, calendarios y comunicación puede resolver estas necesidades.  
+- Los primeros clientes serán ONGs pequeñas y medianas, así como colectivos comunitarios que aún dependen de procesos manuales.  
+- El valor principal buscado es una herramienta que ahorre tiempo, reduzca la desorganización y aumente la participación de los voluntarios.  
+- Entre los beneficios adicionales destacan: mayor visibilidad de proyectos, reportes automáticos y transparencia en la comunicación.  
+- La adquisición de clientes se logrará a través de alianzas con redes de voluntariado, marketing digital y recomendaciones entre organizaciones.  
+- El modelo de negocio estará basado en suscripciones mensuales con planes escalables.  
+- La competencia incluye herramientas genéricas de gestión de proyectos (Trello, Asana, Google Sheets), pero VolunPath se diferenciará por estar diseñado específicamente para el voluntariado.  
+- El mayor riesgo es que las organizaciones no perciban valor suficiente para pagar una suscripción; se mitigará con un plan gratuito básico y demostraciones de impacto.
+
+**User Assumptions**
+  
+- ¿Quién es el usuario? Coordinadores de voluntariado y líderes de ONGs.  
+- ¿Qué problemas resuelve? Falta de organización, pérdida de datos, baja retención de voluntarios y escasa visibilidad de actividades.  
+- ¿Qué características son importantes? Interfaz simple, registro rápido de actividades, reportes automáticos y comunicación integrada.  
+- ¿Dónde encaja en su vida/trabajo? Como herramienta central para coordinar voluntarios y proyectos.  
+- ¿Cuándo y cómo se usa? A diario para asignar tareas; semanalmente para seguimiento; mensualmente para reportes de impacto.  
+- ¿Cómo debe comportarse? Con un diseño intuitivo, notificaciones claras, acceso desde cualquier dispositivo y soporte colaborativo. 
+
+##### 1.2.2.3. Lean UX Hypothesis Statements
+**Hipótesis 01**  
+Creemos que las organizaciones sociales mejorarán la coordinación de sus proyectos si utilizan una plataforma que centralice tareas, roles y calendarios.  
+Sabremos que hemos tenido éxito cuando al menos el 70% de los usuarios registren y gestionen actividades directamente en VolunPath durante el primer mes.  
+
+**Hipótesis 02**  
+Creemos que los voluntarios estarán más motivados y activos si cuentan con un sistema que muestre sus tareas, logros e impacto en la comunidad.  
+Sabremos que hemos tenido éxito cuando la retención de voluntarios activos aumente un 20% tras 3 meses de uso.  
+
+**Hipótesis 03**  
+Creemos que las organizaciones atraerán a más personas si sus proyectos son visibles públicamente a través de la plataforma.  
+Sabremos que hemos tenido éxito cuando el número de voluntarios nuevos aumente un 30% respecto a los métodos tradicionales.  
+
+**Hipótesis 04**  
+Creemos que la adopción de la plataforma será mayor si ofrecemos un plan gratuito básico con funciones esenciales y planes de pago escalables para organizaciones más grandes.  
+Sabremos que hemos tenido éxito cuando al menos el 25% de los usuarios gratuitos migren a un plan de pago en los primeros seis meses.  
+
+
+##### 1.2.2.4. Lean UX Canvas
+<img alt="upc-logo" src="Assets/Chapter-01/Lean UX Canvas.png" width="100%"/>
+
+**Enlace al Lean UX Canvas:** [**Ver en Miro**](https://miro.com/app/board/uXjVJK4zkZs=/?share_link_id=341368825653)
+
+### 1.3. Segmentos objetivo
+**Primer segmento objetivo:**  
+Las organizaciones sociales (ONGs, fundaciones y colectivos comunitarios) que aún gestionan sus proyectos de forma manual o con herramientas dispersas.  
+Buscan una plataforma que centralice la coordinación de voluntarios, tareas y calendarios para mejorar su eficiencia e impacto social.  
+
+**Segundo segmento objetivo:**  
+Los voluntarios, principalmente jóvenes y adultos entre 18 y 45 años, interesados en causas sociales.  
+Requieren un sistema accesible y confiable que les permita integrarse fácilmente, visualizar sus tareas y mantener la motivación en su participación.
 ## Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.1. Competidores
@@ -631,171 +754,6 @@ Este lenguaje común permitirá que conceptos como *voluntario, líder, tarea, i
 | **Dificultad / Dolor**    | Obstáculos que enfrenta el voluntario (falta de tiempo, desorganización, poca coordinación).  |
 | **Impacto social**        | Resultado visible de las actividades, que refleja cómo las acciones del voluntariado benefician a la comunidad. |
 
-
-## Capítulo III: Requirements Specification
----
-### 3.1. To-Be Scenario Mapping
-=======
-En InnovaSocial, apostamos por la innovación tecnológica al servicio del voluntariado y las organizaciones sociales. Nuestro producto principal, VolunPath, es una plataforma web diseñada para ser un puente entre instituciones y personas que desean involucrarse en actividades solidarias.
-Además de facilitar la conexión, la herramienta brinda a las organizaciones un espacio público para difundir su historia, proyectos, fotografías y eventos; junto con un panel privado que les permite gestionar de manera integral sus operaciones internas, como la asignación de roles, planificación de tareas, control de inventarios, manejo de calendarios y presupuestos. De esta manera, buscamos impulsar comunidades más organizadas y voluntarios con mayores oportunidades de desarrollo personal
-
-**Misión**  
-Desarrollar soluciones digitales que fortalezcan el vínculo entre voluntarios y organizaciones sociales, ofreciendo una plataforma confiable, intuitiva y práctica para la gestión de sus actividades, con el fin de promover la solidaridad, la participación activa y el bienestar colectivo.
-
-**Visión**  
-Ser reconocidos como un startup líder en América Latina en el desarrollo de plataformas digitales para el sector social, destacando por la innovación continua, el enfoque humano y la contribución a la modernización de los procesos en el ámbito del voluntariado.
-
-#### 1.1.2. Perfiles de integrantes del equipo
-
-
-### 1.2. Solution Profile
-#### 1.2.1. Antecedentes y problemática
-El voluntariado ha representado a lo largo del tiempo una de las expresiones más significativas de la participación ciudadana, aportando al progreso social, al apoyo de comunidades en situación de vulnerabilidad y al fortalecimiento de la cultura solidaria. No obstante, en la actualidad numerosas organizaciones enfrentan serias complicaciones para coordinar y sostener sus programas. Entre las principales dificultades se encuentran la carencia de recursos suficientes para una gestión adecuada, la escasa visibilidad de sus iniciativas, la falta de estrategias efectivas para captar nuevos voluntarios y la ausencia de procedimientos claros para asignar funciones y responsabilidades. Estas deficiencias ocasionan una menor eficiencia, desánimo entre los participantes y una disminución en el verdadero impacto que los proyectos sociales podrían alcanzar. 
-### 5W + 2H – VolunPath  
-
-#### **WHAT (QUÉ)**  
-**¿Cuál es el problema?**  
-Las organizaciones sociales y de voluntariado experimentan serias dificultades para coordinar, organizar y dar seguimiento a sus actividades. La mayoría depende de registros manuales o de herramientas aisladas (como hojas de cálculo, correos electrónicos o redes sociales), lo que genera desorganización, pérdida de información y poca visibilidad de sus proyectos.  
-
-**¿Qué consecuencias tiene?**  
-Esto limita la eficiencia de los programas, complica la atracción y retención de voluntarios, desmotiva la participación, genera duplicidad de esfuerzos y reduce el impacto real en las comunidades beneficiadas.  
-
-
-#### **WHEN (CUÁNDO)**  
-**¿Cuándo sucede el problema?**  
-Cada vez que las organizaciones intentan gestionar tareas, roles, calendarios o presupuestos sin contar con herramientas centralizadas. También al difundir iniciativas de voluntariado y no lograr alcanzar suficiente audiencia o confianza entre los potenciales voluntarios.  
-
-**¿Cuándo utiliza el cliente el producto?**  
-La plataforma se usaría de manera continua, en cualquier momento que la organización necesite coordinar proyectos, registrar actividades, asignar voluntarios o dar a conocer sus campañas sociales.  
-
-#### **WHERE (DÓNDE)**  
-**¿Dónde se presenta el problema?**  
-En ONGs, fundaciones, colectivos comunitarios y asociaciones que operan en ámbitos como salud, educación, medio ambiente o asistencia social. El problema es más evidente en regiones como América Latina, donde los procesos de digitalización en el sector social aún son limitados.  
-
-**¿Dónde se usa el producto?**  
-VolunPath puede ser utilizado desde cualquier dispositivo con conexión a internet, ya sea en oficinas institucionales, centros comunitarios o de manera remota, facilitando la gestión de equipos distribuidos.  
-
-#### **WHO (QUIÉN)**  
-**¿Quién tiene este problema?**  
-Las entidades sociales que requieren optimizar la coordinación de sus programas y los voluntarios que desean participar, pero carecen de información clara y espacios organizados para integrarse.  
-
-**¿Quién se beneficia del producto?**  
-- Las organizaciones sociales, al mejorar su gestión interna.  
-- Los voluntarios, al acceder a oportunidades claras y confiables.  
-- Las comunidades, al recibir un apoyo más eficiente y con mayor impacto.  
-
-
-
-#### **WHY (POR QUÉ)**  
-**¿Por qué ocurre el problema?**  
-Porque muchas organizaciones sociales carecen de recursos para invertir en herramientas especializadas y siguen utilizando procesos manuales o soluciones poco adaptadas a sus necesidades.  
-
-**¿Por qué es importante resolverlo?**  
-Porque modernizar la gestión del voluntariado permite fortalecer la participación ciudadana, fomentar la confianza y aumentar el impacto de los proyectos sociales.  
-
-Como señala la *Plataforma del Voluntariado de España (2023)*, uno de los principales desafíos actuales es avanzar hacia modelos de gestión más innovadores que logren atraer a nuevas generaciones de voluntarios.  
-
-
-
-#### **HOW (CÓMO)**  
-**¿Cómo soluciona el producto el problema?**  
-VolunPath actúa como un espacio digital integral que centraliza la organización de roles, tareas, calendarios y presupuestos, al mismo tiempo que facilita la difusión de proyectos y la visibilidad de las iniciativas.  
-
-De este modo, promueve la transparencia, la confianza y una colaboración más efectiva entre voluntarios y organizaciones.  
-
-
-#### **HOW MUCH (CUÁNTO)**  
-**¿Cuánto mejora el producto la situación actual?**  
-La implementación de la plataforma disminuye significativamente el tiempo invertido en gestiones manuales, reduce los errores y pérdidas de información, mejora la comunicación y aumenta la eficiencia en la ejecución de los proyectos.  
-
-**¿Qué beneficios se obtienen?**  
-Un mayor orden interno, más motivación en los voluntarios, la capacidad de llegar a un número más amplio de personas interesadas y, como resultado, un impacto social más fuerte y sostenible.  
- 
-
-#### 1.2.2. Lean UX Process
-##### 1.2.2.1. Lean UX Problem Statements
-En el ámbito social y del voluntariado, muchas organizaciones (ONGs, fundaciones y colectivos) enfrentan grandes dificultades para coordinar y dar seguimiento a sus proyectos. La mayoría aún depende de herramientas manuales o dispersas, como hojas de cálculo, correos electrónicos o redes sociales, lo que genera desorganización, pérdida de información y baja visibilidad de sus iniciativas.  
-Estas limitaciones se traducen en consecuencias directas: duplicidad de esfuerzos, poca transparencia, desmotivación en los voluntarios y un impacto reducido en las comunidades beneficiadas.  
-**Ante ello, VolunPath se plantea responder a preguntas clave:**  
-- ¿Cómo centralizar en una sola plataforma la gestión de voluntarios y actividades?  
-- ¿De qué manera incrementar la motivación y retención de los voluntarios?  
-- ¿Cómo evitar la pérdida de datos y fortalecer la transparencia de los proyectos sociales?  
-- ¿Qué estrategias permiten dar mayor visibilidad a las iniciativas comunitarias?  
-- ¿Cómo facilitar el acceso de nuevas personas al voluntariado mediante un sistema confiable y accesible?
-
-
-##### 1.2.2.2. Lean UX Assumptions
-**Business Assumptions**  
-
-- Existe una necesidad creciente de profesionalizar la gestión del voluntariado en organizaciones sociales.  
-- Una plataforma integral que centralice roles, tareas, calendarios y comunicación puede resolver estas necesidades.  
-- Los primeros clientes serán ONGs pequeñas y medianas, así como colectivos comunitarios que aún dependen de procesos manuales.  
-- El valor principal buscado es una herramienta que ahorre tiempo, reduzca la desorganización y aumente la participación de los voluntarios.  
-- Entre los beneficios adicionales destacan: mayor visibilidad de proyectos, reportes automáticos y transparencia en la comunicación.  
-- La adquisición de clientes se logrará a través de alianzas con redes de voluntariado, marketing digital y recomendaciones entre organizaciones.  
-- El modelo de negocio estará basado en suscripciones mensuales con planes escalables.  
-- La competencia incluye herramientas genéricas de gestión de proyectos (Trello, Asana, Google Sheets), pero VolunPath se diferenciará por estar diseñado específicamente para el voluntariado.  
-- El mayor riesgo es que las organizaciones no perciban valor suficiente para pagar una suscripción; se mitigará con un plan gratuito básico y demostraciones de impacto.
-
-**User Assumptions**
-  
-- ¿Quién es el usuario? Coordinadores de voluntariado y líderes de ONGs.  
-- ¿Qué problemas resuelve? Falta de organización, pérdida de datos, baja retención de voluntarios y escasa visibilidad de actividades.  
-- ¿Qué características son importantes? Interfaz simple, registro rápido de actividades, reportes automáticos y comunicación integrada.  
-- ¿Dónde encaja en su vida/trabajo? Como herramienta central para coordinar voluntarios y proyectos.  
-- ¿Cuándo y cómo se usa? A diario para asignar tareas; semanalmente para seguimiento; mensualmente para reportes de impacto.  
-- ¿Cómo debe comportarse? Con un diseño intuitivo, notificaciones claras, acceso desde cualquier dispositivo y soporte colaborativo. 
-
-##### 1.2.2.3. Lean UX Hypothesis Statements
-**Hipótesis 01**  
-Creemos que las organizaciones sociales mejorarán la coordinación de sus proyectos si utilizan una plataforma que centralice tareas, roles y calendarios.  
-Sabremos que hemos tenido éxito cuando al menos el 70% de los usuarios registren y gestionen actividades directamente en VolunPath durante el primer mes.  
-
-**Hipótesis 02**  
-Creemos que los voluntarios estarán más motivados y activos si cuentan con un sistema que muestre sus tareas, logros e impacto en la comunidad.  
-Sabremos que hemos tenido éxito cuando la retención de voluntarios activos aumente un 20% tras 3 meses de uso.  
-
-**Hipótesis 03**  
-Creemos que las organizaciones atraerán a más personas si sus proyectos son visibles públicamente a través de la plataforma.  
-Sabremos que hemos tenido éxito cuando el número de voluntarios nuevos aumente un 30% respecto a los métodos tradicionales.  
-
-**Hipótesis 04**  
-Creemos que la adopción de la plataforma será mayor si ofrecemos un plan gratuito básico con funciones esenciales y planes de pago escalables para organizaciones más grandes.  
-Sabremos que hemos tenido éxito cuando al menos el 25% de los usuarios gratuitos migren a un plan de pago en los primeros seis meses.  
-
-
-##### 1.2.2.4. Lean UX Canvas
-<img alt="upc-logo" src="Assets/Chapter-01/Lean UX Canvas.png" width="100%"/>
-
-**Enlace al Lean UX Canvas:** [**Ver en Miro**](https://miro.com/app/board/uXjVJK4zkZs=/?share_link_id=341368825653)
-
-### 1.3. Segmentos objetivo
-**Primer segmento objetivo:**  
-Las organizaciones sociales (ONGs, fundaciones y colectivos comunitarios) que aún gestionan sus proyectos de forma manual o con herramientas dispersas.  
-Buscan una plataforma que centralice la coordinación de voluntarios, tareas y calendarios para mejorar su eficiencia e impacto social.  
-
-**Segundo segmento objetivo:**  
-Los voluntarios, principalmente jóvenes y adultos entre 18 y 45 años, interesados en causas sociales.  
-Requieren un sistema accesible y confiable que les permita integrarse fácilmente, visualizar sus tareas y mantener la motivación en su participación.
-
-
-## Capítulo II: Requirements Elicitation & Analysis
----
-### 2.1. Competidores
-#### 2.1.1. Análisis competitivo
-#### 2.1.2. Estrategias y tácticas frente a competidores
-### 2.2. Entrevistas
-#### 2.2.1. Diseño de entrevistas
-#### 2.2.2. Registro de entrevistas
-#### 2.2.3. Análisis de entrevistas
-### 2.3. Needfinding
-#### 2.3.1. User Personas
-#### 2.3.2. User Task Matrix
-#### 2.3.3. User Journey Mapping
-#### 2.3.4. Empathy Mapping
-#### 2.3.5. As-is Scenario Mapping
-### 2.4. Ubiquitous Language
-
 ## Capítulo III: Requirements Specification
 ---
 ### 3.1. To-Be Scenario Mapping
@@ -863,39 +821,345 @@ Carmen Quispe
 
 
 
-### 3.2. User Stories
-### 3.3. Impact Mapping
-### 3.4. Product Backlog
-
 ## Capítulo IV: Product Design
 ---
 ### 4.1. Style Guidelines
+Los conjuntos de reglas y sugerencias que se establecieron para estandarizar la presentación, el estilo y la accesibilidad de la Landing Page y las aplicaciones web se conocen como guías de estilo.
 #### 4.1.1. General Style Guidelines
+La gama de colores que se eligió para la página de aterrizaje y la aplicación web es:
+
+![paleta de colores](Assets/Chapter-04/paleta-colores.png)
+Los colores azules expresan seriedad, profesionalismo y confianza. El amarillo muestra motivación, optimismo y energía; el verde representa la comunidad, la sostenibilidad y el crecimiento.
+
+En general, esta paleta transmite un equilibrio entre la credibilidad institucional, el propósito social y la energía de la juventud, lo que fortalece la identidad de VolunPath como una plataforma de confianza e innovadora.
+
+
+Las fuentes elegidas para la identidad visual son:
+
+![paleta de colores](Assets/Chapter-04/fuentes-letras.png)
+
+Dongle proporciona un estilo moderno y tecnológico, con un diseño liviano y minimalista que mejora la legibilidad en ambientes digitales.Con un diseño fuerte y singular, Angkor comunica seriedad, propósito y fuerza, a la vez que le brinda a la marca una tonalidad institucional y cultural. Chango, con sus líneas expresivas y redondeadas, brinda un matiz optimista, jovial y próximo, lo que ayuda a vincularse con la comunidad de donantes y voluntarios.
+
+La mezcla de estos tipos de letra establece un balance entre lo institucional y lo humano, presentando a VolunPath como una plataforma confiable e inclusiva.
+
+La forma de comunicarse que se utiliza en VolunPath es tranquila y amistosa.
+
+Esta tonalidad es coherente con el tipo de plataforma que se trata: un espacio diseñado para organizaciones sociales y voluntarios, donde son esenciales la empatía, la confianza y la claridad.
+
+El objetivo del carácter amigable es crear cercanía con el usuario empleando un lenguaje positivo, motivador y accesible que fomente la acción y potencie el concepto de comunidad. Por otro lado, la tranquilidad en el diseño y la redacción ayuda a comunicar profesionalismo, orden y calma, elementos cruciales en una herramienta de gestión organizacional.
+
 #### 4.1.2. Web Style Guidelines
+Para la creación de la landing page y de la aplicación web de VolunPath, se estableció una paleta cromática que consta esencialmente de colores verdes y azules, a los que se les añadieron toques amarillos. Estos colores posibilitan que se transmita dinamismo, crecimiento y confianza, conservando la coherencia con la identidad de la plataforma.
+
+Se eligieron las fuentes tipográficas de Angkor, Chango y Dongle, cada una con un rol particular en la jerarquía visual. Se utiliza Chango para secciones clave de comunicación, ya que aporta un toque juvenil y próximo; Angkor es reservado para títulos con una naturaleza institucional y sólida; mientras que Dongle se usa en la mayoría de los textos debido a su legibilidad en ambientes digitales y a su estilo minimalista.
+
+El diseño asegura una experiencia fluida para el usuario en todos los dispositivos al enfocarse en la accesibilidad, la adaptabilidad y la sencillez. Se dio preferencia a los principios de usabilidad y diseño adaptable, asegurando que los componentes visuales y textuales mantengan su nitidez e impacto en pantallas móviles y computadoras de escritorio.
+
 ### 4.2. Information Architecture
+En esta sección explicaremos cómo organizar, estructurar y etiquetar el contenido de Volunpath Landing Page y la aplicación web de manera que sea fácil de entender y usar para los usuarios. Nos concentramos en el diseño de sistemas de información como sitios web y sistemas de gestión de contenido con el objetivo de mejorar la usabilidad y la experiencia del usuario.
+
 #### 4.2.1. Organization Systems
+**Organización jerárquica (visual hierarchy)**
+
+El dashboard principal de VolunPath organiza la aplicación web de manera jerárquica, lo que facilita el acceso a las funciones más importantes: la gestión de voluntarios y miembros, la creación de eventos, la administración del inventario y la generación de reportes. En un nivel secundario, los usuarios tienen acceso a datos de soporte como estadísticas pormenorizadas, registro de actividades y de interacciones dentro de la organización. Finalmente, en una etapa más avanzada, los administradores tienen la posibilidad de realizar configuraciones de perfiles, permisos personalizados y controlar las notificaciones. Esta jerarquía visual hace más fácil la navegación y posibilita que los usuarios, de forma intuitiva, prioricen sus quehaceres, lo cual optimiza la gestión del impacto social.
+
+**Organización secuencial (step-by-step to accomplish)**
+
+En VolunPath, se utiliza la organización secuencial en procedimientos que necesitan ser llevados a cabo siguiendo una sucesión de pasos ordenados. Un ejemplo es el registro de nuevos voluntarios u organizaciones, que dirige a los usuarios por medio de un proceso gradual: creación de cuenta, configuración del perfil, definición de roles y aceptación de términos. La creación de eventos es otro caso, en el que los administradores siguen una serie de pasos: determinar objetivos, documentar recursos, asignar responsabilidades y hacer público el evento. Esta perspectiva secuencial facilita la experiencia, disminuye el esfuerzo cognitivo y garantiza que los procedimientos esenciales se realicen de manera estructurada y clara.
+
+**Organización de tipo matricial**
+
+En las áreas de VolunPath donde se cruzan varias categorías al mismo tiempo, se emplea la estructura matricial. Por ejemplo, cuando se trata de gestionar a los voluntarios y miembros, es posible estructurar los datos cruzando dimensiones como la experiencia, las habilidades y la disponibilidad. Otro ejemplo es el apartado de informes, en el cual se pueden poner filtros según el tipo de evento, la duración de tiempo o las métricas de impacto social. Esta organización matricial posibilita que los usuarios hallen con rapidez conexiones entre datos, lo cual favorece el análisis de información compleja y optimiza la toma de decisiones estratégicas.
+
 #### 4.2.2. Labeling Systems
+La aplicación web utiliza un sistema de etiquetado para asegurar la claridad y optimizar la experiencia de uso, lo que permite a los usuarios distinguir con rapidez las funciones principales y secundarias. A continuación, se explican las etiquetas empleadas y su finalidad:
+
+| Etiqueta | Descripción |
+|----------|-------------|
+|Perfil de Usuario|Facilita que el usuario administre su información personal, intereses, competencias, antecedentes de voluntariado, preferencias comunicativas y ajustes de privacidad.|
+| Dashboard | Ofrece una perspectiva centralizada de los voluntariados en funcionamiento, así como de las labores asignadas, roles, agenda de actividades y reportes de avance dentro de cada proyecto u organización.|
+| Comunidad | Lugar en el que voluntarios y organizaciones pueden interactuar, compartir vivencias, exhibir historias con impacto y participar en foros temáticos vinculados a diferentes causas sociales.|
+|Mensajes|Incorpora mensajes directos entre usuarios, anuncios oficiales de las organizaciones y mensajes grupales organizacionales. Permite la coordinación de actividades y una comunicación en tiempo real.|
+|Soporte y Ayuda|Sección que incluye recursos de autoayuda, como tutoriales y preguntas frecuentes (FAQ), la posibilidad de comunicarse directamente con el soporte técnico y la opción de informar sobre problemas o incidentes en la plataforma.|
+|Búsqueda Global|Una barra de búsqueda universal para buscar oportunidades de voluntariado, filtrar organizaciones, localizar usuarios y acceder a recursos o documentos importantes con rapidez.|
+|Donaciones (opcional)|Lugar en el que los usuarios tienen la posibilidad de observar campañas de recaudación, hacer contribuciones monetarias o en especie y verificar la transparencia de las metas logradas y los fondos.|
+|Gamificación (opcional)|Sistema de recompensas, insignias y logros que incentiva la participación activa, al reconocer el compromiso y el esfuerzo de las organizaciones y los voluntarios.|
+
 #### 4.2.3. SEO Tags and Meta Tags
+Los metatags y las etiquetas de optimización para motores de búsqueda (SEO) son fundamentales, ya que posibilitan que la plataforma obtenga mayor visibilidad, credibilidad y un mejor lugar en los resultados de búsqueda. Para VolunPath, estos componentes están enfocados en comunicar confianza, comunidad e impacto social, de acuerdo con la meta de unir a los voluntarios con las entidades.
+
+**Landing Page:**
+
+Título: VolunPath — Conecta. Organiza. Potencia tu impacto.
+
+Descripción: VolunPath es la plataforma que conecta voluntarios con organizaciones. Gestiona perfiles, proyectos, inventario y reportes en un solo lugar, potenciando tu impacto social.
+
+Palabras clave: voluntariado, impacto social, gestión de organizaciones, dashboard, reportes, voluntarios, proyectos sociales, ONG, comunidad solidaria.
+
+Autores: Equipo de VolunPath
+
+**Aplicación web:**
+
+Título: VolunPath — Conecta. Organiza. Potencia tu impacto.
+
+Descripción: Herramienta digital para gestionar perfiles, coordinar tareas, administrar inventario, generar reportes y fortalecer comunidades solidarias.
+
+Palabras clave: voluntarios, organizaciones, gestión de proyectos, dashboard colaborativo, tareas, inventario, reportes, comunidad, impacto social, solidaridad, ONG.
+
+Autor: Equipo de VolunPath
+
 #### 4.2.4. Searching Systems
+
+El sistema de búsqueda de VolunPath tiene como objetivo simplificar que tanto los voluntarios como las instituciones tengan acceso a información fundamental. Este sistema se enlaza a una base de datos central donde hay información acerca de perfiles de usuarios, proyectos en curso, voluntariados que están disponibles, eventos y organizaciones que están registradas.
+
+El buscador posibilita filtrar y llegar rápidamente a:
+
+Perfiles de organizaciones o voluntarios, que simplifican la comunicación entre las partes.
+
+Eventos y proyectos activos en los que los usuarios tienen la posibilidad de registrarse o pedir colaboración.
+
+Roles y tareas que se asignan en el tablero de control, con el fin de mejorar la administración interna de los equipos.
+
+Comunidades y mensajes, lo que posibilita la localización de grupos o diálogos específicos.
+
+Los usuarios podrán acceder fácilmente a la información que necesiten, ya que este sistema de búsqueda estará presente en las secciones principales de la plataforma: Dashboard, Comunidad, Mensajes e Inventario.
+
+Así, el buscador de VolunPath no solo hace más rápida la navegación, sino que también mejora la interacción entre los usuarios y el manejo de recursos en la plataforma.
+
 #### 4.2.5. Navigation Systems
+
+Los sistemas de navegación que se emplean en VolunPath son los siguientes:
+
+Landing Page: barra de navegación para entrar a secciones importantes como Cómo funciona, Funcionalidades, Registro, Planes y Entrar.
+
+Aplicación web: menú centralizado con secciones tales como Dashboard, comunidad, perfil, mensajes, notificaciones y asistencia.
+
+Tarjetas interactivas: empleadas en Dashboard, Comunidad y Planes para examinar de modo visual y veloz proyectos, voluntariados y recursos.
+
+Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a cualquier dispositivo.
+
 ### 4.3. Landing Page UI Design
 #### 4.3.1. Landing Page Wireframe
+
+![landing wireframe](Assets/Chapter-04/landing-wireframe.png)
+
 #### 4.3.2. Landing Page Mock-up
+
+![landing mock-up](Assets/Chapter-04/landing-mockup.png)
+
 ### 4.4. Web Applications UX/UI Design
 #### 4.4.1. Web Applications Wireframes
+
+![inicio sesion wireframe](Assets/Chapter-04/iniciar-sesion-wireframe.png)
+
+![escoger que registrar wireframe](Assets/Chapter-04/registrar-escoger-wireframe.png)
+
+![registrar voluntario wireframe](Assets/Chapter-04/registrar-voluntario-wireframe.png)
+
+![registrar organizacion wireframe](Assets/Chapter-04/registrar-organizacion-wireframe.png)
+
+![aplicacion para organizacion wireframe](Assets/Chapter-04/aplicacion-organizacion-wireframes.png)
+
+![aplicacion para voluntario wireframe](Assets/Chapter-04/aplicacion-voluntario-wireframes.png)
+
 #### 4.4.2. Web Applications Wireflow Diagrams
+
+![wireflow 1](Assets/Chapter-04/wireflow-1.png)
+
+![wireflow 2](Assets/Chapter-04/wireflow-2.png)
+
 #### 4.4.3. Web Applications Mock-ups
+
+![inicio sesion mockup](Assets/Chapter-04/inicio-sesion-mockup.png)
+
+![escoger que registrar mockup](Assets/Chapter-04/registrar-escoger-mockup.png)
+
+![registrar voluntario mockup](Assets/Chapter-04/registrar-voluntario-mockup.png)
+
+![registrar organizacion mockup](Assets/Chapter-04/registrar-organizacion-mockup.png)
+
+![aplicacion para organizacion mockup](Assets/Chapter-04/aplicacion-organizacion-mockup.png)
+
+![aplicacion para voluntario mockup](Assets/Chapter-04/aplicacion-voluntario-mockup.png)
+
 #### 4.4.4. Web Applications User Flow Diagrams
+
+![user flow 1](Assets/Chapter-04/user-flow-1.png)
+
+![user flow 2](Assets/Chapter-04/user-flow-2.png)
+
+![user flow 3](Assets/Chapter-04/user-flow-3.png)
+
+![user flow 4](Assets/Chapter-04/user-flow-4.png)
+
+![user flow 5](Assets/Chapter-04/user-flow-5.png)
+
+![user flow 6](Assets/Chapter-04/user-flow-6.png)
+
+![user flow 7](Assets/Chapter-04/user-flow-7.png)
+
 ### 4.5. Web Applications Prototyping
+
+Link de Figma: https://www.figma.com/design/aM9rO7pEqiztLkzXoCDExr/Volunpath?node-id=0-1&t=OmI73NqEb7ZuBqSi-1
+
 ### 4.6. Domain-Driven Software Architecture
 #### 4.6.1. Software Architecture Context Diagram
+
+![Software Architecture Context Diagram](Assets/Chapter-04/context.png)
+
 #### 4.6.2. Software Architecture Container Diagrams
+
+![Software Architecture Container Diagram](Assets/Chapter-04/container.png)
+
 #### 4.6.3. Software Architecture Components Diagrams
+
+![Software Architecture Components Diagram](Assets/Chapter-04/components.png)
+
+
 ### 4.7. Software Object-Oriented Design
 #### 4.7.1. Class Diagrams
+
+![Class_Diagrams](Assets/Chapter-04/class-diagram.jpg)
+
 #### 4.7.2. Class Dictionary
+
+Este **Class Dictionary** describe las principales entidades de dominio, sus atributos, métodos clave y relaciones.  
+---
+### User
+- **Responsabilidad:** Autenticación, autorización y datos base del actor (voluntario, coordinador, admin).  
+- **Atributos:** id, email, passwordHash, displayName, role (enum: VOLUNTEER, COORDINATOR, ORG_ADMIN, SUPER_ADMIN), createdAt, updatedAt, active.  
+- **Métodos:** login(), logout(), changePassword(), updateProfile().  
+- **Relaciones:**  
+  - 1 → 1 VolunteerProfile (opcional)  
+  - 1 → * Notification  
+  - Miembro de Conversation
+
+---
+
+### VolunteerProfile
+- **Responsabilidad:** Información específica de voluntarios (disponibilidad, historial).  
+- **Atributos:** id, userId (FK), phone, availability (Value Object: días/horas), totalHours, bio, skills.  
+- **Métodos:** getHistory(), addHours(), uploadDocument().  
+- **Relaciones:** → Assignment, → Badge, → Application
+
+---
+
+### Organization
+- **Responsabilidad:** Entidad organizadora; publica página pública; gestiona proyectos y recursos.  
+- **Atributos:** id, name, description, publicUrlSlug, address (VO), contactEmail, createdAt.  
+- **Métodos:** createProject(), publishPage(), addAdmin().  
+- **Relaciones:** 1 → * Project, 1 → * InventoryItem, 1 → * Budget
+
+---
+
+### Project
+- **Responsabilidad:** Agrupa tareas, vacantes, página pública y panel administrativo.  
+- **Atributos:** id, orgId (FK), name, description, startDate, endDate, isPublic, vacancies, status.  
+- **Métodos:** createTask(), archive(), publish().  
+- **Relaciones:** 1 → * Task, 1 → * Photo, 1 → * Application
+
+---
+
+### Task
+- **Responsabilidad:** Unidad de trabajo a asignar y trackear.  
+- **Atributos:** id, projectId, title, description, state (enum: PENDING, IN_PROGRESS, COMPLETED), dueDate, estimatedHours, createdBy, priority.  
+- **Métodos:** assignTo(volunteer), updateState(), addComment().  
+- **Relaciones:** 1 → * Assignment
+
+---
+
+### Assignment
+- **Responsabilidad:** Vínculo entre Task y VolunteerProfile, con roles en esa tarea.  
+- **Atributos:** id, taskId, volunteerProfileId, roles (many-to-many via join), assignedAt, state, hoursContributed.  
+- **Métodos:** updateState(), logHours().  
+- **Relaciones:** many-to-many con Role
+
+---
+
+### Role
+- **Responsabilidad:** Roles operativos (ej. Líder de equipo, Auxiliar logístico).  
+- **Atributos:** id, name, description.  
+- **Métodos:** n/a
+
+---
+
+### Badge
+- **Responsabilidad:** Gamificación (recompensas).  
+- **Atributos:** id, code, title, description, criteria (expresión), iconUrl.  
+- **Métodos:** awardTo(volunteer) (invocado por regla de negocio)
+
+---
+
+### Notification
+- **Responsabilidad:** Notificar por canales (in-app, email, push).  
+- **Atributos:** id, userId, channel *(EMAIL, IN_APP, PUSH)*, payload, read, sentAt.  
+- **Métodos:** send(), markRead()
+
+---
+
+### Conversation / Message
+- **Responsabilidad:** Mensajería interna.  
+- **Conversation Atributos:** id, participantIds, createdAt  
+- **Message Atributos:** id, conversationId, senderId, content, sentAt, readBy  
+- **Métodos:** sendMessage(), fetchHistory()  
+- **Relaciones:**  
+  - **User** *miembro de* **Conversation**  
+  - **Conversation** 1 → * **Message**
+
+---
+
+### CalendarEvent
+- **Responsabilidad:** Representa eventos (tareas, reuniones) y sincronización con calendarios externos.  
+- **Atributos:** id, ownerId(User), title, start, end, location, `externalSyncId.  
+- **Métodos:** syncWithDevice()
+
+---
+
+### InventoryItem
+- **Responsabilidad:** Control de inventario para proyectos.  
+- **Atributos:** id, orgId, name, quantity, unit, reserved.  
+- **Métodos:** `reserve(q), release(q)
+
+---
+
+### Budget
+- **Responsabilidad:** Control de presupuestos por organización/proyecto.  
+- **Atributos:** id, orgId, name, amount, spent.  
+- **Métodos:** allocate(), adjust()
+
+---
+
+### Photo
+- **Responsabilidad:** Recursos multimedia de proyectos (públicos o privados).  
+- **Atributos:** id, projectId, url, uploadedBy, createdAt.  
+- **Métodos:** *n/a*
+
+---
+
+### Application
+- **Responsabilidad:** Proceso de postulación para vacantes públicas.  
+- **Atributos:** id, projectId, volunteerId, state *(APPLIED, APPROVED, REJECTED)*, appliedAt, notes.  
+- **Métodos:** approve(), reject()
+
+---
+
+### Consideraciones de Diseño OO
+- **Domain Services:**  
+  - BadgeService (evaluación y otorgamiento de insignias)  
+  - NotificationService` 
+  - AssignmentService
+- **Repositorios por agregado:** ProjectRepository, VolunteerRepository, TaskRepository.  
+- **Value Objects:** Address, Availability (inmutables).  
+- **Transacciones:** Operaciones multi-aggregate (asignar tarea + notificar + log) mediante **Application Service** con patrón **Unit of Work**.
+
+
 ### 4.8. Database Design
 #### 4.8.1. Database Diagram
+
+![Database_Diagram](Assets/Chapter-04/data-base-diagram.jpg)
+
+=======
+
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 ---
@@ -924,6 +1188,4 @@ Carmen Quispe
 # Bibliografía
 
 # Anexos
-
-
 
