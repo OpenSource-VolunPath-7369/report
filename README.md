@@ -366,9 +366,6 @@ Link de Figma: https://www.figma.com/design/aM9rO7pEqiztLkzXoCDExr/Volunpath?nod
 #### 4.7.2. Class Dictionary
 
 Este **Class Dictionary** describe las principales entidades de dominio, sus atributos, métodos clave y relaciones.  
-El diseño aplica **POO**, principios de **Domain-Driven Design (DDD)**, uso de **Value Objects** (p. ej. Address, Availability)  
-y separación de responsabilidades mediante **Domain Services** y repositorios por agregado.
-
 ---
 ### User
 - **Responsabilidad:** Autenticación, autorización y datos base del actor (voluntario, coordinador, admin).  
@@ -528,6 +525,7 @@ y separación de responsabilidades mediante **Domain Services** y repositorios p
 # Bibliografía
 
 # Anexos
+
 
 
 
