@@ -363,6 +363,9 @@ Link de Figma: https://www.figma.com/design/aM9rO7pEqiztLkzXoCDExr/Volunpath?nod
 
 ### 4.7. Software Object-Oriented Design
 #### 4.7.1. Class Diagrams
+
+![Class_Diagrams](Assets/Chapter-04/class-diagram.jpg)
+
 #### 4.7.2. Class Dictionary
 
 Este **Class Dictionary** describe las principales entidades de dominio, sus atributos, métodos clave y relaciones.  
@@ -525,6 +528,7 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
+
 
 
 
