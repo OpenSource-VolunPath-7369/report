@@ -125,14 +125,136 @@
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
-
 ---
 # Student Outcome
+=======
+---
+# Student Outcome
+---
+# Student Outcome
+### ABET – EAC - Student Outcome 3  
+**Criterio:** Capacidad para comunicarse de manera efectiva con un rango diverso de audiencias, utilizando medios orales, escritos y visuales de forma clara y estructurada, adaptando el mensaje según el contexto, el propósito y las características del público objetivo.  
+
+En el siguiente cuadro se presentan las acciones realizadas y las conclusiones formuladas por el grupo, las cuales evidencian y respaldan el cumplimiento de este resultado de aprendizaje.  
+
+<div>
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Nombre</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Criterio 1 -->
+    <tr>
+      <td rowspan="5">Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
+      <td>Aldair Joaquin Ramos Aguirre</td>
+      <td>
+        TB1: Participé activamente en los grupos para la coordinación mediante llamadas, tratando de comunicar mis ideas con efectividad.<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+      <td rowspan="5"></td>
+    </tr>
+    <tr>
+      <td>Alumno 2</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <tr>
+      <td>Alumno 3</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <tr>
+      <td>Mel Andree Orellana Rodriguez</td>
+      <td>
+        TB1:Apoyé en la elaboración del análisis de entrevistas del segmento de líderes, colaborando en la redacción y organización de la información para resaltar necesidades y expectativas clave<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <tr>
+      <td>Jean Pool Huaman De La Cruz</td>
+      <td>
+        TB1:Participé activamente en las reuniones de equipo, expresando ideas de manera clara y cumpliendo con las tareas asignadas dentro de los plazos establecidos, lo que permitió una comunicación efectiva con mis compañeros.<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <!-- Criterio 2 -->
+    <tr>
+      <td rowspan="5">Comunica por escrito con efectividad a diferentes rangos de audiencia </td>
+      <td>Aldair Joaquin Ramos Aguirre</td>
+      <td>
+        TB1: Trate de aportar activamente en los grupos para la coordinación mediante los grupos como whatsapp y discord para la repartición de tareas.<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+      <td rowspan="5"></td>
+    </tr>
+    <tr>
+      <td>Alumno 2</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <tr>
+      <td>Alumno 3</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <tr>
+      <td>Mel Andree Orellana Rodriguz</td>
+      <td>
+        TB1:Participé en las reuniones grupales, apoyé a mis compañeros en el desarrollo del trabajo y elaboré el análisis del segmento, asegurando una redacción clara, organizada y coherente con los objetivos del proyecto.<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <tr>
+      <td>Jean Pool Huaman De La Cruz</td>
+      <td>
+        TB1:Asistí a todas las llamadas grupales, apoyé a los miembros del equipo y redacté el Capítulo 1 del proyecto junto con la sección del Student Outcome, garantizando una comunicación escrita clara, organizada y adecuada al contexto.<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
 
 ## Capítulo I: Introducción
 ---
 ### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup
+
 #### 1.1.2. Perfiles de integrantes del equipo
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
@@ -142,6 +264,7 @@
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 ##### 1.2.2.4. Lean UX Canvas
 ### 1.3. Segmentos objetivo
+
 ## Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.1. Competidores
@@ -512,6 +635,234 @@ Este lenguaje común permitirá que conceptos como *voluntario, líder, tarea, i
 ## Capítulo III: Requirements Specification
 ---
 ### 3.1. To-Be Scenario Mapping
+=======
+En InnovaSocial, apostamos por la innovación tecnológica al servicio del voluntariado y las organizaciones sociales. Nuestro producto principal, VolunPath, es una plataforma web diseñada para ser un puente entre instituciones y personas que desean involucrarse en actividades solidarias.
+Además de facilitar la conexión, la herramienta brinda a las organizaciones un espacio público para difundir su historia, proyectos, fotografías y eventos; junto con un panel privado que les permite gestionar de manera integral sus operaciones internas, como la asignación de roles, planificación de tareas, control de inventarios, manejo de calendarios y presupuestos. De esta manera, buscamos impulsar comunidades más organizadas y voluntarios con mayores oportunidades de desarrollo personal
+
+**Misión**  
+Desarrollar soluciones digitales que fortalezcan el vínculo entre voluntarios y organizaciones sociales, ofreciendo una plataforma confiable, intuitiva y práctica para la gestión de sus actividades, con el fin de promover la solidaridad, la participación activa y el bienestar colectivo.
+
+**Visión**  
+Ser reconocidos como un startup líder en América Latina en el desarrollo de plataformas digitales para el sector social, destacando por la innovación continua, el enfoque humano y la contribución a la modernización de los procesos en el ámbito del voluntariado.
+
+#### 1.1.2. Perfiles de integrantes del equipo
+
+
+### 1.2. Solution Profile
+#### 1.2.1. Antecedentes y problemática
+El voluntariado ha representado a lo largo del tiempo una de las expresiones más significativas de la participación ciudadana, aportando al progreso social, al apoyo de comunidades en situación de vulnerabilidad y al fortalecimiento de la cultura solidaria. No obstante, en la actualidad numerosas organizaciones enfrentan serias complicaciones para coordinar y sostener sus programas. Entre las principales dificultades se encuentran la carencia de recursos suficientes para una gestión adecuada, la escasa visibilidad de sus iniciativas, la falta de estrategias efectivas para captar nuevos voluntarios y la ausencia de procedimientos claros para asignar funciones y responsabilidades. Estas deficiencias ocasionan una menor eficiencia, desánimo entre los participantes y una disminución en el verdadero impacto que los proyectos sociales podrían alcanzar. 
+### 5W + 2H – VolunPath  
+
+#### **WHAT (QUÉ)**  
+**¿Cuál es el problema?**  
+Las organizaciones sociales y de voluntariado experimentan serias dificultades para coordinar, organizar y dar seguimiento a sus actividades. La mayoría depende de registros manuales o de herramientas aisladas (como hojas de cálculo, correos electrónicos o redes sociales), lo que genera desorganización, pérdida de información y poca visibilidad de sus proyectos.  
+
+**¿Qué consecuencias tiene?**  
+Esto limita la eficiencia de los programas, complica la atracción y retención de voluntarios, desmotiva la participación, genera duplicidad de esfuerzos y reduce el impacto real en las comunidades beneficiadas.  
+
+
+#### **WHEN (CUÁNDO)**  
+**¿Cuándo sucede el problema?**  
+Cada vez que las organizaciones intentan gestionar tareas, roles, calendarios o presupuestos sin contar con herramientas centralizadas. También al difundir iniciativas de voluntariado y no lograr alcanzar suficiente audiencia o confianza entre los potenciales voluntarios.  
+
+**¿Cuándo utiliza el cliente el producto?**  
+La plataforma se usaría de manera continua, en cualquier momento que la organización necesite coordinar proyectos, registrar actividades, asignar voluntarios o dar a conocer sus campañas sociales.  
+
+#### **WHERE (DÓNDE)**  
+**¿Dónde se presenta el problema?**  
+En ONGs, fundaciones, colectivos comunitarios y asociaciones que operan en ámbitos como salud, educación, medio ambiente o asistencia social. El problema es más evidente en regiones como América Latina, donde los procesos de digitalización en el sector social aún son limitados.  
+
+**¿Dónde se usa el producto?**  
+VolunPath puede ser utilizado desde cualquier dispositivo con conexión a internet, ya sea en oficinas institucionales, centros comunitarios o de manera remota, facilitando la gestión de equipos distribuidos.  
+
+#### **WHO (QUIÉN)**  
+**¿Quién tiene este problema?**  
+Las entidades sociales que requieren optimizar la coordinación de sus programas y los voluntarios que desean participar, pero carecen de información clara y espacios organizados para integrarse.  
+
+**¿Quién se beneficia del producto?**  
+- Las organizaciones sociales, al mejorar su gestión interna.  
+- Los voluntarios, al acceder a oportunidades claras y confiables.  
+- Las comunidades, al recibir un apoyo más eficiente y con mayor impacto.  
+
+
+
+#### **WHY (POR QUÉ)**  
+**¿Por qué ocurre el problema?**  
+Porque muchas organizaciones sociales carecen de recursos para invertir en herramientas especializadas y siguen utilizando procesos manuales o soluciones poco adaptadas a sus necesidades.  
+
+**¿Por qué es importante resolverlo?**  
+Porque modernizar la gestión del voluntariado permite fortalecer la participación ciudadana, fomentar la confianza y aumentar el impacto de los proyectos sociales.  
+
+Como señala la *Plataforma del Voluntariado de España (2023)*, uno de los principales desafíos actuales es avanzar hacia modelos de gestión más innovadores que logren atraer a nuevas generaciones de voluntarios.  
+
+
+
+#### **HOW (CÓMO)**  
+**¿Cómo soluciona el producto el problema?**  
+VolunPath actúa como un espacio digital integral que centraliza la organización de roles, tareas, calendarios y presupuestos, al mismo tiempo que facilita la difusión de proyectos y la visibilidad de las iniciativas.  
+
+De este modo, promueve la transparencia, la confianza y una colaboración más efectiva entre voluntarios y organizaciones.  
+
+
+#### **HOW MUCH (CUÁNTO)**  
+**¿Cuánto mejora el producto la situación actual?**  
+La implementación de la plataforma disminuye significativamente el tiempo invertido en gestiones manuales, reduce los errores y pérdidas de información, mejora la comunicación y aumenta la eficiencia en la ejecución de los proyectos.  
+
+**¿Qué beneficios se obtienen?**  
+Un mayor orden interno, más motivación en los voluntarios, la capacidad de llegar a un número más amplio de personas interesadas y, como resultado, un impacto social más fuerte y sostenible.  
+ 
+
+#### 1.2.2. Lean UX Process
+##### 1.2.2.1. Lean UX Problem Statements
+En el ámbito social y del voluntariado, muchas organizaciones (ONGs, fundaciones y colectivos) enfrentan grandes dificultades para coordinar y dar seguimiento a sus proyectos. La mayoría aún depende de herramientas manuales o dispersas, como hojas de cálculo, correos electrónicos o redes sociales, lo que genera desorganización, pérdida de información y baja visibilidad de sus iniciativas.  
+Estas limitaciones se traducen en consecuencias directas: duplicidad de esfuerzos, poca transparencia, desmotivación en los voluntarios y un impacto reducido en las comunidades beneficiadas.  
+**Ante ello, VolunPath se plantea responder a preguntas clave:**  
+- ¿Cómo centralizar en una sola plataforma la gestión de voluntarios y actividades?  
+- ¿De qué manera incrementar la motivación y retención de los voluntarios?  
+- ¿Cómo evitar la pérdida de datos y fortalecer la transparencia de los proyectos sociales?  
+- ¿Qué estrategias permiten dar mayor visibilidad a las iniciativas comunitarias?  
+- ¿Cómo facilitar el acceso de nuevas personas al voluntariado mediante un sistema confiable y accesible?
+
+
+##### 1.2.2.2. Lean UX Assumptions
+**Business Assumptions**  
+
+- Existe una necesidad creciente de profesionalizar la gestión del voluntariado en organizaciones sociales.  
+- Una plataforma integral que centralice roles, tareas, calendarios y comunicación puede resolver estas necesidades.  
+- Los primeros clientes serán ONGs pequeñas y medianas, así como colectivos comunitarios que aún dependen de procesos manuales.  
+- El valor principal buscado es una herramienta que ahorre tiempo, reduzca la desorganización y aumente la participación de los voluntarios.  
+- Entre los beneficios adicionales destacan: mayor visibilidad de proyectos, reportes automáticos y transparencia en la comunicación.  
+- La adquisición de clientes se logrará a través de alianzas con redes de voluntariado, marketing digital y recomendaciones entre organizaciones.  
+- El modelo de negocio estará basado en suscripciones mensuales con planes escalables.  
+- La competencia incluye herramientas genéricas de gestión de proyectos (Trello, Asana, Google Sheets), pero VolunPath se diferenciará por estar diseñado específicamente para el voluntariado.  
+- El mayor riesgo es que las organizaciones no perciban valor suficiente para pagar una suscripción; se mitigará con un plan gratuito básico y demostraciones de impacto.
+
+**User Assumptions**
+  
+- ¿Quién es el usuario? Coordinadores de voluntariado y líderes de ONGs.  
+- ¿Qué problemas resuelve? Falta de organización, pérdida de datos, baja retención de voluntarios y escasa visibilidad de actividades.  
+- ¿Qué características son importantes? Interfaz simple, registro rápido de actividades, reportes automáticos y comunicación integrada.  
+- ¿Dónde encaja en su vida/trabajo? Como herramienta central para coordinar voluntarios y proyectos.  
+- ¿Cuándo y cómo se usa? A diario para asignar tareas; semanalmente para seguimiento; mensualmente para reportes de impacto.  
+- ¿Cómo debe comportarse? Con un diseño intuitivo, notificaciones claras, acceso desde cualquier dispositivo y soporte colaborativo. 
+
+##### 1.2.2.3. Lean UX Hypothesis Statements
+**Hipótesis 01**  
+Creemos que las organizaciones sociales mejorarán la coordinación de sus proyectos si utilizan una plataforma que centralice tareas, roles y calendarios.  
+Sabremos que hemos tenido éxito cuando al menos el 70% de los usuarios registren y gestionen actividades directamente en VolunPath durante el primer mes.  
+
+**Hipótesis 02**  
+Creemos que los voluntarios estarán más motivados y activos si cuentan con un sistema que muestre sus tareas, logros e impacto en la comunidad.  
+Sabremos que hemos tenido éxito cuando la retención de voluntarios activos aumente un 20% tras 3 meses de uso.  
+
+**Hipótesis 03**  
+Creemos que las organizaciones atraerán a más personas si sus proyectos son visibles públicamente a través de la plataforma.  
+Sabremos que hemos tenido éxito cuando el número de voluntarios nuevos aumente un 30% respecto a los métodos tradicionales.  
+
+**Hipótesis 04**  
+Creemos que la adopción de la plataforma será mayor si ofrecemos un plan gratuito básico con funciones esenciales y planes de pago escalables para organizaciones más grandes.  
+Sabremos que hemos tenido éxito cuando al menos el 25% de los usuarios gratuitos migren a un plan de pago en los primeros seis meses.  
+
+
+##### 1.2.2.4. Lean UX Canvas
+<img alt="upc-logo" src="Assets/Chapter-01/Lean UX Canvas.png" width="100%"/>
+
+**Enlace al Lean UX Canvas:** [**Ver en Miro**](https://miro.com/app/board/uXjVJK4zkZs=/?share_link_id=341368825653)
+
+### 1.3. Segmentos objetivo
+**Primer segmento objetivo:**  
+Las organizaciones sociales (ONGs, fundaciones y colectivos comunitarios) que aún gestionan sus proyectos de forma manual o con herramientas dispersas.  
+Buscan una plataforma que centralice la coordinación de voluntarios, tareas y calendarios para mejorar su eficiencia e impacto social.  
+
+**Segundo segmento objetivo:**  
+Los voluntarios, principalmente jóvenes y adultos entre 18 y 45 años, interesados en causas sociales.  
+Requieren un sistema accesible y confiable que les permita integrarse fácilmente, visualizar sus tareas y mantener la motivación en su participación.
+
+
+## Capítulo II: Requirements Elicitation & Analysis
+---
+### 2.1. Competidores
+#### 2.1.1. Análisis competitivo
+#### 2.1.2. Estrategias y tácticas frente a competidores
+### 2.2. Entrevistas
+#### 2.2.1. Diseño de entrevistas
+#### 2.2.2. Registro de entrevistas
+#### 2.2.3. Análisis de entrevistas
+### 2.3. Needfinding
+#### 2.3.1. User Personas
+#### 2.3.2. User Task Matrix
+#### 2.3.3. User Journey Mapping
+#### 2.3.4. Empathy Mapping
+#### 2.3.5. As-is Scenario Mapping
+### 2.4. Ubiquitous Language
+
+## Capítulo III: Requirements Specification
+---
+### 3.1. To-Be Scenario Mapping
+
+Segmento Objetivo 1: Organizaciones sociales
+
+Kevin Pachas
+
+<img alt="mapping-organizador" src="/Assets/Chapter-03/mapping_organizadores.jpg" width="2000"/><br>
+
+Segmento Objetivo 2: Voluntarios
+
+Carmen Quispe
+
+<img alt="mapping-voluntario" src="/Assets/Chapter-03/mapping_voluntarios.jpg" width="2000"/><br>
+
+### 3.2. User Stories
+
+|             Epic / Story ID              |    Título    |    Descripción    |    Criterios de Aceptación    |    Relacionado con (Epic ID)    |
+|:-------------------------------:|:----------:|:----------:|:----------:|:----------:|
+|  US01 |    Registro de Voluntarios     |    Como organización, quiero registrar fácilmente a nuevos voluntarios para tener un control centralizado de sus datos.     |    El sistema permite crear un perfil de voluntario con nombre, contacto y disponibilidad. Se puede editar y eliminar información de voluntarios. Cada voluntario recibe confirmación por correo o notificación.     |    EP01     |
+|  US02 |    Asignación de Roles y Tareas     |    Como coordinador, quiero asignar roles y tareas a los voluntarios para organizar mejor las actividades.     |    Se puede asignar uno o varios roles/tareas a un voluntario desde su perfil. Los voluntarios reciben notificación de sus tareas asignadas. Las tareas quedan registradas con estado y fecha límite.     |    EP01     |
+|  US03 | Seguimiento de Actividades |    Como coordinador, quiero hacer seguimiento al avance de tareas para verificar el progreso de los voluntarios.     |    El sistema muestra el estado (pendiente/en proceso/completado) de cada tarea. Los voluntarios pueden actualizar el estado de sus tareas. El coordinador recibe alertas de tareas vencidas.   |    EP01     |
+|  US04 |    Creación de Proyectos     |    Como organización, quiero crear proyectos con objetivos, responsables y fechas para planificar el trabajo.     |    Se pueden crear proyectos con nombre, descripción, fechas y responsable. Cada proyecto tiene un tablero de actividades relacionadas. Se puede modificar o archivar proyectos.     |   EP02    |
+|            US05             |    Calendario de Actividades   |    Como voluntario, quiero ver un calendario con mis actividades para organizarme mejor.    |    El sistema muestra un calendario con las tareas asignadas al usuario. Se pueden filtrar actividades por proyecto o estado. Las tareas se pueden sincronizar con el calendario del dispositivo.   |    EP02     |
+|  US06 |    Perfil con Historial de Participación    |   Como voluntario, quiero tener un historial de mis actividades realizadas para ver mi progreso.     |    El perfil del voluntario muestra tareas completadas y horas dedicadas. Se puede generar un reporte/constancia descargable de participación. El historial se actualiza automáticamente.   |    EP03     |
+|  US07 |   Sistema de Insignias y Logros    |    Como voluntario, quiero recibir insignias y reconocimientos al completar actividades para sentirme motivado.   |    Se asignan automáticamente insignias por cantidad de tareas completadas. Los logros aparecen visibles en el perfil. El sistema notifica al voluntario cuando gana una nueva insignia.   |  EP03     |
+| US08 | Página Pública de Proyectos |   Como organización, quiero publicar proyectos en una página visible para que personas externas puedan inscribirse.    |   Los proyectos marcados como públicos son visibles sin iniciar sesión. Se muestra descripción, fechas y número de vacantes disponibles. Hay un botón de “Postularme” que crea una solicitud de voluntariado.   |    EP04    |
+|  US09 |    Integración con Redes Sociales   |   Como organización, quiero compartir los proyectos en redes sociales para atraer más voluntarios.   |   Cada proyecto tiene botones para compartir en redes sociales. El enlace compartido lleva directamente a la página pública del proyecto. Se registra cuántos clics provienen de redes.   |    EP04     |
+|  US010 |    Mensajería Interna   |    Como voluntario, quiero poder comunicarme con el coordinador dentro de la plataforma para resolver dudas.   |    Se pueden enviar y recibir mensajes entre voluntarios y coordinadores. Se reciben notificaciones por mensajes nuevos. El historial de conversaciones queda guardado.   |    EP05     |
+|  US011 |    Notificaciones de Actividades   |    Como voluntario, quiero recibir notificaciones sobre mis tareas para mantenerme informado.    |  El sistema envía notificaciones automáticas al asignar nuevas tareas. También notifica cambios en el calendario o fechas límite próximas. Se puede elegir recibir notificaciones por correo o dentro de la app.   |    EP05    |
+
+### 3.3. Impact Mapping
+
+Segmento Objetivo 1: Organizaciones sociales
+
+Kevin Pachas
+
+<img alt="impact-organizadores" src="/Assets/Chapter-03/impact-organizador.jpg" width="2000"/><br>
+
+Segmento Objetivo 2: Voluntarios
+
+Carmen Quispe
+
+<img alt="impact-voluntarios" src="/Assets/Chapter-03/impact-voluntario.jpg" width="2000"/><br>
+
+### 3.4. Product Backlog
+
+|             # Orden              |   User Story Id   |    Título    |    Descripción   |    Story Points (1 / 2 / 3 / 5 / 8)    |
+|:-------------------------------:|:----------:|:----------:|:----------:|:----------:|
+|  1 |    US01     |    Asignar roles y tareas     |    Como presidente de organización, deseo asignar roles y tareas a mis miembros para organizar el trabajo sin depender de mensajes dispersos.     |   5  |
+|  2 |    US02     |    Calendario de eventos     |    Como miembro activo, deseo ver en un calendario compartido los eventos programados para organizar mi tiempo con anticipación.   |    3     |
+|  3 | US03 | Registrar avance de proyectos     |    Como coordinador de proyectos, deseo registrar el avance y resultados con fotos y documentos para sistematizar el impacto de las actividades.   |   5    |
+|  4 |    US04    |    Realizar asambleas virtuales |  Como líder de la organización, deseo realizar asambleas virtuales desde la misma plataforma para evitar costos adicionales y pérdida de tiempo.  |   3   |
+|            5             |    US05   |   Registro de finanzas   |   Como administrador de finanzas, deseo llevar un registro de ingresos y gastos para planificar mejor nuestras actividades comunitarias.  |   5    |
+|  6 |    US06   |   Panel de métricas   |   Como presidente de organización, deseo ver métricas de participación y alcance para evaluar el desempeño de nuestra organización.  |  8     |
+|  7 |   US07    |   Repositorio de materiales  |    Como coordinador, deseo almacenar y compartir documentos y evidencias de actividades para mantener la información organizada.  |  3   |
+| 8 | US01 |  Ver proyectos activos  |  Como voluntario nuevo, deseo ver una lista de proyectos activos para postularme a los que se ajustan a mis intereses.  |   5   |
+|  9 |    US02  | Notificaciones de tareas |  Como voluntario con poco tiempo, deseo recibir notificaciones de mis tareas pendientes para no olvidarlas y cumplir a tiempo.  |  3     |
+|  10 |    US03   |   Tablero personal de tareas |    Como voluntario, deseo tener un tablero con mis tareas asignadas para organizar mi tiempo y responsabilidades.  |  5   |
+|  11 |    US04   |   Historial de participación   | Como voluntario activo, deseo ver mi progreso e historial de participaciones para sentir motivación y recibir reconocimiento.  |    3 |
+|  12 |    US05   |  Certificados de participación  |  Como voluntario, deseo descargar un certificado de participación para acreditar mi experiencia. |    2   |
+|  13 |    US06   |  Mensajes a participantes   |  Como coordinador de voluntarios, deseo enviar mensajes grupales a todos los participantes de un proyecto para mantener la comunicación clara.  |  3  |
+|  14 |    US07   |    Perfil de voluntario   |  Como voluntario, deseo crear un perfil con mis intereses y disponibilidad para recibir recomendaciones adecuadas de proyectos.  |   5   |
+
+
+
 ### 3.2. User Stories
 ### 3.3. Impact Mapping
 ### 3.4. Product Backlog
@@ -573,15 +924,6 @@ Este lenguaje común permitirá que conceptos como *voluntario, líder, tarea, i
 # Bibliografía
 
 # Anexos
-
-
-
-
-
-
-
-
-
 
 
 
