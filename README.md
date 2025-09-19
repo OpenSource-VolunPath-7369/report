@@ -128,6 +128,122 @@
 
 ---
 # Student Outcome
+### ABET – EAC - Student Outcome 3  
+**Criterio:** Capacidad para comunicarse de manera efectiva con un rango diverso de audiencias, utilizando medios orales, escritos y visuales de forma clara y estructurada, adaptando el mensaje según el contexto, el propósito y las características del público objetivo.  
+
+En el siguiente cuadro se presentan las acciones realizadas y las conclusiones formuladas por el grupo, las cuales evidencian y respaldan el cumplimiento de este resultado de aprendizaje.  
+
+<div>
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Nombre</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Criterio 1 -->
+    <tr>
+      <td rowspan="5">Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
+      <td>Alumno 1</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+      <td rowspan="5"></td>
+    </tr>
+    <tr>
+      <td>Alumno 2</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <tr>
+      <td>Alumno 3</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <tr>
+      <td>Alumno 4</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <tr>
+      <td>Alumno 5</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <!-- Criterio 2 -->
+    <tr>
+      <td rowspan="5">Comunica por escrito con efectividad a diferentes rangos de audiencia </td>
+      <td>Alumno 1</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+      <td rowspan="5"></td>
+    </tr>
+    <tr>
+      <td>Alumno 2</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <tr>
+      <td>Alumno 3</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <tr>
+      <td>Alumno 4</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+    <tr>
+      <td>Alumno 5</td>
+      <td>
+        TB1:<br>
+        TP:<br>
+        TB2:<br>
+        TF:
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
 
 ## Capítulo I: Introducción
 ---
@@ -357,6 +473,7 @@ Requieren un sistema accesible y confiable que les permita integrarse fácilment
 # Bibliografía
 
 # Anexos
+
 
 
 
