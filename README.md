@@ -501,6 +501,9 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 ### 4.8. Database Design
 #### 4.8.1. Database Diagram
 
+![Database_Diagram](Assets/Chapter-04/data-base-diagram.jpg)
+
+
 ## Capítulo V: Product Implementation, Validation & Deployment
 ---
 ### 5.1. Software Configuration Management
@@ -528,6 +531,7 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
+
 
 
 
