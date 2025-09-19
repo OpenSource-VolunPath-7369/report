@@ -125,7 +125,8 @@
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
-
+---
+# Student Outcome
 ---
 # Student Outcome
 ### ABET – EAC - Student Outcome 3  
@@ -249,6 +250,16 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
 ---
 ### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup
+
+#### 1.1.2. Perfiles de integrantes del equipo
+### 1.2. Solution Profile
+#### 1.2.1. Antecedentes y problemática
+#### 1.2.2. Lean UX Process
+##### 1.2.2.1. Lean UX Problem Statements
+##### 1.2.2.2. Lean UX Assumptions
+##### 1.2.2.3. Lean UX Hypothesis Statements
+##### 1.2.2.4. Lean UX Canvas
+### 1.3. Segmentos objetivo
 En InnovaSocial, apostamos por la innovación tecnológica al servicio del voluntariado y las organizaciones sociales. Nuestro producto principal, VolunPath, es una plataforma web diseñada para ser un puente entre instituciones y personas que desean involucrarse en actividades solidarias.
 Además de facilitar la conexión, la herramienta brinda a las organizaciones un espacio público para difundir su historia, proyectos, fotografías y eventos; junto con un panel privado que les permite gestionar de manera integral sus operaciones internas, como la asignación de roles, planificación de tareas, control de inventarios, manejo de calendarios y presupuestos. De esta manera, buscamos impulsar comunidades más organizadas y voluntarios con mayores oportunidades de desarrollo personal
 
@@ -412,6 +423,69 @@ Requieren un sistema accesible y confiable que les permita integrarse fácilment
 ## Capítulo III: Requirements Specification
 ---
 ### 3.1. To-Be Scenario Mapping
+
+Segmento Objetivo 1: Organizaciones sociales
+
+Kevin Pachas
+
+<img alt="mapping-organizador" src="/Assets/Chapter-03/mapping_organizadores.jpg" width="2000"/><br>
+
+Segmento Objetivo 2: Voluntarios
+
+Carmen Quispe
+
+<img alt="mapping-voluntario" src="/Assets/Chapter-03/mapping_voluntarios.jpg" width="2000"/><br>
+
+### 3.2. User Stories
+
+|             Epic / Story ID              |    Título    |    Descripción    |    Criterios de Aceptación    |    Relacionado con (Epic ID)    |
+|:-------------------------------:|:----------:|:----------:|:----------:|:----------:|
+|  US01 |    Registro de Voluntarios     |    Como organización, quiero registrar fácilmente a nuevos voluntarios para tener un control centralizado de sus datos.     |    El sistema permite crear un perfil de voluntario con nombre, contacto y disponibilidad. Se puede editar y eliminar información de voluntarios. Cada voluntario recibe confirmación por correo o notificación.     |    EP01     |
+|  US02 |    Asignación de Roles y Tareas     |    Como coordinador, quiero asignar roles y tareas a los voluntarios para organizar mejor las actividades.     |    Se puede asignar uno o varios roles/tareas a un voluntario desde su perfil. Los voluntarios reciben notificación de sus tareas asignadas. Las tareas quedan registradas con estado y fecha límite.     |    EP01     |
+|  US03 | Seguimiento de Actividades |    Como coordinador, quiero hacer seguimiento al avance de tareas para verificar el progreso de los voluntarios.     |    El sistema muestra el estado (pendiente/en proceso/completado) de cada tarea. Los voluntarios pueden actualizar el estado de sus tareas. El coordinador recibe alertas de tareas vencidas.   |    EP01     |
+|  US04 |    Creación de Proyectos     |    Como organización, quiero crear proyectos con objetivos, responsables y fechas para planificar el trabajo.     |    Se pueden crear proyectos con nombre, descripción, fechas y responsable. Cada proyecto tiene un tablero de actividades relacionadas. Se puede modificar o archivar proyectos.     |   EP02    |
+|            US05             |    Calendario de Actividades   |    Como voluntario, quiero ver un calendario con mis actividades para organizarme mejor.    |    El sistema muestra un calendario con las tareas asignadas al usuario. Se pueden filtrar actividades por proyecto o estado. Las tareas se pueden sincronizar con el calendario del dispositivo.   |    EP02     |
+|  US06 |    Perfil con Historial de Participación    |   Como voluntario, quiero tener un historial de mis actividades realizadas para ver mi progreso.     |    El perfil del voluntario muestra tareas completadas y horas dedicadas. Se puede generar un reporte/constancia descargable de participación. El historial se actualiza automáticamente.   |    EP03     |
+|  US07 |   Sistema de Insignias y Logros    |    Como voluntario, quiero recibir insignias y reconocimientos al completar actividades para sentirme motivado.   |    Se asignan automáticamente insignias por cantidad de tareas completadas. Los logros aparecen visibles en el perfil. El sistema notifica al voluntario cuando gana una nueva insignia.   |  EP03     |
+| US08 | Página Pública de Proyectos |   Como organización, quiero publicar proyectos en una página visible para que personas externas puedan inscribirse.    |   Los proyectos marcados como públicos son visibles sin iniciar sesión. Se muestra descripción, fechas y número de vacantes disponibles. Hay un botón de “Postularme” que crea una solicitud de voluntariado.   |    EP04    |
+|  US09 |    Integración con Redes Sociales   |   Como organización, quiero compartir los proyectos en redes sociales para atraer más voluntarios.   |   Cada proyecto tiene botones para compartir en redes sociales. El enlace compartido lleva directamente a la página pública del proyecto. Se registra cuántos clics provienen de redes.   |    EP04     |
+|  US010 |    Mensajería Interna   |    Como voluntario, quiero poder comunicarme con el coordinador dentro de la plataforma para resolver dudas.   |    Se pueden enviar y recibir mensajes entre voluntarios y coordinadores. Se reciben notificaciones por mensajes nuevos. El historial de conversaciones queda guardado.   |    EP05     |
+|  US011 |    Notificaciones de Actividades   |    Como voluntario, quiero recibir notificaciones sobre mis tareas para mantenerme informado.    |  El sistema envía notificaciones automáticas al asignar nuevas tareas. También notifica cambios en el calendario o fechas límite próximas. Se puede elegir recibir notificaciones por correo o dentro de la app.   |    EP05    |
+
+### 3.3. Impact Mapping
+
+Segmento Objetivo 1: Organizaciones sociales
+
+Kevin Pachas
+
+<img alt="impact-organizadores" src="/Assets/Chapter-03/impact-organizador.jpg" width="2000"/><br>
+
+Segmento Objetivo 2: Voluntarios
+
+Carmen Quispe
+
+<img alt="impact-voluntarios" src="/Assets/Chapter-03/impact-voluntario.jpg" width="2000"/><br>
+
+### 3.4. Product Backlog
+
+|             # Orden              |   User Story Id   |    Título    |    Descripción   |    Story Points (1 / 2 / 3 / 5 / 8)    |
+|:-------------------------------:|:----------:|:----------:|:----------:|:----------:|
+|  1 |    US01     |    Asignar roles y tareas     |    Como presidente de organización, deseo asignar roles y tareas a mis miembros para organizar el trabajo sin depender de mensajes dispersos.     |   5  |
+|  2 |    US02     |    Calendario de eventos     |    Como miembro activo, deseo ver en un calendario compartido los eventos programados para organizar mi tiempo con anticipación.   |    3     |
+|  3 | US03 | Registrar avance de proyectos     |    Como coordinador de proyectos, deseo registrar el avance y resultados con fotos y documentos para sistematizar el impacto de las actividades.   |   5    |
+|  4 |    US04    |    Realizar asambleas virtuales |  Como líder de la organización, deseo realizar asambleas virtuales desde la misma plataforma para evitar costos adicionales y pérdida de tiempo.  |   3   |
+|            5             |    US05   |   Registro de finanzas   |   Como administrador de finanzas, deseo llevar un registro de ingresos y gastos para planificar mejor nuestras actividades comunitarias.  |   5    |
+|  6 |    US06   |   Panel de métricas   |   Como presidente de organización, deseo ver métricas de participación y alcance para evaluar el desempeño de nuestra organización.  |  8     |
+|  7 |   US07    |   Repositorio de materiales  |    Como coordinador, deseo almacenar y compartir documentos y evidencias de actividades para mantener la información organizada.  |  3   |
+| 8 | US01 |  Ver proyectos activos  |  Como voluntario nuevo, deseo ver una lista de proyectos activos para postularme a los que se ajustan a mis intereses.  |   5   |
+|  9 |    US02  | Notificaciones de tareas |  Como voluntario con poco tiempo, deseo recibir notificaciones de mis tareas pendientes para no olvidarlas y cumplir a tiempo.  |  3     |
+|  10 |    US03   |   Tablero personal de tareas |    Como voluntario, deseo tener un tablero con mis tareas asignadas para organizar mi tiempo y responsabilidades.  |  5   |
+|  11 |    US04   |   Historial de participación   | Como voluntario activo, deseo ver mi progreso e historial de participaciones para sentir motivación y recibir reconocimiento.  |    3 |
+|  12 |    US05   |  Certificados de participación  |  Como voluntario, deseo descargar un certificado de participación para acreditar mi experiencia. |    2   |
+|  13 |    US06   |  Mensajes a participantes   |  Como coordinador de voluntarios, deseo enviar mensajes grupales a todos los participantes de un proyecto para mantener la comunicación clara.  |  3  |
+|  14 |    US07   |    Perfil de voluntario   |  Como voluntario, deseo crear un perfil con mis intereses y disponibilidad para recibir recomendaciones adecuadas de proyectos.  |   5   |
+
+
 ### 3.2. User Stories
 ### 3.3. Impact Mapping
 ### 3.4. Product Backlog
@@ -473,19 +547,6 @@ Requieren un sistema accesible y confiable que les permita integrarse fácilment
 # Bibliografía
 
 # Anexos
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
