@@ -175,9 +175,9 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
       </td>
     </tr>
     <tr>
-      <td>Alumno 4</td>
+      <td>Mel Andree Orellana Rodriguez</td>
       <td>
-        TB1:<br>
+        TB1:Apoyé en la elaboración del análisis de entrevistas del segmento de líderes, colaborando en la redacción y organización de la información para resaltar necesidades y expectativas clave<br>
         TP:<br>
         TB2:<br>
         TF:
@@ -223,9 +223,9 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
       </td>
     </tr>
     <tr>
-      <td>Alumno 4</td>
+      <td>Mel Andree Orellana Rodriguz</td>
       <td>
-        TB1:<br>
+        TB1:Participé en las reuniones grupales, apoyé a mis compañeros en el desarrollo del trabajo y elaboré el análisis del segmento, asegurando una redacción clara, organizada y coherente con los objetivos del proyecto.<br>
         TP:<br>
         TB2:<br>
         TF:
@@ -473,6 +473,7 @@ Requieren un sistema accesible y confiable que les permita integrarse fácilment
 # Bibliografía
 
 # Anexos
+
 
 
 
