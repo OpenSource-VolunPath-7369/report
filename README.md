@@ -22,7 +22,7 @@
 |:-------------------------------:|:----------:|
 |  Aldair Ramos |    U20201F051     |
 |  Bertha Roxmeri Román Rodriguez |   u20211c654   |
-| Mel Orellana | U202116018 |
+| Mel Andree Orellana Rodriguez | U202116018 |
 |  ======== |    ...     |
 
 <strong> Setiembre 2025</strong><br>
@@ -136,6 +136,7 @@
 | (foto) <br> Nombres Apellidos <br> Código | Descripción del estudiante | Conocimientos del estudiante |
 | <img src="Assets/ImageMembers/Integrante-Mel-Andree-Orellana.jpeg" height="150" /> <br> Mel Andree Oreellana Rodriguez  <br> U202116018 | Estudiante de Ingeniería de Software, comprometido con el trabajo en equipo, proactivo y orientado a resultados, con interés en aportar soluciones tecnológicas innovadoras. | HTML, CSS, JavaScript, SQL (frontend y bases de datos), Python (programación, automatización y análisis). |
 | <img src="Assets/ImageMembers/fotoJean.png" height="150" /> <br> Jean Pool Huaman De La Cruz <br> U20201E781 | Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 22 años. A lo largo de mi formación me he destacado por mi compromiso con el aprendizaje constante, siempre buscando reforzar mis conocimientos y mejorar en las áreas que lo requieren. | Conocimientos en Python, C++ y otros lenguajes de programación. |
+
 
 
 
