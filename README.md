@@ -184,9 +184,9 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
       </td>
     </tr>
     <tr>
-      <td>Alumno 5</td>
+      <td>Jean Pool Huaman De La Cruz</td>
       <td>
-        TB1:<br>
+        TB1:Participé activamente en las reuniones de equipo, expresando ideas de manera clara y cumpliendo con las tareas asignadas dentro de los plazos establecidos, lo que permitió una comunicación efectiva con mis compañeros.<br>
         TP:<br>
         TB2:<br>
         TF:
@@ -232,9 +232,9 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
       </td>
     </tr>
     <tr>
-      <td>Alumno 5</td>
+      <td>Jean Pool Huaman De La Cruz</td>
       <td>
-        TB1:<br>
+        TB1:Asistí a todas las llamadas grupales, apoyé a los miembros del equipo y redacté el Capítulo 1 del proyecto junto con la sección del Student Outcome, garantizando una comunicación escrita clara, organizada y adecuada al contexto.<br>
         TP:<br>
         TB2:<br>
         TF:
@@ -473,6 +473,7 @@ Requieren un sistema accesible y confiable que les permita integrarse fácilment
 # Bibliografía
 
 # Anexos
+
 
 
 
