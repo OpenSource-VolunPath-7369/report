@@ -364,6 +364,140 @@ Link de Figma: https://www.figma.com/design/aM9rO7pEqiztLkzXoCDExr/Volunpath?nod
 ### 4.7. Software Object-Oriented Design
 #### 4.7.1. Class Diagrams
 #### 4.7.2. Class Dictionary
+
+Este **Class Dictionary** describe las principales entidades de dominio, sus atributos, métodos clave y relaciones.  
+El diseño aplica **POO**, principios de **Domain-Driven Design (DDD)**, uso de **Value Objects** (p. ej. Address, Availability)  
+y separación de responsabilidades mediante **Domain Services** y repositorios por agregado.
+
+---
+### User
+- **Responsabilidad:** Autenticación, autorización y datos base del actor (voluntario, coordinador, admin).  
+- **Atributos:** id, email, passwordHash, displayName, role (enum: VOLUNTEER, COORDINATOR, ORG_ADMIN, SUPER_ADMIN), createdAt, updatedAt, active.  
+- **Métodos:** login(), logout(), changePassword(), updateProfile().  
+- **Relaciones:**  
+  - 1 → 1 VolunteerProfile (opcional)  
+  - 1 → * Notification  
+  - Miembro de Conversation
+
+---
+
+### VolunteerProfile
+- **Responsabilidad:** Información específica de voluntarios (disponibilidad, historial).  
+- **Atributos:** id, userId (FK), phone, availability (Value Object: días/horas), totalHours, bio, skills.  
+- **Métodos:** getHistory(), addHours(), uploadDocument().  
+- **Relaciones:** → Assignment, → Badge, → Application
+
+---
+
+### Organization
+- **Responsabilidad:** Entidad organizadora; publica página pública; gestiona proyectos y recursos.  
+- **Atributos:** id, name, description, publicUrlSlug, address (VO), contactEmail, createdAt.  
+- **Métodos:** createProject(), publishPage(), addAdmin().  
+- **Relaciones:** 1 → * Project, 1 → * InventoryItem, 1 → * Budget
+
+---
+
+### Project
+- **Responsabilidad:** Agrupa tareas, vacantes, página pública y panel administrativo.  
+- **Atributos:** id, orgId (FK), name, description, startDate, endDate, isPublic, vacancies, status.  
+- **Métodos:** createTask(), archive(), publish().  
+- **Relaciones:** 1 → * Task, 1 → * Photo, 1 → * Application
+
+---
+
+### Task
+- **Responsabilidad:** Unidad de trabajo a asignar y trackear.  
+- **Atributos:** id, projectId, title, description, state (enum: PENDING, IN_PROGRESS, COMPLETED), dueDate, estimatedHours, createdBy, priority.  
+- **Métodos:** assignTo(volunteer), updateState(), addComment().  
+- **Relaciones:** 1 → * Assignment
+
+---
+
+### Assignment
+- **Responsabilidad:** Vínculo entre Task y VolunteerProfile, con roles en esa tarea.  
+- **Atributos:** id, taskId, volunteerProfileId, roles (many-to-many via join), assignedAt, state, hoursContributed.  
+- **Métodos:** updateState(), logHours().  
+- **Relaciones:** many-to-many con Role
+
+---
+
+### Role
+- **Responsabilidad:** Roles operativos (ej. Líder de equipo, Auxiliar logístico).  
+- **Atributos:** id, name, description.  
+- **Métodos:** n/a
+
+---
+
+### Badge
+- **Responsabilidad:** Gamificación (recompensas).  
+- **Atributos:** id, code, title, description, criteria (expresión), iconUrl.  
+- **Métodos:** awardTo(volunteer) (invocado por regla de negocio)
+
+---
+
+### Notification
+- **Responsabilidad:** Notificar por canales (in-app, email, push).  
+- **Atributos:** id, userId, channel *(EMAIL, IN_APP, PUSH)*, payload, read, sentAt.  
+- **Métodos:** send(), markRead()
+
+---
+
+### Conversation / Message
+- **Responsabilidad:** Mensajería interna.  
+- **Conversation Atributos:** id, participantIds, createdAt  
+- **Message Atributos:** id, conversationId, senderId, content, sentAt, readBy  
+- **Métodos:** sendMessage(), fetchHistory()  
+- **Relaciones:**  
+  - **User** *miembro de* **Conversation**  
+  - **Conversation** 1 → * **Message**
+
+---
+
+### CalendarEvent
+- **Responsabilidad:** Representa eventos (tareas, reuniones) y sincronización con calendarios externos.  
+- **Atributos:** id, ownerId(User), title, start, end, location, `externalSyncId.  
+- **Métodos:** syncWithDevice()
+
+---
+
+### InventoryItem
+- **Responsabilidad:** Control de inventario para proyectos.  
+- **Atributos:** id, orgId, name, quantity, unit, reserved.  
+- **Métodos:** `reserve(q), release(q)
+
+---
+
+### Budget
+- **Responsabilidad:** Control de presupuestos por organización/proyecto.  
+- **Atributos:** id, orgId, name, amount, spent.  
+- **Métodos:** allocate(), adjust()
+
+---
+
+### Photo
+- **Responsabilidad:** Recursos multimedia de proyectos (públicos o privados).  
+- **Atributos:** id, projectId, url, uploadedBy, createdAt.  
+- **Métodos:** *n/a*
+
+---
+
+### Application
+- **Responsabilidad:** Proceso de postulación para vacantes públicas.  
+- **Atributos:** id, projectId, volunteerId, state *(APPLIED, APPROVED, REJECTED)*, appliedAt, notes.  
+- **Métodos:** approve(), reject()
+
+---
+
+### Consideraciones de Diseño OO
+- **Domain Services:**  
+  - BadgeService (evaluación y otorgamiento de insignias)  
+  - NotificationService` 
+  - AssignmentService
+- **Repositorios por agregado:** ProjectRepository, VolunteerRepository, TaskRepository.  
+- **Value Objects:** Address, Availability (inmutables).  
+- **Transacciones:** Operaciones multi-aggregate (asignar tarea + notificar + log) mediante **Application Service** con patrón **Unit of Work**.
+
+
 ### 4.8. Database Design
 #### 4.8.1. Database Diagram
 
@@ -394,5 +528,6 @@ Link de Figma: https://www.figma.com/design/aM9rO7pEqiztLkzXoCDExr/Volunpath?nod
 # Bibliografía
 
 # Anexos
+
 
 
