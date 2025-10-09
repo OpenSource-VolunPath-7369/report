@@ -1190,9 +1190,262 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 ---
 ### 5.1. Software Configuration Management
 #### 5.1.1. Software Development Environment Configuration
+
+En esta sección se describen las herramientas utilizadas por nuestro equipo de EMSafe para colaborar de manera efectiva durante todo el ciclo de vida del producto digital. Estas herramientas se organizan según las actividades que soportan: gestión del proyecto, diseño de producto, desarrollo de software, despliegue y documentación.
+
+
+
+#### Project Management y Requirements Management
+
+- [**Trello**](https://trello.com/): Herramienta visual utilizada para la planificación y seguimiento de tareas del proyecto. Facilita el trabajo en equipo mediante tableros compartidos.
+- [**Google Drive**](https://drive.google.com/) & [**Google Docs**](https://docs.google.com/): Plataforma de trabajo colaborativo para almacenar documentación, redactar informes y gestionar entregables todo en la nube.
+
+---
+
+#### Product UX/UI Design
+
+- [**Figma**](https://www.figma.com/): Herramienta principal para diseñar interfaces, crear wireframes y prototipos interactivos. Soporta colaboración en tiempo real.
+- [**Miro**](https://miro.com/): Plataforma para crear mapas mentales, flujos de usuario y esquemas de navegación, útil en fases iniciales del diseño y planificación.
+
+---
+
+#### Software Development
+
+- [**IntelliJ IDEA**](https://www.jetbrains.com/idea/): Entorno de desarrollo utilizado para programar el backend en Spring Boot. Ofrece herramientas avanzadas para depuración, testing y gestión de proyectos en Java.
+- [**Visual Studio Code (VS Code)**](https://code.visualstudio.com/): Editor de código utilizado para desarrollar la aplicación frontend en Angular. Ligero, extensible y con terminal integrada.
+- [**Angular**](https://angular.io/): Framework para construir la interfaz web del sistema. Permite desarrollar aplicaciones SPA modernas y mantenibles.
+- [**Angular Material**](https://material.angular.io/): Librería de componentes basada en Material Design que permite mantener un diseño coherente, accesible y profesional en la interfaz.
+- [**Spring Boot**](https://spring.io/projects/spring-boot): Framework Java para el desarrollo del backend. Facilita la creación de APIs RESTful que se comunican con el frontend y la base de datos.
+- [**Git**](https://git-scm.com/) + [**GitHub**](https://github.com/): Sistema de control de versiones distribuido para gestionar el código fuente, colaborar entre miembros del equipo y mantener el historial de cambios.
+
+---
+
+#### Software Deployment
+
+- [**GitHub Pages**](https://pages.github.com/): Servicio utilizado para el despliegue de la Landing Page estática del proyecto directamente desde un repositorio GitHub.
+- [**Railway**](https://railway.app/): Servicio en la nube empleado para desplegar tanto el frontend en Angular como el backend en Spring Boot. Estos entornos permiten exponer los servicios web y la aplicación de forma pública.
+
+---
+
+#### Software Documentation
+
+- [**Notion**](https://www.notion.so/): Espacio centralizado para almacenar documentación técnica y funcional del sistema, como manuales de usuario, decisiones de arquitectura y guías de uso.
+- [**Swagger**](https://swagger.io/): Herramienta para documentar y visualizar la API REST del backend desarrollado en Spring Boot. Permite probar endpoints desde una interfaz gráfica.
+
+
+
 #### 5.1.2. Source Code Management
+
+
+Para la gestión del código fuente del proyecto  VolunPath, nuestro equipo utiliza [**GitHub**](https://github.com/) como plataforma central, aprovechando el sistema de control de versiones [**Git**](https://git-scm.com/) para facilitar la colaboración, el seguimiento de cambios y la integración de nuevas funcionalidades de forma ordenada y segura.
+
+---
+
+#### Repositorios del Proyecto
+
+- **Landing Page**:  
+  [https://github.com/OpenSource-VolunPath-7369/landing](https://github.com/OpenSource-VolunPath-7369/landing)
+
+- **Frontend Web Application (Angular)**:  
+  [https://github.com/OpenSource-VolunPath-7369/frontend](https://github.com/OpenSource-VolunPath-7369/frontend)
+
+- **Web Services (Spring Boot – Backend)**:  
+  [https://github.com/OpenSource-VolunPath-7369/backend](https://github.com/OpenSource-VolunPath-7369/backend)
+
+---
+
+#### Modelo de Ramas - GitFlow
+
+Para el desarrollo colaborativo y el control de versiones, adoptamos el workflow **GitFlow**, basado en la estructura propuesta por *Vincent Driessen*. Este modelo permite desarrollar múltiples funcionalidades en paralelo, controlar versiones estables y facilitar correcciones en producción.
+
+##### Ramas principales
+
+- **`main`**: Contiene el código en estado estable, listo para producción o despliegue. Solo se fusionan cambios aprobados, verificados y testeados.
+- **`develop`**: Rama de integración donde se combinan todas las nuevas funcionalidades antes de ser consideradas para una nueva versión estable.
+
+##### Ramas de soporte
+
+- **feature/**: Se crean a partir de `develop` para desarrollar nuevas funcionalidades.
+- **release/**: Se crean desde `develop` cuando se prepara una nueva versión del sistema. Se realizan ajustes menores, documentación y pruebas finales antes de integrarse a `main`.
+- **hotfix/**: Se crean directamente desde `main` para corregir errores críticos en producción. Una vez resuelto el problema, se fusionan tanto en `main` como en `develop`.
+
+---
+
+#### Semantic Versioning (SemVer)
+
+EMSafe aplica la convención [**Semantic Versioning 2.0.0**](https://semver.org/), donde los números de versión siguen el formato `MAJOR.MINOR.PATCH`:
+
+- **MAJOR**: Se incrementa cuando se introducen cambios incompatibles con versiones anteriores.
+- **MINOR**: Se incrementa cuando se agregan nuevas funcionalidades de forma retrocompatible.
+- **PATCH**: Se incrementa al aplicar correcciones menores o ajustes retrocompatibles.
+
+---
+
+#### Convención de Commits – Conventional Commits
+
+Para mantener un historial claro y significativo de los cambios, el equipo utiliza la convención [**Conventional Commits**](https://www.conventionalcommits.org/), lo que facilita:
+
+- la lectura del historial de versiones,
+- el uso de herramientas de integración continua,
+- la generación automática de changelogs.
+
+##### Tipos de commits utilizados:
+
+- `feat`: Nueva funcionalidad  
+- `fix`: Corrección de errores  
+- `docs`: Cambios en documentación  
+- `style`: Cambios en formato/estilo sin afectar la lógica  
+- `refactor`: Reestructuración del código sin cambio funcional  
+- `test`: Cambios en tests  
+- `build`: Cambios que afectan al sistema de compilación o dependencias  
+- `ci`: Configuraciones de integración continua  
+- `chore`: Tareas menores de mantenimiento  
+- `perf`: Mejoras de rendimiento  
+- `revert`: Reversión de un commit anterior  
+
+
+
 #### 5.1.3. Source Code Style Guide & Conventions
+
+Con el objetivo de mantener un código legible, limpio, coherente y fácilmente mantenible, se aplicarán guías de estilo y convenciones específicas para cada uno de los lenguajes y tecnologías utilizadas en el desarrollo del sistema.  
+Todas las variables, funciones, clases y elementos del sistema se nombrarán en inglés, siguiendo las convenciones estándar de nomenclatura y formato para cada lenguaje.
+
+---
+
+#### HTML / CSS
+
+- **Guía adoptada**: [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+- **Estructura**:
+  - El código HTML será indentado con 2 espacios (sin tabulaciones).
+  - Se dejarán líneas en blanco entre secciones para mejorar la legibilidad.
+- **Etiquetas**:
+  - Todas las etiquetas se cerrarán correctamente.
+  - Se evitará el uso de atributos innecesarios.
+  - Se usarán comillas dobles (`"`) para todos los valores de atributos.
+- **Nomenclatura CSS**:
+  - Se aplicará la metodología **BEM (Block Element Modifier)** para nombrar clases, mejorando la organización, escalabilidad y reutilización de estilos.
+
+---
+
+#### JavaScript / TypeScript
+
+- **Guías adoptadas**:
+  - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+  - [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+
+- **Formato**:
+  - `camelCase` para variables y funciones.
+  - `PascalCase` para clases y componentes.
+  - Uso exclusivo de `let` y `const` (evitar `var`).
+  - Inclusión de espacios alrededor de operadores y después de comas.
+
+- **Comentarios**:
+  - Se usarán comentarios claros y concisos.
+  - Los bloques complejos estarán documentados con `/* */`.
+
+- **Scope**:
+  - Las variables se definirán en el **scope más reducido posible**.
+
+---
+
+#### Angular (Frontend)
+
+- **Guía adoptada**: [Angular Style Guide](https://angular.io/guide/styleguide)
+
+- **Estructura del proyecto**:
+  - Cada componente tendrá su propio directorio con archivos: `.ts`, `.html`, `.css`, y `.spec.ts`.
+  - Se seguirá la convención: `feature-name.component.ts`.
+
+- **Nomenclatura**:
+  - Componentes: `PascalCase`
+  - Variables: `camelCase`
+  - Módulos: `PascalCase`
+
+- **Modularización**:
+  - El código se organizará por características (**feature-based folders**) para facilitar el mantenimiento y escalabilidad.
+
+---
+
+#### Java + Spring Boot (Backend)
+
+- **Guía adoptada**: [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) + buenas prácticas de Spring Boot.
+
+- **Estructura del proyecto**:
+  - Separación por capas: `controller`, `service`, `repository`, `dto`, `model`.
+  - Uso adecuado de anotaciones: `@Service`, `@RestController`, `@Repository`.
+
+- **Nomenclatura**:
+  - Clases: `PascalCase`
+  - Variables y métodos: `camelCase`
+  - Constantes: `MAYÚSCULAS_CON_GUIONES`
+
+
 #### 5.1.4. Software Deployment Configuration
+
+
+La estrategia de despliegue está diseñada para asegurar que las aplicaciones funcionen correctamente y de forma estable en los entornos de producción. Para ello, se aplicarán herramientas y prácticas que permitan un proceso ágil, seguro y automatizado.
+
+---
+
+#### Landing Page
+
+La Landing Page está desarrollada como un sitio web estático utilizando HTML, CSS y JavaScript, y es desplegada mediante **GitHub Pages**, aprovechando la integración directa con el repositorio de código.
+
+- **Repositorio**:  
+  [https://github.com/OpenSource-VolunPath-7369/landing](https://github.com/OpenSource-VolunPath-7369/landing)
+
+- **Plataforma de despliegue**: GitHub Pages  
+- **Dominio de publicación**:  
+  [https://opensource-volunpath-7369.github.io/landing/](https://opensource-volunpath-7369.github.io/landing/)
+
+- **Modo de despliegue**:  
+  Automático, activado desde la rama `main`, con el contenido publicado desde la carpeta raíz del repositorio.
+
+Cada vez que se realiza un `push` a la rama `main`, la Landing Page se actualiza automáticamente en producción, permitiendo mantener siempre en línea la última versión del contenido público.
+
+---
+
+#### Frontend Web Application (Angular)
+
+La aplicación web de VolunPath, desarrollada con **Angular**, es desplegada mediante **Railway**, una plataforma que permite conectar directamente con GitHub y automatizar todo el proceso de compilación y publicación del proyecto.
+
+- **Repositorio**:  
+  [https://github.com/OpenSource-VolunPath-7369/frontend](https://github.com/OpenSource-VolunPath-7369/frontend)
+
+- **Comando de build**:  
+  `ng build --configuration=production`
+
+- **Despliegue**:  
+  Railway detecta los cambios en la rama `main`, compila el proyecto y publica automáticamente la nueva versión.
+
+- **Configuración adicional**:  
+  Las variables de entorno necesarias para la conexión con la API del backend serán gestionadas desde el panel de Railway.
+
+Este enfoque permite mantener el frontend actualizado sin necesidad de despliegues manuales, garantizando eficiencia y rapidez en la entrega de nuevas versiones.
+
+---
+
+#### Web Services (Spring Boot)
+
+El backend, desarrollado con **Spring Boot**, también se desplegará en **Railway**, permitiendo exponer la API REST de forma pública y controlada. Railway gestiona el servidor, los puertos, las variables de entorno y el acceso a la base de datos.
+
+- **Repositorio**:  
+  [https://github.com/OpenSource-VolunPath-7369/backend](https://github.com/OpenSource-VolunPath-7369/backend)
+
+- **Compilación del proyecto**:  
+  `./mvnw clean package`  
+  o  
+  `./gradlew build`
+
+- **Despliegue**:  
+  Automático mediante integración con GitHub. Railway se encarga de detectar cambios en `main`, construir el `.jar`, y ejecutar el servicio en su entorno cloud.
+
+- **API Documentation**:  
+  Al desplegarse, el backend expone la interfaz de prueba **Swagger UI**, útil para validar los endpoints y probar funcionalidades.
+
+<br>
+
+
 ### 5.2. Landing Page, Services & Applications Implementation
 #### 5.2.1. Sprint 1
 
@@ -1213,5 +1466,6 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
+
 
 
