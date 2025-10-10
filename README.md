@@ -438,6 +438,31 @@ Carmen Quispe
 
 ### 3.2. User Stories
 
+#### Epic Story
+| Epic ID | Título | Descripción |
+|---------|--------|-------------|
+| 1 | Gestión de Voluntarios y Roles | Como organización quiero registrar, editar y organizar a los voluntarios y asignarles roles y tareas para coordinar mejor las actividades y mantener un control centralizado de datos. |
+|2 | Gestión de Proyectos y Actividades | Como organización quiero crear, administrar y monitorear proyectos sociales, definiendo responsables, objetivos, fechas y actividades asociadas, para planificar y dar seguimiento a los proyectos. |
+| 3 | Reconocimiento y Motivación del Voluntariado | Como organización quiero hacer seguimiento al historial y logros de los voluntarios, otorgando insignias y reconocimientos para motivar su participación y compromiso. |
+| 4 | Difusión y Visibilidad de Proyectos | Como organización quiero publicar proyectos en la web y compartirlos en redes sociales para atraer nuevos voluntarios y aumentar el impacto de los proyectos. |
+| 5 | Comunicación y Notificaciones | Como organización y voluntario quiero recibir notificaciones y comunicarme internamente para coordinar tareas y mantener informado al equipo. |
+| 6 | Landing Page Institucional | Como visitante quiero acceder a la información de la organización, conocer los servicios, registrarme y contactar, a través de una página web accesible y clara. |
+| 7 | Gestión de Inventario y Recursos | Como administrador quiero registrar y controlar los recursos físicos o digitales usados en proyectos, visualizar el stock disponible y recibir alertas de bajo inventario. |
+| 8 | Gestión Financiera y Donaciones | Como organización quiero registrar, visualizar y auditar donaciones económicas o en especie, vinculándolas a proyectos activos y generando reportes contables. |
+| 9 | Analítica e Impacto Social | Como administrador quiero medir el impacto de los proyectos y desempeño de los voluntarios, generar métricas, reportes y estadísticas visuales para la toma de decisiones. |
+
+
+
+#### Technical Epic
+| Technical Epic ID | Título                      | Descripción                                                                                                                           |
+| ----------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| 1                 | API RESTful y Seguridad     | Endpoints, autenticación y manejo seguro de datos para garantizar interoperabilidad y seguridad.                                      |
+| 2                 | Monitoreo y Auditoría       | Auditoría de acciones y generación de reportes para seguimiento del sistema y usuarios.                                               |
+| 3                 | Mantenimiento y Performance | Backups automáticos, pruebas unitarias, optimización de rendimiento y control de versiones de API para confiabilidad y mantenimiento. |
+
+
+
+
 #### Users Stories
 | User Story ID | Título | Descripción | Epic ID | Criterios de Aceptación |
 |---------------|--------|-------------|---------|------------------------|
@@ -569,6 +594,7 @@ Carmen Quispe
 # Bibliografía
 
 # Anexos
+
 
 
 
