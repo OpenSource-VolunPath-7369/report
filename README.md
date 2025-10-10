@@ -490,6 +490,23 @@ Carmen Quispe
 | US22 | Gestión de Donaciones | Como organización, quiero registrar y ver donaciones. | 8 | Dado que se ingresa una donación, cuando se guarda, entonces aparece en el historial y puede exportarse. |
 
 
+#### Technical Story
+| Technical Story ID | Título                          | Descripción                                                                           | Criterios de Aceptación                                                                                     | Technical Epic ID |
+| ------------------ | ------------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------- |
+| TS01               | API de Autenticación            | Implementar endpoints para login, registro y manejo de JWT para autenticación segura. | Dado que un usuario se registra o inicia sesión, cuando los datos son correctos, entonces recibe un JWT válido. | 1                 |
+| TS02               | API de Proyectos                | Gestionar proyectos vía RESTful endpoints con GET, POST, PUT y DELETE.                | Dado que un proyecto existe o se crea, cuando se realizan operaciones CRUD, entonces se reflejan correctamente en la base de datos. | 1                 |
+| TS03               | API de Voluntarios              | Exponer endpoints para gestión de voluntarios y control de acceso por token.          | Dado que un voluntario es registrado o modificado, cuando el token es válido, entonces la operación se ejecuta correctamente. | 1                 |
+| TS04               | API de Mensajes                 | Crear endpoints para envío y recepción de mensajes internos en tiempo real.           | Dado que un usuario envía un mensaje, cuando el destinatario está activo, entonces recibe el mensaje en tiempo real. | 1                 |
+| TS05               | API de Reportes                 | Generar reportes vía API, exportables a JSON o PDF.                                   | Dado que se solicita un reporte, cuando existen datos, entonces se genera y se puede exportar en JSON o PDF. | 2                 |
+| TS06               | Seguridad del Token             | Implementar expiración y renovación de tokens JWT.                                    | Dado que un token se acerca a su expiración, cuando se solicita renovación, entonces se emite un nuevo token válido. | 1                 |
+| TS07               | Auditoría de Acciones           | Registrar logs de todas las modificaciones en el sistema.                             | Dado que un usuario realiza cambios, cuando se completa la acción, entonces se registra un log con detalle de la operación. | 2                 |
+| TS08               | Copias de Seguridad             | Configurar backups automáticos periódicos.                                            | Dado que se configura un backup, cuando ocurre el horario programado, entonces se genera una copia automática y almacenada. | 3                 |
+| TS09               | Exportar Logs                   | Permitir exportación de registros del sistema en CSV o PDF.                           | Dado que un administrador solicita exportar logs, cuando los logs existen, entonces se descargan correctamente en CSV o PDF. | 3                 |
+| TS10               | Pruebas Unitarias y Performance | Ejecutar pruebas automáticas y optimizar tiempos de respuesta del backend.            | Dado que se ejecutan pruebas unitarias, cuando todas pasan, entonces se valida la integridad y el rendimiento del sistema. | 3                 |
+| TS11               | Control de Versiones API        | Documentar y versionar todos los endpoints REST.                                      | Dado que se documenta un endpoint, cuando se hace un cambio, entonces se actualiza la versión de la API y la documentación correspondiente. | 3                 |
+
+
+
 
 
 
@@ -594,6 +611,7 @@ Carmen Quispe
 # Bibliografía
 
 # Anexos
+
 
 
 
