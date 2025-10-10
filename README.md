@@ -183,10 +183,10 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
       <td rowspan="5"></td>
     </tr>
     <tr>
-      <td>Alumno 2</td>
+      <td>Alex Gabriel Cusimayta Lobo</td>
       <td>
-        TB1:<br>
-        TP:<br>
+        TB1: Aporte en el equipo con el capitulo 4 y creación de la Landing Page, realice los diseños de la aplicacion tanto wireframe como mockup usando figma, Styles Guidelines, Information Architecture, Domain-Driven y Software Architecture. Aporte con ideas para el proyecto e informacion de los avances realizados durante clases y reuniones<br>
+        TP: Creacion y rediseño de la aplicacion, seccion comunidad, incorporacion de Tailwind CSS, Sidenav y seccion Comunidad, creacion de JSON Server para que la aplicacion reciba como informacion y datos de organiczacion por medio del endpoint y multimedia de internet<br>
         TB2:<br>
         TF:
       </td>
@@ -233,8 +233,8 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
     <tr>
       <td>Alumno 2</td>
       <td>
-        TB1:<br>
-        TP:<br>
+        TB1: Por medio de chat informe de los aportes que realicé con el capitulo 4 y creación de la Landing Page, realice los diseños de la aplicacion tanto wireframe como mockup usando figma, Styles Guidelines, Information Architecture, Domain-Driven y Software Architecture. Aporte con ideas para el proyecto e informacion de los avances realizados durante clases y reuniones<br>
+        TP: Por medio de chat informe el avance de la creacion del codigo indicando las mejoras y rediseño de la aplicacion, seccion comunidad, incorporacion de Tailwind CSS, Sidenav y seccion Comunidad, creacion de JSON Server para que la aplicacion reciba como informacion y datos de organiczacion por medio del endpoint y multimedia de interne<br>
         TB2:<br>
         TF:
       </td>
