@@ -517,23 +517,28 @@ Carmen Quispe
 
 ### 3.4. Product Backlog
 
-|             # Orden              |   User Story Id   |    Título    |    Descripción   |    Story Points (1 / 2 / 3 / 5 / 8)    |
-|:-------------------------------:|:----------:|:----------:|:----------:|:----------:|
-|  1 |    US01     |    Asignar roles y tareas     |    Como presidente de organización, deseo asignar roles y tareas a mis miembros para organizar el trabajo sin depender de mensajes dispersos.     |   5  |
-|  2 |    US02     |    Calendario de eventos     |    Como miembro activo, deseo ver en un calendario compartido los eventos programados para organizar mi tiempo con anticipación.   |    3     |
-|  3 | US03 | Registrar avance de proyectos     |    Como coordinador de proyectos, deseo registrar el avance y resultados con fotos y documentos para sistematizar el impacto de las actividades.   |   5    |
-|  4 |    US04    |    Realizar asambleas virtuales |  Como líder de la organización, deseo realizar asambleas virtuales desde la misma plataforma para evitar costos adicionales y pérdida de tiempo.  |   3   |
-|            5             |    US05   |   Registro de finanzas   |   Como administrador de finanzas, deseo llevar un registro de ingresos y gastos para planificar mejor nuestras actividades comunitarias.  |   5    |
-|  6 |    US06   |   Panel de métricas   |   Como presidente de organización, deseo ver métricas de participación y alcance para evaluar el desempeño de nuestra organización.  |  8     |
-|  7 |   US07    |   Repositorio de materiales  |    Como coordinador, deseo almacenar y compartir documentos y evidencias de actividades para mantener la información organizada.  |  3   |
-| 8 | US01 |  Ver proyectos activos  |  Como voluntario nuevo, deseo ver una lista de proyectos activos para postularme a los que se ajustan a mis intereses.  |   5   |
-|  9 |    US02  | Notificaciones de tareas |  Como voluntario con poco tiempo, deseo recibir notificaciones de mis tareas pendientes para no olvidarlas y cumplir a tiempo.  |  3     |
-|  10 |    US03   |   Tablero personal de tareas |    Como voluntario, deseo tener un tablero con mis tareas asignadas para organizar mi tiempo y responsabilidades.  |  5   |
-|  11 |    US04   |   Historial de participación   | Como voluntario activo, deseo ver mi progreso e historial de participaciones para sentir motivación y recibir reconocimiento.  |    3 |
-|  12 |    US05   |  Certificados de participación  |  Como voluntario, deseo descargar un certificado de participación para acreditar mi experiencia. |    2   |
-|  13 |    US06   |  Mensajes a participantes   |  Como coordinador de voluntarios, deseo enviar mensajes grupales a todos los participantes de un proyecto para mantener la comunicación clara.  |  3  |
-|  14 |    US07   |    Perfil de voluntario   |  Como voluntario, deseo crear un perfil con mis intereses y disponibilidad para recibir recomendaciones adecuadas de proyectos.  |   5   |
-
+| Orden | User Story ID | Título | Descripción | Story Points |
+|:------:|:--------------|:--------|:-------------|:-------------:|
+| 1 | US01 | Página Principal Atractiva | Como visitante, quiero visualizar una página inicial con diseño atractivo para entender la misión de VolunPath. | 3 |
+| 2 | US02 | Encabezado con Menú de Navegación | Como visitante, quiero navegar fácilmente entre secciones desde el menú superior. | 2 |
+| 3 | US03 | Sección “Acerca de Nosotros” | Como visitante, quiero conocer la misión, visión y valores de VolunPath para entender su impacto social. | 2 |
+| 4 | US04 | Sección de Voluntariados Destacados | Como visitante, quiero visualizar proyectos destacados para motivarme a participar. | 3 |
+| 5 | US05 | Botón “Únete Ahora” | Como visitante, quiero un botón visible que me dirija al registro de voluntarios. | 2 |
+| 6 | US06 | Testimonios de Voluntarios | Como visitante, quiero leer experiencias reales de voluntarios para sentir confianza. | 3 |
+| 7 | US07 | Sección de Impacto Social | Como visitante, quiero ver estadísticas del impacto logrado por la comunidad. | 3 |
+| 8 | US08 | Sección de Alianzas y Colaboradores | Como visitante, quiero ver las instituciones asociadas para validar la credibilidad de VolunPath. | 2 |
+| 9 | US09 | Formulario de Contacto | Como visitante, quiero enviar un mensaje directamente desde la web para resolver dudas o proponer colaboración. | 3 |
+| 10 | US10 | Pie de Página (Footer) | Como visitante, quiero acceder fácilmente a redes sociales, políticas y datos de contacto desde el pie de página. | 2 |
+| 11 | US11 | Diseño Responsivo | Como visitante, quiero que la landing page se vea correctamente en dispositivos móviles. | 5 |
+| 12 | US12 | SEO Básico | Como visitante potencial, quiero encontrar la página fácilmente en buscadores. | 5 |
+| 13 | US13 | Sección de Newsletter | Como visitante, quiero suscribirme a un boletín informativo para recibir noticias del proyecto. | 3 |
+| 14 | US14 | Registro de Voluntarios | Como organización, quiero registrar fácilmente a nuevos voluntarios para tener un control centralizado de sus datos. | 5 |
+| 15 | US15 | Asignación de Roles y Tareas | Como coordinador, quiero asignar roles y tareas a los voluntarios para organizar mejor las actividades. | 5 |
+| 16 | US16 | Creación de Proyectos | Como organización, quiero crear proyectos con objetivos, responsables y fechas para planificar el trabajo. | 5 |
+| 17 | US17 | Calendario de Actividades | Como voluntario, quiero ver un calendario con mis actividades para organizarme mejor. | 3 |
+| 18 | US18 | Perfil con Historial de Participación | Como voluntario, quiero tener un historial de mis actividades realizadas para ver mi progreso. | 3 |
+| 19 | US19 | Mensajería Interna | Como voluntario, quiero comunicarme con el coordinador dentro de la plataforma para resolver dudas. | 5 |
+| 20 | US20 | Notificaciones de Actividades | Como voluntario, quiero recibir notificaciones sobre mis tareas para mantenerme informado. | 3 |
 
 ### 3.2. User Stories
 ### 3.3. Impact Mapping
@@ -596,6 +601,7 @@ Carmen Quispe
 # Bibliografía
 
 # Anexos
+
 
 
 
