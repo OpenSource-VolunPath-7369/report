@@ -20,7 +20,7 @@
 
 |             Member              |    Code    |
 |:-------------------------------:|:----------:|
-|  Aldair Ramos |    U20201F051     |
+|  Aldair Joaquin Ramos Aguirre |    U20201F051     |
 |  Bertha Roxmeri Román Rodriguez |   u20211c654   |
 | Mel Andree Orellana Rodriguez | U202116018 |
 |  Jean Pool Huaman De La Cruz |    U20201E781     |
@@ -176,7 +176,7 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
       <td>Aldair Joaquin Ramos Aguirre</td>
       <td>
         TB1: Participé activamente en los grupos para la coordinación mediante llamadas, tratando de comunicar mis ideas con efectividad.<br>
-        TP:<br>
+        TP: Apoyé en la fomentación de llamadas grupales para la coordinación del proyecto.<br>
         TB2:<br>
         TF:
       </td>
@@ -224,7 +224,7 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
       <td>Aldair Joaquin Ramos Aguirre</td>
       <td>
         TB1: Trate de aportar activamente en los grupos para la coordinación mediante los grupos como whatsapp y discord para la repartición de tareas.<br>
-        TP:<br>
+        TP: Estuve presente en las conversaciones por chat mediante whatsapp.<br>
         TB2:<br>
         TF:
       </td>
@@ -1213,5 +1213,6 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
+
 
 
