@@ -797,19 +797,78 @@ Carmen Quispe
 
 ### 3.2. User Stories
 
-|             Epic / Story ID              |    Título    |    Descripción    |    Criterios de Aceptación    |    Relacionado con (Epic ID)    |
-|:-------------------------------:|:----------:|:----------:|:----------:|:----------:|
-|  US01 |    Registro de Voluntarios     |    Como organización, quiero registrar fácilmente a nuevos voluntarios para tener un control centralizado de sus datos.     |    El sistema permite crear un perfil de voluntario con nombre, contacto y disponibilidad. Se puede editar y eliminar información de voluntarios. Cada voluntario recibe confirmación por correo o notificación.     |    EP01     |
-|  US02 |    Asignación de Roles y Tareas     |    Como coordinador, quiero asignar roles y tareas a los voluntarios para organizar mejor las actividades.     |    Se puede asignar uno o varios roles/tareas a un voluntario desde su perfil. Los voluntarios reciben notificación de sus tareas asignadas. Las tareas quedan registradas con estado y fecha límite.     |    EP01     |
-|  US03 | Seguimiento de Actividades |    Como coordinador, quiero hacer seguimiento al avance de tareas para verificar el progreso de los voluntarios.     |    El sistema muestra el estado (pendiente/en proceso/completado) de cada tarea. Los voluntarios pueden actualizar el estado de sus tareas. El coordinador recibe alertas de tareas vencidas.   |    EP01     |
-|  US04 |    Creación de Proyectos     |    Como organización, quiero crear proyectos con objetivos, responsables y fechas para planificar el trabajo.     |    Se pueden crear proyectos con nombre, descripción, fechas y responsable. Cada proyecto tiene un tablero de actividades relacionadas. Se puede modificar o archivar proyectos.     |   EP02    |
-|            US05             |    Calendario de Actividades   |    Como voluntario, quiero ver un calendario con mis actividades para organizarme mejor.    |    El sistema muestra un calendario con las tareas asignadas al usuario. Se pueden filtrar actividades por proyecto o estado. Las tareas se pueden sincronizar con el calendario del dispositivo.   |    EP02     |
-|  US06 |    Perfil con Historial de Participación    |   Como voluntario, quiero tener un historial de mis actividades realizadas para ver mi progreso.     |    El perfil del voluntario muestra tareas completadas y horas dedicadas. Se puede generar un reporte/constancia descargable de participación. El historial se actualiza automáticamente.   |    EP03     |
-|  US07 |   Sistema de Insignias y Logros    |    Como voluntario, quiero recibir insignias y reconocimientos al completar actividades para sentirme motivado.   |    Se asignan automáticamente insignias por cantidad de tareas completadas. Los logros aparecen visibles en el perfil. El sistema notifica al voluntario cuando gana una nueva insignia.   |  EP03     |
-| US08 | Página Pública de Proyectos |   Como organización, quiero publicar proyectos en una página visible para que personas externas puedan inscribirse.    |   Los proyectos marcados como públicos son visibles sin iniciar sesión. Se muestra descripción, fechas y número de vacantes disponibles. Hay un botón de “Postularme” que crea una solicitud de voluntariado.   |    EP04    |
-|  US09 |    Integración con Redes Sociales   |   Como organización, quiero compartir los proyectos en redes sociales para atraer más voluntarios.   |   Cada proyecto tiene botones para compartir en redes sociales. El enlace compartido lleva directamente a la página pública del proyecto. Se registra cuántos clics provienen de redes.   |    EP04     |
-|  US010 |    Mensajería Interna   |    Como voluntario, quiero poder comunicarme con el coordinador dentro de la plataforma para resolver dudas.   |    Se pueden enviar y recibir mensajes entre voluntarios y coordinadores. Se reciben notificaciones por mensajes nuevos. El historial de conversaciones queda guardado.   |    EP05     |
-|  US011 |    Notificaciones de Actividades   |    Como voluntario, quiero recibir notificaciones sobre mis tareas para mantenerme informado.    |  El sistema envía notificaciones automáticas al asignar nuevas tareas. También notifica cambios en el calendario o fechas límite próximas. Se puede elegir recibir notificaciones por correo o dentro de la app.   |    EP05    |
+#### Epic Story
+| Epic ID | Título | Descripción |
+|---------|--------|-------------|
+| 1 | Gestión de Voluntarios y Roles | Como organización quiero registrar, editar y organizar a los voluntarios y asignarles roles y tareas para coordinar mejor las actividades y mantener un control centralizado de datos. |
+|2 | Gestión de Proyectos y Actividades | Como organización quiero crear, administrar y monitorear proyectos sociales, definiendo responsables, objetivos, fechas y actividades asociadas, para planificar y dar seguimiento a los proyectos. |
+| 3 | Reconocimiento y Motivación del Voluntariado | Como organización quiero hacer seguimiento al historial y logros de los voluntarios, otorgando insignias y reconocimientos para motivar su participación y compromiso. |
+| 4 | Difusión y Visibilidad de Proyectos | Como organización quiero publicar proyectos en la web y compartirlos en redes sociales para atraer nuevos voluntarios y aumentar el impacto de los proyectos. |
+| 5 | Comunicación y Notificaciones | Como organización y voluntario quiero recibir notificaciones y comunicarme internamente para coordinar tareas y mantener informado al equipo. |
+| 6 | Landing Page Institucional | Como visitante quiero acceder a la información de la organización, conocer los servicios, registrarme y contactar, a través de una página web accesible y clara. |
+| 7 | Gestión de Inventario y Recursos | Como administrador quiero registrar y controlar los recursos físicos o digitales usados en proyectos, visualizar el stock disponible y recibir alertas de bajo inventario. |
+| 8 | Gestión Financiera y Donaciones | Como organización quiero registrar, visualizar y auditar donaciones económicas o en especie, vinculándolas a proyectos activos y generando reportes contables. |
+| 9 | Analítica e Impacto Social | Como administrador quiero medir el impacto de los proyectos y desempeño de los voluntarios, generar métricas, reportes y estadísticas visuales para la toma de decisiones. |
+
+
+
+#### Technical Epic
+| Technical Epic ID | Título                      | Descripción                                                                                                                           |
+| ----------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| 1                 | API RESTful y Seguridad     | Endpoints, autenticación y manejo seguro de datos para garantizar interoperabilidad y seguridad.                                      |
+| 2                 | Monitoreo y Auditoría       | Auditoría de acciones y generación de reportes para seguimiento del sistema y usuarios.                                               |
+| 3                 | Mantenimiento y Performance | Backups automáticos, pruebas unitarias, optimización de rendimiento y control de versiones de API para confiabilidad y mantenimiento. |
+
+
+
+
+#### Users Stories
+| User Story ID | Título | Descripción | Epic ID | Criterios de Aceptación |
+|---------------|--------|-------------|---------|------------------------|
+| US01 | Registro de Voluntarios | Como organización, quiero registrar fácilmente a nuevos voluntarios para tener un control centralizado de sus datos. | 1 | Dado que el coordinador accede al módulo de voluntarios, cuando ingresa los datos del nuevo voluntario y guarda el registro, entonces el sistema crea un perfil con confirmación automática por correo. |
+| US02 | Asignación de Roles y Tareas | Como coordinador, quiero asignar roles y tareas a los voluntarios para organizar mejor las actividades. | 1 | Dado que un voluntario tiene un perfil activo, cuando el coordinador asigna roles o tareas, entonces el sistema registra la asignación y envía una notificación. |
+| US03 | Seguimiento de Actividades | Como coordinador, quiero hacer seguimiento al avance de tareas para verificar el progreso de los voluntarios. | 1 | Dado que existen tareas asignadas, cuando un voluntario actualiza su estado, entonces el coordinador visualiza el progreso y recibe alertas de tareas vencidas. |
+| US04 | Registro de Organizaciones | Como representante, quiero registrar mi organización para gestionar proyectos y voluntarios. | 1 | Dado que un representante llena el formulario, cuando envía la solicitud, entonces el sistema crea el registro pendiente de validación. |
+| US05 | Validación de Organizaciones | Como administrador, quiero aprobar solicitudes de nuevas organizaciones. | 1 | Dado que hay solicitudes pendientes, cuando el administrador revisa y aprueba, entonces la organización recibe una confirmación. |
+| US06 | Gestión de Voluntarios | Como organización, quiero editar o eliminar datos de mis voluntarios. | 1 | Dado que el coordinador accede al perfil, cuando edita o elimina, entonces el sistema actualiza o borra la información. |
+| US07 | Recuperación de Contraseña | Como usuario, quiero restablecer mi contraseña si la olvido. | 1 | Dado que el usuario solicita recuperación, cuando sigue el enlace enviado, entonces puede establecer una nueva contraseña. |
+| US08 | Creación de Proyectos | Como organización, quiero crear proyectos con objetivos, responsables y fechas para planificar el trabajo. | 2 | Dado que el usuario accede al panel de proyectos, cuando crea uno nuevo con los datos requeridos, entonces el sistema lo guarda y muestra en la lista activa. |
+| US09 | Calendario de Actividades | Como voluntario, quiero ver un calendario con mis actividades para organizarme mejor. | 2 | Dado que el voluntario tiene tareas asignadas, cuando accede al calendario, entonces se muestran las actividades según estado y proyecto. |
+| US10 | Perfil con Historial de Participación | Como voluntario, quiero tener un historial de mis actividades realizadas para ver mi progreso. | 3 | Dado que un voluntario completa tareas, cuando consulta su perfil, entonces el sistema muestra su historial actualizado. |
+| US11 | Sistema de Insignias y Logros | Como voluntario, quiero recibir insignias y reconocimientos al completar actividades para sentirme motivado. | 3 | Dado que un voluntario cumple un objetivo, cuando alcanza los criterios de un logro, entonces el sistema asigna una insignia visible en su perfil. |
+| US12 | Página Pública de Proyectos | Como organización, quiero publicar proyectos visibles para que personas externas puedan inscribirse. | 4 | Dado que un proyecto es marcado como público, cuando un visitante accede a la web, entonces puede ver el detalle y postularse. |
+| US13 | Integración con Redes Sociales | Como organización, quiero compartir los proyectos en redes sociales para atraer más voluntarios. | 4 | Dado que un proyecto está publicado, cuando se selecciona “Compartir”, entonces se genera un enlace directo a la red elegida. |
+| US14 | Mensajería Interna | Como voluntario, quiero comunicarme con el coordinador dentro de la plataforma para resolver dudas. | 5 | Dado que el usuario está autenticado, cuando envía un mensaje, entonces el sistema lo guarda y notifica al destinatario. |
+| US15 | Notificaciones de Actividades | Como voluntario, quiero recibir notificaciones sobre mis tareas para mantenerme informado. | 5 | Dado que una tarea cambia de estado, cuando se actualiza o vence, entonces el sistema envía una notificación. |
+| US16 | Panel de Administración | Como administrador, quiero ver un panel con estadísticas generales. | 6 | Dado que hay datos registrados, cuando se accede al panel, entonces se visualizan métricas actualizadas. |
+| US17 | Seguimiento de Impacto | Como organización, quiero medir el impacto de mis proyectos. | 9 | Dado que existen registros de proyectos, cuando se generan métricas, entonces el sistema calcula y muestra resultados. |
+| US18 | Generación de Reportes | Como organización, quiero generar reportes PDF de actividades y voluntarios. | 9 | Dado que se selecciona un rango de fechas, cuando se solicita un reporte, entonces el sistema genera un PDF descargable. |
+| US19 | Panel de Métricas Globales | Como administrador, quiero visualizar indicadores globales. | 9 | Dado que existen datos, cuando se accede al panel, entonces el sistema muestra gráficos y estadísticas actualizadas. |
+| US20 | Control de Accesos | Como administrador, quiero definir roles y permisos. | 7 | Dado que existen usuarios, cuando se asignan roles, entonces se limita el acceso según privilegios. |
+| US21 | Cifrado de Datos | Como desarrollador, quiero cifrar contraseñas y datos sensibles. | 7 | Dado que un usuario registra datos, cuando se almacenan, entonces el sistema los guarda cifrados. |
+| US22 | Gestión de Donaciones | Como organización, quiero registrar y ver donaciones. | 8 | Dado que se ingresa una donación, cuando se guarda, entonces aparece en el historial y puede exportarse. |
+
+
+#### Technical Story
+| Technical Story ID | Título                          | Descripción                                                                           | Criterios de Aceptación                                                                                     | Technical Epic ID |
+| ------------------ | ------------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------- |
+| TS01               | API de Autenticación            | Implementar endpoints para login, registro y manejo de JWT para autenticación segura. | Dado que un usuario se registra o inicia sesión, cuando los datos son correctos, entonces recibe un JWT válido. | 1                 |
+| TS02               | API de Proyectos                | Gestionar proyectos vía RESTful endpoints con GET, POST, PUT y DELETE.                | Dado que un proyecto existe o se crea, cuando se realizan operaciones CRUD, entonces se reflejan correctamente en la base de datos. | 1                 |
+| TS03               | API de Voluntarios              | Exponer endpoints para gestión de voluntarios y control de acceso por token.          | Dado que un voluntario es registrado o modificado, cuando el token es válido, entonces la operación se ejecuta correctamente. | 1                 |
+| TS04               | API de Mensajes                 | Crear endpoints para envío y recepción de mensajes internos en tiempo real.           | Dado que un usuario envía un mensaje, cuando el destinatario está activo, entonces recibe el mensaje en tiempo real. | 1                 |
+| TS05               | API de Reportes                 | Generar reportes vía API, exportables a JSON o PDF.                                   | Dado que se solicita un reporte, cuando existen datos, entonces se genera y se puede exportar en JSON o PDF. | 2                 |
+| TS06               | Seguridad del Token             | Implementar expiración y renovación de tokens JWT.                                    | Dado que un token se acerca a su expiración, cuando se solicita renovación, entonces se emite un nuevo token válido. | 1                 |
+| TS07               | Auditoría de Acciones           | Registrar logs de todas las modificaciones en el sistema.                             | Dado que un usuario realiza cambios, cuando se completa la acción, entonces se registra un log con detalle de la operación. | 2                 |
+| TS08               | Copias de Seguridad             | Configurar backups automáticos periódicos.                                            | Dado que se configura un backup, cuando ocurre el horario programado, entonces se genera una copia automática y almacenada. | 3                 |
+| TS09               | Exportar Logs                   | Permitir exportación de registros del sistema en CSV o PDF.                           | Dado que un administrador solicita exportar logs, cuando los logs existen, entonces se descargan correctamente en CSV o PDF. | 3                 |
+| TS10               | Pruebas Unitarias y Performance | Ejecutar pruebas automáticas y optimizar tiempos de respuesta del backend.            | Dado que se ejecutan pruebas unitarias, cuando todas pasan, entonces se valida la integridad y el rendimiento del sistema. | 3                 |
+| TS11               | Control de Versiones API        | Documentar y versionar todos los endpoints REST.                                      | Dado que se documenta un endpoint, cuando se hace un cambio, entonces se actualiza la versión de la API y la documentación correspondiente. | 3                 |
+
+
+
+
+
+
 
 ### 3.3. Impact Mapping
 
@@ -827,23 +886,28 @@ Carmen Quispe
 
 ### 3.4. Product Backlog
 
-|             # Orden              |   User Story Id   |    Título    |    Descripción   |    Story Points (1 / 2 / 3 / 5 / 8)    |
-|:-------------------------------:|:----------:|:----------:|:----------:|:----------:|
-|  1 |    US01     |    Asignar roles y tareas     |    Como presidente de organización, deseo asignar roles y tareas a mis miembros para organizar el trabajo sin depender de mensajes dispersos.     |   5  |
-|  2 |    US02     |    Calendario de eventos     |    Como miembro activo, deseo ver en un calendario compartido los eventos programados para organizar mi tiempo con anticipación.   |    3     |
-|  3 | US03 | Registrar avance de proyectos     |    Como coordinador de proyectos, deseo registrar el avance y resultados con fotos y documentos para sistematizar el impacto de las actividades.   |   5    |
-|  4 |    US04    |    Realizar asambleas virtuales |  Como líder de la organización, deseo realizar asambleas virtuales desde la misma plataforma para evitar costos adicionales y pérdida de tiempo.  |   3   |
-|            5             |    US05   |   Registro de finanzas   |   Como administrador de finanzas, deseo llevar un registro de ingresos y gastos para planificar mejor nuestras actividades comunitarias.  |   5    |
-|  6 |    US06   |   Panel de métricas   |   Como presidente de organización, deseo ver métricas de participación y alcance para evaluar el desempeño de nuestra organización.  |  8     |
-|  7 |   US07    |   Repositorio de materiales  |    Como coordinador, deseo almacenar y compartir documentos y evidencias de actividades para mantener la información organizada.  |  3   |
-| 8 | US01 |  Ver proyectos activos  |  Como voluntario nuevo, deseo ver una lista de proyectos activos para postularme a los que se ajustan a mis intereses.  |   5   |
-|  9 |    US02  | Notificaciones de tareas |  Como voluntario con poco tiempo, deseo recibir notificaciones de mis tareas pendientes para no olvidarlas y cumplir a tiempo.  |  3     |
-|  10 |    US03   |   Tablero personal de tareas |    Como voluntario, deseo tener un tablero con mis tareas asignadas para organizar mi tiempo y responsabilidades.  |  5   |
-|  11 |    US04   |   Historial de participación   | Como voluntario activo, deseo ver mi progreso e historial de participaciones para sentir motivación y recibir reconocimiento.  |    3 |
-|  12 |    US05   |  Certificados de participación  |  Como voluntario, deseo descargar un certificado de participación para acreditar mi experiencia. |    2   |
-|  13 |    US06   |  Mensajes a participantes   |  Como coordinador de voluntarios, deseo enviar mensajes grupales a todos los participantes de un proyecto para mantener la comunicación clara.  |  3  |
-|  14 |    US07   |    Perfil de voluntario   |  Como voluntario, deseo crear un perfil con mis intereses y disponibilidad para recibir recomendaciones adecuadas de proyectos.  |   5   |
-
+| Orden | User Story ID | Título | Descripción | Story Points |
+|:------:|:--------------|:--------|:-------------|:-------------:|
+| 1 | US01 | Página Principal Atractiva | Como visitante, quiero visualizar una página inicial con diseño atractivo para entender la misión de VolunPath. | 3 |
+| 2 | US02 | Encabezado con Menú de Navegación | Como visitante, quiero navegar fácilmente entre secciones desde el menú superior. | 2 |
+| 3 | US03 | Sección “Acerca de Nosotros” | Como visitante, quiero conocer la misión, visión y valores de VolunPath para entender su impacto social. | 2 |
+| 4 | US04 | Sección de Voluntariados Destacados | Como visitante, quiero visualizar proyectos destacados para motivarme a participar. | 3 |
+| 5 | US05 | Botón “Únete Ahora” | Como visitante, quiero un botón visible que me dirija al registro de voluntarios. | 2 |
+| 6 | US06 | Testimonios de Voluntarios | Como visitante, quiero leer experiencias reales de voluntarios para sentir confianza. | 3 |
+| 7 | US07 | Sección de Impacto Social | Como visitante, quiero ver estadísticas del impacto logrado por la comunidad. | 3 |
+| 8 | US08 | Sección de Alianzas y Colaboradores | Como visitante, quiero ver las instituciones asociadas para validar la credibilidad de VolunPath. | 2 |
+| 9 | US09 | Formulario de Contacto | Como visitante, quiero enviar un mensaje directamente desde la web para resolver dudas o proponer colaboración. | 3 |
+| 10 | US10 | Pie de Página (Footer) | Como visitante, quiero acceder fácilmente a redes sociales, políticas y datos de contacto desde el pie de página. | 2 |
+| 11 | US11 | Diseño Responsivo | Como visitante, quiero que la landing page se vea correctamente en dispositivos móviles. | 5 |
+| 12 | US12 | SEO Básico | Como visitante potencial, quiero encontrar la página fácilmente en buscadores. | 5 |
+| 13 | US13 | Sección de Newsletter | Como visitante, quiero suscribirme a un boletín informativo para recibir noticias del proyecto. | 3 |
+| 14 | US14 | Registro de Voluntarios | Como organización, quiero registrar fácilmente a nuevos voluntarios para tener un control centralizado de sus datos. | 5 |
+| 15 | US15 | Asignación de Roles y Tareas | Como coordinador, quiero asignar roles y tareas a los voluntarios para organizar mejor las actividades. | 5 |
+| 16 | US16 | Creación de Proyectos | Como organización, quiero crear proyectos con objetivos, responsables y fechas para planificar el trabajo. | 5 |
+| 17 | US17 | Calendario de Actividades | Como voluntario, quiero ver un calendario con mis actividades para organizarme mejor. | 3 |
+| 18 | US18 | Perfil con Historial de Participación | Como voluntario, quiero tener un historial de mis actividades realizadas para ver mi progreso. | 3 |
+| 19 | US19 | Mensajería Interna | Como voluntario, quiero comunicarme con el coordinador dentro de la plataforma para resolver dudas. | 5 |
+| 20 | US20 | Notificaciones de Actividades | Como voluntario, quiero recibir notificaciones sobre mis tareas para mantenerme informado. | 3 |
 
 
 ## Capítulo IV: Product Design
@@ -1213,5 +1277,4 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
-
 
