@@ -439,30 +439,31 @@ Carmen Quispe
 ### 3.2. User Stories
 
 #### Users Stories
-| User Story ID | Título | Descripción | Epic ID |
-|---------------|--------|-------------|---------|
-| US01 | Registro de Voluntarios | Como organización, quiero registrar fácilmente a nuevos voluntarios para tener un control centralizado de sus datos. | 1 |
-| US02 | Asignación de Roles y Tareas | Como coordinador, quiero asignar roles y tareas a los voluntarios para organizar mejor las actividades. | 1 |
-| US03 | Seguimiento de Actividades | Como coordinador, quiero hacer seguimiento al avance de tareas para verificar el progreso de los voluntarios. | 1 |
-| US04 | Registro de Organizaciones | Como representante, quiero registrar mi organización para gestionar proyectos y voluntarios. | 1 |
-| US05 | Validación de Organizaciones | Como administrador, quiero aprobar solicitudes de nuevas organizaciones. | 1 |
-| US06 | Gestión de Voluntarios | Como organización, quiero editar o eliminar datos de mis voluntarios. | 1 |
-| US07 | Recuperación de Contraseña | Como usuario, quiero restablecer mi contraseña si la olvido. | 1 |
-| US08 | Creación de Proyectos | Como organización, quiero crear proyectos con objetivos, responsables y fechas para planificar el trabajo. | 2 |
-| US09 | Calendario de Actividades | Como voluntario, quiero ver un calendario con mis actividades para organizarme mejor. | 2 |
-| US10 | Perfil con Historial de Participación | Como voluntario, quiero tener un historial de mis actividades realizadas para ver mi progreso. | 3 |
-| US11 | Sistema de Insignias y Logros | Como voluntario, quiero recibir insignias y reconocimientos al completar actividades para sentirme motivado. | 3 |
-| US12 | Página Pública de Proyectos | Como organización, quiero publicar proyectos visibles para que personas externas puedan inscribirse. | 4 |
-| US13 | Integración con Redes Sociales | Como organización, quiero compartir los proyectos en redes sociales para atraer más voluntarios. | 4 |
-| US14 | Mensajería Interna | Como voluntario, quiero comunicarme con el coordinador dentro de la plataforma para resolver dudas. | 5 |
-| US15 | Notificaciones de Actividades | Como voluntario, quiero recibir notificaciones sobre mis tareas para mantenerme informado. | 5 |
-| US16 | Panel de Administración | Como administrador, quiero ver un panel con estadísticas generales. | 6 |
-| US17 | Seguimiento de Impacto | Como organización, quiero medir el impacto de mis proyectos. | 9 |
-| US18 | Generación de Reportes | Como organización, quiero generar reportes PDF de actividades y voluntarios. | 9 |
-| US19 | Panel de Métricas Globales | Como administrador, quiero visualizar indicadores globales. | 9 |
-| US20 | Control de Accesos | Como administrador, quiero definir roles y permisos. | 7 |
-| US21 | Cifrado de Datos | Como desarrollador, quiero cifrar contraseñas y datos sensibles. | 7 |
-| US22 | Gestión de Donaciones | Como organización, quiero registrar y ver donaciones. | 8 |
+| User Story ID | Título | Descripción | Epic ID | Criterios de Aceptación |
+|---------------|--------|-------------|---------|------------------------|
+| US01 | Registro de Voluntarios | Como organización, quiero registrar fácilmente a nuevos voluntarios para tener un control centralizado de sus datos. | 1 | Dado que el coordinador accede al módulo de voluntarios, cuando ingresa los datos del nuevo voluntario y guarda el registro, entonces el sistema crea un perfil con confirmación automática por correo. |
+| US02 | Asignación de Roles y Tareas | Como coordinador, quiero asignar roles y tareas a los voluntarios para organizar mejor las actividades. | 1 | Dado que un voluntario tiene un perfil activo, cuando el coordinador asigna roles o tareas, entonces el sistema registra la asignación y envía una notificación. |
+| US03 | Seguimiento de Actividades | Como coordinador, quiero hacer seguimiento al avance de tareas para verificar el progreso de los voluntarios. | 1 | Dado que existen tareas asignadas, cuando un voluntario actualiza su estado, entonces el coordinador visualiza el progreso y recibe alertas de tareas vencidas. |
+| US04 | Registro de Organizaciones | Como representante, quiero registrar mi organización para gestionar proyectos y voluntarios. | 1 | Dado que un representante llena el formulario, cuando envía la solicitud, entonces el sistema crea el registro pendiente de validación. |
+| US05 | Validación de Organizaciones | Como administrador, quiero aprobar solicitudes de nuevas organizaciones. | 1 | Dado que hay solicitudes pendientes, cuando el administrador revisa y aprueba, entonces la organización recibe una confirmación. |
+| US06 | Gestión de Voluntarios | Como organización, quiero editar o eliminar datos de mis voluntarios. | 1 | Dado que el coordinador accede al perfil, cuando edita o elimina, entonces el sistema actualiza o borra la información. |
+| US07 | Recuperación de Contraseña | Como usuario, quiero restablecer mi contraseña si la olvido. | 1 | Dado que el usuario solicita recuperación, cuando sigue el enlace enviado, entonces puede establecer una nueva contraseña. |
+| US08 | Creación de Proyectos | Como organización, quiero crear proyectos con objetivos, responsables y fechas para planificar el trabajo. | 2 | Dado que el usuario accede al panel de proyectos, cuando crea uno nuevo con los datos requeridos, entonces el sistema lo guarda y muestra en la lista activa. |
+| US09 | Calendario de Actividades | Como voluntario, quiero ver un calendario con mis actividades para organizarme mejor. | 2 | Dado que el voluntario tiene tareas asignadas, cuando accede al calendario, entonces se muestran las actividades según estado y proyecto. |
+| US10 | Perfil con Historial de Participación | Como voluntario, quiero tener un historial de mis actividades realizadas para ver mi progreso. | 3 | Dado que un voluntario completa tareas, cuando consulta su perfil, entonces el sistema muestra su historial actualizado. |
+| US11 | Sistema de Insignias y Logros | Como voluntario, quiero recibir insignias y reconocimientos al completar actividades para sentirme motivado. | 3 | Dado que un voluntario cumple un objetivo, cuando alcanza los criterios de un logro, entonces el sistema asigna una insignia visible en su perfil. |
+| US12 | Página Pública de Proyectos | Como organización, quiero publicar proyectos visibles para que personas externas puedan inscribirse. | 4 | Dado que un proyecto es marcado como público, cuando un visitante accede a la web, entonces puede ver el detalle y postularse. |
+| US13 | Integración con Redes Sociales | Como organización, quiero compartir los proyectos en redes sociales para atraer más voluntarios. | 4 | Dado que un proyecto está publicado, cuando se selecciona “Compartir”, entonces se genera un enlace directo a la red elegida. |
+| US14 | Mensajería Interna | Como voluntario, quiero comunicarme con el coordinador dentro de la plataforma para resolver dudas. | 5 | Dado que el usuario está autenticado, cuando envía un mensaje, entonces el sistema lo guarda y notifica al destinatario. |
+| US15 | Notificaciones de Actividades | Como voluntario, quiero recibir notificaciones sobre mis tareas para mantenerme informado. | 5 | Dado que una tarea cambia de estado, cuando se actualiza o vence, entonces el sistema envía una notificación. |
+| US16 | Panel de Administración | Como administrador, quiero ver un panel con estadísticas generales. | 6 | Dado que hay datos registrados, cuando se accede al panel, entonces se visualizan métricas actualizadas. |
+| US17 | Seguimiento de Impacto | Como organización, quiero medir el impacto de mis proyectos. | 9 | Dado que existen registros de proyectos, cuando se generan métricas, entonces el sistema calcula y muestra resultados. |
+| US18 | Generación de Reportes | Como organización, quiero generar reportes PDF de actividades y voluntarios. | 9 | Dado que se selecciona un rango de fechas, cuando se solicita un reporte, entonces el sistema genera un PDF descargable. |
+| US19 | Panel de Métricas Globales | Como administrador, quiero visualizar indicadores globales. | 9 | Dado que existen datos, cuando se accede al panel, entonces el sistema muestra gráficos y estadísticas actualizadas. |
+| US20 | Control de Accesos | Como administrador, quiero definir roles y permisos. | 7 | Dado que existen usuarios, cuando se asignan roles, entonces se limita el acceso según privilegios. |
+| US21 | Cifrado de Datos | Como desarrollador, quiero cifrar contraseñas y datos sensibles. | 7 | Dado que un usuario registra datos, cuando se almacenan, entonces el sistema los guarda cifrados. |
+| US22 | Gestión de Donaciones | Como organización, quiero registrar y ver donaciones. | 8 | Dado que se ingresa una donación, cuando se guarda, entonces aparece en el historial y puede exportarse. |
+
 
 
 
@@ -568,6 +569,7 @@ Carmen Quispe
 # Bibliografía
 
 # Anexos
+
 
 
 
