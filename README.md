@@ -1462,8 +1462,23 @@ El backend, desarrollado con **Spring Boot**, también se desplegará en **Railw
 
 En esta sección se detallan los aspectos clave del Sprint Planning Meeting del Sprint 3. Se inicia con una introducción que explica la orientación del sprint y los objetivos principales, enfocándose en la creación de la primera versión del backend y la rectificación de detalles en el frontend.
 
-##### 5.2.1.1. Sprint Planning 1
+##### 5.2.1.1. Sprint Planning 3
 A continuación, se muestra un cuadro resumen que estructura los datos importantes debatidos durante la reunión de planificación del sprint, siguiendo la estructura establecida para ofrecer claridad sobre las tareas y metas pactadas.
+
+| Sprint # | 3 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 14/11/2025 |
+| Time | 05:00 PM |
+| Location | virtual |
+| Prepared By | Mel Andree Orellana |
+| Attendees (to planning meeting) | Mel Andree Orellana Rodriguez|
+| **Sprint 3 - 2 Review Summary** | Desarrollo de Back-end  |
+| **Sprint 3 - 2 Retrospective Summary** | Correcciones de errores en la documentación. |
+| **Sprint 3 Goal** |Me impulse en desarrollar las funcionalidades principales del backend  el panel de control. Trabaje para garantizar una estructura fiable que permita una navegación fluida por toda la plataforma. Cree que esto proporcionará una experiencia de usuario clara e intuitiva, lo cual se confirmará cuando los usuarios puedan acceder a las diferentes secciones del panel sin problemas de navegación ni de carga de datos.|
+| **Sprint 3 Velocity** | 80 |
+| **Sum of Story Points** | 80 |
+
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 En esta sección se detallan los avances logrados en la implementación del producto durante el sprint, centrados en el desarrollo de la primera versión del backend de la aplicación web y en la corrección de detalles en el frontend. El enfoque principal ha sido avanzar en la construcción de las funcionalidades esenciales del backend y optimizar las interfaces de usuario, cumpliendo con los objetivos establecidos. Se ha trabajado en aspectos clave como la gestión de dispositivos, la interacción del usuario y la navegación, lo que permitirá una experiencia más robusta para los usuarios. A continuación, se presenta una tabla que documenta los commits relevantes relacionados con la implementación de cada repositorio del proyecto, lo que permite visualizar el progreso del desarrollo técnico durante este sprint.
@@ -1535,6 +1550,7 @@ Además, se incluyen capturas de pantalla que demuestran la interacción con los
 # Bibliografía
 
 # Anexos
+
 
 
 
