@@ -1458,6 +1458,23 @@ El backend, desarrollado con **Spring Boot**, también se desplegará en **Railw
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
+#### 5.2.3. Sprint 3
+
+En esta sección se detallan los aspectos clave del Sprint Planning Meeting del Sprint 3. Se inicia con una introducción que explica la orientación del sprint y los objetivos principales, enfocándose en la creación de la primera versión del backend y la rectificación de detalles en el frontend.
+
+##### 5.2.1.1. Sprint Planning 1
+A continuación, se muestra un cuadro resumen que estructura los datos importantes debatidos durante la reunión de planificación del sprint, siguiendo la estructura establecida para ofrecer claridad sobre las tareas y metas pactadas.
+
+##### 5.2.1.5. Execution Evidence for Sprint Review
+Esta sección inicia con un resumen de los logros alcanzados en este Sprint, donde se ha implementado la primera versión del backend de la aplicación. Durante este período, se han desarrollado endpoints fundamentales para gestionar la información de dispositivos, alarmas y otros elementos clave del sistema. Esto incluye la creación de endpoints para agregar, actualizar y consultar datos. Junto a esto, se incluye un enlace a un video que ilustra y explica la visualización y navegación logradas en este Sprint, mostrando cómo los usuarios pueden interactuar con las funcionalidades disponibles de manera intuitiva. Vista general de los endpoints generados via Swagger: Se observan los endopoints con sus respectivos títulos.
+
+<img width="1332" height="662" alt="swagger1" src="https://github.com/user-attachments/assets/92664ed0-a225-4a14-a61c-1aee945bc58a" />
+
+<img width="1328" height="675" alt="swagger2" src="https://github.com/user-attachments/assets/1c59495e-08be-4fde-83c2-77d1e42561b9" />
+
+<img width="1292" height="703" alt="swagger3" src="https://github.com/user-attachments/assets/8178eaf8-f59b-4876-a3a2-3590e3a5f35a" />
+
+
 # Conclusiones
 ---
 ## Conclusiones y recomendaciones
@@ -1466,6 +1483,7 @@ El backend, desarrollado con **Spring Boot**, también se desplegará en **Railw
 # Bibliografía
 
 # Anexos
+
 
 
 
