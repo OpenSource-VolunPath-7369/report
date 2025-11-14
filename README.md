@@ -1501,6 +1501,96 @@ La tabla que se muestra a continuación recopila los commits clave realizados en
 | Frontend/melandree8   | develop | df0a847   | chore(project): initial frontend setup                                   | empty                  | 14/11/2025      |
 
 ##### 5.2.2.5. Execution Evidence for Sprint Review
+
+###  Registro de Usuarios
+- **Registro de Voluntarios**: Formulario completo para registro de nuevos voluntarios con campos como nombre, email, contraseña, habilidades, intereses, ubicación, biografía y avatar
+- **Registro de Organizaciones**: Formulario para registro de organizaciones con campos como nombre, email, contraseña, descripción, sitio web, teléfono, dirección, año de fundación, categorías, redes sociales y logo
+- **Selección de Tipo de Usuario**: Radio buttons horizontales para seleccionar entre "Voluntario" y "Organización"
+- **Validación de Campos**: Validación en tiempo real de todos los campos del formulario
+- **Carga de Imágenes**: Funcionalidad para cargar y previsualizar avatares/logos en formato base64
+- **Integración con Backend**: Creación de usuario y perfil correspondiente en el backend
+
+###  Perfil de Usuario
+- **Visualización de Perfil**: Página dedicada para visualizar y editar el perfil del usuario autenticado
+- **Edición de Perfil para Voluntarios**: Permite actualizar información personal como nombre, email, teléfono, biografía, habilidades, intereses, ubicación y avatar
+- **Edición de Perfil para Organizaciones**: Permite actualizar información de la organización como nombre, email, teléfono, descripción, sitio web, dirección, año de fundación, categorías, redes sociales y logo
+- **Actualización en Tiempo Real**: Los cambios se reflejan inmediatamente en el backend
+- **Validación de Formularios**: Validación de campos antes de guardar cambios
+- **Manejo de Imágenes**: Actualización de avatares y logos con almacenamiento en base64
+
+### Página de Comunidad
+- **Visualización de Publicaciones**: Muestra todas las publicaciones de las organizaciones en un feed
+- **Filtrado por Organización**: Permite ver publicaciones de organizaciones específicas
+- **Sistema de Likes**: Los voluntarios pueden dar like a las publicaciones que les interesan
+- **Información de Organizaciones**: Muestra detalles de las organizaciones que publican
+- **Navegación a Perfiles**: Enlaces para ver el perfil completo de cada organización
+- **Imágenes de Publicaciones**: Visualización de imágenes asociadas a cada publicación
+
+###  Dashboard de Organizaciones
+- **Gestión de Publicaciones**: Las organizaciones pueden ver todas sus publicaciones en un panel centralizado
+- **Crear Nueva Publicación**: Botón para acceder al formulario de creación de publicaciones
+- **Editar Publicaciones**: Opción para editar publicaciones existentes
+- **Eliminar Publicaciones**: Funcionalidad para eliminar publicaciones
+- **Estadísticas**: Visualización de likes y estadísticas de cada publicación
+
+### Crear/Editar Publicación
+- **Formulario de Publicación**: Formulario completo para crear nuevas publicaciones con título, descripción e imagen
+- **Carga de Imágenes**: Funcionalidad para cargar imágenes en formato base64
+- **Estados de Publicación**: Gestión de estados (borrador, publicado, archivado)
+- **Edición de Publicaciones Existentes**: Permite modificar publicaciones ya creadas
+- **Validación de Campos**: Validación de campos requeridos antes de publicar
+
+
+### Página de Mensajes
+- **Lista de Conversaciones**: Visualización de todos los mensajes recibidos y enviados
+- **Búsqueda de Mensajes**: Funcionalidad para buscar mensajes específicos
+- **Filtrado por Remitente**: Opción para filtrar mensajes por remitente
+- **Visualización de Mensajes**: Muestra el contenido, remitente, destinatario y timestamp de cada mensaje
+- **Fotos de Perfil**: Muestra las fotos de perfil de los remitentes en los mensajes
+- **Mensajes No Leídos**: Indicador visual para mensajes no leídos
+- **Marcar como Leído**: Funcionalidad para marcar mensajes individuales como leídos
+- **Marcar Todos como Leídos**: Opción para marcar todos los mensajes como leídos de una vez
+
+### Envío de Mensajes
+- **Enviar Mensaje a Organizaciones**: Los voluntarios pueden enviar mensajes a organizaciones
+- **Enviar Mensaje a Voluntarios**: Las organizaciones pueden enviar mensajes a voluntarios
+- **Selección Múltiple de Destinatarios**: Permite seleccionar múltiples destinatarios para enviar el mismo mensaje
+- **Seleccionar Todos**: Opción para seleccionar todos los destinatarios disponibles
+- **Formulario de Mensaje**: Campos para asunto, contenido y URL opcional
+- **Creación Automática de Notificaciones**: Al enviar un mensaje, se crea automáticamente una notificación para el destinatario
+- **Manejo de IDs**: Gestión correcta de userIds para organizaciones y voluntarios
+
+### Página de Notificaciones
+- **Lista de Notificaciones**: Visualización de todas las notificaciones del usuario
+- **Notificaciones No Leídas**: Indicador visual para notificaciones no leídas
+- **Filtrado por Tipo**: Diferentes tipos de notificaciones (nuevo mensaje, nueva actividad, actividad confirmada, actividad cancelada, general)
+- **Marcar como Leída**: Funcionalidad para marcar notificaciones individuales como leídas
+- **Marcar Todas como Leídas**: Opción para marcar todas las notificaciones como leídas
+- **Navegación desde Notificaciones**: Enlaces para navegar a la acción relacionada (mensajes, publicaciones, etc.)
+- **Notificaciones para Organizaciones**: Gestión especial de notificaciones para organizaciones usando userId correcto
+- **Ordenamiento por Fecha**: Notificaciones ordenadas por fecha (más recientes primero)
+
+### Opciones del Menú
+- **Comunidad**: Acceso a la página de comunidad (para voluntarios)
+- **Dashboard**: Acceso al panel de control (para organizaciones)
+- **Mensajes**: Acceso al sistema de mensajería
+- **Notificaciones**: Acceso a las notificaciones
+- **Perfil**: Acceso a la página de perfil
+- **Soporte**: Acceso a la página de soporte y FAQ
+
+
+### Selector de Idioma
+- **Cambio de Idioma**: Selector visual para cambiar entre español e inglés
+- **Persistencia de Idioma**: El idioma seleccionado se guarda en localStorage
+- **Traducción Completa**: Todas las páginas y componentes están traducidos
+- **Integración con ngx-translate**: Uso de la librería ngx-translate para gestión de traducciones
+
+### Autenticación y Autorización
+- **Protección de Rutas**: Rutas protegidas que requieren autenticación
+- **Gestión de Sesión**: Manejo seguro de sesiones de usuario
+- **Tokens JWT**: Uso de tokens JWT para autenticación segura
+- **Redirección por Rol**: Redirección automática según el rol del usuario
+
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
@@ -1603,6 +1693,7 @@ Además, se incluyen capturas de pantalla que demuestran la interacción con los
 # Bibliografía
 
 # Anexos
+
 
 
 
