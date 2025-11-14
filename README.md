@@ -1479,6 +1479,11 @@ A continuación, se muestra un cuadro resumen que estructura los datos important
 | **Sprint 3 Velocity** | 80 |
 | **Sum of Story Points** | 80 |
 
+##### 5.2.1.2. Aspect Leaders and Collaborators
+| Team Member (Last Name, First Name) | GitHub Username | Organizations (L/C) | Notifications (L/C) | Volunteers (CTA) (L/C) | Messages (L/C) |
+|------------------------------------|------------------|------------------------------------|------------------|----------------------------------|-------------|
+| Orellana Rodriguez, Mel Andree                 | melandree8      | C                                 | C                | C                     | C            |                                   
+
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 En esta sección se detallan los avances logrados en la implementación del producto durante el sprint, centrados en el desarrollo de la primera versión del backend de la aplicación web y en la corrección de detalles en el frontend. El enfoque principal ha sido avanzar en la construcción de las funcionalidades esenciales del backend y optimizar las interfaces de usuario, cumpliendo con los objetivos establecidos. Se ha trabajado en aspectos clave como la gestión de dispositivos, la interacción del usuario y la navegación, lo que permitirá una experiencia más robusta para los usuarios. A continuación, se presenta una tabla que documenta los commits relevantes relacionados con la implementación de cada repositorio del proyecto, lo que permite visualizar el progreso del desarrollo técnico durante este sprint.
@@ -1550,6 +1555,7 @@ Además, se incluyen capturas de pantalla que demuestran la interacción con los
 # Bibliografía
 
 # Anexos
+
 
 
 
