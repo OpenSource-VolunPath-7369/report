@@ -1592,6 +1592,19 @@ La tabla que se muestra a continuación recopila los commits clave realizados en
 - **Redirección por Rol**: Redirección automática según el rol del usuario
 
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+En esta sección se presenta un resumen de los logros alcanzados durante este sprint, enfocados en el desarrollo del frontend de la aplicación web.
+
+![fro1](https://github.com/user-attachments/assets/50260a50-1176-41c6-b09d-827aa7c9eb1b)
+![fro2](https://github.com/user-attachments/assets/d806e102-e7df-45cd-8cc2-c93368778af7)
+![fro3](https://github.com/user-attachments/assets/2c2ecbe8-30bb-4b8b-8ee6-18d944d4c966)
+![fro4](https://github.com/user-attachments/assets/dfe579b3-47b7-4d7f-b564-f2ace52fdddd)
+![fro5](https://github.com/user-attachments/assets/05f8b189-d804-4aed-b060-082757412b1a)
+![fro7](https://github.com/user-attachments/assets/3561cfad-849c-4e9f-871a-4a192faf75b3)
+![fro8](https://github.com/user-attachments/assets/0138b191-6970-45b4-8a99-b6e363e13438)
+![fro9](https://github.com/user-attachments/assets/de2f5c40-d181-4cb8-8e00-0a4786aaa89a)
+
+
+
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
 
@@ -1693,6 +1706,7 @@ Además, se incluyen capturas de pantalla que demuestran la interacción con los
 # Bibliografía
 
 # Anexos
+
 
 
 
