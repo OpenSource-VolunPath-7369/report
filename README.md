@@ -1484,8 +1484,22 @@ A continuación, se muestra un cuadro resumen que estructura los datos important
 | **Sum of Story Points** | 80 |
 
 ##### 5.2.2.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name) | GitHub Username | Organizations (L/C) | Notifications (L/C) | Volunteers (CTA) (L/C) | Messages (L/C) |
+|------------------------------------|------------------|------------------------------------|------------------|----------------------------------|-------------|
+| Orellana Rodriguez, Mel Andree                 | melandree8      | C                                 | C                | C                     | C            |        
+
 ##### 5.2.2.3. Sprint Backlog 2
 ##### 5.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se presenta el progreso alcanzado en el desarrollo de la aplicación web durante el sprint, enfocado principalmente en la implementación de las interfaces y funciones fundamentales. El trabajo se centró en construir una experiencia de usuario sólida mediante la creación de elementos visuales, componentes interactivos y una navegación coherente.
+
+La tabla que se muestra a continuación recopila los commits clave realizados en cada repositorio del proyecto, lo cual permite hacer un seguimiento del avance técnico logrado en este sprint.
+
+| Repository                    | Branch  | Commit Id | Commit Message                                                   | Commit Message Body | Commited on (Date) |
+|------------------------------|---------|-----------|------------------------------------------------------------------|---------------------|--------------------|
+| Frontend/melandree8   | develop | df0a847   | chore(project): initial frontend setup                                   | empty                  | 14/11/2025      |
+
 ##### 5.2.2.5. Execution Evidence for Sprint Review
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
@@ -1589,6 +1603,7 @@ Además, se incluyen capturas de pantalla que demuestran la interacción con los
 # Bibliografía
 
 # Anexos
+
 
 
 
