@@ -1465,6 +1465,14 @@ En esta sección se detallan los aspectos clave del Sprint Planning Meeting del 
 ##### 5.2.1.1. Sprint Planning 1
 A continuación, se muestra un cuadro resumen que estructura los datos importantes debatidos durante la reunión de planificación del sprint, siguiendo la estructura establecida para ofrecer claridad sobre las tareas y metas pactadas.
 
+##### 5.2.1.4. Development Evidence for Sprint Review
+En esta sección se detallan los avances logrados en la implementación del producto durante el sprint, centrados en el desarrollo de la primera versión del backend de la aplicación web y en la corrección de detalles en el frontend. El enfoque principal ha sido avanzar en la construcción de las funcionalidades esenciales del backend y optimizar las interfaces de usuario, cumpliendo con los objetivos establecidos. Se ha trabajado en aspectos clave como la gestión de dispositivos, la interacción del usuario y la navegación, lo que permitirá una experiencia más robusta para los usuarios. A continuación, se presenta una tabla que documenta los commits relevantes relacionados con la implementación de cada repositorio del proyecto, lo que permite visualizar el progreso del desarrollo técnico durante este sprint.
+
+| Repository                    | Branch  | Commit Id | Commit Message                                                   | Commit Message Body | Commited on (Date) |
+|------------------------------|---------|-----------|------------------------------------------------------------------|---------------------|--------------------|
+| Backemd/melandree8   | develop | 5bf8b61   | chore(project): backend structure setup in progress | empty               | 14/11/2025         |
+
+
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 Esta sección inicia con un resumen de los logros alcanzados en este Sprint, donde se ha implementado la primera versión del backend de la aplicación. Durante este período, se han desarrollado endpoints fundamentales para gestionar la información de dispositivos, alarmas y otros elementos clave del sistema. Esto incluye la creación de endpoints para agregar, actualizar y consultar datos. Junto a esto, se incluye un enlace a un video que ilustra y explica la visualización y navegación logradas en este Sprint, mostrando cómo los usuarios pueden interactuar con las funcionalidades disponibles de manera intuitiva. Vista general de los endpoints generados via Swagger: Se observan los endopoints con sus respectivos títulos.
 
@@ -1527,6 +1535,7 @@ Además, se incluyen capturas de pantalla que demuestran la interacción con los
 # Bibliografía
 
 # Anexos
+
 
 
 
