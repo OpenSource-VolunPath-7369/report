@@ -1458,6 +1458,40 @@ El backend, desarrollado con **Spring Boot**, también se desplegará en **Railw
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
+
+#### 5.2.2. Sprint 2
+
+Esta sección presenta el progreso realizado durante el Sprint 2, detallando tanto el avance del producto como el trabajo en equipo. Se incluyen los resultados del Sprint Planning, el Sprint Backlog, evidencias del desarrollo y la ejecución para la Sprint Review, la documentación de los servicios desarrollados y reflexiones sobre la colaboración del equipo a lo largo del sprint.
+
+##### 5.2.2.1. Sprint Planning 2
+
+En esta sección se detallan los aspectos clave de la reunión de planificación del Sprint. Se inicia con una introducción que describe el enfoque principal del sprint y sus metas. A continuación, se presenta un cuadro resumen que organiza la información relevante discutida durante la reunión de planificación, siguiendo la estructura indicada para proporcionar claridad sobre las tareas y los objetivos acordados.
+
+A continuación, se muestra un cuadro resumen que estructura los datos importantes debatidos durante la reunión de planificación del sprint, siguiendo la estructura establecida para ofrecer claridad sobre las tareas y metas pactadas.
+
+| Sprint # | 2 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 14/11/2025 |
+| Time | 05:00 PM |
+| Location | virtual |
+| Prepared By | Mel Andree Orellana |
+| Attendees (to planning meeting) | Mel Andree Orellana Rodriguez|
+| **Sprint 3 - 2 Review Summary** | Desarrollo de Front-end  |
+| **Sprint 3 - 2 Retrospective Summary** | Correcciones de errores en la documentación. |
+| **Sprint 3 Goal** |Me impulse en desarrollar las funcionalidades principales del frontend  el panel de control. Trabaje para garantizar una estructura fiable que permita una navegación fluida por toda la plataforma. Cree que esto proporcionará una experiencia de usuario clara e intuitiva, lo cual se confirmará cuando los usuarios puedan acceder a las diferentes secciones del panel sin problemas de navegación ni de carga de datos.|
+| **Sprint 3 Velocity** | 80 |
+| **Sum of Story Points** | 80 |
+
+##### 5.2.2.2. Aspect Leaders and Collaborators
+##### 5.2.2.3. Sprint Backlog 2
+##### 5.2.2.4. Development Evidence for Sprint Review
+##### 5.2.2.5. Execution Evidence for Sprint Review
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+##### 5.2.2.8. Team Collaboration Insights during Sprint
+
+
 #### 5.2.3. Sprint 3
 
 En esta sección se detallan los aspectos clave del Sprint Planning Meeting del Sprint 3. Se inicia con una introducción que explica la orientación del sprint y los objetivos principales, enfocándose en la creación de la primera versión del backend y la rectificación de detalles en el frontend.
@@ -1555,6 +1589,7 @@ Además, se incluyen capturas de pantalla que demuestran la interacción con los
 # Bibliografía
 
 # Anexos
+
 
 
 
