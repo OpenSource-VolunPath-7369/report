@@ -1474,6 +1474,50 @@ Esta sección inicia con un resumen de los logros alcanzados en este Sprint, don
 
 <img width="1292" height="703" alt="swagger3" src="https://github.com/user-attachments/assets/8178eaf8-f59b-4876-a3a2-3590e3a5f35a" />
 
+##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Esta sección recopila los endpoints desarrollados y validados durante el Sprint, enfocados en la gestión de autenticación, usuarios, voluntarios, organizaciones, publicaciones, mensajería y notificaciones en la plataforma Volunpath. Se documenta el uso de los métodos HTTP correspondientes (GET, POST, PUT, DELETE) junto con ejemplos de llamadas, respuestas y validaciones funcionales. La documentación se ha generado mediante OpenAPI, permitiendo una visualización clara y organizada de los servicios.
+
+Además, se incluyen capturas de pantalla que demuestran la interacción con los servicios web, y se enlazan los commits relevantes del repositorio para sustentar el trabajo realizado.
+
+- `POST /authentication/sign-in` - Iniciar sesión
+- `POST /authentication/sign-up` - Registro de usuario
+- `GET /volunteers` - Obtener todos los voluntarios
+- `GET /volunteers/{id}` - Obtener voluntario por ID
+- `GET /volunteers/user/{userId}` - Obtener voluntario por User ID
+- `POST /volunteers` - Crear voluntario
+- `PUT /volunteers/{id}` - Actualizar voluntario
+- `DELETE /volunteers/{id}` - Eliminar voluntario
+- `GET /organizations` - Obtener todas las organizaciones
+- `GET /organizations/{id}` - Obtener organización por ID
+- `GET /organizations/user/{userId}` - Obtener organización por User ID
+- `POST /organizations` - Crear organización
+- `PUT /organizations/{id}` - Actualizar organización
+- `DELETE /organizations/{id}` - Eliminar organización
+- `GET /publications` - Obtener todas las publicaciones
+- `GET /publications/{id}` - Obtener publicación por ID
+- `GET /publications/organization/{organizationId}` - Obtener publicaciones por organización
+- `POST /publications` - Crear publicación
+- `PUT /publications/{id}/like` - Dar like a una publicación
+- `DELETE /publications/{id}` - Eliminar publicación
+- - `GET /messages/user/{userId}` - Obtener mensajes por User ID
+- `GET /messages/{id}` - Obtener mensaje por ID
+- `POST /messages` - Crear mensaje
+- `PUT /messages/{id}/read` - Marcar mensaje como leído
+- `DELETE /messages/{id}` - Eliminar mensaje
+- - `GET /notifications/user/{userId}` - Obtener notificaciones por User ID
+- `GET /notifications/{id}` - Obtener notificación por ID
+- `POST /notifications` - Crear notificación
+- `PUT /notifications/{id}/read` - Marcar notificación como leída
+- `PUT /notifications/user/{userId}/read-all` - Marcar todas las notificaciones
+- `DELETE /notifications/{id}` - Eliminar notificación
+
+<img width="1235" height="675" alt="eje1" src="https://github.com/user-attachments/assets/6120e258-810c-4072-86d1-007591ab90b9" />
+
+<img width="1312" height="681" alt="eje2" src="https://github.com/user-attachments/assets/60db4e18-93f6-46b7-956e-1cf919c57218" />
+
+<img width="1316" height="676" alt="eje3" src="https://github.com/user-attachments/assets/a07a6b04-b3b8-4aa2-bdad-fb0d453cecbf" />
+
 
 # Conclusiones
 ---
@@ -1483,6 +1527,7 @@ Esta sección inicia con un resumen de los logros alcanzados en este Sprint, don
 # Bibliografía
 
 # Anexos
+
 
 
 
