@@ -1462,7 +1462,7 @@ El backend, desarrollado con **Spring Boot**, también se desplegará en **Railw
 
 En esta sección se detallan los aspectos clave del Sprint Planning Meeting del Sprint 3. Se inicia con una introducción que explica la orientación del sprint y los objetivos principales, enfocándose en la creación de la primera versión del backend y la rectificación de detalles en el frontend.
 
-##### 5.2.1.1. Sprint Planning 3
+##### 5.2.3.1. Sprint Planning 3
 A continuación, se muestra un cuadro resumen que estructura los datos importantes debatidos durante la reunión de planificación del sprint, siguiendo la estructura establecida para ofrecer claridad sobre las tareas y metas pactadas.
 
 | Sprint # | 3 |
@@ -1479,13 +1479,13 @@ A continuación, se muestra un cuadro resumen que estructura los datos important
 | **Sprint 3 Velocity** | 80 |
 | **Sum of Story Points** | 80 |
 
-##### 5.2.1.2. Aspect Leaders and Collaborators
+##### 5.2.3.2. Aspect Leaders and Collaborators
 | Team Member (Last Name, First Name) | GitHub Username | Organizations (L/C) | Notifications (L/C) | Volunteers (CTA) (L/C) | Messages (L/C) |
 |------------------------------------|------------------|------------------------------------|------------------|----------------------------------|-------------|
 | Orellana Rodriguez, Mel Andree                 | melandree8      | C                                 | C                | C                     | C            |                                   
 
 
-##### 5.2.1.4. Development Evidence for Sprint Review
+##### 5.2.3.4. Development Evidence for Sprint Review
 En esta sección se detallan los avances logrados en la implementación del producto durante el sprint, centrados en el desarrollo de la primera versión del backend de la aplicación web y en la corrección de detalles en el frontend. El enfoque principal ha sido avanzar en la construcción de las funcionalidades esenciales del backend y optimizar las interfaces de usuario, cumpliendo con los objetivos establecidos. Se ha trabajado en aspectos clave como la gestión de dispositivos, la interacción del usuario y la navegación, lo que permitirá una experiencia más robusta para los usuarios. A continuación, se presenta una tabla que documenta los commits relevantes relacionados con la implementación de cada repositorio del proyecto, lo que permite visualizar el progreso del desarrollo técnico durante este sprint.
 
 | Repository                    | Branch  | Commit Id | Commit Message                                                   | Commit Message Body | Commited on (Date) |
@@ -1493,7 +1493,7 @@ En esta sección se detallan los avances logrados en la implementación del prod
 | Backemd/melandree8   | develop | 5bf8b61   | chore(project): backend structure setup in progress | empty               | 14/11/2025         |
 
 
-##### 5.2.1.5. Execution Evidence for Sprint Review
+##### 5.2.3.5. Execution Evidence for Sprint Review
 Esta sección inicia con un resumen de los logros alcanzados en este Sprint, donde se ha implementado la primera versión del backend de la aplicación. Durante este período, se han desarrollado endpoints fundamentales para gestionar la información de dispositivos, alarmas y otros elementos clave del sistema. Esto incluye la creación de endpoints para agregar, actualizar y consultar datos. Junto a esto, se incluye un enlace a un video que ilustra y explica la visualización y navegación logradas en este Sprint, mostrando cómo los usuarios pueden interactuar con las funcionalidades disponibles de manera intuitiva. Vista general de los endpoints generados via Swagger: Se observan los endopoints con sus respectivos títulos.
 
 <img width="1332" height="662" alt="swagger1" src="https://github.com/user-attachments/assets/92664ed0-a225-4a14-a61c-1aee945bc58a" />
@@ -1502,7 +1502,7 @@ Esta sección inicia con un resumen de los logros alcanzados en este Sprint, don
 
 <img width="1292" height="703" alt="swagger3" src="https://github.com/user-attachments/assets/8178eaf8-f59b-4876-a3a2-3590e3a5f35a" />
 
-##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 Esta sección recopila los endpoints desarrollados y validados durante el Sprint, enfocados en la gestión de autenticación, usuarios, voluntarios, organizaciones, publicaciones, mensajería y notificaciones en la plataforma Volunpath. Se documenta el uso de los métodos HTTP correspondientes (GET, POST, PUT, DELETE) junto con ejemplos de llamadas, respuestas y validaciones funcionales. La documentación se ha generado mediante OpenAPI, permitiendo una visualización clara y organizada de los servicios.
 
@@ -1555,6 +1555,7 @@ Además, se incluyen capturas de pantalla que demuestran la interacción con los
 # Bibliografía
 
 # Anexos
+
 
 
 
