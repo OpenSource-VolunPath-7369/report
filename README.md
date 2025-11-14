@@ -1254,9 +1254,262 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 ---
 ### 5.1. Software Configuration Management
 #### 5.1.1. Software Development Environment Configuration
+
+En esta sección se describen las herramientas utilizadas por nuestro equipo de EMSafe para colaborar de manera efectiva durante todo el ciclo de vida del producto digital. Estas herramientas se organizan según las actividades que soportan: gestión del proyecto, diseño de producto, desarrollo de software, despliegue y documentación.
+
+
+
+#### Project Management y Requirements Management
+
+- [**Trello**](https://trello.com/): Herramienta visual utilizada para la planificación y seguimiento de tareas del proyecto. Facilita el trabajo en equipo mediante tableros compartidos.
+- [**Google Drive**](https://drive.google.com/) & [**Google Docs**](https://docs.google.com/): Plataforma de trabajo colaborativo para almacenar documentación, redactar informes y gestionar entregables todo en la nube.
+
+---
+
+#### Product UX/UI Design
+
+- [**Figma**](https://www.figma.com/): Herramienta principal para diseñar interfaces, crear wireframes y prototipos interactivos. Soporta colaboración en tiempo real.
+- [**Miro**](https://miro.com/): Plataforma para crear mapas mentales, flujos de usuario y esquemas de navegación, útil en fases iniciales del diseño y planificación.
+
+---
+
+#### Software Development
+
+- [**IntelliJ IDEA**](https://www.jetbrains.com/idea/): Entorno de desarrollo utilizado para programar el backend en Spring Boot. Ofrece herramientas avanzadas para depuración, testing y gestión de proyectos en Java.
+- [**Visual Studio Code (VS Code)**](https://code.visualstudio.com/): Editor de código utilizado para desarrollar la aplicación frontend en Angular. Ligero, extensible y con terminal integrada.
+- [**Angular**](https://angular.io/): Framework para construir la interfaz web del sistema. Permite desarrollar aplicaciones SPA modernas y mantenibles.
+- [**Angular Material**](https://material.angular.io/): Librería de componentes basada en Material Design que permite mantener un diseño coherente, accesible y profesional en la interfaz.
+- [**Spring Boot**](https://spring.io/projects/spring-boot): Framework Java para el desarrollo del backend. Facilita la creación de APIs RESTful que se comunican con el frontend y la base de datos.
+- [**Git**](https://git-scm.com/) + [**GitHub**](https://github.com/): Sistema de control de versiones distribuido para gestionar el código fuente, colaborar entre miembros del equipo y mantener el historial de cambios.
+
+---
+
+#### Software Deployment
+
+- [**GitHub Pages**](https://pages.github.com/): Servicio utilizado para el despliegue de la Landing Page estática del proyecto directamente desde un repositorio GitHub.
+- [**Railway**](https://railway.app/): Servicio en la nube empleado para desplegar tanto el frontend en Angular como el backend en Spring Boot. Estos entornos permiten exponer los servicios web y la aplicación de forma pública.
+
+---
+
+#### Software Documentation
+
+- [**Notion**](https://www.notion.so/): Espacio centralizado para almacenar documentación técnica y funcional del sistema, como manuales de usuario, decisiones de arquitectura y guías de uso.
+- [**Swagger**](https://swagger.io/): Herramienta para documentar y visualizar la API REST del backend desarrollado en Spring Boot. Permite probar endpoints desde una interfaz gráfica.
+
+
+
 #### 5.1.2. Source Code Management
+
+
+Para la gestión del código fuente del proyecto  VolunPath, nuestro equipo utiliza [**GitHub**](https://github.com/) como plataforma central, aprovechando el sistema de control de versiones [**Git**](https://git-scm.com/) para facilitar la colaboración, el seguimiento de cambios y la integración de nuevas funcionalidades de forma ordenada y segura.
+
+---
+
+#### Repositorios del Proyecto
+
+- **Landing Page**:  
+  [https://github.com/OpenSource-VolunPath-7369/landing](https://github.com/OpenSource-VolunPath-7369/landing)
+
+- **Frontend Web Application (Angular)**:  
+  [https://github.com/OpenSource-VolunPath-7369/frontend](https://github.com/OpenSource-VolunPath-7369/frontend)
+
+- **Web Services (Spring Boot – Backend)**:  
+  [https://github.com/OpenSource-VolunPath-7369/backend](https://github.com/OpenSource-VolunPath-7369/backend)
+
+---
+
+#### Modelo de Ramas - GitFlow
+
+Para el desarrollo colaborativo y el control de versiones, adoptamos el workflow **GitFlow**, basado en la estructura propuesta por *Vincent Driessen*. Este modelo permite desarrollar múltiples funcionalidades en paralelo, controlar versiones estables y facilitar correcciones en producción.
+
+##### Ramas principales
+
+- **`main`**: Contiene el código en estado estable, listo para producción o despliegue. Solo se fusionan cambios aprobados, verificados y testeados.
+- **`develop`**: Rama de integración donde se combinan todas las nuevas funcionalidades antes de ser consideradas para una nueva versión estable.
+
+##### Ramas de soporte
+
+- **feature/**: Se crean a partir de `develop` para desarrollar nuevas funcionalidades.
+- **release/**: Se crean desde `develop` cuando se prepara una nueva versión del sistema. Se realizan ajustes menores, documentación y pruebas finales antes de integrarse a `main`.
+- **hotfix/**: Se crean directamente desde `main` para corregir errores críticos en producción. Una vez resuelto el problema, se fusionan tanto en `main` como en `develop`.
+
+---
+
+#### Semantic Versioning (SemVer)
+
+EMSafe aplica la convención [**Semantic Versioning 2.0.0**](https://semver.org/), donde los números de versión siguen el formato `MAJOR.MINOR.PATCH`:
+
+- **MAJOR**: Se incrementa cuando se introducen cambios incompatibles con versiones anteriores.
+- **MINOR**: Se incrementa cuando se agregan nuevas funcionalidades de forma retrocompatible.
+- **PATCH**: Se incrementa al aplicar correcciones menores o ajustes retrocompatibles.
+
+---
+
+#### Convención de Commits – Conventional Commits
+
+Para mantener un historial claro y significativo de los cambios, el equipo utiliza la convención [**Conventional Commits**](https://www.conventionalcommits.org/), lo que facilita:
+
+- la lectura del historial de versiones,
+- el uso de herramientas de integración continua,
+- la generación automática de changelogs.
+
+##### Tipos de commits utilizados:
+
+- `feat`: Nueva funcionalidad  
+- `fix`: Corrección de errores  
+- `docs`: Cambios en documentación  
+- `style`: Cambios en formato/estilo sin afectar la lógica  
+- `refactor`: Reestructuración del código sin cambio funcional  
+- `test`: Cambios en tests  
+- `build`: Cambios que afectan al sistema de compilación o dependencias  
+- `ci`: Configuraciones de integración continua  
+- `chore`: Tareas menores de mantenimiento  
+- `perf`: Mejoras de rendimiento  
+- `revert`: Reversión de un commit anterior  
+
+
+
 #### 5.1.3. Source Code Style Guide & Conventions
+
+Con el objetivo de mantener un código legible, limpio, coherente y fácilmente mantenible, se aplicarán guías de estilo y convenciones específicas para cada uno de los lenguajes y tecnologías utilizadas en el desarrollo del sistema.  
+Todas las variables, funciones, clases y elementos del sistema se nombrarán en inglés, siguiendo las convenciones estándar de nomenclatura y formato para cada lenguaje.
+
+---
+
+#### HTML / CSS
+
+- **Guía adoptada**: [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+- **Estructura**:
+  - El código HTML será indentado con 2 espacios (sin tabulaciones).
+  - Se dejarán líneas en blanco entre secciones para mejorar la legibilidad.
+- **Etiquetas**:
+  - Todas las etiquetas se cerrarán correctamente.
+  - Se evitará el uso de atributos innecesarios.
+  - Se usarán comillas dobles (`"`) para todos los valores de atributos.
+- **Nomenclatura CSS**:
+  - Se aplicará la metodología **BEM (Block Element Modifier)** para nombrar clases, mejorando la organización, escalabilidad y reutilización de estilos.
+
+---
+
+#### JavaScript / TypeScript
+
+- **Guías adoptadas**:
+  - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+  - [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+
+- **Formato**:
+  - `camelCase` para variables y funciones.
+  - `PascalCase` para clases y componentes.
+  - Uso exclusivo de `let` y `const` (evitar `var`).
+  - Inclusión de espacios alrededor de operadores y después de comas.
+
+- **Comentarios**:
+  - Se usarán comentarios claros y concisos.
+  - Los bloques complejos estarán documentados con `/* */`.
+
+- **Scope**:
+  - Las variables se definirán en el **scope más reducido posible**.
+
+---
+
+#### Angular (Frontend)
+
+- **Guía adoptada**: [Angular Style Guide](https://angular.io/guide/styleguide)
+
+- **Estructura del proyecto**:
+  - Cada componente tendrá su propio directorio con archivos: `.ts`, `.html`, `.css`, y `.spec.ts`.
+  - Se seguirá la convención: `feature-name.component.ts`.
+
+- **Nomenclatura**:
+  - Componentes: `PascalCase`
+  - Variables: `camelCase`
+  - Módulos: `PascalCase`
+
+- **Modularización**:
+  - El código se organizará por características (**feature-based folders**) para facilitar el mantenimiento y escalabilidad.
+
+---
+
+#### Java + Spring Boot (Backend)
+
+- **Guía adoptada**: [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) + buenas prácticas de Spring Boot.
+
+- **Estructura del proyecto**:
+  - Separación por capas: `controller`, `service`, `repository`, `dto`, `model`.
+  - Uso adecuado de anotaciones: `@Service`, `@RestController`, `@Repository`.
+
+- **Nomenclatura**:
+  - Clases: `PascalCase`
+  - Variables y métodos: `camelCase`
+  - Constantes: `MAYÚSCULAS_CON_GUIONES`
+
+
 #### 5.1.4. Software Deployment Configuration
+
+
+La estrategia de despliegue está diseñada para asegurar que las aplicaciones funcionen correctamente y de forma estable en los entornos de producción. Para ello, se aplicarán herramientas y prácticas que permitan un proceso ágil, seguro y automatizado.
+
+---
+
+#### Landing Page
+
+La Landing Page está desarrollada como un sitio web estático utilizando HTML, CSS y JavaScript, y es desplegada mediante **GitHub Pages**, aprovechando la integración directa con el repositorio de código.
+
+- **Repositorio**:  
+  [https://github.com/OpenSource-VolunPath-7369/landing](https://github.com/OpenSource-VolunPath-7369/landing)
+
+- **Plataforma de despliegue**: GitHub Pages  
+- **Dominio de publicación**:  
+  [https://opensource-volunpath-7369.github.io/landing/](https://opensource-volunpath-7369.github.io/landing/)
+
+- **Modo de despliegue**:  
+  Automático, activado desde la rama `main`, con el contenido publicado desde la carpeta raíz del repositorio.
+
+Cada vez que se realiza un `push` a la rama `main`, la Landing Page se actualiza automáticamente en producción, permitiendo mantener siempre en línea la última versión del contenido público.
+
+---
+
+#### Frontend Web Application (Angular)
+
+La aplicación web de VolunPath, desarrollada con **Angular**, es desplegada mediante **Railway**, una plataforma que permite conectar directamente con GitHub y automatizar todo el proceso de compilación y publicación del proyecto.
+
+- **Repositorio**:  
+  [https://github.com/OpenSource-VolunPath-7369/frontend](https://github.com/OpenSource-VolunPath-7369/frontend)
+
+- **Comando de build**:  
+  `ng build --configuration=production`
+
+- **Despliegue**:  
+  Railway detecta los cambios en la rama `main`, compila el proyecto y publica automáticamente la nueva versión.
+
+- **Configuración adicional**:  
+  Las variables de entorno necesarias para la conexión con la API del backend serán gestionadas desde el panel de Railway.
+
+Este enfoque permite mantener el frontend actualizado sin necesidad de despliegues manuales, garantizando eficiencia y rapidez en la entrega de nuevas versiones.
+
+---
+
+#### Web Services (Spring Boot)
+
+El backend, desarrollado con **Spring Boot**, también se desplegará en **Railway**, permitiendo exponer la API REST de forma pública y controlada. Railway gestiona el servidor, los puertos, las variables de entorno y el acceso a la base de datos.
+
+- **Repositorio**:  
+  [https://github.com/OpenSource-VolunPath-7369/backend](https://github.com/OpenSource-VolunPath-7369/backend)
+
+- **Compilación del proyecto**:  
+  `./mvnw clean package`  
+  o  
+  `./gradlew build`
+
+- **Despliegue**:  
+  Automático mediante integración con GitHub. Railway se encarga de detectar cambios en `main`, construir el `.jar`, y ejecutar el servicio en su entorno cloud.
+
+- **API Documentation**:  
+  Al desplegarse, el backend expone la interfaz de prueba **Swagger UI**, útil para validar los endpoints y probar funcionalidades.
+
+<br>
+
+
 ### 5.2. Landing Page, Services & Applications Implementation
 #### 5.2.1. Sprint 1
 
@@ -1269,6 +1522,246 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
+
+#### 5.2.2. Sprint 2
+
+Esta sección presenta el progreso realizado durante el Sprint 2, detallando tanto el avance del producto como el trabajo en equipo. Se incluyen los resultados del Sprint Planning, el Sprint Backlog, evidencias del desarrollo y la ejecución para la Sprint Review, la documentación de los servicios desarrollados y reflexiones sobre la colaboración del equipo a lo largo del sprint.
+
+##### 5.2.2.1. Sprint Planning 2
+
+En esta sección se detallan los aspectos clave de la reunión de planificación del Sprint. Se inicia con una introducción que describe el enfoque principal del sprint y sus metas. A continuación, se presenta un cuadro resumen que organiza la información relevante discutida durante la reunión de planificación, siguiendo la estructura indicada para proporcionar claridad sobre las tareas y los objetivos acordados.
+
+A continuación, se muestra un cuadro resumen que estructura los datos importantes debatidos durante la reunión de planificación del sprint, siguiendo la estructura establecida para ofrecer claridad sobre las tareas y metas pactadas.
+
+| Sprint # | 2 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 14/11/2025 |
+| Time | 05:00 PM |
+| Location | virtual |
+| Prepared By | Mel Andree Orellana |
+| Attendees (to planning meeting) | Mel Andree Orellana Rodriguez|
+| **Sprint 3 - 2 Review Summary** | Desarrollo de Front-end  |
+| **Sprint 3 - 2 Retrospective Summary** | Correcciones de errores en la documentación. |
+| **Sprint 3 Goal** |Me impulse en desarrollar las funcionalidades principales del frontend  el panel de control. Trabaje para garantizar una estructura fiable que permita una navegación fluida por toda la plataforma. Cree que esto proporcionará una experiencia de usuario clara e intuitiva, lo cual se confirmará cuando los usuarios puedan acceder a las diferentes secciones del panel sin problemas de navegación ni de carga de datos.|
+| **Sprint 3 Velocity** | 80 |
+| **Sum of Story Points** | 80 |
+
+##### 5.2.2.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name) | GitHub Username | Organizations (L/C) | Notifications (L/C) | Volunteers (CTA) (L/C) | Messages (L/C) |
+|------------------------------------|------------------|------------------------------------|------------------|----------------------------------|-------------|
+| Orellana Rodriguez, Mel Andree                 | melandree8      | C                                 | C                | C                     | C            |        
+
+##### 5.2.2.3. Sprint Backlog 2
+##### 5.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se presenta el progreso alcanzado en el desarrollo de la aplicación web durante el sprint, enfocado principalmente en la implementación de las interfaces y funciones fundamentales. El trabajo se centró en construir una experiencia de usuario sólida mediante la creación de elementos visuales, componentes interactivos y una navegación coherente.
+
+La tabla que se muestra a continuación recopila los commits clave realizados en cada repositorio del proyecto, lo cual permite hacer un seguimiento del avance técnico logrado en este sprint.
+
+| Repository                    | Branch  | Commit Id | Commit Message                                                   | Commit Message Body | Commited on (Date) |
+|------------------------------|---------|-----------|------------------------------------------------------------------|---------------------|--------------------|
+| Frontend/melandree8   | develop | df0a847   | chore(project): initial frontend setup                                   | empty                  | 14/11/2025      |
+
+##### 5.2.2.5. Execution Evidence for Sprint Review
+
+###  Registro de Usuarios
+- **Registro de Voluntarios**: Formulario completo para registro de nuevos voluntarios con campos como nombre, email, contraseña, habilidades, intereses, ubicación, biografía y avatar
+- **Registro de Organizaciones**: Formulario para registro de organizaciones con campos como nombre, email, contraseña, descripción, sitio web, teléfono, dirección, año de fundación, categorías, redes sociales y logo
+- **Selección de Tipo de Usuario**: Radio buttons horizontales para seleccionar entre "Voluntario" y "Organización"
+- **Validación de Campos**: Validación en tiempo real de todos los campos del formulario
+- **Carga de Imágenes**: Funcionalidad para cargar y previsualizar avatares/logos en formato base64
+- **Integración con Backend**: Creación de usuario y perfil correspondiente en el backend
+
+###  Perfil de Usuario
+- **Visualización de Perfil**: Página dedicada para visualizar y editar el perfil del usuario autenticado
+- **Edición de Perfil para Voluntarios**: Permite actualizar información personal como nombre, email, teléfono, biografía, habilidades, intereses, ubicación y avatar
+- **Edición de Perfil para Organizaciones**: Permite actualizar información de la organización como nombre, email, teléfono, descripción, sitio web, dirección, año de fundación, categorías, redes sociales y logo
+- **Actualización en Tiempo Real**: Los cambios se reflejan inmediatamente en el backend
+- **Validación de Formularios**: Validación de campos antes de guardar cambios
+- **Manejo de Imágenes**: Actualización de avatares y logos con almacenamiento en base64
+
+### Página de Comunidad
+- **Visualización de Publicaciones**: Muestra todas las publicaciones de las organizaciones en un feed
+- **Filtrado por Organización**: Permite ver publicaciones de organizaciones específicas
+- **Sistema de Likes**: Los voluntarios pueden dar like a las publicaciones que les interesan
+- **Información de Organizaciones**: Muestra detalles de las organizaciones que publican
+- **Navegación a Perfiles**: Enlaces para ver el perfil completo de cada organización
+- **Imágenes de Publicaciones**: Visualización de imágenes asociadas a cada publicación
+
+###  Dashboard de Organizaciones
+- **Gestión de Publicaciones**: Las organizaciones pueden ver todas sus publicaciones en un panel centralizado
+- **Crear Nueva Publicación**: Botón para acceder al formulario de creación de publicaciones
+- **Editar Publicaciones**: Opción para editar publicaciones existentes
+- **Eliminar Publicaciones**: Funcionalidad para eliminar publicaciones
+- **Estadísticas**: Visualización de likes y estadísticas de cada publicación
+
+### Crear/Editar Publicación
+- **Formulario de Publicación**: Formulario completo para crear nuevas publicaciones con título, descripción e imagen
+- **Carga de Imágenes**: Funcionalidad para cargar imágenes en formato base64
+- **Estados de Publicación**: Gestión de estados (borrador, publicado, archivado)
+- **Edición de Publicaciones Existentes**: Permite modificar publicaciones ya creadas
+- **Validación de Campos**: Validación de campos requeridos antes de publicar
+
+
+### Página de Mensajes
+- **Lista de Conversaciones**: Visualización de todos los mensajes recibidos y enviados
+- **Búsqueda de Mensajes**: Funcionalidad para buscar mensajes específicos
+- **Filtrado por Remitente**: Opción para filtrar mensajes por remitente
+- **Visualización de Mensajes**: Muestra el contenido, remitente, destinatario y timestamp de cada mensaje
+- **Fotos de Perfil**: Muestra las fotos de perfil de los remitentes en los mensajes
+- **Mensajes No Leídos**: Indicador visual para mensajes no leídos
+- **Marcar como Leído**: Funcionalidad para marcar mensajes individuales como leídos
+- **Marcar Todos como Leídos**: Opción para marcar todos los mensajes como leídos de una vez
+
+### Envío de Mensajes
+- **Enviar Mensaje a Organizaciones**: Los voluntarios pueden enviar mensajes a organizaciones
+- **Enviar Mensaje a Voluntarios**: Las organizaciones pueden enviar mensajes a voluntarios
+- **Selección Múltiple de Destinatarios**: Permite seleccionar múltiples destinatarios para enviar el mismo mensaje
+- **Seleccionar Todos**: Opción para seleccionar todos los destinatarios disponibles
+- **Formulario de Mensaje**: Campos para asunto, contenido y URL opcional
+- **Creación Automática de Notificaciones**: Al enviar un mensaje, se crea automáticamente una notificación para el destinatario
+- **Manejo de IDs**: Gestión correcta de userIds para organizaciones y voluntarios
+
+### Página de Notificaciones
+- **Lista de Notificaciones**: Visualización de todas las notificaciones del usuario
+- **Notificaciones No Leídas**: Indicador visual para notificaciones no leídas
+- **Filtrado por Tipo**: Diferentes tipos de notificaciones (nuevo mensaje, nueva actividad, actividad confirmada, actividad cancelada, general)
+- **Marcar como Leída**: Funcionalidad para marcar notificaciones individuales como leídas
+- **Marcar Todas como Leídas**: Opción para marcar todas las notificaciones como leídas
+- **Navegación desde Notificaciones**: Enlaces para navegar a la acción relacionada (mensajes, publicaciones, etc.)
+- **Notificaciones para Organizaciones**: Gestión especial de notificaciones para organizaciones usando userId correcto
+- **Ordenamiento por Fecha**: Notificaciones ordenadas por fecha (más recientes primero)
+
+### Opciones del Menú
+- **Comunidad**: Acceso a la página de comunidad (para voluntarios)
+- **Dashboard**: Acceso al panel de control (para organizaciones)
+- **Mensajes**: Acceso al sistema de mensajería
+- **Notificaciones**: Acceso a las notificaciones
+- **Perfil**: Acceso a la página de perfil
+- **Soporte**: Acceso a la página de soporte y FAQ
+
+
+### Selector de Idioma
+- **Cambio de Idioma**: Selector visual para cambiar entre español e inglés
+- **Persistencia de Idioma**: El idioma seleccionado se guarda en localStorage
+- **Traducción Completa**: Todas las páginas y componentes están traducidos
+- **Integración con ngx-translate**: Uso de la librería ngx-translate para gestión de traducciones
+
+### Autenticación y Autorización
+- **Protección de Rutas**: Rutas protegidas que requieren autenticación
+- **Gestión de Sesión**: Manejo seguro de sesiones de usuario
+- **Tokens JWT**: Uso de tokens JWT para autenticación segura
+- **Redirección por Rol**: Redirección automática según el rol del usuario
+
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+En esta sección se presenta un resumen de los logros alcanzados durante este sprint, enfocados en el desarrollo del frontend de la aplicación web.
+
+![fro1](https://github.com/user-attachments/assets/50260a50-1176-41c6-b09d-827aa7c9eb1b)
+![fro2](https://github.com/user-attachments/assets/d806e102-e7df-45cd-8cc2-c93368778af7)
+![fro3](https://github.com/user-attachments/assets/2c2ecbe8-30bb-4b8b-8ee6-18d944d4c966)
+![fro4](https://github.com/user-attachments/assets/dfe579b3-47b7-4d7f-b564-f2ace52fdddd)
+![fro5](https://github.com/user-attachments/assets/05f8b189-d804-4aed-b060-082757412b1a)
+![fro7](https://github.com/user-attachments/assets/3561cfad-849c-4e9f-871a-4a192faf75b3)
+![fro8](https://github.com/user-attachments/assets/0138b191-6970-45b4-8a99-b6e363e13438)
+![fro9](https://github.com/user-attachments/assets/de2f5c40-d181-4cb8-8e00-0a4786aaa89a)
+
+
+
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+##### 5.2.2.8. Team Collaboration Insights during Sprint
+
+
+#### 5.2.3. Sprint 3
+
+En esta sección se detallan los aspectos clave del Sprint Planning Meeting del Sprint 3. Se inicia con una introducción que explica la orientación del sprint y los objetivos principales, enfocándose en la creación de la primera versión del backend y la rectificación de detalles en el frontend.
+
+##### 5.2.3.1. Sprint Planning 3
+A continuación, se muestra un cuadro resumen que estructura los datos importantes debatidos durante la reunión de planificación del sprint, siguiendo la estructura establecida para ofrecer claridad sobre las tareas y metas pactadas.
+
+| Sprint # | 3 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 14/11/2025 |
+| Time | 05:00 PM |
+| Location | virtual |
+| Prepared By | Mel Andree Orellana |
+| Attendees (to planning meeting) | Mel Andree Orellana Rodriguez|
+| **Sprint 3 - 2 Review Summary** | Desarrollo de Back-end  |
+| **Sprint 3 - 2 Retrospective Summary** | Correcciones de errores en la documentación. |
+| **Sprint 3 Goal** |Me impulse en desarrollar las funcionalidades principales del backend  el panel de control. Trabaje para garantizar una estructura fiable que permita una navegación fluida por toda la plataforma. Cree que esto proporcionará una experiencia de usuario clara e intuitiva, lo cual se confirmará cuando los usuarios puedan acceder a las diferentes secciones del panel sin problemas de navegación ni de carga de datos.|
+| **Sprint 3 Velocity** | 80 |
+| **Sum of Story Points** | 80 |
+
+##### 5.2.3.2. Aspect Leaders and Collaborators
+| Team Member (Last Name, First Name) | GitHub Username | Organizations (L/C) | Notifications (L/C) | Volunteers (CTA) (L/C) | Messages (L/C) |
+|------------------------------------|------------------|------------------------------------|------------------|----------------------------------|-------------|
+| Orellana Rodriguez, Mel Andree                 | melandree8      | C                                 | C                | C                     | C            |                                   
+
+
+##### 5.2.3.4. Development Evidence for Sprint Review
+En esta sección se detallan los avances logrados en la implementación del producto durante el sprint, centrados en el desarrollo de la primera versión del backend de la aplicación web y en la corrección de detalles en el frontend. El enfoque principal ha sido avanzar en la construcción de las funcionalidades esenciales del backend y optimizar las interfaces de usuario, cumpliendo con los objetivos establecidos. Se ha trabajado en aspectos clave como la gestión de dispositivos, la interacción del usuario y la navegación, lo que permitirá una experiencia más robusta para los usuarios. A continuación, se presenta una tabla que documenta los commits relevantes relacionados con la implementación de cada repositorio del proyecto, lo que permite visualizar el progreso del desarrollo técnico durante este sprint.
+
+| Repository                    | Branch  | Commit Id | Commit Message                                                   | Commit Message Body | Commited on (Date) |
+|------------------------------|---------|-----------|------------------------------------------------------------------|---------------------|--------------------|
+| Backemd/melandree8   | develop | 5bf8b61   | chore(project): backend structure setup in progress | empty               | 14/11/2025         |
+
+
+##### 5.2.3.5. Execution Evidence for Sprint Review
+Esta sección inicia con un resumen de los logros alcanzados en este Sprint, donde se ha implementado la primera versión del backend de la aplicación. Durante este período, se han desarrollado endpoints fundamentales para gestionar la información de dispositivos, alarmas y otros elementos clave del sistema. Esto incluye la creación de endpoints para agregar, actualizar y consultar datos. Junto a esto, se incluye un enlace a un video que ilustra y explica la visualización y navegación logradas en este Sprint, mostrando cómo los usuarios pueden interactuar con las funcionalidades disponibles de manera intuitiva. Vista general de los endpoints generados via Swagger: Se observan los endopoints con sus respectivos títulos.
+
+<img width="1332" height="662" alt="swagger1" src="https://github.com/user-attachments/assets/92664ed0-a225-4a14-a61c-1aee945bc58a" />
+
+<img width="1328" height="675" alt="swagger2" src="https://github.com/user-attachments/assets/1c59495e-08be-4fde-83c2-77d1e42561b9" />
+
+<img width="1292" height="703" alt="swagger3" src="https://github.com/user-attachments/assets/8178eaf8-f59b-4876-a3a2-3590e3a5f35a" />
+
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Esta sección recopila los endpoints desarrollados y validados durante el Sprint, enfocados en la gestión de autenticación, usuarios, voluntarios, organizaciones, publicaciones, mensajería y notificaciones en la plataforma Volunpath. Se documenta el uso de los métodos HTTP correspondientes (GET, POST, PUT, DELETE) junto con ejemplos de llamadas, respuestas y validaciones funcionales. La documentación se ha generado mediante OpenAPI, permitiendo una visualización clara y organizada de los servicios.
+
+Además, se incluyen capturas de pantalla que demuestran la interacción con los servicios web, y se enlazan los commits relevantes del repositorio para sustentar el trabajo realizado.
+
+- `POST /authentication/sign-in` - Iniciar sesión
+- `POST /authentication/sign-up` - Registro de usuario
+- `GET /volunteers` - Obtener todos los voluntarios
+- `GET /volunteers/{id}` - Obtener voluntario por ID
+- `GET /volunteers/user/{userId}` - Obtener voluntario por User ID
+- `POST /volunteers` - Crear voluntario
+- `PUT /volunteers/{id}` - Actualizar voluntario
+- `DELETE /volunteers/{id}` - Eliminar voluntario
+- `GET /organizations` - Obtener todas las organizaciones
+- `GET /organizations/{id}` - Obtener organización por ID
+- `GET /organizations/user/{userId}` - Obtener organización por User ID
+- `POST /organizations` - Crear organización
+- `PUT /organizations/{id}` - Actualizar organización
+- `DELETE /organizations/{id}` - Eliminar organización
+- `GET /publications` - Obtener todas las publicaciones
+- `GET /publications/{id}` - Obtener publicación por ID
+- `GET /publications/organization/{organizationId}` - Obtener publicaciones por organización
+- `POST /publications` - Crear publicación
+- `PUT /publications/{id}/like` - Dar like a una publicación
+- `DELETE /publications/{id}` - Eliminar publicación
+- - `GET /messages/user/{userId}` - Obtener mensajes por User ID
+- `GET /messages/{id}` - Obtener mensaje por ID
+- `POST /messages` - Crear mensaje
+- `PUT /messages/{id}/read` - Marcar mensaje como leído
+- `DELETE /messages/{id}` - Eliminar mensaje
+- - `GET /notifications/user/{userId}` - Obtener notificaciones por User ID
+- `GET /notifications/{id}` - Obtener notificación por ID
+- `POST /notifications` - Crear notificación
+- `PUT /notifications/{id}/read` - Marcar notificación como leída
+- `PUT /notifications/user/{userId}/read-all` - Marcar todas las notificaciones
+- `DELETE /notifications/{id}` - Eliminar notificación
+
+<img width="1235" height="675" alt="eje1" src="https://github.com/user-attachments/assets/6120e258-810c-4072-86d1-007591ab90b9" />
+
+<img width="1312" height="681" alt="eje2" src="https://github.com/user-attachments/assets/60db4e18-93f6-46b7-956e-1cf919c57218" />
+
+<img width="1316" height="676" alt="eje3" src="https://github.com/user-attachments/assets/a07a6b04-b3b8-4aa2-bdad-fb0d453cecbf" />
+
+
 # Conclusiones
 ---
 ## Conclusiones y recomendaciones
@@ -1277,4 +1770,5 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
+
 
