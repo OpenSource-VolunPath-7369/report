@@ -1761,6 +1761,12 @@ Además, se incluyen capturas de pantalla que demuestran la interacción con los
 
 <img width="1316" height="676" alt="eje3" src="https://github.com/user-attachments/assets/a07a6b04-b3b8-4aa2-bdad-fb0d453cecbf" />
 
+##### 5.4 Video About-the-Product
+
+La sección proporciona un panorama general del producto, resaltando su objetivo, características principales y el valor que brinda a sus usuarios. Esta introducción facilita la comprensión del contexto del producto y su orientación a cubrir las demandas de los usuarios, sincronizando sus características y habilidades con las metas de la solución sugerida.
+
+URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQCV869sbsF8R53X1vYzX3jeARXdJI3QT-SRIQcw-q35m0o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=B2h5XL
+
 
 # Conclusiones
 ---
@@ -1770,5 +1776,6 @@ Además, se incluyen capturas de pantalla que demuestran la interacción con los
 # Bibliografía
 
 # Anexos
+
 
 
