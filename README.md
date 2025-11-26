@@ -1005,15 +1005,15 @@ Link de Figma: https://www.figma.com/design/aM9rO7pEqiztLkzXoCDExr/Volunpath?nod
 ### 4.6. Domain-Driven Software Architecture
 #### 4.6.1. Software Architecture Context Diagram
 
-![Software Architecture Context Diagram](Assets/Chapter-04/context.png)
+![Software Architecture Context Diagram](Assets/Chapter-04/diagrama-contexto.png)
 
 #### 4.6.2. Software Architecture Container Diagrams
 
-![Software Architecture Container Diagram](Assets/Chapter-04/container.png)
+![Software Architecture Container Diagram](Assets/Chapter-04/diagrama-contenedores.png)
 
 #### 4.6.3. Software Architecture Components Diagrams
 
-![Software Architecture Components Diagram](Assets/Chapter-04/components.png)
+![Software Architecture Components Diagram](Assets/Chapter-04/diagrama-componentes.png)
 
 
 ### 4.7. Software Object-Oriented Design
@@ -1188,4 +1188,5 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
+
 
