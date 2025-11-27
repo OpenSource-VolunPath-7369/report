@@ -943,6 +943,7 @@ Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a 
 
 ![landing wireframe](Assets/Chapter-04/landing-wireframe.png)
 
+
 #### 4.3.2. Landing Page Mock-up
 
 ![landing mock-up](Assets/Chapter-04/landing-mockup.png)
@@ -950,17 +951,28 @@ Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a 
 ### 4.4. Web Applications UX/UI Design
 #### 4.4.1. Web Applications Wireframes
 
-![inicio sesion wireframe](Assets/Chapter-04/iniciar-sesion-wireframe.png)
+<img alt="inicio sesion wireframe" src="/Assets/Chapter-04/iniciar-sesion-wireframe.png" width="2000"/><br>
 
-![escoger que registrar wireframe](Assets/Chapter-04/registrar-escoger-wireframe.png)
+<img alt="escoger que registrar wireframe" src="/Assets/Chapter-04/registrar-escoger-wireframe.png" width="2000"/><br>
 
-![registrar voluntario wireframe](Assets/Chapter-04/registrar-voluntario-wireframe.png)
+<img alt="registrar voluntario wireframe" src="/Assets/Chapter-04/registrar-voluntario-wireframe.png" width="2000"/><br>
 
-![registrar organizacion wireframe](Assets/Chapter-04/registrar-organizacion-wireframe.png)
+<img alt="registrar organizacion wireframe" src="/Assets/Chapter-04/registrar-organizacion-wireframe.png" width="2000"/><br>
 
-![aplicacion para organizacion wireframe](Assets/Chapter-04/aplicacion-organizacion-wireframes.png)
+<img alt="wireframe 01" src="/Assets/Chapter-04/wireframe01.png" width="2000"/><br>
 
-![aplicacion para voluntario wireframe](Assets/Chapter-04/aplicacion-voluntario-wireframes.png)
+<img alt="wireframe 02" src="/Assets/Chapter-04/wireframe2.png" width="2000"/><br>
+
+<img alt="wireframe 03" src="/Assets/Chapter-04/wireframe3.png" width="2000"/><br>
+
+<img alt="wireframe 04" src="/Assets/Chapter-04/wireframe4.png" width="2000"/><br>
+
+<img alt="wireframe 05" src="/Assets/Chapter-04/wireframe5.png" width="2000"/><br>
+
+<img alt="wireframe 06" src="/Assets/Chapter-04/wireframe6.png" width="2000"/><br>
+
+
+
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -1156,7 +1168,7 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 ### 4.8. Database Design
 #### 4.8.1. Database Diagram
 
-![Database_Diagram](Assets/Chapter-04/data-base-diagram.jpg)
+![Database_Diagram](Assets/Chapter-04/diagramadb.png)
 
 =======
 
@@ -1188,5 +1200,6 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
+
 
 
