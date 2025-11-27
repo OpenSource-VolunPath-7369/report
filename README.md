@@ -941,7 +941,13 @@ Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a 
 ### 4.3. Landing Page UI Design
 #### 4.3.1. Landing Page Wireframe
 
-![landing wireframe](Assets/Chapter-04/landing-wireframe.png)
+<img alt="boceto 1" src="/Assets/Chapter-04/boceto1.png" width="2000"/><br>
+
+<img alt="boceto 2" src="/Assets/Chapter-04/boceto2.png" width="2000"/><br>
+
+<img alt="boceto 3" src="/Assets/Chapter-04/boceto3.png" width="2000"/><br>
+
+<img alt="boceto 4" src="/Assets/Chapter-04/boceto4.png" width="2000"/><br>
 
 
 #### 4.3.2. Landing Page Mock-up
@@ -1207,6 +1213,7 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
+
 
 
 
