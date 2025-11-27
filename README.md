@@ -783,6 +783,8 @@ Este lenguaje común permitirá que conceptos como *voluntario, líder, tarea, i
 ---
 ### 3.1. To-Be Scenario Mapping
 
+El To-Be Scenario Mapping es el proceso de crear una visión del futuro deseado para la experiencia del usuario. A diferencia del mapeo de escenarios actuales, este enfoque visualiza cómo debería ser la interacción con el producto una vez que se hayan implementado mejoras o nuevas funcionalidades. Ayuda a planificar los cambios necesarios para lograr una experiencia más eficiente, agradable y alineada con las necesidades de los usuarios.
+
 Segmento Objetivo 1: Organizaciones sociales
 
 Kevin Pachas
@@ -1281,5 +1283,6 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
+
 
 
