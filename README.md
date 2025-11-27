@@ -878,17 +878,19 @@ Carmen Quispe
 
 ### 3.3. Impact Mapping
 
+**Impact Mapping** es una técnica de planificación estratégica y visualización que ayuda a conectar los objetivos del negocio con las funcionalidades del software. Esta metodología fue desarrollada por Gojko Adzic y permite alinear el trabajo del equipo de desarrollo con los objetivos estratégicos del producto, asegurando que cada feature entregue valor real y medible.
+
 Segmento Objetivo 1: Organizaciones sociales
 
 Kevin Pachas
 
-<img alt="impact-organizadores" src="/Assets/Chapter-03/impact-organizador.jpg" width="2000"/><br>
+<img alt="impact-organizadores" src="/Assets/Chapter-03/Impact-map-Volu-1.png" width="2000"/><br>
 
 Segmento Objetivo 2: Voluntarios
 
 Carmen Quispe
 
-<img alt="impact-voluntarios" src="/Assets/Chapter-03/impact-voluntario.jpg" width="2000"/><br>
+<img alt="impact-voluntarios" src="/Assets/Chapter-03/Impact-map-Volu-2.png" width="2000"/><br>
 
 ### 3.4. Product Backlog
 
@@ -1283,6 +1285,7 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
+
 
 
 
