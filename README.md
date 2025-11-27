@@ -946,7 +946,14 @@ Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a 
 
 #### 4.3.2. Landing Page Mock-up
 
-![landing mock-up](Assets/Chapter-04/landing-mockup.png)
+<img alt="landing 1" src="/Assets/Chapter-04/landing1.png" width="2000"/><br>
+
+<img alt="landing 2" src="/Assets/Chapter-04/landing2.png" width="2000"/><br>
+
+<img alt="landing 3" src="/Assets/Chapter-04/landing3.png" width="2000"/><br>
+
+<img alt="landing 4" src="/Assets/Chapter-04/landing4.png" width="2000"/><br>
+
 
 ### 4.4. Web Applications UX/UI Design
 #### 4.4.1. Web Applications Wireframes
@@ -1200,6 +1207,7 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
+
 
 
 
