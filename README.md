@@ -7,12 +7,12 @@
 <strong>Ingeniería de Software - 2025-2</strong><br>
 <strong>1ASI0729 - Desarrollo de Aplicaciones Open Source</strong><br>
 <strong>NRC: 7369</strong><br>
-<strong>Profesor: Nombre del docente</strong><br>
+<strong>Profesor: Wilder Julio Espinoza Bravo</strong><br>
 
 <br><strong>Informe del Trabajo Final</strong><br><br>
 
-<strong>Startup: nombre </strong><br>
-<strong>Producto: name </strong><br>
+<strong>Startup: InnovaSocial </strong><br>
+<strong>Producto: VolunPath </strong><br>
 
 
 
@@ -20,10 +20,11 @@
 
 |             Member              |    Code    |
 |:-------------------------------:|:----------:|
-|  ===== |    ...     |
-|  == |    ...     |
-| === | **** |
-|  ======== |    ...     |
+|  Aldair Ramos |    U20201F051     |
+|  Bertha Roxmeri Román Rodriguez |   u20211c654   |
+| Mel Andree Orellana Rodriguez | U202116018 |
+|  Jean Pool Huaman De La Cruz |    U20201E781     |
+|  Alex Gabriel Cusimayta Lobo | U202019131 |
 
 <strong> Setiembre 2025</strong><br>
 </div>
@@ -124,6 +125,30 @@
 - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+
+
+#### 1.1.2. Perfiles de integrantes del equipo
+
+| Estudiante | Descripción | Conocimientos |
+|------------|-------------|---------------|
+|  <img src="Assets/ImageMembers/FotoAldair.jpg" height="150" /> <br> Aldair Joaquin Ramos Aguirre <br> U20201F051 | Soy estudiante de Ingeniería de software en la UPC, me gusta todo lo relacionado a la tecnología y desarrollo. Confió en que puedo aportar algo para el desarrollo de este proyecto.  | Conocimientos mayormente en C++, Python, CSS, HMTL Y SQL |
+| (foto) <br> Nombres Apellidos <br> Código | Descripción del estudiante | Conocimientos del estudiante |
+| <img src="Assets/ImageMembers/fotoBertha.PNG" height="150" /> <br> Bertha Roxmeri Román Rodriguez <br> u20211c654 | En estos momentos estoy cursando la carrera de ingeniería de software, en la cual obtengo conocimientos variados ya que integra distintas ciencias como computación, ciencias básicas y ciencias aplicadas. Puedo usar estos conocimientos para transformarlos en un producto industrial usando bases de la ingeniería para desarrollar algo innovador. | Conocimientos de HTML, CSS, C++ y Python |
+| <img src="Assets/ImageMembers/Integrante-Mel-Andree-Orellana.jpeg" height="150" /> <br> Mel Andree Oreellana Rodriguez  <br> U202116018 | Estudiante de Ingeniería de Software, comprometido con el trabajo en equipo, proactivo y orientado a resultados, con interés en aportar soluciones tecnológicas innovadoras. | HTML, CSS, JavaScript, SQL (frontend y bases de datos), Python (programación, automatización y análisis). |
+| <img src="Assets/ImageMembers/fotoJean.png" height="150" /> <br> Jean Pool Huaman De La Cruz <br> U20201E781 | Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 22 años. A lo largo de mi formación me he destacado por mi compromiso con el aprendizaje constante, siempre buscando reforzar mis conocimientos y mejorar en las áreas que lo requieren. | Conocimientos en Python, C++ y otros lenguajes de programación. |
+
+
+
+
+
+
+
+
+
+
+
+
+=======
 
 
 
@@ -772,19 +797,82 @@ Carmen Quispe
 
 ### 3.2. User Stories
 
-|             Epic / Story ID              |    Título    |    Descripción    |    Criterios de Aceptación    |    Relacionado con (Epic ID)    |
-|:-------------------------------:|:----------:|:----------:|:----------:|:----------:|
-|  US01 |    Registro de Voluntarios     |    Como organización, quiero registrar fácilmente a nuevos voluntarios para tener un control centralizado de sus datos.     |    El sistema permite crear un perfil de voluntario con nombre, contacto y disponibilidad. Se puede editar y eliminar información de voluntarios. Cada voluntario recibe confirmación por correo o notificación.     |    EP01     |
-|  US02 |    Asignación de Roles y Tareas     |    Como coordinador, quiero asignar roles y tareas a los voluntarios para organizar mejor las actividades.     |    Se puede asignar uno o varios roles/tareas a un voluntario desde su perfil. Los voluntarios reciben notificación de sus tareas asignadas. Las tareas quedan registradas con estado y fecha límite.     |    EP01     |
-|  US03 | Seguimiento de Actividades |    Como coordinador, quiero hacer seguimiento al avance de tareas para verificar el progreso de los voluntarios.     |    El sistema muestra el estado (pendiente/en proceso/completado) de cada tarea. Los voluntarios pueden actualizar el estado de sus tareas. El coordinador recibe alertas de tareas vencidas.   |    EP01     |
-|  US04 |    Creación de Proyectos     |    Como organización, quiero crear proyectos con objetivos, responsables y fechas para planificar el trabajo.     |    Se pueden crear proyectos con nombre, descripción, fechas y responsable. Cada proyecto tiene un tablero de actividades relacionadas. Se puede modificar o archivar proyectos.     |   EP02    |
-|            US05             |    Calendario de Actividades   |    Como voluntario, quiero ver un calendario con mis actividades para organizarme mejor.    |    El sistema muestra un calendario con las tareas asignadas al usuario. Se pueden filtrar actividades por proyecto o estado. Las tareas se pueden sincronizar con el calendario del dispositivo.   |    EP02     |
-|  US06 |    Perfil con Historial de Participación    |   Como voluntario, quiero tener un historial de mis actividades realizadas para ver mi progreso.     |    El perfil del voluntario muestra tareas completadas y horas dedicadas. Se puede generar un reporte/constancia descargable de participación. El historial se actualiza automáticamente.   |    EP03     |
-|  US07 |   Sistema de Insignias y Logros    |    Como voluntario, quiero recibir insignias y reconocimientos al completar actividades para sentirme motivado.   |    Se asignan automáticamente insignias por cantidad de tareas completadas. Los logros aparecen visibles en el perfil. El sistema notifica al voluntario cuando gana una nueva insignia.   |  EP03     |
-| US08 | Página Pública de Proyectos |   Como organización, quiero publicar proyectos en una página visible para que personas externas puedan inscribirse.    |   Los proyectos marcados como públicos son visibles sin iniciar sesión. Se muestra descripción, fechas y número de vacantes disponibles. Hay un botón de “Postularme” que crea una solicitud de voluntariado.   |    EP04    |
-|  US09 |    Integración con Redes Sociales   |   Como organización, quiero compartir los proyectos en redes sociales para atraer más voluntarios.   |   Cada proyecto tiene botones para compartir en redes sociales. El enlace compartido lleva directamente a la página pública del proyecto. Se registra cuántos clics provienen de redes.   |    EP04     |
-|  US010 |    Mensajería Interna   |    Como voluntario, quiero poder comunicarme con el coordinador dentro de la plataforma para resolver dudas.   |    Se pueden enviar y recibir mensajes entre voluntarios y coordinadores. Se reciben notificaciones por mensajes nuevos. El historial de conversaciones queda guardado.   |    EP05     |
-|  US011 |    Notificaciones de Actividades   |    Como voluntario, quiero recibir notificaciones sobre mis tareas para mantenerme informado.    |  El sistema envía notificaciones automáticas al asignar nuevas tareas. También notifica cambios en el calendario o fechas límite próximas. Se puede elegir recibir notificaciones por correo o dentro de la app.   |    EP05    |
+#### Epic Story
+| Epic ID | Título | Descripción |
+|---------|--------|-------------|
+| 1 | Gestión de Voluntarios y Roles | Como organización quiero registrar, editar y organizar a los voluntarios y asignarles roles y tareas para coordinar mejor las actividades y mantener un control centralizado de datos. |
+|2 | Gestión de Proyectos y Actividades | Como organización quiero crear, administrar y monitorear proyectos sociales, definiendo responsables, objetivos, fechas y actividades asociadas, para planificar y dar seguimiento a los proyectos. |
+| 3 | Reconocimiento y Motivación del Voluntariado | Como organización quiero hacer seguimiento al historial y logros de los voluntarios, otorgando insignias y reconocimientos para motivar su participación y compromiso. |
+| 4 | Difusión y Visibilidad de Proyectos | Como organización quiero publicar proyectos en la web y compartirlos en redes sociales para atraer nuevos voluntarios y aumentar el impacto de los proyectos. |
+| 5 | Comunicación y Notificaciones | Como organización y voluntario quiero recibir notificaciones y comunicarme internamente para coordinar tareas y mantener informado al equipo. |
+| 6 | Landing Page Institucional | Como visitante quiero acceder a la información de la organización, conocer los servicios, registrarme y contactar, a través de una página web accesible y clara. |
+| 7 | Gestión de Inventario y Recursos | Como administrador quiero registrar y controlar los recursos físicos o digitales usados en proyectos, visualizar el stock disponible y recibir alertas de bajo inventario. |
+| 8 | Gestión Financiera y Donaciones | Como organización quiero registrar, visualizar y auditar donaciones económicas o en especie, vinculándolas a proyectos activos y generando reportes contables. |
+| 9 | Analítica e Impacto Social | Como administrador quiero medir el impacto de los proyectos y desempeño de los voluntarios, generar métricas, reportes y estadísticas visuales para la toma de decisiones. |
+
+
+
+#### Technical Epic
+| Technical Epic ID | Título                      | Descripción                                                                                                                           |
+| ----------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| 1                 | API RESTful y Seguridad     | Endpoints, autenticación y manejo seguro de datos para garantizar interoperabilidad y seguridad.                                      |
+| 2                 | Monitoreo y Auditoría       | Auditoría de acciones y generación de reportes para seguimiento del sistema y usuarios.                                               |
+| 3                 | Mantenimiento y Performance | Backups automáticos, pruebas unitarias, optimización de rendimiento y control de versiones de API para confiabilidad y mantenimiento. |
+
+
+
+
+#### Users Stories
+| User Story ID | Título | Descripción | Epic ID | Criterios de Aceptación |
+|---------------|--------|-------------|---------|------------------------|
+| US01 | Registro de Voluntarios | Como organización, quiero registrar fácilmente a nuevos voluntarios para tener un control centralizado de sus datos. | 1 | Dado que el coordinador accede al módulo de voluntarios, cuando ingresa los datos del nuevo voluntario y guarda el registro, entonces el sistema crea un perfil con confirmación automática por correo. |
+| US02 | Asignación de Roles y Tareas | Como coordinador, quiero asignar roles y tareas a los voluntarios para organizar mejor las actividades. | 1 | Dado que un voluntario tiene un perfil activo, cuando el coordinador asigna roles o tareas, entonces el sistema registra la asignación y envía una notificación. |
+| US03 | Seguimiento de Actividades | Como coordinador, quiero hacer seguimiento al avance de tareas para verificar el progreso de los voluntarios. | 1 | Dado que existen tareas asignadas, cuando un voluntario actualiza su estado, entonces el coordinador visualiza el progreso y recibe alertas de tareas vencidas. |
+| US04 | Registro de Organizaciones | Como representante, quiero registrar mi organización para gestionar proyectos y voluntarios. | 1 | Dado que un representante llena el formulario, cuando envía la solicitud, entonces el sistema crea el registro pendiente de validación. |
+| US05 | Validación de Organizaciones | Como administrador, quiero aprobar solicitudes de nuevas organizaciones. | 1 | Dado que hay solicitudes pendientes, cuando el administrador revisa y aprueba, entonces la organización recibe una confirmación. |
+| US06 | Gestión de Voluntarios | Como organización, quiero editar o eliminar datos de mis voluntarios. | 1 | Dado que el coordinador accede al perfil, cuando edita o elimina, entonces el sistema actualiza o borra la información. |
+| US07 | Recuperación de Contraseña | Como usuario, quiero restablecer mi contraseña si la olvido. | 1 | Dado que el usuario solicita recuperación, cuando sigue el enlace enviado, entonces puede establecer una nueva contraseña. |
+| US08 | Creación de Proyectos | Como organización, quiero crear proyectos con objetivos, responsables y fechas para planificar el trabajo. | 2 | Dado que el usuario accede al panel de proyectos, cuando crea uno nuevo con los datos requeridos, entonces el sistema lo guarda y muestra en la lista activa. |
+| US09 | Calendario de Actividades | Como voluntario, quiero ver un calendario con mis actividades para organizarme mejor. | 2 | Dado que el voluntario tiene tareas asignadas, cuando accede al calendario, entonces se muestran las actividades según estado y proyecto. |
+| US10 | Perfil con Historial de Participación | Como voluntario, quiero tener un historial de mis actividades realizadas para ver mi progreso. | 3 | Dado que un voluntario completa tareas, cuando consulta su perfil, entonces el sistema muestra su historial actualizado. |
+| US11 | Sistema de Insignias y Logros | Como voluntario, quiero recibir insignias y reconocimientos al completar actividades para sentirme motivado. | 3 | Dado que un voluntario cumple un objetivo, cuando alcanza los criterios de un logro, entonces el sistema asigna una insignia visible en su perfil. |
+| US12 | Página Pública de Proyectos | Como organización, quiero publicar proyectos visibles para que personas externas puedan inscribirse. | 4 | Dado que un proyecto es marcado como público, cuando un visitante accede a la web, entonces puede ver el detalle y postularse. |
+| US13 | Integración con Redes Sociales | Como organización, quiero compartir los proyectos en redes sociales para atraer más voluntarios. | 4 | Dado que un proyecto está publicado, cuando se selecciona “Compartir”, entonces se genera un enlace directo a la red elegida. |
+| US14 | Mensajería Interna | Como voluntario, quiero comunicarme con el coordinador dentro de la plataforma para resolver dudas. | 5 | Dado que el usuario está autenticado, cuando envía un mensaje, entonces el sistema lo guarda y notifica al destinatario. |
+| US15 | Notificaciones de Actividades | Como voluntario, quiero recibir notificaciones sobre mis tareas para mantenerme informado. | 5 | Dado que una tarea cambia de estado, cuando se actualiza o vence, entonces el sistema envía una notificación. |
+| US16 | Panel de Administración | Como administrador, quiero ver un panel con estadísticas generales. | 6 | Dado que hay datos registrados, cuando se accede al panel, entonces se visualizan métricas actualizadas. |
+| US17 | Seguimiento de Impacto | Como organización, quiero medir el impacto de mis proyectos. | 9 | Dado que existen registros de proyectos, cuando se generan métricas, entonces el sistema calcula y muestra resultados. |
+| US18 | Generación de Reportes | Como organización, quiero generar reportes PDF de actividades y voluntarios. | 9 | Dado que se selecciona un rango de fechas, cuando se solicita un reporte, entonces el sistema genera un PDF descargable. |
+| US19 | Panel de Métricas Globales | Como administrador, quiero visualizar indicadores globales. | 9 | Dado que existen datos, cuando se accede al panel, entonces el sistema muestra gráficos y estadísticas actualizadas. |
+| US20 | Control de Accesos | Como administrador, quiero definir roles y permisos. | 7 | Dado que existen usuarios, cuando se asignan roles, entonces se limita el acceso según privilegios. |
+| US21 | Cifrado de Datos | Como desarrollador, quiero cifrar contraseñas y datos sensibles. | 7 | Dado que un usuario registra datos, cuando se almacenan, entonces el sistema los guarda cifrados. |
+| US22 | Gestión de Donaciones | Como organización, quiero registrar y ver donaciones. | 8 | Dado que se ingresa una donación, cuando se guarda, entonces aparece en el historial y puede exportarse. |
+
+
+#### Technical Story
+| Technical Story ID | Título                   | Descripción                                              | Criterios de Aceptación                                                | Technical Epic ID |
+| ------------------ | ------------------------ | -------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------- |
+| TS01               | API de Autenticación     | Endpoints para login, registro y tokens JWT.            | Si los datos son válidos, se genera y devuelve un JWT.                 | 1                 |
+| TS02               | API de Proyectos         | CRUD de proyectos con endpoints REST.                   | Las operaciones CRUD impactan correctamente la base de datos.          | 1                 |
+| TS03               | API de Voluntarios       | Gestión de voluntarios con validación por token.        | Operaciones válidas solo si el token es correcto.                      | 1                 |
+| TS04               | API de Mensajes          | Envío y recepción de mensajes en tiempo real.           | El receptor recibe el mensaje si está activo.                          | 1                 |
+| TS05               | API de Reportes          | Generación de reportes en JSON o PDF.                   | Si existen datos, el reporte se genera y se exporta correctamente.     | 2                 |
+| TS06               | Auditoría de Acciones    | Registro de logs del sistema.                           | Cada acción genera un log con la información correspondiente.          | 2                 |
+| TS07               | Versionado de API        | Documentación y control de versiones de endpoints.       | Cada cambio actualiza la versión y documentación de la API.            | 3                 |
+| TS08               | API de Organizaciones            | CRUD para organizaciones con validación básica.             | Las operaciones CRUD se ejecutan correctamente si los datos son válidos.| 1                 |
+| TS09               | API de Publicaciones             | Endpoints para publicaciones y sistema de likes.            | Las publicaciones se crean y los likes se registran correctamente.       | 1                 |
+| TS10               | API de Notificaciones            | Gestión de notificaciones con lectura y marcación masiva.   | El usuario ve, marca y borra notificaciones sin errores.                | 1                 |
+| TS11               | Gestión de Imágenes Base64       | Procesamiento y almacenamiento de imágenes en Base64.       | Las imágenes válidas se guardan y se visualizan correctamente.           | 2                 |
+| TS12               | Configuración CORS               | Permitir peticiones desde frontend autorizado.              | El backend acepta solicitudes de la URL configurada sin errores CORS.   | 3                 |
+| TS13               | Documentación Swagger/OpenAPI    | Documentar todos los endpoints REST.                        | Swagger muestra endpoints, modelos y ejemplos.                          | 3                 |
+| TS14               | Integración Frontend-Backend     | Conexión mediante servicios REST y manejo de errores.       | Las peticiones llegan correctamente al backend con su JWT correspondiente.| 2                 |
+| TS15               | Filtro de Seguridad JWT          | Verificar token en cada petición protegida.                 | Si el token es inválido, se retorna 401 automáticamente.                | 1                 |
+| TS16               | Configuración de MySQL/JPA       | Seteo de datasource, dialecto y ddl-auto.                   | La app se conecta e inicializa la BD sin errores.                       | 3                 |
+| TS17               | Manejo de Sesiones en Frontend   | Guardar y leer token desde localStorage.                    | El usuario mantiene sesión tras recargar la página.                     | 2                 |
+| TS18               | API de Actividades               | Gestión de actividades de organizaciones.                   | Las actividades se crean, listan y actualizan correctamente.            | 1                 |
+| TS19               | Confirmación de Actividades      | Aceptar o rechazar participación de voluntarios.           | Los cambios de estado se guardan y notifican al usuario.                | 1                 |
+
+
 
 ### 3.3. Impact Mapping
 
@@ -802,23 +890,28 @@ Carmen Quispe
 
 ### 3.4. Product Backlog
 
-|             # Orden              |   User Story Id   |    Título    |    Descripción   |    Story Points (1 / 2 / 3 / 5 / 8)    |
-|:-------------------------------:|:----------:|:----------:|:----------:|:----------:|
-|  1 |    US01     |    Asignar roles y tareas     |    Como presidente de organización, deseo asignar roles y tareas a mis miembros para organizar el trabajo sin depender de mensajes dispersos.     |   5  |
-|  2 |    US02     |    Calendario de eventos     |    Como miembro activo, deseo ver en un calendario compartido los eventos programados para organizar mi tiempo con anticipación.   |    3     |
-|  3 | US03 | Registrar avance de proyectos     |    Como coordinador de proyectos, deseo registrar el avance y resultados con fotos y documentos para sistematizar el impacto de las actividades.   |   5    |
-|  4 |    US04    |    Realizar asambleas virtuales |  Como líder de la organización, deseo realizar asambleas virtuales desde la misma plataforma para evitar costos adicionales y pérdida de tiempo.  |   3   |
-|            5             |    US05   |   Registro de finanzas   |   Como administrador de finanzas, deseo llevar un registro de ingresos y gastos para planificar mejor nuestras actividades comunitarias.  |   5    |
-|  6 |    US06   |   Panel de métricas   |   Como presidente de organización, deseo ver métricas de participación y alcance para evaluar el desempeño de nuestra organización.  |  8     |
-|  7 |   US07    |   Repositorio de materiales  |    Como coordinador, deseo almacenar y compartir documentos y evidencias de actividades para mantener la información organizada.  |  3   |
-| 8 | US01 |  Ver proyectos activos  |  Como voluntario nuevo, deseo ver una lista de proyectos activos para postularme a los que se ajustan a mis intereses.  |   5   |
-|  9 |    US02  | Notificaciones de tareas |  Como voluntario con poco tiempo, deseo recibir notificaciones de mis tareas pendientes para no olvidarlas y cumplir a tiempo.  |  3     |
-|  10 |    US03   |   Tablero personal de tareas |    Como voluntario, deseo tener un tablero con mis tareas asignadas para organizar mi tiempo y responsabilidades.  |  5   |
-|  11 |    US04   |   Historial de participación   | Como voluntario activo, deseo ver mi progreso e historial de participaciones para sentir motivación y recibir reconocimiento.  |    3 |
-|  12 |    US05   |  Certificados de participación  |  Como voluntario, deseo descargar un certificado de participación para acreditar mi experiencia. |    2   |
-|  13 |    US06   |  Mensajes a participantes   |  Como coordinador de voluntarios, deseo enviar mensajes grupales a todos los participantes de un proyecto para mantener la comunicación clara.  |  3  |
-|  14 |    US07   |    Perfil de voluntario   |  Como voluntario, deseo crear un perfil con mis intereses y disponibilidad para recibir recomendaciones adecuadas de proyectos.  |   5   |
-
+| Orden | User Story ID | Título | Descripción | Story Points |
+|:------:|:--------------|:--------|:-------------|:-------------:|
+| 1 | US01 | Página Principal Atractiva | Como visitante, quiero visualizar una página inicial con diseño atractivo para entender la misión de VolunPath. | 3 |
+| 2 | US02 | Encabezado con Menú de Navegación | Como visitante, quiero navegar fácilmente entre secciones desde el menú superior. | 2 |
+| 3 | US03 | Sección “Acerca de Nosotros” | Como visitante, quiero conocer la misión, visión y valores de VolunPath para entender su impacto social. | 2 |
+| 4 | US04 | Sección de Voluntariados Destacados | Como visitante, quiero visualizar proyectos destacados para motivarme a participar. | 3 |
+| 5 | US05 | Botón “Únete Ahora” | Como visitante, quiero un botón visible que me dirija al registro de voluntarios. | 2 |
+| 6 | US06 | Testimonios de Voluntarios | Como visitante, quiero leer experiencias reales de voluntarios para sentir confianza. | 3 |
+| 7 | US07 | Sección de Impacto Social | Como visitante, quiero ver estadísticas del impacto logrado por la comunidad. | 3 |
+| 8 | US08 | Sección de Alianzas y Colaboradores | Como visitante, quiero ver las instituciones asociadas para validar la credibilidad de VolunPath. | 2 |
+| 9 | US09 | Formulario de Contacto | Como visitante, quiero enviar un mensaje directamente desde la web para resolver dudas o proponer colaboración. | 3 |
+| 10 | US10 | Pie de Página (Footer) | Como visitante, quiero acceder fácilmente a redes sociales, políticas y datos de contacto desde el pie de página. | 2 |
+| 11 | US11 | Diseño Responsivo | Como visitante, quiero que la landing page se vea correctamente en dispositivos móviles. | 5 |
+| 12 | US12 | SEO Básico | Como visitante potencial, quiero encontrar la página fácilmente en buscadores. | 5 |
+| 13 | US13 | Sección de Newsletter | Como visitante, quiero suscribirme a un boletín informativo para recibir noticias del proyecto. | 3 |
+| 14 | US14 | Registro de Voluntarios | Como organización, quiero registrar fácilmente a nuevos voluntarios para tener un control centralizado de sus datos. | 5 |
+| 15 | US15 | Asignación de Roles y Tareas | Como coordinador, quiero asignar roles y tareas a los voluntarios para organizar mejor las actividades. | 5 |
+| 16 | US16 | Creación de Proyectos | Como organización, quiero crear proyectos con objetivos, responsables y fechas para planificar el trabajo. | 5 |
+| 17 | US17 | Calendario de Actividades | Como voluntario, quiero ver un calendario con mis actividades para organizarme mejor. | 3 |
+| 18 | US18 | Perfil con Historial de Participación | Como voluntario, quiero tener un historial de mis actividades realizadas para ver mi progreso. | 3 |
+| 19 | US19 | Mensajería Interna | Como voluntario, quiero comunicarme con el coordinador dentro de la plataforma para resolver dudas. | 5 |
+| 20 | US20 | Notificaciones de Actividades | Como voluntario, quiero recibir notificaciones sobre mis tareas para mantenerme informado. | 3 |
 
 
 ## Capítulo IV: Product Design
@@ -1231,9 +1324,262 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 ---
 ### 5.1. Software Configuration Management
 #### 5.1.1. Software Development Environment Configuration
+
+En esta sección se describen las herramientas utilizadas por nuestro equipo de EMSafe para colaborar de manera efectiva durante todo el ciclo de vida del producto digital. Estas herramientas se organizan según las actividades que soportan: gestión del proyecto, diseño de producto, desarrollo de software, despliegue y documentación.
+
+
+
+#### Project Management y Requirements Management
+
+- [**Trello**](https://trello.com/): Herramienta visual utilizada para la planificación y seguimiento de tareas del proyecto. Facilita el trabajo en equipo mediante tableros compartidos.
+- [**Google Drive**](https://drive.google.com/) & [**Google Docs**](https://docs.google.com/): Plataforma de trabajo colaborativo para almacenar documentación, redactar informes y gestionar entregables todo en la nube.
+
+---
+
+#### Product UX/UI Design
+
+- [**Figma**](https://www.figma.com/): Herramienta principal para diseñar interfaces, crear wireframes y prototipos interactivos. Soporta colaboración en tiempo real.
+- [**Miro**](https://miro.com/): Plataforma para crear mapas mentales, flujos de usuario y esquemas de navegación, útil en fases iniciales del diseño y planificación.
+
+---
+
+#### Software Development
+
+- [**IntelliJ IDEA**](https://www.jetbrains.com/idea/): Entorno de desarrollo utilizado para programar el backend en Spring Boot. Ofrece herramientas avanzadas para depuración, testing y gestión de proyectos en Java.
+- [**Visual Studio Code (VS Code)**](https://code.visualstudio.com/): Editor de código utilizado para desarrollar la aplicación frontend en Angular. Ligero, extensible y con terminal integrada.
+- [**Angular**](https://angular.io/): Framework para construir la interfaz web del sistema. Permite desarrollar aplicaciones SPA modernas y mantenibles.
+- [**Angular Material**](https://material.angular.io/): Librería de componentes basada en Material Design que permite mantener un diseño coherente, accesible y profesional en la interfaz.
+- [**Spring Boot**](https://spring.io/projects/spring-boot): Framework Java para el desarrollo del backend. Facilita la creación de APIs RESTful que se comunican con el frontend y la base de datos.
+- [**Git**](https://git-scm.com/) + [**GitHub**](https://github.com/): Sistema de control de versiones distribuido para gestionar el código fuente, colaborar entre miembros del equipo y mantener el historial de cambios.
+
+---
+
+#### Software Deployment
+
+- [**GitHub Pages**](https://pages.github.com/): Servicio utilizado para el despliegue de la Landing Page estática del proyecto directamente desde un repositorio GitHub.
+- [**Railway**](https://railway.app/): Servicio en la nube empleado para desplegar tanto el frontend en Angular como el backend en Spring Boot. Estos entornos permiten exponer los servicios web y la aplicación de forma pública.
+
+---
+
+#### Software Documentation
+
+- [**Notion**](https://www.notion.so/): Espacio centralizado para almacenar documentación técnica y funcional del sistema, como manuales de usuario, decisiones de arquitectura y guías de uso.
+- [**Swagger**](https://swagger.io/): Herramienta para documentar y visualizar la API REST del backend desarrollado en Spring Boot. Permite probar endpoints desde una interfaz gráfica.
+
+
+
 #### 5.1.2. Source Code Management
+
+
+Para la gestión del código fuente del proyecto  VolunPath, nuestro equipo utiliza [**GitHub**](https://github.com/) como plataforma central, aprovechando el sistema de control de versiones [**Git**](https://git-scm.com/) para facilitar la colaboración, el seguimiento de cambios y la integración de nuevas funcionalidades de forma ordenada y segura.
+
+---
+
+#### Repositorios del Proyecto
+
+- **Landing Page**:  
+  [https://github.com/OpenSource-VolunPath-7369/landing](https://github.com/OpenSource-VolunPath-7369/landing)
+
+- **Frontend Web Application (Angular)**:  
+  [https://github.com/OpenSource-VolunPath-7369/frontend](https://github.com/OpenSource-VolunPath-7369/frontend)
+
+- **Web Services (Spring Boot – Backend)**:  
+  [https://github.com/OpenSource-VolunPath-7369/backend](https://github.com/OpenSource-VolunPath-7369/backend)
+
+---
+
+#### Modelo de Ramas - GitFlow
+
+Para el desarrollo colaborativo y el control de versiones, adoptamos el workflow **GitFlow**, basado en la estructura propuesta por *Vincent Driessen*. Este modelo permite desarrollar múltiples funcionalidades en paralelo, controlar versiones estables y facilitar correcciones en producción.
+
+##### Ramas principales
+
+- **`main`**: Contiene el código en estado estable, listo para producción o despliegue. Solo se fusionan cambios aprobados, verificados y testeados.
+- **`develop`**: Rama de integración donde se combinan todas las nuevas funcionalidades antes de ser consideradas para una nueva versión estable.
+
+##### Ramas de soporte
+
+- **feature/**: Se crean a partir de `develop` para desarrollar nuevas funcionalidades.
+- **release/**: Se crean desde `develop` cuando se prepara una nueva versión del sistema. Se realizan ajustes menores, documentación y pruebas finales antes de integrarse a `main`.
+- **hotfix/**: Se crean directamente desde `main` para corregir errores críticos en producción. Una vez resuelto el problema, se fusionan tanto en `main` como en `develop`.
+
+---
+
+#### Semantic Versioning (SemVer)
+
+EMSafe aplica la convención [**Semantic Versioning 2.0.0**](https://semver.org/), donde los números de versión siguen el formato `MAJOR.MINOR.PATCH`:
+
+- **MAJOR**: Se incrementa cuando se introducen cambios incompatibles con versiones anteriores.
+- **MINOR**: Se incrementa cuando se agregan nuevas funcionalidades de forma retrocompatible.
+- **PATCH**: Se incrementa al aplicar correcciones menores o ajustes retrocompatibles.
+
+---
+
+#### Convención de Commits – Conventional Commits
+
+Para mantener un historial claro y significativo de los cambios, el equipo utiliza la convención [**Conventional Commits**](https://www.conventionalcommits.org/), lo que facilita:
+
+- la lectura del historial de versiones,
+- el uso de herramientas de integración continua,
+- la generación automática de changelogs.
+
+##### Tipos de commits utilizados:
+
+- `feat`: Nueva funcionalidad  
+- `fix`: Corrección de errores  
+- `docs`: Cambios en documentación  
+- `style`: Cambios en formato/estilo sin afectar la lógica  
+- `refactor`: Reestructuración del código sin cambio funcional  
+- `test`: Cambios en tests  
+- `build`: Cambios que afectan al sistema de compilación o dependencias  
+- `ci`: Configuraciones de integración continua  
+- `chore`: Tareas menores de mantenimiento  
+- `perf`: Mejoras de rendimiento  
+- `revert`: Reversión de un commit anterior  
+
+
+
 #### 5.1.3. Source Code Style Guide & Conventions
+
+Con el objetivo de mantener un código legible, limpio, coherente y fácilmente mantenible, se aplicarán guías de estilo y convenciones específicas para cada uno de los lenguajes y tecnologías utilizadas en el desarrollo del sistema.  
+Todas las variables, funciones, clases y elementos del sistema se nombrarán en inglés, siguiendo las convenciones estándar de nomenclatura y formato para cada lenguaje.
+
+---
+
+#### HTML / CSS
+
+- **Guía adoptada**: [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+- **Estructura**:
+  - El código HTML será indentado con 2 espacios (sin tabulaciones).
+  - Se dejarán líneas en blanco entre secciones para mejorar la legibilidad.
+- **Etiquetas**:
+  - Todas las etiquetas se cerrarán correctamente.
+  - Se evitará el uso de atributos innecesarios.
+  - Se usarán comillas dobles (`"`) para todos los valores de atributos.
+- **Nomenclatura CSS**:
+  - Se aplicará la metodología **BEM (Block Element Modifier)** para nombrar clases, mejorando la organización, escalabilidad y reutilización de estilos.
+
+---
+
+#### JavaScript / TypeScript
+
+- **Guías adoptadas**:
+  - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+  - [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+
+- **Formato**:
+  - `camelCase` para variables y funciones.
+  - `PascalCase` para clases y componentes.
+  - Uso exclusivo de `let` y `const` (evitar `var`).
+  - Inclusión de espacios alrededor de operadores y después de comas.
+
+- **Comentarios**:
+  - Se usarán comentarios claros y concisos.
+  - Los bloques complejos estarán documentados con `/* */`.
+
+- **Scope**:
+  - Las variables se definirán en el **scope más reducido posible**.
+
+---
+
+#### Angular (Frontend)
+
+- **Guía adoptada**: [Angular Style Guide](https://angular.io/guide/styleguide)
+
+- **Estructura del proyecto**:
+  - Cada componente tendrá su propio directorio con archivos: `.ts`, `.html`, `.css`, y `.spec.ts`.
+  - Se seguirá la convención: `feature-name.component.ts`.
+
+- **Nomenclatura**:
+  - Componentes: `PascalCase`
+  - Variables: `camelCase`
+  - Módulos: `PascalCase`
+
+- **Modularización**:
+  - El código se organizará por características (**feature-based folders**) para facilitar el mantenimiento y escalabilidad.
+
+---
+
+#### Java + Spring Boot (Backend)
+
+- **Guía adoptada**: [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) + buenas prácticas de Spring Boot.
+
+- **Estructura del proyecto**:
+  - Separación por capas: `controller`, `service`, `repository`, `dto`, `model`.
+  - Uso adecuado de anotaciones: `@Service`, `@RestController`, `@Repository`.
+
+- **Nomenclatura**:
+  - Clases: `PascalCase`
+  - Variables y métodos: `camelCase`
+  - Constantes: `MAYÚSCULAS_CON_GUIONES`
+
+
 #### 5.1.4. Software Deployment Configuration
+
+
+La estrategia de despliegue está diseñada para asegurar que las aplicaciones funcionen correctamente y de forma estable en los entornos de producción. Para ello, se aplicarán herramientas y prácticas que permitan un proceso ágil, seguro y automatizado.
+
+---
+
+#### Landing Page
+
+La Landing Page está desarrollada como un sitio web estático utilizando HTML, CSS y JavaScript, y es desplegada mediante **GitHub Pages**, aprovechando la integración directa con el repositorio de código.
+
+- **Repositorio**:  
+  [https://github.com/OpenSource-VolunPath-7369/landing](https://github.com/OpenSource-VolunPath-7369/landing)
+
+- **Plataforma de despliegue**: GitHub Pages  
+- **Dominio de publicación**:  
+  [https://opensource-volunpath-7369.github.io/landing/](https://opensource-volunpath-7369.github.io/landing/)
+
+- **Modo de despliegue**:  
+  Automático, activado desde la rama `main`, con el contenido publicado desde la carpeta raíz del repositorio.
+
+Cada vez que se realiza un `push` a la rama `main`, la Landing Page se actualiza automáticamente en producción, permitiendo mantener siempre en línea la última versión del contenido público.
+
+---
+
+#### Frontend Web Application (Angular)
+
+La aplicación web de VolunPath, desarrollada con **Angular**, es desplegada mediante **Railway**, una plataforma que permite conectar directamente con GitHub y automatizar todo el proceso de compilación y publicación del proyecto.
+
+- **Repositorio**:  
+  [https://github.com/OpenSource-VolunPath-7369/frontend](https://github.com/OpenSource-VolunPath-7369/frontend)
+
+- **Comando de build**:  
+  `ng build --configuration=production`
+
+- **Despliegue**:  
+  Railway detecta los cambios en la rama `main`, compila el proyecto y publica automáticamente la nueva versión.
+
+- **Configuración adicional**:  
+  Las variables de entorno necesarias para la conexión con la API del backend serán gestionadas desde el panel de Railway.
+
+Este enfoque permite mantener el frontend actualizado sin necesidad de despliegues manuales, garantizando eficiencia y rapidez en la entrega de nuevas versiones.
+
+---
+
+#### Web Services (Spring Boot)
+
+El backend, desarrollado con **Spring Boot**, también se desplegará en **Railway**, permitiendo exponer la API REST de forma pública y controlada. Railway gestiona el servidor, los puertos, las variables de entorno y el acceso a la base de datos.
+
+- **Repositorio**:  
+  [https://github.com/OpenSource-VolunPath-7369/backend](https://github.com/OpenSource-VolunPath-7369/backend)
+
+- **Compilación del proyecto**:  
+  `./mvnw clean package`  
+  o  
+  `./gradlew build`
+
+- **Despliegue**:  
+  Automático mediante integración con GitHub. Railway se encarga de detectar cambios en `main`, construir el `.jar`, y ejecutar el servicio en su entorno cloud.
+
+- **API Documentation**:  
+  Al desplegarse, el backend expone la interfaz de prueba **Swagger UI**, útil para validar los endpoints y probar funcionalidades.
+
+<br>
+
+
 ### 5.2. Landing Page, Services & Applications Implementation
 #### 5.2.1. Sprint 1
 
@@ -1246,6 +1592,252 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
+
+#### 5.2.2. Sprint 2
+
+Esta sección presenta el progreso realizado durante el Sprint 2, detallando tanto el avance del producto como el trabajo en equipo. Se incluyen los resultados del Sprint Planning, el Sprint Backlog, evidencias del desarrollo y la ejecución para la Sprint Review, la documentación de los servicios desarrollados y reflexiones sobre la colaboración del equipo a lo largo del sprint.
+
+##### 5.2.2.1. Sprint Planning 2
+
+En esta sección se detallan los aspectos clave de la reunión de planificación del Sprint. Se inicia con una introducción que describe el enfoque principal del sprint y sus metas. A continuación, se presenta un cuadro resumen que organiza la información relevante discutida durante la reunión de planificación, siguiendo la estructura indicada para proporcionar claridad sobre las tareas y los objetivos acordados.
+
+A continuación, se muestra un cuadro resumen que estructura los datos importantes debatidos durante la reunión de planificación del sprint, siguiendo la estructura establecida para ofrecer claridad sobre las tareas y metas pactadas.
+
+| Sprint # | 2 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 14/11/2025 |
+| Time | 05:00 PM |
+| Location | virtual |
+| Prepared By | Mel Andree Orellana |
+| Attendees (to planning meeting) | Mel Andree Orellana Rodriguez|
+| **Sprint 3 - 2 Review Summary** | Desarrollo de Front-end  |
+| **Sprint 3 - 2 Retrospective Summary** | Correcciones de errores en la documentación. |
+| **Sprint 3 Goal** |Me impulse en desarrollar las funcionalidades principales del frontend  el panel de control. Trabaje para garantizar una estructura fiable que permita una navegación fluida por toda la plataforma. Cree que esto proporcionará una experiencia de usuario clara e intuitiva, lo cual se confirmará cuando los usuarios puedan acceder a las diferentes secciones del panel sin problemas de navegación ni de carga de datos.|
+| **Sprint 3 Velocity** | 80 |
+| **Sum of Story Points** | 80 |
+
+##### 5.2.2.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name) | GitHub Username | Organizations (L/C) | Notifications (L/C) | Volunteers (CTA) (L/C) | Messages (L/C) |
+|------------------------------------|------------------|------------------------------------|------------------|----------------------------------|-------------|
+| Orellana Rodriguez, Mel Andree                 | melandree8      | C                                 | C                | C                     | C            |        
+
+##### 5.2.2.3. Sprint Backlog 2
+##### 5.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se presenta el progreso alcanzado en el desarrollo de la aplicación web durante el sprint, enfocado principalmente en la implementación de las interfaces y funciones fundamentales. El trabajo se centró en construir una experiencia de usuario sólida mediante la creación de elementos visuales, componentes interactivos y una navegación coherente.
+
+La tabla que se muestra a continuación recopila los commits clave realizados en cada repositorio del proyecto, lo cual permite hacer un seguimiento del avance técnico logrado en este sprint.
+
+| Repository                    | Branch  | Commit Id | Commit Message                                                   | Commit Message Body | Commited on (Date) |
+|------------------------------|---------|-----------|------------------------------------------------------------------|---------------------|--------------------|
+| Frontend/melandree8   | develop | df0a847   | chore(project): initial frontend setup                                   | empty                  | 14/11/2025      |
+
+##### 5.2.2.5. Execution Evidence for Sprint Review
+
+###  Registro de Usuarios
+- **Registro de Voluntarios**: Formulario completo para registro de nuevos voluntarios con campos como nombre, email, contraseña, habilidades, intereses, ubicación, biografía y avatar
+- **Registro de Organizaciones**: Formulario para registro de organizaciones con campos como nombre, email, contraseña, descripción, sitio web, teléfono, dirección, año de fundación, categorías, redes sociales y logo
+- **Selección de Tipo de Usuario**: Radio buttons horizontales para seleccionar entre "Voluntario" y "Organización"
+- **Validación de Campos**: Validación en tiempo real de todos los campos del formulario
+- **Carga de Imágenes**: Funcionalidad para cargar y previsualizar avatares/logos en formato base64
+- **Integración con Backend**: Creación de usuario y perfil correspondiente en el backend
+
+###  Perfil de Usuario
+- **Visualización de Perfil**: Página dedicada para visualizar y editar el perfil del usuario autenticado
+- **Edición de Perfil para Voluntarios**: Permite actualizar información personal como nombre, email, teléfono, biografía, habilidades, intereses, ubicación y avatar
+- **Edición de Perfil para Organizaciones**: Permite actualizar información de la organización como nombre, email, teléfono, descripción, sitio web, dirección, año de fundación, categorías, redes sociales y logo
+- **Actualización en Tiempo Real**: Los cambios se reflejan inmediatamente en el backend
+- **Validación de Formularios**: Validación de campos antes de guardar cambios
+- **Manejo de Imágenes**: Actualización de avatares y logos con almacenamiento en base64
+
+### Página de Comunidad
+- **Visualización de Publicaciones**: Muestra todas las publicaciones de las organizaciones en un feed
+- **Filtrado por Organización**: Permite ver publicaciones de organizaciones específicas
+- **Sistema de Likes**: Los voluntarios pueden dar like a las publicaciones que les interesan
+- **Información de Organizaciones**: Muestra detalles de las organizaciones que publican
+- **Navegación a Perfiles**: Enlaces para ver el perfil completo de cada organización
+- **Imágenes de Publicaciones**: Visualización de imágenes asociadas a cada publicación
+
+###  Dashboard de Organizaciones
+- **Gestión de Publicaciones**: Las organizaciones pueden ver todas sus publicaciones en un panel centralizado
+- **Crear Nueva Publicación**: Botón para acceder al formulario de creación de publicaciones
+- **Editar Publicaciones**: Opción para editar publicaciones existentes
+- **Eliminar Publicaciones**: Funcionalidad para eliminar publicaciones
+- **Estadísticas**: Visualización de likes y estadísticas de cada publicación
+
+### Crear/Editar Publicación
+- **Formulario de Publicación**: Formulario completo para crear nuevas publicaciones con título, descripción e imagen
+- **Carga de Imágenes**: Funcionalidad para cargar imágenes en formato base64
+- **Estados de Publicación**: Gestión de estados (borrador, publicado, archivado)
+- **Edición de Publicaciones Existentes**: Permite modificar publicaciones ya creadas
+- **Validación de Campos**: Validación de campos requeridos antes de publicar
+
+
+### Página de Mensajes
+- **Lista de Conversaciones**: Visualización de todos los mensajes recibidos y enviados
+- **Búsqueda de Mensajes**: Funcionalidad para buscar mensajes específicos
+- **Filtrado por Remitente**: Opción para filtrar mensajes por remitente
+- **Visualización de Mensajes**: Muestra el contenido, remitente, destinatario y timestamp de cada mensaje
+- **Fotos de Perfil**: Muestra las fotos de perfil de los remitentes en los mensajes
+- **Mensajes No Leídos**: Indicador visual para mensajes no leídos
+- **Marcar como Leído**: Funcionalidad para marcar mensajes individuales como leídos
+- **Marcar Todos como Leídos**: Opción para marcar todos los mensajes como leídos de una vez
+
+### Envío de Mensajes
+- **Enviar Mensaje a Organizaciones**: Los voluntarios pueden enviar mensajes a organizaciones
+- **Enviar Mensaje a Voluntarios**: Las organizaciones pueden enviar mensajes a voluntarios
+- **Selección Múltiple de Destinatarios**: Permite seleccionar múltiples destinatarios para enviar el mismo mensaje
+- **Seleccionar Todos**: Opción para seleccionar todos los destinatarios disponibles
+- **Formulario de Mensaje**: Campos para asunto, contenido y URL opcional
+- **Creación Automática de Notificaciones**: Al enviar un mensaje, se crea automáticamente una notificación para el destinatario
+- **Manejo de IDs**: Gestión correcta de userIds para organizaciones y voluntarios
+
+### Página de Notificaciones
+- **Lista de Notificaciones**: Visualización de todas las notificaciones del usuario
+- **Notificaciones No Leídas**: Indicador visual para notificaciones no leídas
+- **Filtrado por Tipo**: Diferentes tipos de notificaciones (nuevo mensaje, nueva actividad, actividad confirmada, actividad cancelada, general)
+- **Marcar como Leída**: Funcionalidad para marcar notificaciones individuales como leídas
+- **Marcar Todas como Leídas**: Opción para marcar todas las notificaciones como leídas
+- **Navegación desde Notificaciones**: Enlaces para navegar a la acción relacionada (mensajes, publicaciones, etc.)
+- **Notificaciones para Organizaciones**: Gestión especial de notificaciones para organizaciones usando userId correcto
+- **Ordenamiento por Fecha**: Notificaciones ordenadas por fecha (más recientes primero)
+
+### Opciones del Menú
+- **Comunidad**: Acceso a la página de comunidad (para voluntarios)
+- **Dashboard**: Acceso al panel de control (para organizaciones)
+- **Mensajes**: Acceso al sistema de mensajería
+- **Notificaciones**: Acceso a las notificaciones
+- **Perfil**: Acceso a la página de perfil
+- **Soporte**: Acceso a la página de soporte y FAQ
+
+
+### Selector de Idioma
+- **Cambio de Idioma**: Selector visual para cambiar entre español e inglés
+- **Persistencia de Idioma**: El idioma seleccionado se guarda en localStorage
+- **Traducción Completa**: Todas las páginas y componentes están traducidos
+- **Integración con ngx-translate**: Uso de la librería ngx-translate para gestión de traducciones
+
+### Autenticación y Autorización
+- **Protección de Rutas**: Rutas protegidas que requieren autenticación
+- **Gestión de Sesión**: Manejo seguro de sesiones de usuario
+- **Tokens JWT**: Uso de tokens JWT para autenticación segura
+- **Redirección por Rol**: Redirección automática según el rol del usuario
+
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+En esta sección se presenta un resumen de los logros alcanzados durante este sprint, enfocados en el desarrollo del frontend de la aplicación web.
+
+![fro1](https://github.com/user-attachments/assets/50260a50-1176-41c6-b09d-827aa7c9eb1b)
+![fro2](https://github.com/user-attachments/assets/d806e102-e7df-45cd-8cc2-c93368778af7)
+![fro3](https://github.com/user-attachments/assets/2c2ecbe8-30bb-4b8b-8ee6-18d944d4c966)
+![fro4](https://github.com/user-attachments/assets/dfe579b3-47b7-4d7f-b564-f2ace52fdddd)
+![fro5](https://github.com/user-attachments/assets/05f8b189-d804-4aed-b060-082757412b1a)
+![fro7](https://github.com/user-attachments/assets/3561cfad-849c-4e9f-871a-4a192faf75b3)
+![fro8](https://github.com/user-attachments/assets/0138b191-6970-45b4-8a99-b6e363e13438)
+![fro9](https://github.com/user-attachments/assets/de2f5c40-d181-4cb8-8e00-0a4786aaa89a)
+
+
+
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+##### 5.2.2.8. Team Collaboration Insights during Sprint
+
+
+#### 5.2.3. Sprint 3
+
+En esta sección se detallan los aspectos clave del Sprint Planning Meeting del Sprint 3. Se inicia con una introducción que explica la orientación del sprint y los objetivos principales, enfocándose en la creación de la primera versión del backend y la rectificación de detalles en el frontend.
+
+##### 5.2.3.1. Sprint Planning 3
+A continuación, se muestra un cuadro resumen que estructura los datos importantes debatidos durante la reunión de planificación del sprint, siguiendo la estructura establecida para ofrecer claridad sobre las tareas y metas pactadas.
+
+| Sprint # | 3 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 14/11/2025 |
+| Time | 05:00 PM |
+| Location | virtual |
+| Prepared By | Mel Andree Orellana |
+| Attendees (to planning meeting) | Mel Andree Orellana Rodriguez|
+| **Sprint 3 - 2 Review Summary** | Desarrollo de Back-end  |
+| **Sprint 3 - 2 Retrospective Summary** | Correcciones de errores en la documentación. |
+| **Sprint 3 Goal** |Me impulse en desarrollar las funcionalidades principales del backend  el panel de control. Trabaje para garantizar una estructura fiable que permita una navegación fluida por toda la plataforma. Cree que esto proporcionará una experiencia de usuario clara e intuitiva, lo cual se confirmará cuando los usuarios puedan acceder a las diferentes secciones del panel sin problemas de navegación ni de carga de datos.|
+| **Sprint 3 Velocity** | 80 |
+| **Sum of Story Points** | 80 |
+
+##### 5.2.3.2. Aspect Leaders and Collaborators
+| Team Member (Last Name, First Name) | GitHub Username | Organizations (L/C) | Notifications (L/C) | Volunteers (CTA) (L/C) | Messages (L/C) |
+|------------------------------------|------------------|------------------------------------|------------------|----------------------------------|-------------|
+| Orellana Rodriguez, Mel Andree                 | melandree8      | C                                 | C                | C                     | C            |                                   
+
+
+##### 5.2.3.4. Development Evidence for Sprint Review
+En esta sección se detallan los avances logrados en la implementación del producto durante el sprint, centrados en el desarrollo de la primera versión del backend de la aplicación web y en la corrección de detalles en el frontend. El enfoque principal ha sido avanzar en la construcción de las funcionalidades esenciales del backend y optimizar las interfaces de usuario, cumpliendo con los objetivos establecidos. Se ha trabajado en aspectos clave como la gestión de dispositivos, la interacción del usuario y la navegación, lo que permitirá una experiencia más robusta para los usuarios. A continuación, se presenta una tabla que documenta los commits relevantes relacionados con la implementación de cada repositorio del proyecto, lo que permite visualizar el progreso del desarrollo técnico durante este sprint.
+
+| Repository                    | Branch  | Commit Id | Commit Message                                                   | Commit Message Body | Commited on (Date) |
+|------------------------------|---------|-----------|------------------------------------------------------------------|---------------------|--------------------|
+| Backemd/melandree8   | develop | 5bf8b61   | chore(project): backend structure setup in progress | empty               | 14/11/2025         |
+
+
+##### 5.2.3.5. Execution Evidence for Sprint Review
+Esta sección inicia con un resumen de los logros alcanzados en este Sprint, donde se ha implementado la primera versión del backend de la aplicación. Durante este período, se han desarrollado endpoints fundamentales para gestionar la información de dispositivos, alarmas y otros elementos clave del sistema. Esto incluye la creación de endpoints para agregar, actualizar y consultar datos. Junto a esto, se incluye un enlace a un video que ilustra y explica la visualización y navegación logradas en este Sprint, mostrando cómo los usuarios pueden interactuar con las funcionalidades disponibles de manera intuitiva. Vista general de los endpoints generados via Swagger: Se observan los endopoints con sus respectivos títulos.
+
+<img width="1332" height="662" alt="swagger1" src="https://github.com/user-attachments/assets/92664ed0-a225-4a14-a61c-1aee945bc58a" />
+
+<img width="1328" height="675" alt="swagger2" src="https://github.com/user-attachments/assets/1c59495e-08be-4fde-83c2-77d1e42561b9" />
+
+<img width="1292" height="703" alt="swagger3" src="https://github.com/user-attachments/assets/8178eaf8-f59b-4876-a3a2-3590e3a5f35a" />
+
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Esta sección recopila los endpoints desarrollados y validados durante el Sprint, enfocados en la gestión de autenticación, usuarios, voluntarios, organizaciones, publicaciones, mensajería y notificaciones en la plataforma Volunpath. Se documenta el uso de los métodos HTTP correspondientes (GET, POST, PUT, DELETE) junto con ejemplos de llamadas, respuestas y validaciones funcionales. La documentación se ha generado mediante OpenAPI, permitiendo una visualización clara y organizada de los servicios.
+
+Además, se incluyen capturas de pantalla que demuestran la interacción con los servicios web, y se enlazan los commits relevantes del repositorio para sustentar el trabajo realizado.
+
+- `POST /authentication/sign-in` - Iniciar sesión
+- `POST /authentication/sign-up` - Registro de usuario
+- `GET /volunteers` - Obtener todos los voluntarios
+- `GET /volunteers/{id}` - Obtener voluntario por ID
+- `GET /volunteers/user/{userId}` - Obtener voluntario por User ID
+- `POST /volunteers` - Crear voluntario
+- `PUT /volunteers/{id}` - Actualizar voluntario
+- `DELETE /volunteers/{id}` - Eliminar voluntario
+- `GET /organizations` - Obtener todas las organizaciones
+- `GET /organizations/{id}` - Obtener organización por ID
+- `GET /organizations/user/{userId}` - Obtener organización por User ID
+- `POST /organizations` - Crear organización
+- `PUT /organizations/{id}` - Actualizar organización
+- `DELETE /organizations/{id}` - Eliminar organización
+- `GET /publications` - Obtener todas las publicaciones
+- `GET /publications/{id}` - Obtener publicación por ID
+- `GET /publications/organization/{organizationId}` - Obtener publicaciones por organización
+- `POST /publications` - Crear publicación
+- `PUT /publications/{id}/like` - Dar like a una publicación
+- `DELETE /publications/{id}` - Eliminar publicación
+- - `GET /messages/user/{userId}` - Obtener mensajes por User ID
+- `GET /messages/{id}` - Obtener mensaje por ID
+- `POST /messages` - Crear mensaje
+- `PUT /messages/{id}/read` - Marcar mensaje como leído
+- `DELETE /messages/{id}` - Eliminar mensaje
+- - `GET /notifications/user/{userId}` - Obtener notificaciones por User ID
+- `GET /notifications/{id}` - Obtener notificación por ID
+- `POST /notifications` - Crear notificación
+- `PUT /notifications/{id}/read` - Marcar notificación como leída
+- `PUT /notifications/user/{userId}/read-all` - Marcar todas las notificaciones
+- `DELETE /notifications/{id}` - Eliminar notificación
+
+<img width="1235" height="675" alt="eje1" src="https://github.com/user-attachments/assets/6120e258-810c-4072-86d1-007591ab90b9" />
+
+<img width="1312" height="681" alt="eje2" src="https://github.com/user-attachments/assets/60db4e18-93f6-46b7-956e-1cf919c57218" />
+
+<img width="1316" height="676" alt="eje3" src="https://github.com/user-attachments/assets/a07a6b04-b3b8-4aa2-bdad-fb0d453cecbf" />
+
+##### 5.4 Video About-the-Product
+
+La sección proporciona un panorama general del producto, resaltando su objetivo, características principales y el valor que brinda a sus usuarios. Esta introducción facilita la comprensión del contexto del producto y su orientación a cubrir las demandas de los usuarios, sincronizando sus características y habilidades con las metas de la solución sugerida.
+
+URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQCV869sbsF8R53X1vYzX3jeARXdJI3QT-SRIQcw-q35m0o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=B2h5XL
+
+
 # Conclusiones
 ---
 ## Conclusiones y recomendaciones
@@ -1254,10 +1846,5 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
-
-
-
-
-
 
 
