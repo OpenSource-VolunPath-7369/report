@@ -1001,11 +1001,24 @@ Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a 
 
 ![registrar voluntario mockup](Assets/Chapter-04/registrar-voluntario-mockup.png)
 
-![registrar organizacion mockup](Assets/Chapter-04/registrar-organizacion-mockup.png)
+<img alt="mockup 01" src="/Assets/Chapter-04/mockup01.png" width="2000"/><br>
 
-![aplicacion para organizacion mockup](Assets/Chapter-04/aplicacion-organizacion-mockup.png)
+<img alt="mockup 02" src="/Assets/Chapter-04/mockup02.png" width="2000"/><br>
 
-![aplicacion para voluntario mockup](Assets/Chapter-04/aplicacion-voluntario-mockup.png)
+<img alt="mockup 03" src="/Assets/Chapter-04/mockup03.png" width="2000"/><br>
+
+<img alt="mockup 04" src="/Assets/Chapter-04/mockup04.png" width="2000"/><br>
+
+<img alt="mockup 05" src="/Assets/Chapter-04/mockup05.png" width="2000"/><br>
+
+<img alt="mockup 06" src="/Assets/Chapter-04/mockup06.png" width="2000"/><br>
+
+<img alt="mockup 07" src="/Assets/Chapter-04/mockup07.png" width="2000"/><br>
+
+<img alt="mockup 08" src="/Assets/Chapter-04/mockup08.png" width="2000"/><br>
+
+<img alt="mockup 09" src="/Assets/Chapter-04/mockup09.png" width="2000"/><br>
+
 
 #### 4.4.4. Web Applications User Flow Diagrams
 
@@ -1030,15 +1043,21 @@ Link de Figma: https://www.figma.com/design/aM9rO7pEqiztLkzXoCDExr/Volunpath?nod
 ### 4.6. Domain-Driven Software Architecture
 #### 4.6.1. Software Architecture Context Diagram
 
-![Software Architecture Context Diagram](Assets/Chapter-04/diagrama-contexto.png)
+<div align="center">
+  <img src="Assets/Chapter-04/diagrama-contexto.png" alt="Software Architecture Context Diagram" />
+</div>
 
 #### 4.6.2. Software Architecture Container Diagrams
 
-![Software Architecture Container Diagram](Assets/Chapter-04/diagrama-contenedores.png)
+<div align="center">
+  <img src="Assets/Chapter-04/diagrama-contenedores.png" alt="Software Architecture Container Diagram" />
+</div>
 
 #### 4.6.3. Software Architecture Components Diagrams
 
-![Software Architecture Components Diagram](Assets/Chapter-04/diagrama-componentes.png)
+<div align="center">
+  <img src="Assets/Chapter-04/diagrama-componentes.png" alt="Software Architecture Components Diagram" />
+</div>
 
 
 ### 4.7. Software Object-Oriented Design
@@ -1213,6 +1232,7 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
+
 
 
 
