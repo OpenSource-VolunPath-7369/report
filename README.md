@@ -783,6 +783,8 @@ Este lenguaje común permitirá que conceptos como *voluntario, líder, tarea, i
 ---
 ### 3.1. To-Be Scenario Mapping
 
+El To-Be Scenario Mapping es el proceso de crear una visión del futuro deseado para la experiencia del usuario. A diferencia del mapeo de escenarios actuales, este enfoque visualiza cómo debería ser la interacción con el producto una vez que se hayan implementado mejoras o nuevas funcionalidades. Ayuda a planificar los cambios necesarios para lograr una experiencia más eficiente, agradable y alineada con las necesidades de los usuarios.
+
 Segmento Objetivo 1: Organizaciones sociales
 
 Kevin Pachas
@@ -876,17 +878,19 @@ Carmen Quispe
 
 ### 3.3. Impact Mapping
 
+**Impact Mapping** es una técnica de planificación estratégica y visualización que ayuda a conectar los objetivos del negocio con las funcionalidades del software. Esta metodología fue desarrollada por Gojko Adzic y permite alinear el trabajo del equipo de desarrollo con los objetivos estratégicos del producto, asegurando que cada feature entregue valor real y medible.
+
 Segmento Objetivo 1: Organizaciones sociales
 
 Kevin Pachas
 
-<img alt="impact-organizadores" src="/Assets/Chapter-03/impact-organizador.jpg" width="2000"/><br>
+<img alt="impact-organizadores" src="/Assets/Chapter-03/Impact-map-Volu-1.png" width="2000"/><br>
 
 Segmento Objetivo 2: Voluntarios
 
 Carmen Quispe
 
-<img alt="impact-voluntarios" src="/Assets/Chapter-03/impact-voluntario.jpg" width="2000"/><br>
+<img alt="impact-voluntarios" src="/Assets/Chapter-03/Impact-map-Volu-2.png" width="2000"/><br>
 
 ### 3.4. Product Backlog
 
@@ -1846,5 +1850,7 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
+
 
 
