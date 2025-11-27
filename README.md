@@ -1022,19 +1022,41 @@ Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a 
 
 #### 4.4.4. Web Applications User Flow Diagrams
 
-![user flow 1](Assets/Chapter-04/user-flow-1.png)
+Este documento describe los **User Flow Diagrams** (Diagramas de Flujo de Usuario) principales de la aplicación web VolunPath, siguiendo el formato estándar de documentación de flujos de usuario.
 
-![user flow 2](Assets/Chapter-04/user-flow-2.png)
+## 1. Autenticación y Acceso al Sistema
 
-![user flow 3](Assets/Chapter-04/user-flow-3.png)
+**User Goal:** Acceder de forma segura a la plataforma VolunPath
 
-![user flow 4](Assets/Chapter-04/user-flow-4.png)
+**Descripción:** Este flujo muestra cómo los usuarios inician sesión en el sistema, con validación de credenciales y redirección al dashboard principal. También incluye el proceso de registro para nuevos usuarios (voluntarios y organizaciones) y la recuperación de contraseña.
 
-![user flow 5](Assets/Chapter-04/user-flow-5.png)
+<img alt="user flow 1" src="/Assets/Chapter-04/user-flow-1.png" width="2000"/><br>
 
-![user flow 6](Assets/Chapter-04/user-flow-6.png)
+## 2. Creación de Publicación (Organización)
 
-![user flow 7](Assets/Chapter-04/user-flow-7.png)
+**User Goal:** Crear y publicar contenido para la comunidad de voluntarios
+
+**Descripción:** Permite que las organizaciones creen y publiquen contenido sobre sus actividades, proyectos y oportunidades de voluntariado. Las publicaciones pueden incluir texto, imágenes y tags para mejor categorización.
+
+<img alt="user flow 2" src="/Assets/Chapter-04/user-flow-2.jpg" width="2000"/><br>
+
+## 3. Exploración de la Organización 
+
+**User Goal:** Explorar publicaciones, organizaciones y contenido de la comunidad
+
+**Descripción:** Permite que los usuarios exploren el contenido publicado por las organizaciones, ver detalles de publicaciones, interactuar con ellas mediante likes, y descubrir nuevas organizaciones y oportunidades de voluntariado.
+
+<img alt="user flow 3" src="/Assets/Chapter-04/user-flow-3.jpg" width="2000"/><br>
+
+## 4. Edición de Perfil
+
+**User Goal:** Actualizar información del perfil personal o de organización
+
+**Descripción:** Permite que los usuarios actualicen su información de perfil en cualquier momento. Los cambios se reflejan inmediatamente en la plataforma y son visibles para otros usuarios.
+
+<img alt="user flow 4" src="/Assets/Chapter-04/user-flow-4.jpg" width="2000"/><br>
+
+
 
 ### 4.5. Web Applications Prototyping
 
@@ -1232,6 +1254,7 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
+
 
 
 
