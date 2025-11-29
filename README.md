@@ -30,9 +30,56 @@
 </div>
 
 # Registro de Versiones del Informe
-|             Versión             |    Fecha   |    Descripción de modificación   |
-|:-------------------------------:|:----------:|:----------:|
-|  TB1 |    11/09/2025     |    Se han incluído los siguientes capítulos: Capítulo I: Introducción, Capítulo II: Requirements Elicitation & Analysis, Capítulo III: Requirements Specification, Capítulo IV: Product Design, Avance del Capítulo V: Product Implementation, Validation & Deployment hasta el punto 5.2.1.8, Avance de Conclusiones, Bibliografía y Anexos|           
+| Versión  | Fecha       | Autor                              | Descripción de modificación                                                    |
+|:----------:|:-------------:|:-------------------------------------:|:-------------------------------------------------------------------------------:|
+| TB1      | 18/09/2025  | Orellana Rodriguez, Mel Andree| Creación de la Estructura del informe                       |
+| TB1      | 19/09/2025  | Orellana Rodriguez, Mel Andree|   Desarrollo de General Style Guidelines  |
+| TB1      | 19/09/2025  | Orellana Rodriguez, Mel Andree|Desarrollo de Web Style Guidelines|
+| TB1      | 19/09/2025  | Orellana Rodriguez, Mel Andree|Desarrollo de SEO Tags and Meta Tags |
+| TB1      | 20/09/2025  | Orellana Rodriguez, Mel Andree|Desarrollo de Navigation Systems |
+| TB1      | 20/09/2025  | Orellana Rodriguez, Mel Andree|Incorporación del Database Diagram |
+| TB1      | 20/09/2025  | Orellana Rodriguez, Mel Andree|Incorporación del Web Applications Wireframes |
+| TB1      | 20/09/2025  | Orellana Rodriguez, Mel Andree|Incorporación del Web Applications Wireflow Diagrams |
+
+
+| Versión  | Fecha       | Autor                              | Descripción de modificación                                                    |
+|:----------:|:-------------:|:-------------------------------------:|:-------------------------------------------------------------------------------:|
+| TP      | 26/09/2025  | Orellana Rodriguez, Mel Andree| Configuración del entorno inicial del backend y estructura de carpetas  |
+| TP      | 26/09/2025  | Orellana Rodriguez, Mel Andree|Configuración de servicios RESTful para aggregates |
+| TP      | 27/09/2025  | Orellana Rodriguez, Mel Andree|Diseño responsivo del dashboard en frontend |
+| TP      | 27/09/2025  | Orellana Rodriguez, Mel Andree|Implementación del módulo de autenticación y sesión (profile)  |
+| TP      | 27/09/2025  | Orellana Rodriguez, Mel Andree|Conexión del frontend con la API           |
+| TP      | 27/09/2025  | Orellana Rodriguez, Mel Andree|Documentación de endpoints del backend con Swagger  |
+
+
+
+| Versión  | Fecha       | Autor                              | Descripción de modificación                                                    |
+|:----------:|:-------------:|:-------------------------------------:|:-------------------------------------------------------------------------------:|
+| TB2      | 01/11/2025  | Orellana Rodriguez, Mel Andree| Implementación de dashboard   |
+| TB2      | 01/11/2025  | Orellana Rodriguez, Mel Andree| Integración de gestión de perfiles   |
+| TB2      | 03/11/2025  | Orellana Rodriguez, Mel Andree| Optimización del backend con patrones DDD para aggregates   |
+| TB2      | 03/11/2025  | Orellana Rodriguez, Mel Andree| Pruebas de carga sobre servicios   |
+| TB2      | 05/11/2025  | Orellana Rodriguez, Mel Andree| Refactor del diseño visual para compatibilidad   |
+| TB2      | 05/11/2025  | Orellana Rodriguez, Mel Andree| Integración con base de datos externa para recopilación de datos     |
+| TB2      | 05/11/2025  | Orellana Rodriguez, Mel Andree| Configuración de variables de entorno para despliegue automatizado  |
+| TB2      | 05/11/2025  | Orellana Rodriguez, Mel Andree| Optimización de experiencia de usuario en dispositivos  |
+
+
+
+| Versión  | Fecha       | Autor                              | Descripción de modificación                                                    |
+|:----------:|:-------------:|:-------------------------------------:|:-------------------------------------------------------------------------------:|
+| TF      |23/11/2025  | Orellana Rodriguez, Mel Andree| Mejoras de accesibilidad para usuarios |
+| TF      |23/11/2025  | Orellana Rodriguez, Mel Andree| Reestructuración modular del frontend por componentes |
+| TF      | 24/11/2025  | Orellana Rodriguez, Mel Andree| Corrección de errores en el sistema de notificaciones |
+| TF      | 24/11/2025 | Orellana Rodriguez, Mel Andree| Mejora del rendimiento en cargas iniciales del dashboard|
+| TF      | 29/11/2025  | Orellana Rodriguez, Mel Andree|Revisión general del sistema para entrega  |
+| TF      | 29/11/2025  | Orellana Rodriguez, Mel Andree|Documentación final del sistema y arquitectura implementada|
+| TF      | 29/11/2025  | Orellana Rodriguez, Mel Andree|Preparación del entregable final y presentación del sistema|
+
+
+
+
+
     
 # Project Report Collaboration Insights
 
@@ -1213,6 +1260,7 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
+
 
 
 
