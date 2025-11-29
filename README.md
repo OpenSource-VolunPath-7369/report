@@ -1849,7 +1849,16 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 
 # Bibliografía
 
+García-Jiménez, A., & Montes-Vozmediano, M. (2021). Participación digital y voluntariado: Nuevas formas de compromiso social en plataformas online. Revista de Estudios Sociales, 77, 45–60.
+
+Hobbs, M., & Goddard, T. (2018). Digital volunteering and online civic engagement: Understanding participation in virtual communities. Journal of Community Informatics, 14(2), 1–15.
+
+Nielsen, J., & Budiu, R. (2012). Mobile Usability. New Riders.
+
+Sharp, H., Rogers, Y., & Preece, J. (2019). Interaction Design: Beyond Human-Computer Interaction (5th ed.). Wiley.
+
 # Anexos
+
 
 
 
