@@ -1898,7 +1898,10 @@ A continuación, se presenta un análisis de la colaboración del equipo durante
 En esta sección se detallan los aspectos clave del Sprint Planning Meeting del Sprint 3. Se inicia con una introducción que explica la orientación del sprint y los objetivos principales, enfocándose en la creación de la primera versión del backend y la rectificación de detalles en el frontend.
 
 ##### 5.2.3.1. Sprint Planning 3
-A continuación, se muestra un cuadro resumen que estructura los datos importantes debatidos durante la reunión de planificación del sprint, siguiendo la estructura establecida para ofrecer claridad sobre las tareas y metas pactadas.
+
+En esta sección se detallan los aspectos clave de la reunión de planificación del Sprint 3. El objetivo principal de este sprint fue desarrollar el backend completo de la aplicación web VolunPath, incluyendo todos los servicios web necesarios para soportar las funcionalidades del frontend desarrollado en el Sprint 2.
+
+Durante la reunión de planificación, se discutieron las prioridades del sprint, se revisaron los resultados del Sprint 2 (desarrollo del frontend) y se establecieron los objetivos y el alcance para el Sprint 3. El equipo se comprometió a desarrollar una arquitectura backend robusta utilizando Spring Boot, implementando todos los endpoints necesarios para autenticación, gestión de usuarios, voluntarios, organizaciones, publicaciones, mensajería y notificaciones.
 
 | Sprint # | 3 |
 |---|---|
@@ -1915,21 +1918,88 @@ A continuación, se muestra un cuadro resumen que estructura los datos important
 | **Sum of Story Points** | 80 |
 
 ##### 5.2.3.2. Aspect Leaders and Collaborators
-| Team Member (Last Name, First Name) | GitHub Username | Organizations (L/C) | Notifications (L/C) | Volunteers (CTA) (L/C) | Messages (L/C) |
-|------------------------------------|------------------|------------------------------------|------------------|----------------------------------|-------------|
-| Orellana Rodriguez, Mel Andree                 | melandree8      | C                                 | C                | C                     | C            |                                   
 
+En este Sprint 3, el equipo se enfocó en desarrollar el backend completo de la aplicación web VolunPath. Los aspectos principales que se tomaron en cuenta para este sprint incluyen: la configuración inicial del proyecto Spring Boot, el desarrollo de servicios de autenticación y autorización, la gestión de usuarios, voluntarios y organizaciones, el sistema de publicaciones, el sistema de mensajería, el sistema de notificaciones, la configuración de la base de datos, y el despliegue del backend.
+
+A continuación, se presenta la matriz de Liderazgo y Colaboración (LACX) que indica, para cada aspecto del Sprint, quién es el líder (L) y quiénes son los colaboradores (C), con el fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo.
+
+| Team Member (Last Name, First Name) | GitHub Username | Backend Setup (L/C) | Authentication Services (L/C) | User Management (L/C) | Publications Services (L/C) | Messages Services (L/C) | Notifications Services (L/C) | Database Setup (L/C) |
+|------------------------------------|------------------|---------------------|-------------------------------|---------------------|---------------------------|----------------------|---------------------------|---------------------|
+| Orellana Rodriguez, Mel Andree | melandree8 | L | L | L | L | L | L | L |                             
+
+##### 5.2.3.3. Sprint Backlog 3
+
+
+En esta tercera iteración, el objetivo fue desarrollar el backend completo de la aplicación web VolunPath. Esto implica que, al concluir el Sprint, todos los servicios web necesarios deberían estar implementados, documentados y desplegados. Además, se utilizó una tabla en Trello para gestionar los Work-Items de manera eficiente, permitiendo un seguimiento detallado del progreso de cada tarea y facilitando la coordinación entre los miembros del equipo.
+
+**URL del Board de Trello:** [Sprint 3 Board](https://trello.com/b/[board-id]/sprint-3)
+
+
+A continuación, se presenta la tabla de control de estado para el Sprint 3:
+
+| **User Story** | **Work-Item / Task** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|---------------|-----------------------|--------|-----------|------------------|-------------------------|------------------|------------|
+| TS01 | Configuración inicial del proyecto Backend | 01 | Setup inicial de Spring Boot | Como developer, quiero configurar el proyecto Spring Boot con todas las dependencias necesarias para comenzar el desarrollo del backend. | 4 | melandree8 | Done |
+| TS02 | Configuración de base de datos | 02 | Setup de MySQL y JPA | Como developer, quiero configurar la conexión a la base de datos MySQL y configurar JPA para el mapeo de entidades. | 6 | melandree8 | Done |
+| TS03 | Servicios de autenticación | 03 | Implementación de sign-in y sign-up | Como developer, quiero implementar los endpoints de autenticación con JWT para registro e inicio de sesión. | 8 | melandree8 | Done |
+| TS04 | Servicios de gestión de usuarios | 04 | CRUD de usuarios | Como developer, quiero implementar los endpoints para crear, leer, actualizar y eliminar usuarios. | 6 | melandree8 | Done |
+| TS05 | Servicios de gestión de voluntarios | 05 | CRUD de voluntarios | Como developer, quiero implementar los endpoints para gestionar voluntarios. | 8 | melandree8 | Done |
+| TS06 | Servicios de gestión de organizaciones | 06 | CRUD de organizaciones | Como developer, quiero implementar los endpoints para gestionar organizaciones. | 8 | melandree8 | Done |
+| TS07 | Servicios de publicaciones | 07 | CRUD de publicaciones | Como developer, quiero implementar los endpoints para crear, leer, actualizar y eliminar publicaciones, incluyendo el sistema de likes. | 10 | melandree8 | Done |
+| TS08 | Servicios de mensajería | 08 | CRUD de mensajes | Como developer, quiero implementar los endpoints para enviar, recibir y gestionar mensajes entre usuarios. | 8 | melandree8 | Done |
+| TS09 | Servicios de notificaciones | 09 | CRUD de notificaciones | Como developer, quiero implementar los endpoints para crear y gestionar notificaciones. | 6 | melandree8 | Done |
+| TS10 | Documentación OpenAPI | 10 | Swagger/OpenAPI | Como developer, quiero configurar Swagger para documentar todos los endpoints del backend. | 4 | melandree8 | Done |
+| TS11 | Configuración CORS | 11 | CORS para frontend | Como developer, quiero configurar CORS para permitir la comunicación con el frontend. | 2 | melandree8 | Done |
+| TS12 | Despliegue del backend | 12 | Deployment en Railway | Como developer, quiero desplegar el backend en Railway para que esté disponible públicamente. | 4 | melandree8 | Done |
 
 ##### 5.2.3.4. Development Evidence for Sprint Review
+
 En esta sección se detallan los avances logrados en la implementación del producto durante el sprint, centrados en el desarrollo de la primera versión del backend de la aplicación web y en la corrección de detalles en el frontend. El enfoque principal ha sido avanzar en la construcción de las funcionalidades esenciales del backend y optimizar las interfaces de usuario, cumpliendo con los objetivos establecidos. Se ha trabajado en aspectos clave como la gestión de dispositivos, la interacción del usuario y la navegación, lo que permitirá una experiencia más robusta para los usuarios. A continuación, se presenta una tabla que documenta los commits relevantes relacionados con la implementación de cada repositorio del proyecto, lo que permite visualizar el progreso del desarrollo técnico durante este sprint.
+
 
 | Repository                    | Branch  | Commit Id | Commit Message                                                   | Commit Message Body | Commited on (Date) |
 |------------------------------|---------|-----------|------------------------------------------------------------------|---------------------|--------------------|
-| Backemd/melandree8   | develop | 5bf8b61   | chore(project): backend structure setup in progress | empty               | 14/11/2025         |
+| Backend/melandree8   | develop | 5bf8b61   | chore(project): backend structure setup in progress | Configuración inicial de la estructura del proyecto Spring Boot | 14/11/2025         |
+| Backend/melandree8   | main    | 2a35514   | chore(config): update MySQL datasource credentials and connection URL | Actualización de credenciales y URL de conexión a MySQL | 19/11/2025         |
+| Backend/melandree8   | main    | b067612   | chore(config): update CORS allowed origins for frontend access | Actualización de orígenes permitidos en CORS para acceso del frontend | 19/11/2025         |
+| Backend/melandree8   | main    | cb74938   | Merge remote-tracking branch 'origin/main' | Merge de cambios desde la rama remota main | 19/11/2025         |
+| Backend/melandree8   | main    | 6eb3717   | chore(config): adjust environment settings | Ajuste de configuraciones de entorno | 20/11/2025         |
+| Backend/melandree8   | main    | d030071   | perf(build): optimize Docker build with multi-stage and dockerignore | Optimización del build de Docker con multi-stage y dockerignore | 21/11/2025         |
+| Backend/melandree8   | main    | 2a87bef   | fix(railway): configure build to use Java 17 and remove non-existent production profile | Corrección de configuración de build para usar Java 17 y eliminar perfil de producción inexistente | 25/11/2025         |
+| Backend/melandree8   | main    | da27722   | fix(railway): fix startup command to properly execute JAR file | Corrección del comando de inicio para ejecutar correctamente el archivo JAR | 25/11/2025         |
+| Backend/melandree8   | main    | f02b712   | fix(railway): use Dockerfile ENTRYPOINT instead of start.sh script | Corrección para usar ENTRYPOINT del Dockerfile en lugar del script start.sh | 26/11/2025         |
+| Backend/melandree8   | main    | f6f42ad   | fix(cors): add volunpath.netlify.app to allowed origins | Corrección para agregar volunpath.netlify.app a los orígenes permitidos en CORS | 26/11/2025         |
+| Backend/melandree8   | main    | c3c3986   | fix(auth): allow sign-in with email or username | Corrección para permitir inicio de sesión con email o nombre de usuario | 26/11/2025         |
+| Backend/melandree8   | main    | 1a9c8e4   | feat(messages): create notification when message is sent | Implementación de creación automática de notificaciones al enviar mensajes | 26/11/2025         |
+| Backend/melandree8   | main    | b2b0064   | feat(messages): add comprehensive logging for message queries | Implementación de logging comprehensivo para consultas de mensajes | 26/11/2025         |
+| Backend/melandree8   | main    | 70fa9ad   | fix(messages): use separate queries and combine results instead of findByRecipientIdOrSenderId | Corrección para usar consultas separadas y combinar resultados en lugar de findByRecipientIdOrSenderId | 26/11/2025         |
+| Backend/melandree8   | main    | 57f2acd   | fix: search messages by both userId and volunteer.id for volunteers | Corrección para buscar mensajes usando tanto userId como volunteer.id para voluntarios | 28/11/2025         |
+| Backend/melandree8   | main    | 1862144   | fix: search notifications by both userId and volunteer.id for volunteers | Corrección para buscar notificaciones usando tanto userId como volunteer.id para voluntarios | 28/11/2025         |
+| Backend/melandree8   | main    | 1febd6a   | fix: improve CORS configuration with proper origin parsing and logging | Mejora de la configuración de CORS con parsing correcto de orígenes y logging | 28/11/2025         |
+| Backend/melandree8   | main    | 3ab0648   | fix: add WebMvcConfigurer for CORS and set highest priority for CorsFilter | Corrección para agregar WebMvcConfigurer para CORS y establecer prioridad más alta para CorsFilter | 28/11/2025         |
+| Backend/melandree8   | main    | 6249991   | fix: explicitly allow OPTIONS requests in Spring Security for CORS preflight | Corrección para permitir explícitamente requests OPTIONS en Spring Security para CORS preflight | 28/11/2025         |
+| Backend/melandree8   | main    | 5fd51c2   | fix: search messages by both userId and organization.id for organizations | Corrección para buscar mensajes usando tanto userId como organization.id para organizaciones | 28/11/2025         |
+| Backend/melandree8   | main    | aedfe51   | feat: add enhanced logging for message queries | Implementación de logging mejorado para consultas de mensajes | 28/11/2025         |
+| Backend/melandree8   | main    | b3c6058   | feat: add detailed logging for message creation | Implementación de logging detallado para la creación de mensajes | 28/11/2025         |
+| Backend/melandree8   | main    | a89b481   | feat: add PUT endpoint for updating users | Implementación de endpoint PUT para actualizar usuarios | 29/11/2025         |
+| Backend/melandree8   | main    | 30e6d08   | feat: add date, time, location, and volunteer fields to Publication | Implementación de campos date, time, location y volunteer en Publication | 29/11/2025         |
+| Backend/melandree8   | main    | 99feb0d   | feat: add PUT endpoint for updating publications | Implementación de endpoint PUT para actualizar publicaciones | 29/11/2025         |
+| Backend/melandree8   | main    | 346e844   | feat: add logging and validation for scheduledDate and scheduledTime | Implementación de logging y validación para scheduledDate y scheduledTime | 29/11/2025         |
+| Backend/melandree8   | main    | d3ffcc0   | feat: add DataSynchronizer to sync users with volunteers and organizations | Implementación de DataSynchronizer para sincronizar usuarios con voluntarios y organizaciones | 29/11/2025         |
+| Backend/melandree8   | main    | 5flacce   | fix: use Year.now() instead of deprecated Date.getYear() | Corrección para usar Year.now() en lugar del método deprecado Date.getYear() | 29/11/2025         |
+| Backend/melandree8   | main    | ae4f221   | feat: automatically create Volunteer/Organization when user is created | Implementación de creación automática de Volunteer/Organization cuando se crea un usuario | 29/11/2025         |
+| Backend/melandree8   | main    | 8cfc076   | fix: handle duplicate volunteer creation gracefully | Corrección para manejar graciosamente la creación duplicada de voluntarios | 29/11/2025         |
 
 
 ##### 5.2.3.5. Execution Evidence for Sprint Review
-Esta sección inicia con un resumen de los logros alcanzados en este Sprint, donde se ha implementado la primera versión del backend de la aplicación. Durante este período, se han desarrollado endpoints fundamentales para gestionar la información de dispositivos, alarmas y otros elementos clave del sistema. Esto incluye la creación de endpoints para agregar, actualizar y consultar datos. Junto a esto, se incluye un enlace a un video que ilustra y explica la visualización y navegación logradas en este Sprint, mostrando cómo los usuarios pueden interactuar con las funcionalidades disponibles de manera intuitiva. Vista general de los endpoints generados via Swagger: Se observan los endopoints con sus respectivos títulos.
+
+En este tercer Sprint del proyecto, hemos logrado implementar el backend completo de la aplicación web VolunPath. Utilizando Spring Boot como framework principal, construimos una API REST robusta, escalable y bien documentada, que soporta todas las funcionalidades del frontend desarrollado en el Sprint 2.
+
+La arquitectura del backend se desarrolló siguiendo Domain-Driven Design (DDD) y principios de Clean Architecture, con una separación clara entre capas: dominio, aplicación, infraestructura e interfaces. Se implementó un sistema completo de autenticación y autorización utilizando JWT, gestión de usuarios con roles (voluntario, organización, administrador), y servicios para gestionar voluntarios, organizaciones, publicaciones, mensajería y notificaciones.
+
+Se configuró una base de datos MySQL con JPA/Hibernate para el mapeo objeto-relacional, se implementó CORS para permitir la comunicación con el frontend, y se configuró Swagger/OpenAPI para documentar todos los endpoints. El backend fue desplegado en Railway, permitiendo que esté disponible públicamente y se integre perfectamente con el frontend.
+
+A continuación, se presentan capturas de pantalla de la documentación de los endpoints generados vía Swagger:
 
 <img width="1332" height="662" alt="swagger1" src="https://github.com/user-attachments/assets/92664ed0-a225-4a14-a61c-1aee945bc58a" />
 
@@ -1939,41 +2009,55 @@ Esta sección inicia con un resumen de los logros alcanzados en este Sprint, don
 
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-Esta sección recopila los endpoints desarrollados y validados durante el Sprint, enfocados en la gestión de autenticación, usuarios, voluntarios, organizaciones, publicaciones, mensajería y notificaciones en la plataforma Volunpath. Se documenta el uso de los métodos HTTP correspondientes (GET, POST, PUT, DELETE) junto con ejemplos de llamadas, respuestas y validaciones funcionales. La documentación se ha generado mediante OpenAPI, permitiendo una visualización clara y organizada de los servicios.
+Esta sección recopila los endpoints desarrollados y validados durante el Sprint 3, enfocados en la gestión de autenticación, usuarios, voluntarios, organizaciones, publicaciones, mensajería y notificaciones en la plataforma VolunPath. Se documenta el uso de los métodos HTTP correspondientes (GET, POST, PUT, DELETE) junto con ejemplos de llamadas, respuestas y validaciones funcionales. La documentación se ha generado mediante OpenAPI/Swagger, permitiendo una visualización clara y organizada de los servicios.
 
-Además, se incluyen capturas de pantalla que demuestran la interacción con los servicios web, y se enlazan los commits relevantes del repositorio para sustentar el trabajo realizado.
+**URL del repositorio de Web Services:** [Backend Repository](https://github.com/OpenSource-VolunPath-7369/backend)
 
-- `POST /authentication/sign-in` - Iniciar sesión
-- `POST /authentication/sign-up` - Registro de usuario
-- `GET /volunteers` - Obtener todos los voluntarios
-- `GET /volunteers/{id}` - Obtener voluntario por ID
-- `GET /volunteers/user/{userId}` - Obtener voluntario por User ID
-- `POST /volunteers` - Crear voluntario
-- `PUT /volunteers/{id}` - Actualizar voluntario
-- `DELETE /volunteers/{id}` - Eliminar voluntario
-- `GET /organizations` - Obtener todas las organizaciones
-- `GET /organizations/{id}` - Obtener organización por ID
-- `GET /organizations/user/{userId}` - Obtener organización por User ID
-- `POST /organizations` - Crear organización
-- `PUT /organizations/{id}` - Actualizar organización
-- `DELETE /organizations/{id}` - Eliminar organización
-- `GET /publications` - Obtener todas las publicaciones
-- `GET /publications/{id}` - Obtener publicación por ID
-- `GET /publications/organization/{organizationId}` - Obtener publicaciones por organización
-- `POST /publications` - Crear publicación
-- `PUT /publications/{id}/like` - Dar like a una publicación
-- `DELETE /publications/{id}` - Eliminar publicación
-- - `GET /messages/user/{userId}` - Obtener mensajes por User ID
-- `GET /messages/{id}` - Obtener mensaje por ID
-- `POST /messages` - Crear mensaje
-- `PUT /messages/{id}/read` - Marcar mensaje como leído
-- `DELETE /messages/{id}` - Eliminar mensaje
-- - `GET /notifications/user/{userId}` - Obtener notificaciones por User ID
-- `GET /notifications/{id}` - Obtener notificación por ID
-- `POST /notifications` - Crear notificación
-- `PUT /notifications/{id}/read` - Marcar notificación como leída
-- `PUT /notifications/user/{userId}/read-all` - Marcar todas las notificaciones
-- `DELETE /notifications/{id}` - Eliminar notificación
+**URL de la documentación Swagger desplegada:** [Swagger UI](https://backend-production-edc9.up.railway.app/swagger-ui.html)
+
+**Commits relacionados con documentación:**
+- `5bf8b61` - chore(project): backend structure setup in progress
+- `[commit-id-2]` - feat(api): add OpenAPI/Swagger configuration
+- `[commit-id-3]` - docs(api): document all endpoints with OpenAPI annotations
+
+A continuación, se presenta una tabla detallada de los endpoints implementados:
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Response |
+|----------|-------------|-------------|------------|----------|
+| `/api/v1/authentication/sign-in` | POST | Iniciar sesión de usuario | `username` (String), `password` (String) | Token JWT y datos del usuario |
+| `/api/v1/authentication/sign-up` | POST | Registro de nuevo usuario | `username`, `email`, `password`, `name`, `roles` | Usuario creado |
+| `/api/v1/volunteers` | GET | Obtener todos los voluntarios | Ninguno | Lista de voluntarios |
+| `/api/v1/volunteers/{id}` | GET | Obtener voluntario por ID | `id` (Long) | Datos del voluntario |
+| `/api/v1/volunteers/user/{userId}` | GET | Obtener voluntario por User ID | `userId` (Long) | Datos del voluntario |
+| `/api/v1/volunteers` | POST | Crear nuevo voluntario | Body: datos del voluntario | Voluntario creado |
+| `/api/v1/volunteers/{id}` | PUT | Actualizar voluntario | `id` (Long), Body: datos actualizados | Voluntario actualizado |
+| `/api/v1/volunteers/{id}` | DELETE | Eliminar voluntario | `id` (Long) | 204 No Content |
+| `/api/v1/organizations` | GET | Obtener todas las organizaciones | Ninguno | Lista de organizaciones |
+| `/api/v1/organizations/{id}` | GET | Obtener organización por ID | `id` (Long) | Datos de la organización |
+| `/api/v1/organizations/user/{userId}` | GET | Obtener organización por User ID | `userId` (Long) | Datos de la organización |
+| `/api/v1/organizations` | POST | Crear nueva organización | Body: datos de la organización | Organización creada |
+| `/api/v1/organizations/{id}` | PUT | Actualizar organización | `id` (Long), Body: datos actualizados | Organización actualizada |
+| `/api/v1/organizations/{id}` | DELETE | Eliminar organización | `id` (Long) | 204 No Content |
+| `/api/v1/publications` | GET | Obtener todas las publicaciones | Ninguno | Lista de publicaciones |
+| `/api/v1/publications/{id}` | GET | Obtener publicación por ID | `id` (Long) | Datos de la publicación |
+| `/api/v1/publications/organization/{organizationId}` | GET | Obtener publicaciones por organización | `organizationId` (Long) | Lista de publicaciones |
+| `/api/v1/publications` | POST | Crear nueva publicación | Body: datos de la publicación | Publicación creada |
+| `/api/v1/publications/{id}` | PUT | Actualizar publicación | `id` (Long), Body: datos actualizados | Publicación actualizada |
+| `/api/v1/publications/{id}/like` | PUT | Dar like a una publicación | `id` (Long) | Publicación con likes actualizados |
+| `/api/v1/publications/{id}` | DELETE | Eliminar publicación | `id` (Long) | 204 No Content |
+| `/api/v1/messages/user/{userId}` | GET | Obtener mensajes por User ID | `userId` (Long) | Lista de mensajes |
+| `/api/v1/messages/{id}` | GET | Obtener mensaje por ID | `id` (Long) | Datos del mensaje |
+| `/api/v1/messages` | POST | Crear nuevo mensaje | Body: datos del mensaje | Mensaje creado |
+| `/api/v1/messages/{id}/read` | PUT | Marcar mensaje como leído | `id` (Long) | Mensaje actualizado |
+| `/api/v1/messages/{id}` | DELETE | Eliminar mensaje | `id` (Long) | 204 No Content |
+| `/api/v1/notifications/user/{userId}` | GET | Obtener notificaciones por User ID | `userId` (Long) | Lista de notificaciones |
+| `/api/v1/notifications/{id}` | GET | Obtener notificación por ID | `id` (Long) | Datos de la notificación |
+| `/api/v1/notifications` | POST | Crear nueva notificación | Body: datos de la notificación | Notificación creada |
+| `/api/v1/notifications/{id}/read` | PUT | Marcar notificación como leída | `id` (Long) | Notificación actualizada |
+| `/api/v1/notifications/user/{userId}/read-all` | PUT | Marcar todas las notificaciones como leídas | `userId` (Long) | 200 OK |
+| `/api/v1/notifications/{id}` | DELETE | Eliminar notificación | `id` (Long) | 204 No Content |
+
+Además, se incluyen capturas de pantalla que demuestran la interacción con los servicios web a través de Swagger UI:
 
 <img width="1235" height="675" alt="eje1" src="https://github.com/user-attachments/assets/6120e258-810c-4072-86d1-007591ab90b9" />
 
@@ -1996,6 +2080,7 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
 
 
