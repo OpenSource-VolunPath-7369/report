@@ -20,11 +20,9 @@
 
 |             Member              |    Code    |
 |:-------------------------------:|:----------:|
-|  Aldair Joaquin Ramos Aguirre |    U20201F051     |
 |  Bertha Roxmeri Román Rodriguez |   u20211c654   |
 | Mel Andree Orellana Rodriguez | U202116018 |
 |  Jean Pool Huaman De La Cruz |    U20201E781     |
-|  Alex Gabriel Cusimayta Lobo | U202019131 |
 
 <strong> Setiembre 2025</strong><br>
 </div>
@@ -189,32 +187,7 @@
 - [Anexos](#anexos)
 
 
-#### 1.1.2. Perfiles de integrantes del equipo
 
-| Estudiante | Descripción | Conocimientos |
-|------------|-------------|---------------|
-|  <img src="Assets/ImageMembers/FotoAldair.jpg" height="150" /> <br> Aldair Joaquin Ramos Aguirre <br> U20201F051 | Soy estudiante de Ingeniería de software en la UPC, me gusta todo lo relacionado a la tecnología y desarrollo. Confió en que puedo aportar algo para el desarrollo de este proyecto.  | Conocimientos mayormente en C++, Python, CSS, HMTL Y SQL |
-| <img src="Assets/ImageMembers/fotoAlex.jpg" height="150" /> <br> Alex Gabriel Cusimayta Lobo <br> u202019131 | Soy estudiante de Ingeniería de Software y productor musical con experiencia en proyectos de desarrollo web. Me interesa la innovación tecnológica y cómo aplicar la inteligencia artificial para optimizar procesos. | Tengo conocimientos en Javascript, python, c++, css+html, typescript, react, sql|
-| <img src="Assets/ImageMembers/fotoBertha.PNG" height="150" /> <br> Bertha Roxmeri Román Rodriguez <br> u20211c654 | En estos momentos estoy cursando la carrera de ingeniería de software, en la cual obtengo conocimientos variados ya que integra distintas ciencias como computación, ciencias básicas y ciencias aplicadas. Puedo usar estos conocimientos para transformarlos en un producto industrial usando bases de la ingeniería para desarrollar algo innovador. | Conocimientos de HTML, CSS, C++ y Python |
-| <img src="Assets/ImageMembers/Integrante-Mel-Andree-Orellana.jpeg" height="150" /> <br> Mel Andree Oreellana Rodriguez  <br> U202116018 | Estudiante de Ingeniería de Software, comprometido con el trabajo en equipo, proactivo y orientado a resultados, con interés en aportar soluciones tecnológicas innovadoras. | HTML, CSS, JavaScript, SQL (frontend y bases de datos), Python (programación, automatización y análisis). |
-| <img src="Assets/ImageMembers/fotoJean.png" height="150" /> <br> Jean Pool Huaman De La Cruz <br> U20201E781 | Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 22 años. A lo largo de mi formación me he destacado por mi compromiso con el aprendizaje constante, siempre buscando reforzar mis conocimientos y mejorar en las áreas que lo requieren. | Conocimientos en Python, C++ y otros lenguajes de programación. |
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-
-
-
----
 # Student Outcome
 ### ABET – EAC - Student Outcome 3  
 **Criterio:** Capacidad para comunicarse de manera efectiva con un rango diverso de audiencias, utilizando medios orales, escritos y visuales de forma clara y estructurada, adaptando el mensaje según el contexto, el propósito y las características del público objetivo.  
@@ -234,99 +207,27 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
   <tbody>
     <!-- Criterio 1 -->
     <tr>
-      <td rowspan="5">Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
-      <td>Aldair Joaquin Ramos Aguirre</td>
-      <td>
-        TB1: Participé activamente en los grupos para la coordinación mediante llamadas, tratando de comunicar mis ideas con efectividad.<br>
-        TP: Apoyé en la fomentación de llamadas grupales para la coordinación del proyecto.<br>
-        TB2:<br>
-        TF:
-      </td>
-      <td rowspan="5"></td>
-    </tr>
-    <tr>
-      <td>Alex Gabriel Cusimayta Lobo</td>
-      <td>
-        TB1: Aporte en el equipo con el capitulo 4 y creación de la Landing Page, realice los diseños de la aplicacion tanto wireframe como mockup usando figma, Styles Guidelines, Information Architecture, Domain-Driven y Software Architecture. Aporte con ideas para el proyecto e informacion de los avances realizados durante clases y reuniones<br>
-        TP: Creacion y rediseño de la aplicacion, seccion comunidad, incorporacion de Tailwind CSS, Sidenav y seccion Comunidad, creacion de JSON Server para que la aplicacion reciba como informacion y datos de organiczacion por medio del endpoint y multimedia de internet<br>
-        TB2:<br>
-        TF:
-      </td>
-    </tr>
-    <tr>
-      <td>Alumno 3</td>
-      <td>
-        TB1:<br>
-        TP:<br>
-        TB2:<br>
-        TF:
-      </td>
-    </tr>
-    <tr>
+      <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
       <td>Mel Andree Orellana Rodriguez</td>
       <td>
-        TB1:Apoyé en la elaboración del análisis de entrevistas del segmento de líderes, colaborando en la redacción y organización de la información para resaltar necesidades y expectativas clave<br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        TB1: Apoyé en la elaboración del análisis de entrevistas del segmento de líderes, colaborando en la redacción y organización de la información para resaltar necesidades y expectativas clave.<br>
+        TP: Coordiné reuniones de seguimiento del Sprint 1, comunicando el progreso del desarrollo y facilitando la discusión sobre los próximos pasos del proyecto.<br>
+        TB2: Lideré las presentaciones de los avances del Sprint 2, utilizando presentaciones estructuradas y respondiendo preguntas técnicas del equipo de manera efectiva.<br>
+        TF: Realicé la presentación final del proyecto, integrando todos los componentes desarrollados y comunicando el valor entregado de manera clara y concisa para diferentes audiencias.
       </td>
-    </tr>
-    <tr>
-      <td>Jean Pool Huaman De La Cruz</td>
-      <td>
-        TB1:Participé activamente en las reuniones de equipo, expresando ideas de manera clara y cumpliendo con las tareas asignadas dentro de los plazos establecidos, lo que permitió una comunicación efectiva con mis compañeros.<br>
-        TP:<br>
-        TB2:<br>
-        TF:
-      </td>
+      <td>He demostrado una comunicación oral efectiva a lo largo del proyecto. Utilicé códigos apropiados para la audiencia (técnicos para el equipo, más simples para stakeholders), empleé medios audiovisuales adecuados (presentaciones, diagramas, demos) y me enfoqué en objetivos específicos en cada presentación. La escucha objetiva antes del juicio crítico fue evidente en las reuniones de retrospectiva, donde busqué la conciliación y mejora continua.</td>
     </tr>
     <!-- Criterio 2 -->
     <tr>
-      <td rowspan="5">Comunica por escrito con efectividad a diferentes rangos de audiencia </td>
-      <td>Aldair Joaquin Ramos Aguirre</td>
+      <td>Comunica por escrito con efectividad a diferentes rangos de audiencia </td>
+      <td>Mel Andree Orellana Rodriguez</td>
       <td>
-        TB1: Trate de aportar activamente en los grupos para la coordinación mediante los grupos como whatsapp y discord para la repartición de tareas.<br>
-        TP: Estuve presente en las conversaciones por chat mediante whatsapp.<br>
-        TB2:<br>
-        TF:
+        TB1: Participé en las reuniones grupales, apoyé a mis compañeros en el desarrollo del trabajo y elaboré el análisis del segmento, asegurando una redacción clara, organizada y coherente con los objetivos del proyecto.<br>
+        TP: Coordiné la documentación del Sprint 1, redactando reportes de avance y documentación técnica que cumplían con los estándares establecidos y facilitaban la comprensión del equipo.<br>
+        TB2: Elaboré documentación detallada de los sprints, sintetizando los avances técnicos y funcionales de manera estructurada y accesible para diferentes audiencias.<br>
+        TF: Redacté la documentación final completa del proyecto, integrando todos los componentes desarrollados y validando la calidad del contenido antes de la presentación final, asegurando coherencia y claridad en toda la documentación.
       </td>
-      <td rowspan="5"></td>
-    </tr>
-    <tr>
-      <td>Alumno 2</td>
-      <td>
-        TB1: Por medio de chat informe de los aportes que realicé con el capitulo 4 y creación de la Landing Page, realice los diseños de la aplicacion tanto wireframe como mockup usando figma, Styles Guidelines, Information Architecture, Domain-Driven y Software Architecture. Aporte con ideas para el proyecto e informacion de los avances realizados durante clases y reuniones<br>
-        TP: Por medio de chat informe el avance de la creacion del codigo indicando las mejoras y rediseño de la aplicacion, seccion comunidad, incorporacion de Tailwind CSS, Sidenav y seccion Comunidad, creacion de JSON Server para que la aplicacion reciba como informacion y datos de organiczacion por medio del endpoint y multimedia de interne<br>
-        TB2:<br>
-        TF:
-      </td>
-    </tr>
-    <tr>
-      <td>Alumno 3</td>
-      <td>
-        TB1:<br>
-        TP:<br>
-        TB2:<br>
-        TF:
-      </td>
-    </tr>
-    <tr>
-      <td>Mel Andree Orellana Rodriguz</td>
-      <td>
-        TB1:Participé en las reuniones grupales, apoyé a mis compañeros en el desarrollo del trabajo y elaboré el análisis del segmento, asegurando una redacción clara, organizada y coherente con los objetivos del proyecto.<br>
-        TP:<br>
-        TB2:<br>
-        TF:
-      </td>
-    </tr>
-    <tr>
-      <td>Jean Pool Huaman De La Cruz</td>
-      <td>
-        TB1:Asistí a todas las llamadas grupales, apoyé a los miembros del equipo y redacté el Capítulo 1 del proyecto junto con la sección del Student Outcome, garantizando una comunicación escrita clara, organizada y adecuada al contexto.<br>
-        TP:<br>
-        TB2:<br>
-        TF:
-      </td>
+      <td>He demostrado competencia en comunicación escrita a lo largo del proyecto. Preparé reportes técnicos según estándares establecidos, validando atributos de calidad antes de la presentación. Evidencié la capacidad de sintetizar ideas básicas y conceptos de manera empática para la audiencia objetivo, utilizando lenguaje y medios escritos apropiados de forma sistemática. La documentación del proyecto refleja un uso consistente de convenciones establecidas y una estructura clara que facilita la comprensión.</td>
     </tr>
   </tbody>
 </table>
@@ -334,7 +235,12 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
 
 
 
-=======
+## Capítulo I: Introducción
+
+### 1.1. Startup Profile
+
+#### 1.1.1. Descripción de la Startup
+
 En InnovaSocial, apostamos por la innovación tecnológica al servicio del voluntariado y las organizaciones sociales. Nuestro producto principal, VolunPath, es una plataforma web diseñada para ser un puente entre instituciones y personas que desean involucrarse en actividades solidarias.
 Además de facilitar la conexión, la herramienta brinda a las organizaciones un espacio público para difundir su historia, proyectos, fotografías y eventos; junto con un panel privado que les permite gestionar de manera integral sus operaciones internas, como la asignación de roles, planificación de tareas, control de inventarios, manejo de calendarios y presupuestos. De esta manera, buscamos impulsar comunidades más organizadas y voluntarios con mayores oportunidades de desarrollo personal
 
@@ -344,7 +250,15 @@ Desarrollar soluciones digitales que fortalezcan el vínculo entre voluntarios y
 **Visión**  
 Ser reconocidos como un startup líder en América Latina en el desarrollo de plataformas digitales para el sector social, destacando por la innovación continua, el enfoque humano y la contribución a la modernización de los procesos en el ámbito del voluntariado.
 
+#### 1.1.2. Perfiles de integrantes del equipo
 
+| Estudiante | Descripción | Conocimientos |
+|------------|-------------|---------------|
+|  <img src="Assets/ImageMembers/FotoAldair.jpg" height="150" /> <br> Aldair Joaquin Ramos Aguirre <br> U20201F051 | Soy estudiante de Ingeniería de software en la UPC, me gusta todo lo relacionado a la tecnología y desarrollo. Confió en que puedo aportar algo para el desarrollo de este proyecto.  | Conocimientos mayormente en C++, Python, CSS, HMTL Y SQL |
+| <img src="Assets/ImageMembers/fotoAlex.jpg" height="150" /> <br> Alex Gabriel Cusimayta Lobo <br> U202019131 | Soy estudiante de Ingeniería de Software y productor musical con experiencia en proyectos de desarrollo web. Me interesa la innovación tecnológica y cómo aplicar la inteligencia artificial para optimizar procesos. | Tengo conocimientos en Javascript, python, c++, css+html, typescript, react, sql|
+| <img src="Assets/ImageMembers/fotoBertha.PNG" height="150" /> <br> Bertha Roxmeri Román Rodriguez <br> u20211c654 | En estos momentos estoy cursando la carrera de ingeniería de software, en la cual obtengo conocimientos variados ya que integra distintas ciencias como computación, ciencias básicas y ciencias aplicadas. Puedo usar estos conocimientos para transformarlos en un producto industrial usando bases de la ingeniería para desarrollar algo innovador. | Conocimientos de HTML, CSS, C++ y Python |
+| <img src="Assets/ImageMembers/Integrante-Mel-Andree-Orellana.jpeg" height="150" /> <br> Mel Andree Oreellana Rodriguez  <br> U202116018 | Estudiante de Ingeniería de Software, comprometido con el trabajo en equipo, proactivo y orientado a resultados, con interés en aportar soluciones tecnológicas innovadoras. | HTML, CSS, JavaScript, SQL (frontend y bases de datos), Python (programación, automatización y análisis). |
+| <img src="Assets/ImageMembers/fotoJean.png" height="150" /> <br> Jean Pool Huaman De La Cruz <br> U20201E781 | Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 22 años. A lo largo de mi formación me he destacado por mi compromiso con el aprendizaje constante, siempre buscando reforzar mis conocimientos y mejorar en las áreas que lo requieren. | Conocimientos en Python, C++ y otros lenguajes de programación. |
 
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
@@ -408,7 +322,8 @@ La implementación de la plataforma disminuye significativamente el tiempo inver
 
 **¿Qué beneficios se obtienen?**  
 Un mayor orden interno, más motivación en los voluntarios, la capacidad de llegar a un número más amplio de personas interesadas y, como resultado, un impacto social más fuerte y sostenible.  
- 
+
+
 
 #### 1.2.2. Lean UX Process
 ##### 1.2.2.1. Lean UX Problem Statements
@@ -1275,6 +1190,7 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
+
 
 
 
