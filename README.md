@@ -849,29 +849,29 @@ Carmen Quispe
 | 2                 | Monitoreo y Auditoría       | Auditoría de acciones y generación de reportes para seguimiento del sistema y usuarios.                                               |
 | 3                 | Mantenimiento y Performance | Backups automáticos, pruebas unitarias, optimización de rendimiento y control de versiones de API para confiabilidad y mantenimiento. |
 
-
 #### Technical Story
 | Technical Story ID | Título                   | Descripción                                              | Criterios de Aceptación                                                | Technical Epic ID |
 | ------------------ | ------------------------ | -------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------- |
-| TS01               | API de Autenticación     | Endpoints para login, registro y tokens JWT.            | Si los datos son válidos, se genera y devuelve un JWT.                 | 1                 |
-| TS02               | API de Proyectos         | CRUD de proyectos con endpoints REST.                   | Las operaciones CRUD impactan correctamente la base de datos.          | 1                 |
-| TS03               | API de Voluntarios       | Gestión de voluntarios con validación por token.        | Operaciones válidas solo si el token es correcto.                      | 1                 |
-| TS04               | API de Mensajes          | Envío y recepción de mensajes en tiempo real.           | El receptor recibe el mensaje si está activo.                          | 1                 |
-| TS05               | API de Reportes          | Generación de reportes en JSON o PDF.                   | Si existen datos, el reporte se genera y se exporta correctamente.     | 2                 |
-| TS06               | Auditoría de Acciones    | Registro de logs del sistema.                           | Cada acción genera un log con la información correspondiente.          | 2                 |
-| TS07               | Versionado de API        | Documentación y control de versiones de endpoints.       | Cada cambio actualiza la versión y documentación de la API.            | 3                 |
-| TS08               | API de Organizaciones            | CRUD para organizaciones con validación básica.             | Las operaciones CRUD se ejecutan correctamente si los datos son válidos.| 1                 |
-| TS09               | API de Publicaciones             | Endpoints para publicaciones y sistema de likes.            | Las publicaciones se crean y los likes se registran correctamente.       | 1                 |
-| TS10               | API de Notificaciones            | Gestión de notificaciones con lectura y marcación masiva.   | El usuario ve, marca y borra notificaciones sin errores.                | 1                 |
-| TS11               | Gestión de Imágenes Base64       | Procesamiento y almacenamiento de imágenes en Base64.       | Las imágenes válidas se guardan y se visualizan correctamente.           | 2                 |
-| TS12               | Configuración CORS               | Permitir peticiones desde frontend autorizado.              | El backend acepta solicitudes de la URL configurada sin errores CORS.   | 3                 |
-| TS13               | Documentación Swagger/OpenAPI    | Documentar todos los endpoints REST.                        | Swagger muestra endpoints, modelos y ejemplos.                          | 3                 |
-| TS14               | Integración Frontend-Backend     | Conexión mediante servicios REST y manejo de errores.       | Las peticiones llegan correctamente al backend con su JWT correspondiente.| 2                 |
-| TS15               | Filtro de Seguridad JWT          | Verificar token en cada petición protegida.                 | Si el token es inválido, se retorna 401 automáticamente.                | 1                 |
-| TS16               | Configuración de MySQL/JPA       | Seteo de datasource, dialecto y ddl-auto.                   | La app se conecta e inicializa la BD sin errores.                       | 3                 |
-| TS17               | Manejo de Sesiones en Frontend   | Guardar y leer token desde localStorage.                    | El usuario mantiene sesión tras recargar la página.                     | 2                 |
-| TS18               | API de Actividades               | Gestión de actividades de organizaciones.                   | Las actividades se crean, listan y actualizan correctamente.            | 1                 |
-| TS19               | Confirmación de Actividades      | Aceptar o rechazar participación de voluntarios.           | Los cambios de estado se guardan y notifican al usuario.                | 1                 |
+| TS01               | API de Autenticación      | Endpoints para login y registro de usuarios.  | El sistema valida credenciales y permite el acceso al endpoint correspondiente. | 1                 |
+| TS02               | Generación de Token JWT   | Gestión y emisión de tokens JWT.              | Cuando las credenciales son válidas, el sistema genera y devuelve un JWT.       | 1                 |
+| TS03               | API de Proyectos         | CRUD de proyectos con endpoints REST.                   | Las operaciones CRUD impactan correctamente la base de datos.          | 1                 |
+| TS04               | API de Voluntarios       | Gestión de voluntarios con validación por token.        | Operaciones válidas solo si el token es correcto.                      | 1                 |
+| TS05               | API de Mensajes          | Envío y recepción de mensajes en tiempo real.           | El receptor recibe el mensaje si está activo.                          | 1                 |
+| TS06               | API de Reportes          | Generación de reportes en JSON o PDF.                   | Si existen datos, el reporte se genera y se exporta correctamente.     | 2                 |
+| TS07               | Auditoría de Acciones    | Registro de logs del sistema.                           | Cada acción genera un log con la información correspondiente.          | 2                 |
+| TS08               | Versionado de API        | Documentación y control de versiones de endpoints.       | Cada cambio actualiza la versión y documentación de la API.            | 3                 |
+| TS09               | API de Organizaciones            | CRUD para organizaciones con validación básica.             | Las operaciones CRUD se ejecutan correctamente si los datos son válidos.| 1                 |
+| TS10               | API de Publicaciones             | Endpoints para publicaciones y sistema de likes.            | Las publicaciones se crean y los likes se registran correctamente.       | 1                 |
+| TS11               | API de Notificaciones            | Gestión de notificaciones con lectura y marcación masiva.   | El usuario ve, marca y borra notificaciones sin errores.                | 1                 |
+| TS12               | Gestión de Imágenes Base64       | Procesamiento y almacenamiento de imágenes en Base64.       | Las imágenes válidas se guardan y se visualizan correctamente.           | 2                 |
+| TS13               | Configuración CORS               | Permitir peticiones desde frontend autorizado.              | El backend acepta solicitudes de la URL configurada sin errores CORS.   | 3                 |
+| TS14               | Documentación Swagger/OpenAPI    | Documentar todos los endpoints REST.                        | Swagger muestra endpoints, modelos y ejemplos.                          | 3                 |
+| TS15               | Integración Frontend-Backend     | Conexión mediante servicios REST y manejo de errores.       | Las peticiones llegan correctamente al backend con su JWT correspondiente.| 2                 |
+| TS16               | Filtro de Seguridad JWT          | Verificar token en cada petición protegida.                 | Si el token es inválido, se retorna 401 automáticamente.                | 1                 |
+| TS17               | Configuración de MySQL/JPA       | Seteo de datasource, dialecto y ddl-auto.                   | La app se conecta e inicializa la BD sin errores.                       | 3                 |
+| TS18               | Manejo de Sesiones en Frontend   | Guardar y leer token desde localStorage.                    | El usuario mantiene sesión tras recargar la página.                     | 2                 |
+| TS19               | API de Actividades               | Gestión de actividades de organizaciones.                   | Las actividades se crean, listan y actualizan correctamente.            | 1                 |
+| TS20               | Confirmación de Actividades      | Aceptar o rechazar participación de voluntarios.           | Los cambios de estado se guardan y notifican al usuario.                | 1                 |
 
 
 
@@ -1284,6 +1284,7 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
+
 
 
 
