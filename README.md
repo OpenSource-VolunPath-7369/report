@@ -1536,6 +1536,13 @@ En este Sprint se prioriza el desarrollo del Landing Page para la plataforma Vol
 
 El Sprint se enfoca en definir y construir el layout principal, la estructura de navegación y los contenidos esenciales que transmitan el valor de la plataforma, garantizando una experiencia intuitiva, accesible y coherente con la identidad del proyecto. A continuación, se presenta un cuadro a detalle.
 
+| Team Member | GitHub Username | Landing Page HTML (L/C) | Landing Page CSS (L/C) | Landing Page JS (L/C) |
+|-------------|-----------------|-------------------------|------------------------|----------------------|
+| Orellana Rodriguez, Mel Andree | melandree8 | L          | C                     | C                     | 
+| Cusimayta Lobo, Alex Gabriel | Alexsioh | L          | C                     | C                     | 
+
+
+
 | **Aspecto**               | **Descripción** |
 |---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Feature**               | Diseño, desarrollo y despliegue del Landing Page de la plataforma VolunPath. |
@@ -1639,7 +1646,6 @@ En esta sección se describe el proceso de implementación de la plataforma en u
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 Se proporcionará información detallada sobre la colaboración y comunicación entre los miembros del equipo de desarrollo durante el sprint. Esto incluirá la coordinación de actividades, la gestión de tareas asignadas y la resolución de inconvenientes surgidos en el proceso. Las responsabilidades se distribuyeron equitativamente entre los integrantes del equipo. A continuación, se presenta un análisis general de los commits realizados por cada aportante, reflejando su participación en el proyecto.
-
 
 
 #### 5.2.2. Sprint 2
@@ -1895,6 +1901,7 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
 
 
