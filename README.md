@@ -20,26 +20,69 @@
 
 |             Member              |    Code    |
 |:-------------------------------:|:----------:|
-|  Aldair Ramos |    U20201F051     |
 |  Bertha Roxmeri Román Rodriguez |   u20211c654   |
 | Mel Andree Orellana Rodriguez | U202116018 |
 |  Jean Pool Huaman De La Cruz |    U20201E781     |
-|  Alex Gabriel Cusimayta Lobo | U202019131 |
 
 <strong> Setiembre 2025</strong><br>
 </div>
 
 # Registro de Versiones del Informe
-|             Versión             |    Fecha   |    Descripción de modificación   |
-|:-------------------------------:|:----------:|:----------:|
-|  TB1 |    11/09/2025     |    Se han incluído los siguientes capítulos: Capítulo I: Introducción, Capítulo II: Requirements Elicitation & Analysis, Capítulo III: Requirements Specification, Capítulo IV: Product Design, Avance del Capítulo V: Product Implementation, Validation & Deployment hasta el punto 5.2.1.8, Avance de Conclusiones, Bibliografía y Anexos|           
+| Versión  | Fecha       | Autor                              | Descripción de modificación                                                    |
+|:----------:|:-------------:|:-------------------------------------:|:-------------------------------------------------------------------------------:|
+| TB1      | 18/09/2025  | Orellana Rodriguez, Mel Andree| Creación de la Estructura del informe                       |
+| TB1      | 19/09/2025  | Orellana Rodriguez, Mel Andree|   Desarrollo de General Style Guidelines  |
+| TB1      | 19/09/2025  | Orellana Rodriguez, Mel Andree|Desarrollo de Web Style Guidelines|
+| TB1      | 19/09/2025  | Orellana Rodriguez, Mel Andree|Desarrollo de SEO Tags and Meta Tags |
+| TB1      | 20/09/2025  | Orellana Rodriguez, Mel Andree|Desarrollo de Navigation Systems |
+| TB1      | 20/09/2025  | Orellana Rodriguez, Mel Andree|Incorporación del Database Diagram |
+| TB1      | 20/09/2025  | Orellana Rodriguez, Mel Andree|Incorporación del Web Applications Wireframes |
+| TB1      | 20/09/2025  | Orellana Rodriguez, Mel Andree|Incorporación del Web Applications Wireflow Diagrams |
+
+
+| Versión  | Fecha       | Autor                              | Descripción de modificación                                                    |
+|:----------:|:-------------:|:-------------------------------------:|:-------------------------------------------------------------------------------:|
+| TP      | 26/09/2025  | Orellana Rodriguez, Mel Andree| Configuración del entorno inicial del backend y estructura de carpetas  |
+| TP      | 26/09/2025  | Orellana Rodriguez, Mel Andree|Configuración de servicios RESTful para aggregates |
+| TP      | 27/09/2025  | Orellana Rodriguez, Mel Andree|Diseño responsivo del dashboard en frontend |
+| TP      | 27/09/2025  | Orellana Rodriguez, Mel Andree|Implementación del módulo de autenticación y sesión (profile)  |
+| TP      | 27/09/2025  | Orellana Rodriguez, Mel Andree|Conexión del frontend con la API           |
+| TP      | 27/09/2025  | Orellana Rodriguez, Mel Andree|Documentación de endpoints del backend con Swagger  |
+
+
+
+| Versión  | Fecha       | Autor                              | Descripción de modificación                                                    |
+|:----------:|:-------------:|:-------------------------------------:|:-------------------------------------------------------------------------------:|
+| TB2      | 01/11/2025  | Orellana Rodriguez, Mel Andree| Implementación de dashboard   |
+| TB2      | 01/11/2025  | Orellana Rodriguez, Mel Andree| Integración de gestión de perfiles   |
+| TB2      | 03/11/2025  | Orellana Rodriguez, Mel Andree| Optimización del backend con patrones DDD para aggregates   |
+| TB2      | 03/11/2025  | Orellana Rodriguez, Mel Andree| Pruebas de carga sobre servicios   |
+| TB2      | 05/11/2025  | Orellana Rodriguez, Mel Andree| Refactor del diseño visual para compatibilidad   |
+| TB2      | 05/11/2025  | Orellana Rodriguez, Mel Andree| Integración con base de datos externa para recopilación de datos     |
+| TB2      | 05/11/2025  | Orellana Rodriguez, Mel Andree| Configuración de variables de entorno para despliegue automatizado  |
+| TB2      | 05/11/2025  | Orellana Rodriguez, Mel Andree| Optimización de experiencia de usuario en dispositivos  |
+
+
+
+| Versión  | Fecha       | Autor                              | Descripción de modificación                                                    |
+|:----------:|:-------------:|:-------------------------------------:|:-------------------------------------------------------------------------------:|
+| TF      |23/11/2025  | Orellana Rodriguez, Mel Andree| Mejoras de accesibilidad para usuarios |
+| TF      |23/11/2025  | Orellana Rodriguez, Mel Andree| Reestructuración modular del frontend por componentes |
+| TF      | 24/11/2025  | Orellana Rodriguez, Mel Andree| Corrección de errores en el sistema de notificaciones |
+| TF      | 24/11/2025 | Orellana Rodriguez, Mel Andree| Mejora del rendimiento en cargas iniciales del dashboard|
+| TF      | 29/11/2025  | Orellana Rodriguez, Mel Andree|Revisión general del sistema para entrega  |
+| TF      | 29/11/2025  | Orellana Rodriguez, Mel Andree|Documentación final del sistema y arquitectura implementada|
+| TF      | 29/11/2025  | Orellana Rodriguez, Mel Andree|Preparación del entregable final y presentación del sistema|
+
+
+
+
+
     
 # Project Report Collaboration Insights
 
 - URL Project Report (Github): https://github.com/curso-nombre-startup-7369/report/tree/develop
----
-
-# Contenido
+  
 
 ## Tabla de contenidos
 - [Student Outcome](#student-outcome)
@@ -119,7 +162,24 @@
             - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
             - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-
+        - [5.2.2. Sprint 2](#522-sprint-2)
+            - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+            - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+            - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+            - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+            - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+            - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+            - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+            - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+        - [5.2.3. Sprint 3](#523-sprint-3)
+            - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+            - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+            - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+            - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+            - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+            - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+            - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+            - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Video About-the-Team](#video-about-the-team)
@@ -127,32 +187,7 @@
 - [Anexos](#anexos)
 
 
-#### 1.1.2. Perfiles de integrantes del equipo
 
-| Estudiante | Descripción | Conocimientos |
-|------------|-------------|---------------|
-|  <img src="Assets/ImageMembers/FotoAldair.jpg" height="150" /> <br> Aldair Joaquin Ramos Aguirre <br> U20201F051 | Soy estudiante de Ingeniería de software en la UPC, me gusta todo lo relacionado a la tecnología y desarrollo. Confió en que puedo aportar algo para el desarrollo de este proyecto.  | Conocimientos mayormente en C++, Python, CSS, HMTL Y SQL |
-| (foto) <br> Nombres Apellidos <br> Código | Descripción del estudiante | Conocimientos del estudiante |
-| <img src="Assets/ImageMembers/fotoBertha.PNG" height="150" /> <br> Bertha Roxmeri Román Rodriguez <br> u20211c654 | En estos momentos estoy cursando la carrera de ingeniería de software, en la cual obtengo conocimientos variados ya que integra distintas ciencias como computación, ciencias básicas y ciencias aplicadas. Puedo usar estos conocimientos para transformarlos en un producto industrial usando bases de la ingeniería para desarrollar algo innovador. | Conocimientos de HTML, CSS, C++ y Python |
-| <img src="Assets/ImageMembers/Integrante-Mel-Andree-Orellana.jpeg" height="150" /> <br> Mel Andree Oreellana Rodriguez  <br> U202116018 | Estudiante de Ingeniería de Software, comprometido con el trabajo en equipo, proactivo y orientado a resultados, con interés en aportar soluciones tecnológicas innovadoras. | HTML, CSS, JavaScript, SQL (frontend y bases de datos), Python (programación, automatización y análisis). |
-| <img src="Assets/ImageMembers/fotoJean.png" height="150" /> <br> Jean Pool Huaman De La Cruz <br> U20201E781 | Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 22 años. A lo largo de mi formación me he destacado por mi compromiso con el aprendizaje constante, siempre buscando reforzar mis conocimientos y mejorar en las áreas que lo requieren. | Conocimientos en Python, C++ y otros lenguajes de programación. |
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-
-
-
----
 # Student Outcome
 ### ABET – EAC - Student Outcome 3  
 **Criterio:** Capacidad para comunicarse de manera efectiva con un rango diverso de audiencias, utilizando medios orales, escritos y visuales de forma clara y estructurada, adaptando el mensaje según el contexto, el propósito y las características del público objetivo.  
@@ -172,99 +207,27 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
   <tbody>
     <!-- Criterio 1 -->
     <tr>
-      <td rowspan="5">Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
-      <td>Aldair Joaquin Ramos Aguirre</td>
-      <td>
-        TB1: Participé activamente en los grupos para la coordinación mediante llamadas, tratando de comunicar mis ideas con efectividad.<br>
-        TP:<br>
-        TB2:<br>
-        TF:
-      </td>
-      <td rowspan="5"></td>
-    </tr>
-    <tr>
-      <td>Alumno 2</td>
-      <td>
-        TB1:<br>
-        TP:<br>
-        TB2:<br>
-        TF:
-      </td>
-    </tr>
-    <tr>
-      <td>Alumno 3</td>
-      <td>
-        TB1:<br>
-        TP:<br>
-        TB2:<br>
-        TF:
-      </td>
-    </tr>
-    <tr>
+      <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
       <td>Mel Andree Orellana Rodriguez</td>
       <td>
-        TB1:Apoyé en la elaboración del análisis de entrevistas del segmento de líderes, colaborando en la redacción y organización de la información para resaltar necesidades y expectativas clave<br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        TB1: Apoyé en la elaboración del análisis de entrevistas del segmento de líderes, colaborando en la redacción y organización de la información para resaltar necesidades y expectativas clave.<br>
+        TP: Coordiné reuniones de seguimiento del Sprint 1, comunicando el progreso del desarrollo y facilitando la discusión sobre los próximos pasos del proyecto.<br>
+        TB2: Lideré las presentaciones de los avances del Sprint 2, utilizando presentaciones estructuradas y respondiendo preguntas técnicas del equipo de manera efectiva.<br>
+        TF: Realicé la presentación final del proyecto, integrando todos los componentes desarrollados y comunicando el valor entregado de manera clara y concisa para diferentes audiencias.
       </td>
-    </tr>
-    <tr>
-      <td>Jean Pool Huaman De La Cruz</td>
-      <td>
-        TB1:Participé activamente en las reuniones de equipo, expresando ideas de manera clara y cumpliendo con las tareas asignadas dentro de los plazos establecidos, lo que permitió una comunicación efectiva con mis compañeros.<br>
-        TP:<br>
-        TB2:<br>
-        TF:
-      </td>
+      <td>He demostrado una comunicación oral efectiva a lo largo del proyecto. Utilicé códigos apropiados para la audiencia (técnicos para el equipo, más simples para stakeholders), empleé medios audiovisuales adecuados (presentaciones, diagramas, demos) y me enfoqué en objetivos específicos en cada presentación. La escucha objetiva antes del juicio crítico fue evidente en las reuniones de retrospectiva, donde busqué la conciliación y mejora continua.</td>
     </tr>
     <!-- Criterio 2 -->
     <tr>
-      <td rowspan="5">Comunica por escrito con efectividad a diferentes rangos de audiencia </td>
-      <td>Aldair Joaquin Ramos Aguirre</td>
+      <td>Comunica por escrito con efectividad a diferentes rangos de audiencia </td>
+      <td>Mel Andree Orellana Rodriguez</td>
       <td>
-        TB1: Trate de aportar activamente en los grupos para la coordinación mediante los grupos como whatsapp y discord para la repartición de tareas.<br>
-        TP:<br>
-        TB2:<br>
-        TF:
+        TB1: Participé en las reuniones grupales, apoyé a mis compañeros en el desarrollo del trabajo y elaboré el análisis del segmento, asegurando una redacción clara, organizada y coherente con los objetivos del proyecto.<br>
+        TP: Coordiné la documentación del Sprint 1, redactando reportes de avance y documentación técnica que cumplían con los estándares establecidos y facilitaban la comprensión del equipo.<br>
+        TB2: Elaboré documentación detallada de los sprints, sintetizando los avances técnicos y funcionales de manera estructurada y accesible para diferentes audiencias.<br>
+        TF: Redacté la documentación final completa del proyecto, integrando todos los componentes desarrollados y validando la calidad del contenido antes de la presentación final, asegurando coherencia y claridad en toda la documentación.
       </td>
-      <td rowspan="5"></td>
-    </tr>
-    <tr>
-      <td>Alumno 2</td>
-      <td>
-        TB1:<br>
-        TP:<br>
-        TB2:<br>
-        TF:
-      </td>
-    </tr>
-    <tr>
-      <td>Alumno 3</td>
-      <td>
-        TB1:<br>
-        TP:<br>
-        TB2:<br>
-        TF:
-      </td>
-    </tr>
-    <tr>
-      <td>Mel Andree Orellana Rodriguz</td>
-      <td>
-        TB1:Participé en las reuniones grupales, apoyé a mis compañeros en el desarrollo del trabajo y elaboré el análisis del segmento, asegurando una redacción clara, organizada y coherente con los objetivos del proyecto.<br>
-        TP:<br>
-        TB2:<br>
-        TF:
-      </td>
-    </tr>
-    <tr>
-      <td>Jean Pool Huaman De La Cruz</td>
-      <td>
-        TB1:Asistí a todas las llamadas grupales, apoyé a los miembros del equipo y redacté el Capítulo 1 del proyecto junto con la sección del Student Outcome, garantizando una comunicación escrita clara, organizada y adecuada al contexto.<br>
-        TP:<br>
-        TB2:<br>
-        TF:
-      </td>
+      <td>He demostrado competencia en comunicación escrita a lo largo del proyecto. Preparé reportes técnicos según estándares establecidos, validando atributos de calidad antes de la presentación. Evidencié la capacidad de sintetizar ideas básicas y conceptos de manera empática para la audiencia objetivo, utilizando lenguaje y medios escritos apropiados de forma sistemática. La documentación del proyecto refleja un uso consistente de convenciones establecidas y una estructura clara que facilita la comprensión.</td>
     </tr>
   </tbody>
 </table>
@@ -272,7 +235,12 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
 
 
 
-=======
+## Capítulo I: Introducción
+
+### 1.1. Startup Profile
+
+#### 1.1.1. Descripción de la Startup
+
 En InnovaSocial, apostamos por la innovación tecnológica al servicio del voluntariado y las organizaciones sociales. Nuestro producto principal, VolunPath, es una plataforma web diseñada para ser un puente entre instituciones y personas que desean involucrarse en actividades solidarias.
 Además de facilitar la conexión, la herramienta brinda a las organizaciones un espacio público para difundir su historia, proyectos, fotografías y eventos; junto con un panel privado que les permite gestionar de manera integral sus operaciones internas, como la asignación de roles, planificación de tareas, control de inventarios, manejo de calendarios y presupuestos. De esta manera, buscamos impulsar comunidades más organizadas y voluntarios con mayores oportunidades de desarrollo personal
 
@@ -282,7 +250,15 @@ Desarrollar soluciones digitales que fortalezcan el vínculo entre voluntarios y
 **Visión**  
 Ser reconocidos como un startup líder en América Latina en el desarrollo de plataformas digitales para el sector social, destacando por la innovación continua, el enfoque humano y la contribución a la modernización de los procesos en el ámbito del voluntariado.
 
+#### 1.1.2. Perfiles de integrantes del equipo
 
+| Estudiante | Descripción | Conocimientos |
+|------------|-------------|---------------|
+|  <img src="Assets/ImageMembers/FotoAldair.jpg" height="150" /> <br> Aldair Joaquin Ramos Aguirre <br> U20201F051 | Soy estudiante de Ingeniería de software en la UPC, me gusta todo lo relacionado a la tecnología y desarrollo. Confió en que puedo aportar algo para el desarrollo de este proyecto.  | Conocimientos mayormente en C++, Python, CSS, HMTL Y SQL |
+| <img src="Assets/ImageMembers/fotoAlex.jpg" height="150" /> <br> Alex Gabriel Cusimayta Lobo <br> U202019131 | Soy estudiante de Ingeniería de Software y productor musical con experiencia en proyectos de desarrollo web. Me interesa la innovación tecnológica y cómo aplicar la inteligencia artificial para optimizar procesos. | Tengo conocimientos en Javascript, python, c++, css+html, typescript, react, sql|
+| <img src="Assets/ImageMembers/fotoBertha.PNG" height="150" /> <br> Bertha Roxmeri Román Rodriguez <br> u20211c654 | En estos momentos estoy cursando la carrera de ingeniería de software, en la cual obtengo conocimientos variados ya que integra distintas ciencias como computación, ciencias básicas y ciencias aplicadas. Puedo usar estos conocimientos para transformarlos en un producto industrial usando bases de la ingeniería para desarrollar algo innovador. | Conocimientos de HTML, CSS, C++ y Python |
+| <img src="Assets/ImageMembers/Integrante-Mel-Andree-Orellana.jpeg" height="150" /> <br> Mel Andree Oreellana Rodriguez  <br> U202116018 | Estudiante de Ingeniería de Software, comprometido con el trabajo en equipo, proactivo y orientado a resultados, con interés en aportar soluciones tecnológicas innovadoras. | HTML, CSS, JavaScript, SQL (frontend y bases de datos), Python (programación, automatización y análisis). |
+| <img src="Assets/ImageMembers/fotoJean.png" height="150" /> <br> Jean Pool Huaman De La Cruz <br> U20201E781 | Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 22 años. A lo largo de mi formación me he destacado por mi compromiso con el aprendizaje constante, siempre buscando reforzar mis conocimientos y mejorar en las áreas que lo requieren. | Conocimientos en Python, C++ y otros lenguajes de programación. |
 
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
@@ -346,7 +322,8 @@ La implementación de la plataforma disminuye significativamente el tiempo inver
 
 **¿Qué beneficios se obtienen?**  
 Un mayor orden interno, más motivación en los voluntarios, la capacidad de llegar a un número más amplio de personas interesadas y, como resultado, un impacto social más fuerte y sostenible.  
- 
+
+
 
 #### 1.2.2. Lean UX Process
 ##### 1.2.2.1. Lean UX Problem Statements
@@ -783,6 +760,8 @@ Este lenguaje común permitirá que conceptos como *voluntario, líder, tarea, i
 ---
 ### 3.1. To-Be Scenario Mapping
 
+El To-Be Scenario Mapping es el proceso de crear una visión del futuro deseado para la experiencia del usuario. A diferencia del mapeo de escenarios actuales, este enfoque visualiza cómo debería ser la interacción con el producto una vez que se hayan implementado mejoras o nuevas funcionalidades. Ayuda a planificar los cambios necesarios para lograr una experiencia más eficiente, agradable y alineada con las necesidades de los usuarios.
+
 Segmento Objetivo 1: Organizaciones sociales
 
 Kevin Pachas
@@ -850,39 +829,45 @@ Carmen Quispe
 
 
 #### Technical Story
-| Technical Story ID | Título                          | Descripción                                                                           | Criterios de Aceptación                                                                                     | Technical Epic ID |
-| ------------------ | ------------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------- |
-| TS01               | API de Autenticación            | Implementar endpoints para login, registro y manejo de JWT para autenticación segura. | Dado que un usuario se registra o inicia sesión, cuando los datos son correctos, entonces recibe un JWT válido. | 1                 |
-| TS02               | API de Proyectos                | Gestionar proyectos vía RESTful endpoints con GET, POST, PUT y DELETE.                | Dado que un proyecto existe o se crea, cuando se realizan operaciones CRUD, entonces se reflejan correctamente en la base de datos. | 1                 |
-| TS03               | API de Voluntarios              | Exponer endpoints para gestión de voluntarios y control de acceso por token.          | Dado que un voluntario es registrado o modificado, cuando el token es válido, entonces la operación se ejecuta correctamente. | 1                 |
-| TS04               | API de Mensajes                 | Crear endpoints para envío y recepción de mensajes internos en tiempo real.           | Dado que un usuario envía un mensaje, cuando el destinatario está activo, entonces recibe el mensaje en tiempo real. | 1                 |
-| TS05               | API de Reportes                 | Generar reportes vía API, exportables a JSON o PDF.                                   | Dado que se solicita un reporte, cuando existen datos, entonces se genera y se puede exportar en JSON o PDF. | 2                 |
-| TS06               | Seguridad del Token             | Implementar expiración y renovación de tokens JWT.                                    | Dado que un token se acerca a su expiración, cuando se solicita renovación, entonces se emite un nuevo token válido. | 1                 |
-| TS07               | Auditoría de Acciones           | Registrar logs de todas las modificaciones en el sistema.                             | Dado que un usuario realiza cambios, cuando se completa la acción, entonces se registra un log con detalle de la operación. | 2                 |
-| TS08               | Copias de Seguridad             | Configurar backups automáticos periódicos.                                            | Dado que se configura un backup, cuando ocurre el horario programado, entonces se genera una copia automática y almacenada. | 3                 |
-| TS09               | Exportar Logs                   | Permitir exportación de registros del sistema en CSV o PDF.                           | Dado que un administrador solicita exportar logs, cuando los logs existen, entonces se descargan correctamente en CSV o PDF. | 3                 |
-| TS10               | Pruebas Unitarias y Performance | Ejecutar pruebas automáticas y optimizar tiempos de respuesta del backend.            | Dado que se ejecutan pruebas unitarias, cuando todas pasan, entonces se valida la integridad y el rendimiento del sistema. | 3                 |
-| TS11               | Control de Versiones API        | Documentar y versionar todos los endpoints REST.                                      | Dado que se documenta un endpoint, cuando se hace un cambio, entonces se actualiza la versión de la API y la documentación correspondiente. | 3                 |
-
-
-
-
+| Technical Story ID | Título                   | Descripción                                              | Criterios de Aceptación                                                | Technical Epic ID |
+| ------------------ | ------------------------ | -------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------- |
+| TS01               | API de Autenticación     | Endpoints para login, registro y tokens JWT.            | Si los datos son válidos, se genera y devuelve un JWT.                 | 1                 |
+| TS02               | API de Proyectos         | CRUD de proyectos con endpoints REST.                   | Las operaciones CRUD impactan correctamente la base de datos.          | 1                 |
+| TS03               | API de Voluntarios       | Gestión de voluntarios con validación por token.        | Operaciones válidas solo si el token es correcto.                      | 1                 |
+| TS04               | API de Mensajes          | Envío y recepción de mensajes en tiempo real.           | El receptor recibe el mensaje si está activo.                          | 1                 |
+| TS05               | API de Reportes          | Generación de reportes en JSON o PDF.                   | Si existen datos, el reporte se genera y se exporta correctamente.     | 2                 |
+| TS06               | Auditoría de Acciones    | Registro de logs del sistema.                           | Cada acción genera un log con la información correspondiente.          | 2                 |
+| TS07               | Versionado de API        | Documentación y control de versiones de endpoints.       | Cada cambio actualiza la versión y documentación de la API.            | 3                 |
+| TS08               | API de Organizaciones            | CRUD para organizaciones con validación básica.             | Las operaciones CRUD se ejecutan correctamente si los datos son válidos.| 1                 |
+| TS09               | API de Publicaciones             | Endpoints para publicaciones y sistema de likes.            | Las publicaciones se crean y los likes se registran correctamente.       | 1                 |
+| TS10               | API de Notificaciones            | Gestión de notificaciones con lectura y marcación masiva.   | El usuario ve, marca y borra notificaciones sin errores.                | 1                 |
+| TS11               | Gestión de Imágenes Base64       | Procesamiento y almacenamiento de imágenes en Base64.       | Las imágenes válidas se guardan y se visualizan correctamente.           | 2                 |
+| TS12               | Configuración CORS               | Permitir peticiones desde frontend autorizado.              | El backend acepta solicitudes de la URL configurada sin errores CORS.   | 3                 |
+| TS13               | Documentación Swagger/OpenAPI    | Documentar todos los endpoints REST.                        | Swagger muestra endpoints, modelos y ejemplos.                          | 3                 |
+| TS14               | Integración Frontend-Backend     | Conexión mediante servicios REST y manejo de errores.       | Las peticiones llegan correctamente al backend con su JWT correspondiente.| 2                 |
+| TS15               | Filtro de Seguridad JWT          | Verificar token en cada petición protegida.                 | Si el token es inválido, se retorna 401 automáticamente.                | 1                 |
+| TS16               | Configuración de MySQL/JPA       | Seteo de datasource, dialecto y ddl-auto.                   | La app se conecta e inicializa la BD sin errores.                       | 3                 |
+| TS17               | Manejo de Sesiones en Frontend   | Guardar y leer token desde localStorage.                    | El usuario mantiene sesión tras recargar la página.                     | 2                 |
+| TS18               | API de Actividades               | Gestión de actividades de organizaciones.                   | Las actividades se crean, listan y actualizan correctamente.            | 1                 |
+| TS19               | Confirmación de Actividades      | Aceptar o rechazar participación de voluntarios.           | Los cambios de estado se guardan y notifican al usuario.                | 1                 |
 
 
 
 ### 3.3. Impact Mapping
 
+**Impact Mapping** es una técnica de planificación estratégica y visualización que ayuda a conectar los objetivos del negocio con las funcionalidades del software. Esta metodología fue desarrollada por Gojko Adzic y permite alinear el trabajo del equipo de desarrollo con los objetivos estratégicos del producto, asegurando que cada feature entregue valor real y medible.
+
 Segmento Objetivo 1: Organizaciones sociales
 
 Kevin Pachas
 
-<img alt="impact-organizadores" src="/Assets/Chapter-03/impact-organizador.jpg" width="2000"/><br>
+<img alt="impact-organizadores" src="/Assets/Chapter-03/Impact-map-Volu-1.png" width="2000"/><br>
 
 Segmento Objetivo 2: Voluntarios
 
 Carmen Quispe
 
-<img alt="impact-voluntarios" src="/Assets/Chapter-03/impact-voluntario.jpg" width="2000"/><br>
+<img alt="impact-voluntarios" src="/Assets/Chapter-03/Impact-map-Volu-2.png" width="2000"/><br>
 
 ### 3.4. Product Backlog
 
@@ -1030,26 +1015,51 @@ Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a 
 ### 4.3. Landing Page UI Design
 #### 4.3.1. Landing Page Wireframe
 
-![landing wireframe](Assets/Chapter-04/landing-wireframe.png)
+<img alt="boceto 1" src="/Assets/Chapter-04/boceto1.png" width="2000"/><br>
+
+<img alt="boceto 2" src="/Assets/Chapter-04/boceto2.png" width="2000"/><br>
+
+<img alt="boceto 3" src="/Assets/Chapter-04/boceto3.png" width="2000"/><br>
+
+<img alt="boceto 4" src="/Assets/Chapter-04/boceto4.png" width="2000"/><br>
+
 
 #### 4.3.2. Landing Page Mock-up
 
-![landing mock-up](Assets/Chapter-04/landing-mockup.png)
+<img alt="landing 1" src="/Assets/Chapter-04/landing1.png" width="2000"/><br>
+
+<img alt="landing 2" src="/Assets/Chapter-04/landing2.png" width="2000"/><br>
+
+<img alt="landing 3" src="/Assets/Chapter-04/landing3.png" width="2000"/><br>
+
+<img alt="landing 4" src="/Assets/Chapter-04/landing4.png" width="2000"/><br>
+
 
 ### 4.4. Web Applications UX/UI Design
 #### 4.4.1. Web Applications Wireframes
 
-![inicio sesion wireframe](Assets/Chapter-04/iniciar-sesion-wireframe.png)
+<img alt="inicio sesion wireframe" src="/Assets/Chapter-04/iniciar-sesion-wireframe.png" width="2000"/><br>
 
-![escoger que registrar wireframe](Assets/Chapter-04/registrar-escoger-wireframe.png)
+<img alt="escoger que registrar wireframe" src="/Assets/Chapter-04/registrar-escoger-wireframe.png" width="2000"/><br>
 
-![registrar voluntario wireframe](Assets/Chapter-04/registrar-voluntario-wireframe.png)
+<img alt="registrar voluntario wireframe" src="/Assets/Chapter-04/registrar-voluntario-wireframe.png" width="2000"/><br>
 
-![registrar organizacion wireframe](Assets/Chapter-04/registrar-organizacion-wireframe.png)
+<img alt="registrar organizacion wireframe" src="/Assets/Chapter-04/registrar-organizacion-wireframe.png" width="2000"/><br>
 
-![aplicacion para organizacion wireframe](Assets/Chapter-04/aplicacion-organizacion-wireframes.png)
+<img alt="wireframe 01" src="/Assets/Chapter-04/wireframe01.png" width="2000"/><br>
 
-![aplicacion para voluntario wireframe](Assets/Chapter-04/aplicacion-voluntario-wireframes.png)
+<img alt="wireframe 02" src="/Assets/Chapter-04/wireframe2.png" width="2000"/><br>
+
+<img alt="wireframe 03" src="/Assets/Chapter-04/wireframe3.png" width="2000"/><br>
+
+<img alt="wireframe 04" src="/Assets/Chapter-04/wireframe4.png" width="2000"/><br>
+
+<img alt="wireframe 05" src="/Assets/Chapter-04/wireframe5.png" width="2000"/><br>
+
+<img alt="wireframe 06" src="/Assets/Chapter-04/wireframe6.png" width="2000"/><br>
+
+
+
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -1065,27 +1075,62 @@ Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a 
 
 ![registrar voluntario mockup](Assets/Chapter-04/registrar-voluntario-mockup.png)
 
-![registrar organizacion mockup](Assets/Chapter-04/registrar-organizacion-mockup.png)
+<img alt="mockup 01" src="/Assets/Chapter-04/mockup01.png" width="2000"/><br>
 
-![aplicacion para organizacion mockup](Assets/Chapter-04/aplicacion-organizacion-mockup.png)
+<img alt="mockup 02" src="/Assets/Chapter-04/mockup02.png" width="2000"/><br>
 
-![aplicacion para voluntario mockup](Assets/Chapter-04/aplicacion-voluntario-mockup.png)
+<img alt="mockup 03" src="/Assets/Chapter-04/mockup03.png" width="2000"/><br>
+
+<img alt="mockup 04" src="/Assets/Chapter-04/mockup04.png" width="2000"/><br>
+
+<img alt="mockup 05" src="/Assets/Chapter-04/mockup05.png" width="2000"/><br>
+
+<img alt="mockup 06" src="/Assets/Chapter-04/mockup06.png" width="2000"/><br>
+
+<img alt="mockup 07" src="/Assets/Chapter-04/mockup07.png" width="2000"/><br>
+
+<img alt="mockup 08" src="/Assets/Chapter-04/mockup08.png" width="2000"/><br>
+
+<img alt="mockup 09" src="/Assets/Chapter-04/mockup09.png" width="2000"/><br>
+
 
 #### 4.4.4. Web Applications User Flow Diagrams
 
-![user flow 1](Assets/Chapter-04/user-flow-1.png)
+Este documento describe los **User Flow Diagrams** (Diagramas de Flujo de Usuario) principales de la aplicación web VolunPath, siguiendo el formato estándar de documentación de flujos de usuario.
 
-![user flow 2](Assets/Chapter-04/user-flow-2.png)
+## 1. Autenticación y Acceso al Sistema
 
-![user flow 3](Assets/Chapter-04/user-flow-3.png)
+**User Goal:** Acceder de forma segura a la plataforma VolunPath
 
-![user flow 4](Assets/Chapter-04/user-flow-4.png)
+**Descripción:** Este flujo muestra cómo los usuarios inician sesión en el sistema, con validación de credenciales y redirección al dashboard principal. También incluye el proceso de registro para nuevos usuarios (voluntarios y organizaciones) y la recuperación de contraseña.
 
-![user flow 5](Assets/Chapter-04/user-flow-5.png)
+<img alt="user flow 1" src="/Assets/Chapter-04/user-flow-1.png" width="2000"/><br>
 
-![user flow 6](Assets/Chapter-04/user-flow-6.png)
+## 2. Creación de Publicación (Organización)
 
-![user flow 7](Assets/Chapter-04/user-flow-7.png)
+**User Goal:** Crear y publicar contenido para la comunidad de voluntarios
+
+**Descripción:** Permite que las organizaciones creen y publiquen contenido sobre sus actividades, proyectos y oportunidades de voluntariado. Las publicaciones pueden incluir texto, imágenes y tags para mejor categorización.
+
+<img alt="user flow 2" src="/Assets/Chapter-04/user-flow-2.jpg" width="2000"/><br>
+
+## 3. Exploración de la Organización 
+
+**User Goal:** Explorar publicaciones, organizaciones y contenido de la comunidad
+
+**Descripción:** Permite que los usuarios exploren el contenido publicado por las organizaciones, ver detalles de publicaciones, interactuar con ellas mediante likes, y descubrir nuevas organizaciones y oportunidades de voluntariado.
+
+<img alt="user flow 3" src="/Assets/Chapter-04/user-flow-3.jpg" width="2000"/><br>
+
+## 4. Edición de Perfil
+
+**User Goal:** Actualizar información del perfil personal o de organización
+
+**Descripción:** Permite que los usuarios actualicen su información de perfil en cualquier momento. Los cambios se reflejan inmediatamente en la plataforma y son visibles para otros usuarios.
+
+<img alt="user flow 4" src="/Assets/Chapter-04/user-flow-4.jpg" width="2000"/><br>
+
+
 
 ### 4.5. Web Applications Prototyping
 
@@ -1094,15 +1139,21 @@ Link de Figma: https://www.figma.com/design/aM9rO7pEqiztLkzXoCDExr/Volunpath?nod
 ### 4.6. Domain-Driven Software Architecture
 #### 4.6.1. Software Architecture Context Diagram
 
-![Software Architecture Context Diagram](Assets/Chapter-04/context.png)
+<div align="center">
+  <img src="Assets/Chapter-04/diagrama-contexto.png" alt="Software Architecture Context Diagram" />
+</div>
 
 #### 4.6.2. Software Architecture Container Diagrams
 
-![Software Architecture Container Diagram](Assets/Chapter-04/container.png)
+<div align="center">
+  <img src="Assets/Chapter-04/diagrama-contenedores.png" alt="Software Architecture Container Diagram" />
+</div>
 
 #### 4.6.3. Software Architecture Components Diagrams
 
-![Software Architecture Components Diagram](Assets/Chapter-04/components.png)
+<div align="center">
+  <img src="Assets/Chapter-04/diagrama-componentes.png" alt="Software Architecture Components Diagram" />
+</div>
 
 
 ### 4.7. Software Object-Oriented Design
@@ -1245,7 +1296,7 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 ### 4.8. Database Design
 #### 4.8.1. Database Diagram
 
-![Database_Diagram](Assets/Chapter-04/data-base-diagram.jpg)
+![Database_Diagram](Assets/Chapter-04/diagramadb.png)
 
 =======
 
@@ -2091,11 +2142,4 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
-
-
-
-
-
-
-
 
