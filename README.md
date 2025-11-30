@@ -1516,18 +1516,25 @@ En esta sección se expone el avance correspondiente al Sprint 1, planificando e
 
 ##### 5.2.1.1. Sprint Planning 1
 
+
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting del Sprint 1. El objetivo principal de este sprint fue desarrollar y desplegar el Landing Page de la plataforma VolunPath, estableciendo la primera impresión y punto de entrada para los usuarios potenciales (tanto organizaciones sociales como voluntarios).
+
+Durante la reunión de planificación, se discutieron las prioridades del sprint, se establecieron los objetivos y el alcance para el desarrollo del Landing Page. El equipo se comprometió a crear una página de inicio completa, informativa y atractiva que comunique efectivamente el valor de la plataforma y motive a los visitantes a registrarse y utilizar los servicios de VolunPath.
+
+A continuación, se muestra un cuadro resumen que estructura los datos importantes debatidos durante la reunión de planificación del sprint, siguiendo la estructura establecida para ofrecer claridad sobre las tareas y metas pactadas.
+
 | Sprint # | 1 |
 |---|---|
-| **Sprint Planning Background** | |
+| **Sprint Planning Background**  |
 | Date | 18/09/2025 |
 | Time | 03:00 PM |
 | Location | virtual |
 | Prepared By | Mel Andree Orellana |
 | Attendees (to planning meeting) | Mel Andree Orellana Rodriguez|
-| **Sprint 3 - 2 Review Summary** | Desarrollo del Landing Page  |
-| **Sprint 3 - 2 Retrospective Summary** | Correcciones de errores en la documentación. |
-| **Sprint 3 Goal** |Me enfoqué en desarrollar las funcionalidades principales del landing page, asegurando una estructura sólida y visualmente coherente que facilite la comprensión del propósito de la plataforma desde el primer contacto del usuario. Trabajé en la organización de los contenidos, la disposición de los componentes y la optimización del rendimiento para garantizar una experiencia clara, accesible y atractiva. Considero que este diseño permitirá que los usuarios entiendan rápidamente el valor de la plataforma y naveguen por las secciones iniciales sin dificultades, validando así la efectividad del landing page como puerta de entrada al sistema.|
-| **Sprint 3 Velocity** | 80 |
+| **Sprint 0 Review Summary** | Este es el primer sprint del proyecto, por lo que no hay un sprint anterior del cual hacer revisión. El equipo inició el desarrollo del Landing Page como punto de partida para establecer la presencia online de VolunPath y comunicar el propósito de la plataforma a los usuarios potenciales. |
+| **Sprint 0 Retrospective Summary** | Al ser el sprint inicial, no hay retrospectiva previa. El equipo estableció las bases para la colaboración, definiendo roles y responsabilidades para el desarrollo del Landing Page. Se acordó mantener comunicación constante y documentar adecuadamente el progreso del trabajo. |
+| **Sprint 1 Goal** | Nos centramos en ofrecer una página de destino completa y funcional para VolunPath que comunique la propuesta de valor, los beneficios y el funcionamiento de la plataforma. Creemos que ofrece claridad, confianza y motivación a las organizaciones que buscan optimizar sus programas de voluntariado y a los voluntarios que buscan oportunidades de participación significativas. Esto se confirmará cuando los visitantes puedan navegar por todas las secciones de la página de destino, comprender el propósito de la plataforma a primera vista y acceder a los enlaces de registro para unirse. |
+| **Sprint 1 Velocity** | 80 |
 | **Sum of Story Points** | 80 |
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
@@ -1654,7 +1661,9 @@ Esta sección presenta el progreso realizado durante el Sprint 2, detallando tan
 
 ##### 5.2.2.1. Sprint Planning 2
 
-En esta sección se detallan los aspectos clave de la reunión de planificación del Sprint. Se inicia con una introducción que describe el enfoque principal del sprint y sus metas. A continuación, se presenta un cuadro resumen que organiza la información relevante discutida durante la reunión de planificación, siguiendo la estructura indicada para proporcionar claridad sobre las tareas y los objetivos acordados.
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting del Sprint 2. El objetivo principal de este sprint fue desarrollar las funcionalidades principales del frontend de la aplicación web VolunPath, enfocándose en la implementación de las interfaces de usuario, componentes interactivos y la integración con el backend para permitir una experiencia de usuario completa y funcional.
+
+Durante la reunión de planificación, se discutieron las prioridades del sprint, se revisaron los resultados del Sprint 1 (desarrollo del Landing Page) y se establecieron los objetivos y el alcance para el Sprint 2. El equipo se comprometió a desarrollar las funcionalidades fundamentales del frontend que permitan a los usuarios (tanto voluntarios como organizaciones) interactuar con la plataforma de manera efectiva.
 
 A continuación, se muestra un cuadro resumen que estructura los datos importantes debatidos durante la reunión de planificación del sprint, siguiendo la estructura establecida para ofrecer claridad sobre las tareas y metas pactadas.
 
@@ -1666,10 +1675,10 @@ A continuación, se muestra un cuadro resumen que estructura los datos important
 | Location | virtual |
 | Prepared By | Mel Andree Orellana |
 | Attendees (to planning meeting) | Mel Andree Orellana Rodriguez|
-| **Sprint 3 - 2 Review Summary** | Desarrollo de Front-end  |
-| **Sprint 3 - 2 Retrospective Summary** | Correcciones de errores en la documentación. |
-| **Sprint 3 Goal** |Me impulse en desarrollar las funcionalidades principales del frontend  el panel de control. Trabaje para garantizar una estructura fiable que permita una navegación fluida por toda la plataforma. Cree que esto proporcionará una experiencia de usuario clara e intuitiva, lo cual se confirmará cuando los usuarios puedan acceder a las diferentes secciones del panel sin problemas de navegación ni de carga de datos.|
-| **Sprint 3 Velocity** | 80 |
+| **Sprint 1 Review Summary** | En el Sprint 1 se completó exitosamente el desarrollo del Landing Page de VolunPath. Se logró implementar todas las secciones principales del landing page, incluyendo Hero, Acerca de Nosotros, Funcionalidades, Cómo Funciona, Beneficios, Problemática, Testimonios, Impacto Social, Alianzas, Planes/Pricing, Contacto, Newsletter, Footer e Iniciar Sesión. El landing page fue desplegado en GitHub Pages y está disponible públicamente en https://opensource-volunpath-7369.github.io/landing/. Este logro estableció la base para el desarrollo del frontend de la aplicación web, ya que el landing page sirve como punto de entrada y permite a los usuarios acceder a la aplicación principal. Los miembros del equipo expresaron satisfacción con el resultado y el product owner destacó la importancia de mantener la calidad visual y la coherencia con la identidad de marca. |
+| **Sprint 1 Retrospective Summary** | El equipo identificó que el trabajo individual fue efectivo para el desarrollo del landing page estático. Se reconoció la importancia de mantener una comunicación constante y de documentar adecuadamente los commits. Como oportunidad de mejora, se acordó mejorar la coordinación entre miembros del equipo para futuros sprints, especialmente para el desarrollo del frontend que requerirá una mayor colaboración. Se estableció que para el Sprint 2 será importante definir claramente las responsabilidades y mantener reuniones de sincronización más frecuentes. El equipo acordó implementar mejores prácticas de desarrollo colaborativo y establecer canales de comunicación más efectivos. |
+| **Sprint 2 Goal** |Nos centramos en ofrecer una aplicación web frontend completamente funcional que permita a las organizaciones gestionar sus programas de voluntariado y a los voluntarios descubrir y participar en oportunidades significativas. Creemos que ofrece una experiencia de usuario completa con registro, gestión de perfiles, navegación y creación de publicaciones, mensajería y notificaciones, tanto para las organizaciones que buscan optimizar la gestión de sus voluntarios como para los que buscan oportunidades de participación. Esto se confirmará cuando las organizaciones puedan crear cuentas, gestionar sus perfiles, publicar actividades de voluntariado y comunicarse con los voluntarios, y cuando estos puedan registrarse, explorar las oportunidades disponibles, expresar su interés mediante "Me gusta" y comunicarse con las organizaciones a través del sistema de mensajería. |
+| **Sprint 2 Velocity** | 80 |
 | **Sum of Story Points** | 80 |
 
 ##### 5.2.2.2. Aspect Leaders and Collaborators
@@ -1899,9 +1908,11 @@ En esta sección se detallan los aspectos clave del Sprint Planning Meeting del 
 
 ##### 5.2.3.1. Sprint Planning 3
 
-En esta sección se detallan los aspectos clave de la reunión de planificación del Sprint 3. El objetivo principal de este sprint fue desarrollar el backend completo de la aplicación web VolunPath, incluyendo todos los servicios web necesarios para soportar las funcionalidades del frontend desarrollado en el Sprint 2.
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting del Sprint 3. El objetivo principal de este sprint fue desarrollar el backend completo de la aplicación web VolunPath, incluyendo todos los servicios web necesarios para soportar las funcionalidades del frontend desarrollado en el Sprint 2.
 
 Durante la reunión de planificación, se discutieron las prioridades del sprint, se revisaron los resultados del Sprint 2 (desarrollo del frontend) y se establecieron los objetivos y el alcance para el Sprint 3. El equipo se comprometió a desarrollar una arquitectura backend robusta utilizando Spring Boot, implementando todos los endpoints necesarios para autenticación, gestión de usuarios, voluntarios, organizaciones, publicaciones, mensajería y notificaciones.
+
+A continuación, se muestra un cuadro resumen que estructura los datos importantes debatidos durante la reunión de planificación del sprint, siguiendo la estructura establecida para ofrecer claridad sobre las tareas y metas pactadas.
 
 | Sprint # | 3 |
 |---|---|
@@ -1911,9 +1922,9 @@ Durante la reunión de planificación, se discutieron las prioridades del sprint
 | Location | virtual |
 | Prepared By | Mel Andree Orellana |
 | Attendees (to planning meeting) | Mel Andree Orellana Rodriguez|
-| **Sprint 3 - 2 Review Summary** | Desarrollo de Back-end  |
-| **Sprint 3 - 2 Retrospective Summary** | Correcciones de errores en la documentación. |
-| **Sprint 3 Goal** |Me impulse en desarrollar las funcionalidades principales del backend  el panel de control. Trabaje para garantizar una estructura fiable que permita una navegación fluida por toda la plataforma. Cree que esto proporcionará una experiencia de usuario clara e intuitiva, lo cual se confirmará cuando los usuarios puedan acceder a las diferentes secciones del panel sin problemas de navegación ni de carga de datos.|
+| **Sprint 2 Review Summary** | En el Sprint 2 se completó exitosamente el desarrollo del frontend de la aplicación web VolunPath. Se logró implementar todas las funcionalidades principales del frontend, incluyendo registro de usuarios (voluntarios y organizaciones), gestión de perfiles, visualización y creación de publicaciones, sistema de mensajería interna, sistema de notificaciones, e internacionalización (español e inglés). El frontend fue desplegado en Railway/Netlify y está disponible públicamente en https://volunpath.netlify.app, completamente funcional e integrado con el backend. Los miembros del equipo expresaron satisfacción con la experiencia de usuario lograda y el product owner destacó la importancia de mantener la consistencia en el diseño y la funcionalidad. |
+| **Sprint 2 Retrospective Summary** | El equipo identificó que el desarrollo del frontend fue efectivo y se logró una buena integración con el backend. Se reconoció la importancia de mantener una arquitectura modular y escalable basada en Angular. Como oportunidad de mejora, se acordó mejorar la documentación de los servicios web consumidos, establecer mejores prácticas de testing, y optimizar el manejo de errores y estados de carga. El equipo acordó que para el Sprint 3 será crucial desarrollar un backend robusto que soporte todas las funcionalidades del frontend y que esté bien documentado mediante OpenAPI/Swagger. |
+| **Sprint 3 Goal** | Nos centramos en ofrecer una infraestructura backend completa y robusta con todos los servicios web necesarios para la autenticación, la gestión de usuarios, los perfiles de voluntarios y organizaciones, las publicaciones, la mensajería y las notificaciones. Creemos que ofrece persistencia de datos fiable, autenticación segura y una comunicación API fluida, tanto con la aplicación frontend como con futuras integraciones, lo que permite a las organizaciones gestionar eficientemente sus programas de voluntariado y a los voluntarios descubrir y aprovechar las oportunidades. Esto se confirmará cuando todos los endpoints estén documentados con OpenAPI/Swagger, probados e implementados, el frontend pueda comunicarse eficazmente con el backend sin errores y los usuarios puedan realizar todas las operaciones correctamente, incluyendo el registro, la gestión de perfiles, la creación de publicaciones, la mensajería y la recepción de notificaciones. |
 | **Sprint 3 Velocity** | 80 |
 | **Sum of Story Points** | 80 |
 
@@ -2080,6 +2091,7 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
 
 
