@@ -1512,15 +1512,134 @@ El backend, desarrollado con **Spring Boot**, también se desplegará en **Railw
 
 ### 5.2. Landing Page, Services & Applications Implementation
 #### 5.2.1. Sprint 1
+En esta sección se expone el avance correspondiente al Sprint 1, planificando el desarrollo y despliegue del Landing Page de la startup y su correcto funcionamiento para el desenvolvimiento del usuario. Se incorporan el Sprint Planning, el Sprint Backlog, evidencias del desarrollo y ejecución para la Sprint Review, documentación relacionada con los servicios, y conclusiones sobre la dinámica de colaboración del equipo a lo largo de este sprint.
 
 ##### 5.2.1.1. Sprint Planning 1
+
+| Sprint # | 1 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 18/09/2025 |
+| Time | 03:00 PM |
+| Location | virtual |
+| Prepared By | Mel Andree Orellana |
+| Attendees (to planning meeting) | Mel Andree Orellana Rodriguez|
+| **Sprint 3 - 2 Review Summary** | Desarrollo del Landing Page  |
+| **Sprint 3 - 2 Retrospective Summary** | Correcciones de errores en la documentación. |
+| **Sprint 3 Goal** |Me enfoqué en desarrollar las funcionalidades principales del landing page, asegurando una estructura sólida y visualmente coherente que facilite la comprensión del propósito de la plataforma desde el primer contacto del usuario. Trabajé en la organización de los contenidos, la disposición de los componentes y la optimización del rendimiento para garantizar una experiencia clara, accesible y atractiva. Considero que este diseño permitirá que los usuarios entiendan rápidamente el valor de la plataforma y naveguen por las secciones iniciales sin dificultades, validando así la efectividad del landing page como puerta de entrada al sistema.|
+| **Sprint 3 Velocity** | 80 |
+| **Sum of Story Points** | 80 |
+
 ##### 5.2.1.2. Aspect Leaders and Collaborators
+
+En este Sprint se prioriza el desarrollo del Landing Page para la plataforma VolunPath. Este componente es clave para la presentación inicial del producto, ya que permite comunicar de manera clara y atractiva el propósito, beneficios y funcionamiento de la solución, orientado tanto a organizaciones sociales que buscan optimizar la gestión de sus programas de voluntariado como a voluntarios comprometidos que desean encontrar oportunidades de participación significativas y bien organizadas.
+
+El Sprint se enfoca en definir y construir el layout principal, la estructura de navegación y los contenidos esenciales que transmitan el valor de la plataforma, garantizando una experiencia intuitiva, accesible y coherente con la identidad del proyecto. A continuación, se presenta un cuadro a detalle.
+
+| **Aspecto**               | **Descripción** |
+|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Feature**               | Diseño, desarrollo y despliegue del Landing Page de la plataforma VolunPath. |
+| **Objetivo Principal**    | Crear una landing page informativa, atractiva y fácil de navegar que comunique el valor del producto, destacando cómo VolunPath conecta organizaciones sociales con voluntarios, facilita la gestión de actividades de voluntariado y mejora la comunicación entre ambos actores del ecosistema solidario. |
+| **Elementos incluidos**   | • Layout principal con diseño responsive<br>• Menú de navegación superior con enlaces a secciones clave<br>• Sección Hero con mensaje principal y llamada a la acción<br>• Sección "Acerca de Nosotros" (misión, visión, valores)<br>• Sección de Funcionalidades principales<br>• Sección "Cómo Funciona" (pasos del proceso)<br>• Sección de Beneficios para organizaciones y voluntarios<br>• Sección de Problemática (antecedentes y necesidad)<br>• Sección de Testimonios de usuarios<br>• Sección de Planes/Pricing (Gratis y Pro)<br>• Sección de Impacto Social (estadísticas y logros)<br>• Sección de Alianzas y Colaboradores<br>• Formulario de Contacto<br>• Sección de Newsletter (suscripción)<br>• Pie de página (Footer) con enlaces a redes sociales, políticas y contacto<br>• Botones de CTA: "Únete Ahora", "Probar gratis", "Registrarse" |
+| **Criterios de aceptación** | • Navegación fluida y sin errores entre todas las secciones<br>• Contenidos claros y comprensibles<br>• Identificación fácil del propósito de la plataforma desde el primer vistazo<br>• Diseño visual atractivo y coherente con la identidad de marca (azul, verde, amarillo; fuentes Angkor, Chango, Dongle)<br>• Diseño responsive para móvil, tablet y desktop<br>• Optimización SEO básica (meta tags)<br>• Tiempos de carga rápidos y optimización de imágenes<br>• Accesibilidad web básica (contraste, alt en imágenes)<br>• Formularios funcionales con validación<br>• Enlaces a redes sociales operativos<br>• Botones de registro redirigen correctamente a la aplicación |
+| **Resultado esperado**    | Un Landing Page funcional y validado, accesible y entendible para los usuarios objetivo (organizaciones y voluntarios), que comunique efectivamente el valor de VolunPath, motive el registro de nuevos usuarios y sirva como punto de entrada profesional y confiable a la plataforma. Debe reflejar la identidad de VolunPath y facilitar la conversión de visitantes en usuarios registrados. |
+
+
+
 ##### 5.2.1.3. Sprint Backlog 1
+
+En esta primera iteración, el objetivo fue desarrollar el diseño y la implementación completa de nuestra Landing Page para VolunPath. Esto implica que, al concluir el Sprint, todas las secciones principales del landing page tales como Hero, Acerca de Nosotros, Funcionalidades, Cómo Funciona, Beneficios, Problemática, Testimonios, Impacto Social, Alianzas, Planes/Pricing, Contacto, Newsletter, Footer e Iniciar Sesión, debían estar completamente implementadas y funcionales. Además, se utilizó una tabla en Trello para gestionar los Work-Items de manera eficiente, permitiendo un seguimiento detallado del progreso de cada tarea y facilitando la coordinación entre los miembros del equipo.
+
+| Sprint # | Sprint 1 |
+|----------|----------|
+
+| **User Story** | **Work-Item / Task** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|---------------|-----------------------|--------|-----------|------------------|-------------------------|------------------|------------|
+| US14 | Desarrollo de estructura HTML del Landing Page | 01 | Implementación de la estructura HTML del Landing Page | Como developer de VolunPath, quiero implementar la estructura básica del landing page usando HTML para establecer el layout principal, el header con menú de navegación y las secciones principales. | 4 | Alexsioh | Done |
+| US14 | Desarrollo de estilos CSS del Landing Page | 02 | Implementación de estilos CSS para el Landing Page | Como developer, quiero aplicar estilos usando la paleta de colores (azul, verde, amarillo) y las tipografías Angkor, Chango y Dongle, para que el diseño sea atractivo y coherente. | 5 | Alexsioh | Done |
+| US15 | Desarrollo de funcionalidad con JavaScript | 03 | Implementación de funcionalidades JavaScript | Como desarrollador, quiero implementar navegación suave, validación de formularios y efectos de scroll para mejorar la experiencia del usuario. | 3 | Alexsioh | Done |
+| US14 | Implementación de la Sección Hero | 04 | Navegar y visualizar la sección Hero | Como developer, quiero desarrollar la sección Hero para presentar el mensaje principal de VolunPath con un CTA claro. | 3 | Alexsioh | Done |
+| US03 | Sección "Acerca de Nosotros" | 05 | Navegar y visualizar la sección Acerca de Nosotros | Como developer, quiero mostrar misión, visión y valores para comunicar el propósito de la plataforma. | 3 | Alexsioh | Done |
+| US16 | Sección Funcionalidades | 06 | Navegar y visualizar la sección Funcionalidades | Como developer, quiero presentar las funcionalidades principales del sistema de forma clara y organizada. | 4 | Alexsioh | Done |
+| US17 | Sección "Cómo Funciona" | 07 | Navegar y visualizar la sección Cómo Funciona | Como developer, quiero mostrar los pasos del proceso: registrarse, organizar y medir el impacto. | 3 | Alexsioh | Done |
+| US18 | Sección Planes/Pricing | 08 | Visualizar Planes/Pricing | Como developer, quiero mostrar los planes Gratis y Pro con claridad. | 3 | Alexsioh | Done |
+| US07 | Sección Impacto Social | 10 | Navegar y visualizar Impacto Social | Como developer, quiero mostrar métricas como voluntarios, organizaciones y proyectos completados. | 3 | Alexsioh | Done |
+| US24 | Sección Problemática | 11 | Navegar y visualizar la sección Problemática | Como developer, quiero comunicar la necesidad que resuelve el sistema. | 3 | Alexsioh | Done |
+| US06 | Sección Testimonios | 12 | Navegar y visualizar la sección Testimonios | Como developer, quiero mostrar testimonios reales para fortalecer la credibilidad. | 3 | Alexsioh | Done |
+| US09 | Sección Contacto | 14 | Navegar y visualizar la sección Contacto | Como developer, quiero implementar un formulario funcional de contacto. | 4 | Alexsioh | Done |
+| US20 | Pie de Página (Footer) | 16 | Navegar y visualizar el Footer | Como developer, quiero desarrollar el Footer con enlaces, políticas y redes sociales. | 3 | Alexsioh | Done |
+| US19 | Botones CTA | 17 | Implementación de botones CTA | Como developer, quiero implementar botones “Únete Ahora” y “Probar gratis” que redirijan al registro. | 2 | Alexsioh | Done |
+| US21 | Diseño Responsivo | 18 | Adaptación responsive | Como developer, quiero asegurar que todo se adapte a móviles, tablets y desktop. | 5 | Alexsioh | Done |
+| US22 | SEO Básico | 19 | Optimización SEO | Como developer, quiero agregar meta tags y estructura semántica para mejorar visibilidad. | 3 | Alexsioh | Done |
+| US28 | Sección Iniciar Sesión | 20 | Navegar y visualizar Iniciar Sesión | Como developer, quiero implementar una sección intuitiva con enlace a la app web. | 4 | Alexsioh | Done |
+| TS07 | Despliegue en GitHub | 21 | Añadir Landing Page al repositorio | Como developer, quiero subir el código al repositorio para control de versiones. | 2 | Alexsioh | Done |
+
 ##### 5.2.1.4. Development Evidence for Sprint Review
+
+En esta sección se mostrará la evidencia del progreso alcanzado en el desarrollo del software. Se detallarán las características implementadas durante el sprint actual, resaltando los avances más relevantes en la Landing Page.
+
+A continuación, se muestra una tabla que documenta los commits clave asociados con la implementación de cada repositorio del proyecto, lo que facilita la visualización del progreso del desarrollo técnico a lo largo de este sprint.
+
+| Repository     | Branch | Commit Id | Commit Message              | Commit Message Body | Committed on (Date) |
+|----------------|--------|-----------|------------------------------|----------------------|----------------------|
+| landing/Alexsioh  | Main   | 86b4d24   | chore: first commit       | empty               | 16/04/2025           |
+
+
 ##### 5.2.1.5. Execution Evidence for Sprint Review
+
+En este primer Sprint del proyecto, hemos logrado implementar y desplegar una Landing Page completa de VolunPath, nuestra plataforma de gestión de voluntariado. Utilizando tecnologías esenciales como HTML, CSS y JavaScript, construimos una interfaz atractiva, funcional y responsive, diseñada para comunicar de manera clara y efectiva el propósito, beneficios y funcionamiento de la plataforma, orientada tanto a organizaciones sociales que buscan optimizar la gestión de sus programas de voluntariado como a voluntarios comprometidos que desean encontrar oportunidades de participación significativas y bien organizadas.
+
+La estructura de la página se desarrolló con HTML semántico, siguiendo las mejores prácticas de accesibilidad y SEO. Los estilos personalizados se aplicaron mediante CSS, utilizando la paleta de colores establecida (azul, verde y amarillo) y las tipografías seleccionadas (Angkor, Chango y Dongle) para mantener la coherencia con la identidad visual de VolunPath. Se incorporaron interacciones dinámicas con JavaScript para brindar una experiencia de usuario más fluida, incluyendo navegación suave entre secciones, validación de formularios, efectos de scroll y animaciones sutiles que mejoran la usabilidad y el engagement.
+
+![registrar organizacion](Assets/Chapter-05/landing11.png)
+
+![registrar organizacion](Assets/Chapter-05/landing12.png)
+
+![registrar organizacion](Assets/Chapter-05/landing13.png)
+
+![registrar organizacion](Assets/Chapter-05/landing14.png)
+
+
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Aquí se presentará la documentación relacionada con los servicios web ofrecidos a través de la plataforma VolunPath. Esto puede incluir servicios de gestión de voluntarios, administración de organizaciones, creación y gestión de publicaciones, sistema de mensajería interna, notificaciones en tiempo real, y reportes de impacto social, orientados tanto a organizaciones sociales que buscan optimizar la gestión de sus programas de voluntariado como a voluntarios comprometidos que desean encontrar oportunidades de participación significativas y bien organizadas.
+
+Los servicios web de VolunPath están diseñados para facilitar la conexión entre organizaciones y voluntarios, permitiendo la gestión eficiente de perfiles, proyectos, inventario, reportes y comunicación, todo en un solo lugar. Estos servicios incluirán funcionalidades como:
+
+- **Servicios de Autenticación y Autorización**: Registro de usuarios, inicio de sesión, gestión de tokens JWT, y control de acceso basado en roles (voluntario, organización, administrador).
+
+- **Servicios de Gestión de Voluntarios**: Creación y actualización de perfiles de voluntarios, gestión de habilidades, historial de participación, y seguimiento de horas de voluntariado.
+
+- **Servicios de Gestión de Organizaciones**: Administración de perfiles organizacionales, creación y edición de información institucional, gestión de categorías, y verificación de organizaciones.
+
+- **Servicios de Publicaciones**: Creación, edición, eliminación y visualización de publicaciones de actividades de voluntariado, sistema de likes, filtrado por organización, y gestión de estados (borrador, publicado, archivado).
+
+- **Servicios de Mensajería**: Envío y recepción de mensajes entre usuarios, marcado de mensajes como leídos, eliminación de mensajes, y notificaciones automáticas para nuevos mensajes.
+
+- **Servicios de Notificaciones**: Gestión de notificaciones en tiempo real, marcado de notificaciones como leídas, filtrado por tipo (nueva actividad, nuevo mensaje, actividad confirmada, actividad cancelada), y navegación a acciones relacionadas.
+
+- **Servicios de Reportes e Impacto Social**: Generación de reportes de actividades, estadísticas de participación, métricas de impacto, y visualización de logros de la comunidad.
+
+
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+En esta sección se describe el proceso de implementación de la plataforma en un entorno de producción. Además, se presentarán los hitos más importantes que marcarán el despliegue del proyecto y garantizarán su disponibilidad para los usuarios finales.
+
+**URL de despliegue del Landing Page:** [Landing Page Desplegado](https://opensource-volunpath-7369.github.io/landing/)
+
+1.Para la Landing Page, nuestro equipo creó una rama denominada “main” dentro del repositorio, en la cual se organizaron y almacenaron todos los archivos correspondientes al desarrollo de la Landing Page.
+![registrar organizacion](Assets/Chapter-05/github1.png)
+
+2.Posteriormente, nos dirigimos a configuración y empleamos GitHub Pages, el servicio de alojamiento para sitios estáticos de GitHub, para publicar y poner en línea nuestra Landing Page.
+![registrar organizacion](Assets/Chapter-05/github2.png)
+
+3.Finalmente, obtuvimos el enlace de publicación, que nos permite acceder y visualizar la Landing Page en línea.
+![registrar organizacion](Assets/Chapter-05/github4.png)
+
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Se proporcionará información detallada sobre la colaboración y comunicación entre los miembros del equipo de desarrollo durante el sprint. Esto incluirá la coordinación de actividades, la gestión de tareas asignadas y la resolución de inconvenientes surgidos en el proceso. Las responsabilidades se distribuyeron equitativamente entre los integrantes del equipo. A continuación, se presenta un análisis general de los commits realizados por cada aportante, reflejando su participación en el proyecto.
+
 
 
 #### 5.2.2. Sprint 2
@@ -1776,6 +1895,7 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
 
 
