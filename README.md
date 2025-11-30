@@ -1674,22 +1674,74 @@ A continuación, se muestra un cuadro resumen que estructura los datos important
 
 ##### 5.2.2.2. Aspect Leaders and Collaborators
 
+En este Sprint 2, el equipo se enfocó en desarrollar las funcionalidades principales del frontend de la aplicación web VolunPath. Los aspectos principales que se tomaron en cuenta para este sprint incluyen: el desarrollo de las interfaces de registro y autenticación, la gestión de perfiles de usuarios (voluntarios y organizaciones), la visualización y creación de publicaciones, el sistema de mensajería interna, el sistema de notificaciones, y la integración con el backend mediante servicios web.
+
+A continuación, se presenta la matriz de Liderazgo y Colaboración (LACX) que indica, para cada aspecto del Sprint, quién es el líder (L) y quiénes son los colaboradores (C), con el fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo.
+
 | Team Member (Last Name, First Name) | GitHub Username | Organizations (L/C) | Notifications (L/C) | Volunteers (CTA) (L/C) | Messages (L/C) |
 |------------------------------------|------------------|------------------------------------|------------------|----------------------------------|-------------|
-| Orellana Rodriguez, Mel Andree                 | melandree8      | C                                 | C                | C                     | C            |        
+| Orellana Rodriguez, Mel Andree                 | melandree8      | L                                 | L                | L                     | L            |        
 
 ##### 5.2.2.3. Sprint Backlog 2
-##### 5.2.2.4. Development Evidence for Sprint Review
 
+En esta segunda iteración, el objetivo fue desarrollar las funcionalidades principales del frontend de la aplicación web VolunPath. Esto implica que, al concluir el Sprint, los usuarios deberían poder registrarse (tanto como voluntarios como organizaciones), gestionar sus perfiles, visualizar y crear publicaciones, comunicarse a través del sistema de mensajería, y recibir notificaciones. Además, se utilizó una tabla en Trello para gestionar los Work-Items de manera eficiente, permitiendo un seguimiento detallado del progreso de cada tarea y facilitando la coordinación entre los miembros del equipo.
+
+| **User Story** | **Work-Item / Task** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|---------------|-----------------------|--------|-----------|------------------|-------------------------|------------------|------------|
+| US01 | Configuración inicial del proyecto Frontend | 01 | Setup inicial de Angular | Como developer, quiero configurar el proyecto Angular con todas las dependencias necesarias para comenzar el desarrollo del frontend. | 4 | melandree8 | Done |
+| US02 | Registro de usuarios | 02 | Implementación de formularios de registro | Como developer, quiero implementar formularios de registro para voluntarios y organizaciones con validación de campos. | 8 | melandree8 | Done |
+| US03 | Autenticación | 03 | Sistema de login y gestión de sesión | Como developer, quiero implementar el sistema de autenticación con JWT y protección de rutas. | 6 | melandree8 | Done |
+| US04 | Gestión de perfiles | 04 | Páginas de perfil y edición | Como developer, quiero implementar las páginas de visualización y edición de perfiles para voluntarios y organizaciones. | 10 | melandree8 | Done |
+| US05 | Visualización de publicaciones | 05 | Página de comunidad | Como developer, quiero implementar la página de comunidad que muestre todas las publicaciones disponibles. | 8 | melandree8 | Done |
+| US06 | Creación de publicaciones | 06 | Formulario de creación/edición de publicaciones | Como developer, quiero implementar el formulario para que las organizaciones puedan crear y editar publicaciones. | 8 | melandree8 | Done |
+| US07 | Dashboard de organizaciones | 07 | Panel de control para organizaciones | Como developer, quiero implementar el dashboard donde las organizaciones pueden gestionar sus publicaciones. | 6 | melandree8 | Done |
+| US08 | Sistema de mensajería | 08 | Página de mensajes y envío | Como developer, quiero implementar el sistema de mensajería que permita a usuarios enviar y recibir mensajes. | 10 | melandree8 | Done |
+| US09 | Sistema de notificaciones | 09 | Página de notificaciones | Como developer, quiero implementar el sistema de notificaciones para alertar a usuarios sobre nuevas actividades y mensajes. | 6 | melandree8 | Done |
+| US10 | Internacionalización | 10 | Selector de idioma | Como developer, quiero implementar el selector de idioma para soportar español e inglés. | 4 | melandree8 | Done |
+| US11 | Integración con backend | 11 | Servicios y comunicación con API | Como developer, quiero implementar los servicios Angular para comunicarse con el backend mediante HTTP. | 8 | melandree8 | Done |
+| US12 | Diseño responsive | 12 | Adaptación a diferentes dispositivos | Como developer, quiero asegurar que todas las páginas sean responsive y se adapten a móviles, tablets y desktop. | 6 | melandree8 | Done |
+
+**URL del Board de Trello:** [Sprint 2 Board](https://trello.com/b/[board-id]/sprint-2)
+
+##### 5.2.2.4. Development Evidence for Sprint Review
 En esta sección se presenta el progreso alcanzado en el desarrollo de la aplicación web durante el sprint, enfocado principalmente en la implementación de las interfaces y funciones fundamentales. El trabajo se centró en construir una experiencia de usuario sólida mediante la creación de elementos visuales, componentes interactivos y una navegación coherente.
 
+Durante este Sprint 2, se realizaron múltiples commits que reflejan el desarrollo continuo y las mejoras iterativas del frontend. Se implementaron funcionalidades clave como el sistema de autenticación, gestión de perfiles, visualización de publicaciones, sistema de mensajería y notificaciones.
+
 La tabla que se muestra a continuación recopila los commits clave realizados en cada repositorio del proyecto, lo cual permite hacer un seguimiento del avance técnico logrado en este sprint.
+
 
 | Repository                    | Branch  | Commit Id | Commit Message                                                   | Commit Message Body | Commited on (Date) |
 |------------------------------|---------|-----------|------------------------------------------------------------------|---------------------|--------------------|
 | Frontend/melandree8   | develop | df0a847   | chore(project): initial frontend setup                                   | empty                  | 14/11/2025      |
+| Frontend/melandree8   | main    | 204f745   | chore(config): update frontend API baseUrl to Railway backend endpoint | Configuración de la URL base de la API para conectar con el backend desplegado en Railway | 19/11/2025      |
+| Frontend/melandree8   | main    | 7aefb97   | chore(): add api service                                                | Implementación del servicio API para comunicación con el backend | 19/11/2025      |
+| Frontend/melandree8   | main    | 632978b   | Merge remote-tracking branch 'origin/main'                              | Merge de cambios desde la rama remota main | 19/11/2025      |
+| Frontend/melandree8   | main    | 8eeafec   | fix(messages): use authenticated user ID instead of hardcoded value      | Corrección para usar el ID del usuario autenticado en lugar de valores hardcodeados | 26/11/2025      |
+| Frontend/melandree8   | main    | 868a3ba   | feat(messages): add bold styling for unread messages and fix message loading | Implementación de estilos en negrita para mensajes no leídos y corrección de carga de mensajes | 26/11/2025      |
+| Frontend/melandree8   | main    | 2cba476   | fix(messages): improve message mapping and add debug logging             | Mejora del mapeo de mensajes y adición de logging para depuración | 26/11/2025      |
+| Frontend/melandree8   | main    | d3641f4   | fix: use getMessagesByUserId instead of getMessages to fetch from backend | Corrección para usar getMessagesByUserId en lugar de getMessages para obtener mensajes del backend | 28/11/2025      |
+| Frontend/melandree8   | main    | 507fe0c   | fix: ensure volunteer messages are found by searching both userId and volunteerId | Corrección para buscar mensajes de voluntarios usando tanto userId como volunteerId | 28/11/2025      |
+| Frontend/melandree8   | main    | 19580ce   | fix: improve error handling for connection errors (Error 0)              | Mejora del manejo de errores para errores de conexión | 28/11/2025      |
+| Frontend/melandree8   | main    | a762248   | feat: add detailed logging for messages and notifications debugging     | Implementación de logging detallado para depuración de mensajes y notificaciones | 28/11/2025      |
+| Frontend/melandree8   | main    | 792f3d0   | fix: improve message filtering and add detailed logging                 | Mejora del filtrado de mensajes y adición de logging detallado | 28/11/2025      |
+| Frontend/melandree8   | main    | 40f85f4   | fix: load messages using multiple userId queries to handle volunteer.id vs volunteer.userId mismatch | Corrección para cargar mensajes usando múltiples consultas de userId para manejar discrepancias entre volunteer.id y volunteer.userId | 28/11/2025      |
+| Frontend/melandree8   | main    | be32fc9   | fix: normalize all IDs to strings for consistent comparison in message filtering | Normalización de todos los IDs a strings para comparación consistente en el filtrado de mensajes | 28/11/2025      |
+| Frontend/melandree8   | main    | 4a44572   | fix: simplify message filtering to show all messages returned by backend | Simplificación del filtrado de mensajes para mostrar todos los mensajes devueltos por el backend | 28/11/2025      |
+| Frontend/melandree8   | main    | 843afc2   | fix: simplify message loading to use single backend call                 | Simplificación de la carga de mensajes para usar una sola llamada al backend | 28/11/2025      |
+| Frontend/melandree8   | main    | 69a126c   | fix: improve error handling for user profile updates                     | Mejora del manejo de errores para actualizaciones de perfil de usuario | 29/11/2025      |
+| Frontend/melandree8   | main    | 2e0369e   | fix: map scheduledDate and scheduledTime from backend to date and time   | Corrección del mapeo de scheduledDate y scheduledTime del backend a date y time | 29/11/2025      |
+| Frontend/melandree8   | main    | b565512   | fix: correctly convert date and time when updating publications          | Corrección de la conversión de fecha y hora al actualizar publicaciones | 29/11/2025      |
+| Frontend/melandree8   | main    | 1c86a11   | fix: send date and time correctly when updating publications             | Corrección para enviar fecha y hora correctamente al actualizar publicaciones | 29/11/2025      |
+| Frontend/melandree8   | main    | 75b9ed6   | fix: convert date and time to scheduledDate and scheduledTime when creating publications | Corrección para convertir date y time a scheduledDate y scheduledTime al crear publicaciones | 29/11/2025      |
+| Frontend/melandree8   | main    | b478884   | fix: handle automatic volunteer creation in registration flow            | Corrección para manejar la creación automática de voluntarios en el flujo de registro | 29/11/2025      |
+
 
 ##### 5.2.2.5. Execution Evidence for Sprint Review
+
+En este segundo Sprint del proyecto, hemos logrado implementar las funcionalidades principales del frontend de la aplicación web VolunPath. Utilizando Angular como framework principal, construimos una aplicación web completa, funcional y responsive, que permite a los usuarios (tanto voluntarios como organizaciones) interactuar con la plataforma de manera efectiva.
+
+La estructura de la aplicación se desarrolló siguiendo las mejores prácticas de Angular, con una arquitectura modular basada en componentes, servicios y rutas protegidas. Se implementó un sistema completo de autenticación y autorización utilizando JWT, protección de rutas según roles de usuario, y gestión de sesiones. Se desarrollaron interfaces intuitivas para el registro de usuarios, gestión de perfiles, visualización y creación de publicaciones, sistema de mensajería interna, y sistema de notificaciones en tiempo real.
 
 ###  Registro de Usuarios
 - **Registro de Voluntarios**: Formulario completo para registro de nuevos voluntarios con campos como nombre, email, contraseña, habilidades, intereses, ubicación, biografía y avatar
@@ -1780,8 +1832,23 @@ La tabla que se muestra a continuación recopila los commits clave realizados en
 - **Tokens JWT**: Uso de tokens JWT para autenticación segura
 - **Redirección por Rol**: Redirección automática según el rol del usuario
 
+**Enlace al video demostrativo:** [Video Sprint 2 - Frontend Implementation](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/[video-id])
+
+
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
-En esta sección se presenta un resumen de los logros alcanzados durante este sprint, enfocados en el desarrollo del frontend de la aplicación web.
+
+Durante este Sprint 2, el enfoque estuvo centrado exclusivamente en el desarrollo del frontend de la aplicación web. Aunque el frontend consume servicios web del backend, estos servicios fueron desarrollados en el Sprint 3. Por lo tanto, en esta etapa no se generó documentación de servicios web nuevos, ya que el trabajo se enfocó en la implementación de las interfaces de usuario y la integración con los servicios existentes del backend.
+
+Los servicios web que el frontend consume incluyen:
+- Servicios de autenticación (sign-in, sign-up)
+- Servicios de gestión de usuarios, voluntarios y organizaciones
+- Servicios de publicaciones
+- Servicios de mensajería
+- Servicios de notificaciones
+
+La documentación completa de estos servicios web se presentará en el Sprint 3, donde se desarrolló el backend completo.
+
+A continuación, se presentan capturas de pantalla que muestran la interacción del frontend con los servicios del backend:
 
 ![fro1](https://github.com/user-attachments/assets/50260a50-1176-41c6-b09d-827aa7c9eb1b)
 ![fro2](https://github.com/user-attachments/assets/d806e102-e7df-45cd-8cc2-c93368778af7)
@@ -1793,9 +1860,37 @@ En esta sección se presenta un resumen de los logros alcanzados durante este sp
 ![fro9](https://github.com/user-attachments/assets/de2f5c40-d181-4cb8-8e00-0a4786aaa89a)
 
 
-
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+En esta sección se describe el proceso de despliegue del frontend de la aplicación web VolunPath durante el Sprint 2. El frontend, desarrollado con Angular, fue desplegado en netlify, una plataforma que permite conectar directamente con GitHub y automatizar todo el proceso de compilación y publicación del proyecto.
+
+**URL de despliegue del Frontend:** [Frontend Desplegado](https://volunpath.netlify.app)
+
+1. Para el Frontend, nuestro equipo configuró el proyecto en netlify, conectándolo directamente con el repositorio de GitHub. netlify detecta automáticamente los cambios en la rama `main` y ejecuta el proceso de build.
+![Frontend Deployment 1](Assets/Chapter-05/frontend-deploy1.png)
+
+2. Se configuró el comando de build para producción: `ng build --configuration=production`, que compila el proyecto Angular optimizado para producción.
+![Frontend Deployment 1](Assets/Chapter-05/frontend-deploy2.png)
+
+3. netlify compila automáticamente el proyecto y publica la nueva versión en cada push a la rama principal. Las variables de entorno necesarias para la conexión con la API del backend fueron configuradas desde el panel de Railway.
+![Frontend Deployment 1](Assets/Chapter-05/frontend-deploy4.png)
+
+4. Finalmente, se obtuvo el enlace de publicación, que permite acceder y visualizar la aplicación web en línea, completamente funcional e integrada con el backend.
+![Frontend Deployment 1](Assets/Chapter-05/frontend-deploy3.png)
+
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, trabaje de manera coordinada para desarrollar las funcionalidades principales del frontend. Las responsabilidades se distribuyeron de manera que se pudiera avanzar eficientemente en todas las áreas del desarrollo frontend.
+
+A continuación, se presenta un análisis de la colaboración del equipo durante este sprint, incluyendo capturas de los analíticos de colaboración en GitHub que reflejan la participación de cada miembro del equipo.
+
+| **Integrante** | **Tareas Asignadas** |
+|----------------|----------------------|
+| **Orellana Rodriguez, Mel Andree** | Idea conceptual de Proyecto, Frontend Web Application Development, Configuración inicial del proyecto Angular, Sistema de autenticación y autorización, Registro de usuarios (voluntarios y organizaciones), Gestión de perfiles de usuario, Página de comunidad y visualización de publicaciones, Dashboard de organizaciones, Creación y edición de publicaciones, Sistema de mensajería interna, Sistema de notificaciones, Internacionalización (i18n), Integración con backend mediante servicios HTTP, Diseño responsive, Backend Web Services Development, Configuración inicial del proyecto Spring Boot, Configuración de base de datos MySQL y JPA, Servicios de autenticación con JWT, Servicios de gestión de usuarios, Servicios de gestión de voluntarios, Servicios de gestión de organizaciones, Servicios de publicaciones, Servicios de mensajería, Servicios de notificaciones, Documentación OpenAPI/Swagger, Configuración CORS, Despliegue del backend en Railway, Software Configuration Management, Source Code Management, Source Code Style Guide & Conventions, Software Deployment Configuration |
+| **Cusimayta Lobo, Alex Gabriel** | Idea conceptual de Proyecto, Landing Page Development, Estructura HTML del Landing Page, Estilos CSS del Landing Page, Funcionalidades JavaScript, Sección Hero, Sección "Acerca de Nosotros", Sección Funcionalidades, Sección "Cómo Funciona", Sección Planes/Pricing, Sección Impacto Social, Sección Problemática, Sección Testimonios, Sección Contacto, Pie de Página (Footer), Botones CTA, Diseño Responsivo, SEO Básico, Sección Iniciar Sesión, Despliegue en GitHub Pages |
+| **Ramos, Aldair** | Idea conceptual de Proyecto, Requirements Elicitation & Analysis, Diseño de entrevistas, Registro de entrevistas, Análisis de entrevistas, User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, As-is Scenario Mapping, To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog |
+| **Román Rodriguez, Bertha Roxmeri** | Idea conceptual de Proyecto, Competitors Analysis, Estrategias y tácticas frente a competidores, Needfinding, Ubiquitous Language, Product Design, Style Guidelines, Information Architecture, Landing Page UI Design, Web Applications UX/UI Design, Domain-Driven Software Architecture, Software Object-Oriented Design, Database Design |
+| **Huaman De La Cruz, Jean Pool** | Idea conceptual de Proyecto, Project Management, Requirements Management, Software Documentation, Testing and Validation, Quality Assurance |
 
 
 #### 5.2.3. Sprint 3
@@ -1901,6 +1996,7 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
 
 
