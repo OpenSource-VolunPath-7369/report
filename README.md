@@ -2524,14 +2524,40 @@ El diseño de las entrevistas se centra en comprender:
 | **Video** | [Ver entrevista en YouTube](https://youtu.be/177TEfwCi1Q) |
 | **Resumen** | Cesar León percibe que VolunPath tiene un diseño atractivo, limpio y centrado en el voluntariado, aunque algunas secciones lucen vacías cuando no hay contenido. Afirma que el propósito de la plataforma es claro, pero inicialmente sintió la ausencia de una guía que indique los primeros pasos. Considera que la navegación es buena, aunque detectó fallos como el cambio de idioma y el botón de WhatsApp sin funcionamiento. El registro fue sencillo, pero no pudo actualizar su perfil debido al botón de guardar inactivo, y al enviar mensajes no recibió confirmación alguna. Recomienda mejorar la retroalimentación visual en las acciones, corregir los botones inactivos y añadir una guía inicial para facilitar la adaptación de nuevos voluntarios. |
 
-
-
-
-
-
-
-
 #### 5.3.3. Evaluaciones según heurísticas 
+
+Plataforma evaluada: VolunPath – Sistema Web para Conexión de Voluntarios y Organizaciones  
+### **Tareas evaluadas**
+El análisis heurístico se aplicó a las siguientes tareas clave:
+
+- Registro de usuarios  
+- Edición de perfil  
+- Exploración de oportunidades  
+- Navegación entre secciones (comunidad, mensajes, soporte, perfil)  
+- Envío de mensajes  
+- Acceso al soporte vía WhatsApp  
+- Cambio de idioma  
+- Comprensión inicial del flujo de uso  
+
+**Tareas NO incluidas:**
+
+- Gestión avanzada de oportunidades  
+- Publicación de actividades (organizaciones)  
+- Landing Page  
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2550,6 +2576,7 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
 
 
