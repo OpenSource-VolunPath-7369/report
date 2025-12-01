@@ -2546,7 +2546,19 @@ El análisis heurístico se aplicó a las siguientes tareas clave:
 - Landing Page  
 
 ---
+# **Tabla resumen de problemas (versión optimizada)**
 
+| # | Problema identificado | Severidad | Heurística/principio violado |
+|---|------------------------|-----------|------------------------------|
+| 1 | El botón “Guardar perfil” no funciona | 3 | Visibilidad del estado del sistema / Control del usuario |
+| 2 | El selector de idioma y el botón de WhatsApp no responden | 3 | Consistencia y estándares / Ayuda al usuario |
+| 3 | No existe retroalimentación clara al enviar mensajes o realizar acciones | 2 | Visibilidad del estado del sistema |
+| 4 | Varias secciones lucen vacías sin textos guía ni contenido inicial | 2 | Ayuda y documentación |
+| 5 | Falta de onboarding o guía inicial para nuevos usuarios | 3 | Reconocimiento vs. recuerdo / Ayuda al usuario |
+| 6 | Dificultad inicial para encontrar oportunidades de voluntariado | 2 | Reconocimiento vs. recuerdo |
+| 7 | La interfaz no diferencia bien entre vista de voluntario y de organización | 2 | Consistencia y estándares |
+
+---
 
 
 
@@ -2576,6 +2588,7 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
 
 
