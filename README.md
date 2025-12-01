@@ -185,16 +185,22 @@
             - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
             - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
             - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-            - [5.3. Validation Interviews](#53-validation-interviews)
-            - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-            - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-            - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-
+        - [5.2.4. Sprint 4](#524-sprint-4)
+            - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+            - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+            - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+            - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+            - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+            - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+            - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+            - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+
+
 
 
 
@@ -2138,8 +2144,307 @@ Además, se incluyen capturas de pantalla que demuestran la interacción con los
 <img width="1316" height="676" alt="eje3" src="https://github.com/user-attachments/assets/a07a6b04-b3b8-4aa2-bdad-fb0d453cecbf" />
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review 
+
+Esta sección recopila los endpoints desarrollados y validados durante el Sprint 3, enfocados en la gestión de autenticación, usuarios, voluntarios, organizaciones, publicaciones, mensajería y notificaciones en la plataforma VolunPath. Se documenta el uso de los métodos HTTP correspondientes (GET, POST, PUT, DELETE) junto con ejemplos de llamadas, respuestas y validaciones funcionales. La documentación se ha generado mediante OpenAPI/Swagger, permitiendo una visualización clara y organizada de los servicios.
+
+**URL del repositorio de Web Services:** [Backend Repository](https://github.com/OpenSource-VolunPath-7369/backend)
+
+**URL de la documentación Swagger desplegada:** [Swagger UI](https://backend-production-edc9.up.railway.app/swagger-ui.html)
+
+**Commits relacionados con documentación:**
+- `5bf8b61` - chore(project): backend structure setup in progress
+- `[commit-id-2]` - feat(api): add OpenAPI/Swagger configuration
+- `[commit-id-3]` - docs(api): document all endpoints with OpenAPI annotations
+
+A continuación, se presenta una tabla detallada de los endpoints implementados:
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Response |
+|----------|-------------|-------------|------------|----------|
+| `/api/v1/authentication/sign-in` | POST | Iniciar sesión de usuario | `username` (String), `password` (String) | Token JWT y datos del usuario |
+| `/api/v1/authentication/sign-up` | POST | Registro de nuevo usuario | `username`, `email`, `password`, `name`, `roles` | Usuario creado |
+| `/api/v1/volunteers` | GET | Obtener todos los voluntarios | Ninguno | Lista de voluntarios |
+| `/api/v1/volunteers/{id}` | GET | Obtener voluntario por ID | `id` (Long) | Datos del voluntario |
+| `/api/v1/volunteers/user/{userId}` | GET | Obtener voluntario por User ID | `userId` (Long) | Datos del voluntario |
+| `/api/v1/volunteers` | POST | Crear nuevo voluntario | Body: datos del voluntario | Voluntario creado |
+| `/api/v1/volunteers/{id}` | PUT | Actualizar voluntario | `id` (Long), Body: datos actualizados | Voluntario actualizado |
+| `/api/v1/volunteers/{id}` | DELETE | Eliminar voluntario | `id` (Long) | 204 No Content |
+| `/api/v1/organizations` | GET | Obtener todas las organizaciones | Ninguno | Lista de organizaciones |
+| `/api/v1/organizations/{id}` | GET | Obtener organización por ID | `id` (Long) | Datos de la organización |
+| `/api/v1/organizations/user/{userId}` | GET | Obtener organización por User ID | `userId` (Long) | Datos de la organización |
+| `/api/v1/organizations` | POST | Crear nueva organización | Body: datos de la organización | Organización creada |
+| `/api/v1/organizations/{id}` | PUT | Actualizar organización | `id` (Long), Body: datos actualizados | Organización actualizada |
+| `/api/v1/organizations/{id}` | DELETE | Eliminar organización | `id` (Long) | 204 No Content |
+| `/api/v1/publications` | GET | Obtener todas las publicaciones | Ninguno | Lista de publicaciones |
+| `/api/v1/publications/{id}` | GET | Obtener publicación por ID | `id` (Long) | Datos de la publicación |
+| `/api/v1/publications/organization/{organizationId}` | GET | Obtener publicaciones por organización | `organizationId` (Long) | Lista de publicaciones |
+| `/api/v1/publications` | POST | Crear nueva publicación | Body: datos de la publicación | Publicación creada |
+| `/api/v1/publications/{id}` | PUT | Actualizar publicación | `id` (Long), Body: datos actualizados | Publicación actualizada |
+| `/api/v1/publications/{id}/like` | PUT | Dar like a una publicación | `id` (Long) | Publicación con likes actualizados |
+| `/api/v1/publications/{id}` | DELETE | Eliminar publicación | `id` (Long) | 204 No Content |
+| `/api/v1/messages/user/{userId}` | GET | Obtener mensajes por User ID | `userId` (Long) | Lista de mensajes |
+| `/api/v1/messages/{id}` | GET | Obtener mensaje por ID | `id` (Long) | Datos del mensaje |
+| `/api/v1/messages` | POST | Crear nuevo mensaje | Body: datos del mensaje | Mensaje creado |
+| `/api/v1/messages/{id}/read` | PUT | Marcar mensaje como leído | `id` (Long) | Mensaje actualizado |
+| `/api/v1/messages/{id}` | DELETE | Eliminar mensaje | `id` (Long) | 204 No Content |
+| `/api/v1/notifications/user/{userId}` | GET | Obtener notificaciones por User ID | `userId` (Long) | Lista de notificaciones |
+| `/api/v1/notifications/{id}` | GET | Obtener notificación por ID | `id` (Long) | Datos de la notificación |
+| `/api/v1/notifications` | POST | Crear nueva notificación | Body: datos de la notificación | Notificación creada |
+| `/api/v1/notifications/{id}/read` | PUT | Marcar notificación como leída | `id` (Long) | Notificación actualizada |
+| `/api/v1/notifications/user/{userId}/read-all` | PUT | Marcar todas las notificaciones como leídas | `userId` (Long) | 200 OK |
+| `/api/v1/notifications/{id}` | DELETE | Eliminar notificación | `id` (Long) | 204 No Content |
+
+Además, se incluyen capturas de pantalla que demuestran la interacción con los servicios web a través de Swagger UI:
+
+<img width="1235" height="675" alt="eje1" src="https://github.com/user-attachments/assets/6120e258-810c-4072-86d1-007591ab90b9" />
+
+<img width="1312" height="681" alt="eje2" src="https://github.com/user-attachments/assets/60db4e18-93f6-46b7-956e-1cf919c57218" />
+
+<img width="1316" height="676" alt="eje3" src="https://github.com/user-attachments/assets/a07a6b04-b3b8-4aa2-bdad-fb0d453cecbf" />
+
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review 
+
+
+En esta sección se resume los procesos realizados en relación con Deployment durante este Sprint. La sección inicia con una introducción explicando qué se ha realizado con respecto a despliegue durante este Sprint. Abarca actividades de creación de cuentas, configuración de recursos en cloud providers, configuración de proyectos de desarrollo para integración o automatización de labor de Deployment, entre otros.
+
+Durante este Sprint 4, se realizó la verificación y optimización del despliegue completo de la plataforma VolunPath. Se verificó que tanto el frontend como el backend estén correctamente desplegados y funcionando sin problemas. Se realizaron ajustes en las configuraciones de despliegue para optimizar el rendimiento y asegurar la estabilidad del sistema.
+
+**URL de despliegue del Frontend:** [Frontend Desplegado](https://volunpath.netlify.app)
+
+**URL de despliegue del Backend:** [Backend API](https://backend-production-edc9.up.railway.app)
+
+A continuación, se detallan los pasos realizados durante la verificación y optimización del despliegue:
+
+**Paso 1:** Verificación del despliegue del Frontend
+Se verificó que el frontend desplegado en Netlify esté funcionando correctamente y que todas las funcionalidades estén operativas.
+
+![Frontend Deployment Verification](Assets/Chapter-05/frontend-deploy-sprint4-1.png)
+
+**Paso 2:** Verificación del despliegue del Backend
+Se verificó que el backend desplegado en Railway esté funcionando correctamente y que todos los endpoints estén disponibles.
+
+![Backend Deployment Verification](Assets/Chapter-05/backend-deploy-sprint4-1.png)
+
+**Paso 3:** Verificación de la integración
+Se verificó que la integración entre frontend y backend funcione correctamente, probando todas las funcionalidades principales.
+
+![Integration Verification](Assets/Chapter-05/integration-sprint4-1.png)
+
+**Paso 4:** Optimización de configuraciones
+Se realizaron ajustes en las configuraciones de despliegue para optimizar el rendimiento y asegurar la estabilidad del sistema.
+
+![Deployment Optimization](Assets/Chapter-05/deploy-optimization-sprint4-1.png)
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+
+En esta sección el equipo explica cómo se han desarrollado las actividades de implementación y se presenta capturas en imagen de los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo. Todos los miembros del equipo deben tener participación en la implementación de cada uno de los productos según corresponda en el Sprint: Landing Page, Web Applications, Web Services.
+
+Durante el Sprint 4, el equipo trabajó de manera coordinada para finalizar y optimizar todas las funcionalidades de la plataforma VolunPath. Las responsabilidades se distribuyeron de manera que se pudiera avanzar eficientemente en todas las áreas: optimización del backend, corrección de errores en el frontend, mejora de la integración, y validación completa del sistema.
+
+La comunicación se mantuvo constante a través de reuniones virtuales y herramientas de gestión de proyectos como Trello para coordinar las actividades y asegurar que todas las mejoras y correcciones fueran implementadas correctamente. Se establecieron reuniones de seguimiento regulares para revisar el progreso y resolver cualquier inconveniente que surgiera durante el proceso de optimización.
+
+A continuación, se presenta un análisis de la colaboración del equipo durante este sprint, incluyendo capturas de los analíticos de colaboración en GitHub que reflejan la participación de cada miembro del equipo.
+
+**Análisis de Commits por Miembro del Equipo:**
+
+![GitHub Contributors Sprint 4](Assets/Chapter-05/github-contributors-sprint4.png)
+
+**Gráfico de Actividad durante el Sprint 4:**
+
+![GitHub Activity Sprint 4](Assets/Chapter-05/github-activity-sprint4.png)
+
+
+**Resumen de Colaboración:**
+
+Durante este sprint, el trabajo se concentró principalmente en la optimización y finalización del sistema completo. Se realizaron mejoras en el rendimiento del backend, correcciones de errores en el frontend, optimización de la integración entre componentes, y validación completa de todas las funcionalidades. La comunicación se mantuvo constante a través de reuniones virtuales y el uso de herramientas de gestión de proyectos como Trello.
+
+El equipo identificó que las mejoras implementadas en este sprint mejoraron significativamente la estabilidad y el rendimiento del sistema. Se establecieron buenas prácticas de optimización, incluyendo la optimización de consultas de base de datos, el mejoramiento del manejo de errores, y la validación completa de todas las funcionalidades antes del despliegue final.
+
+
+
+
+
+#### 5.2.4. Sprint 4
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 4. Se detallan los aspectos clave del Sprint Planning Meeting del Sprint 4, enfocándose en la finalización y optimización del backend, la corrección de detalles en el frontend, y el despliegue completo del servicio web para garantizar una experiencia de usuario fluida y sin errores.
+
+##### 5.2.4.1. Sprint Planning 4
+
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting del Sprint 4. Se inicia la sección con una introducción y a continuación se coloca el cuadro de resumen del sprint planning meeting.
+
+En esta sección se detallan los aspectos clave del Sprint Planning Meeting del Sprint 4. Se inicia con una introducción que explica la orientación del sprint y los objetivos principales, enfocándose en la finalización y optimización del backend, la corrección de detalles en el frontend, y el despliegue completo del servicio web para garantizar una experiencia de usuario fluida y sin errores.
+
+Durante la reunión de planificación, se discutieron las prioridades del sprint, se revisaron los resultados del Sprint 3 (desarrollo del backend completo) y se establecieron los objetivos y el alcance para el Sprint 4. El equipo se comprometió a finalizar todas las funcionalidades pendientes, optimizar el rendimiento del sistema, corregir errores identificados en el frontend, y asegurar que todos los componentes estén completamente integrados y funcionando correctamente.
+
+A continuación, se muestra un cuadro resumen que estructura los datos importantes debatidos durante la reunión de planificación del sprint, siguiendo la estructura establecida para ofrecer claridad sobre las tareas y metas pactadas.
+
+| Sprint # | 4 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 29/11/2025 |
+| Time | 08:00 PM |
+| Location | Reunión virtual mediante llamada Discord |
+| Prepared By | Mel Andree Orellana Rodriguez |
+| Attendees (to planning meeting) | Mel Andree Orellana Rodriguez |
+| **Sprint 3 Review Summary** | En el Sprint 3 se completó exitosamente el desarrollo del backend completo de la aplicación web VolunPath. Se logró implementar todos los servicios web necesarios, incluyendo autenticación, gestión de usuarios, voluntarios, organizaciones, publicaciones, mensajería y notificaciones. El backend fue desplegado en Railway y está disponible públicamente en https://backend-production-edc9.up.railway.app, con documentación completa mediante Swagger/OpenAPI. Este logro estableció la base para la integración completa con el frontend y permitió que todas las funcionalidades desarrolladas en el Sprint 2 funcionaran correctamente. Los miembros del equipo expresaron satisfacción con la arquitectura implementada y el product owner destacó la importancia de mantener la calidad del código y la documentación. |
+| **Sprint 3 Retrospective Summary** | El equipo identificó que el desarrollo del backend fue efectivo y se logró una buena estructura basada en Domain-Driven Design. Se reconoció la importancia de mantener una arquitectura modular y escalable. Como oportunidad de mejora, se acordó optimizar el rendimiento de las consultas, mejorar el manejo de errores en el frontend, corregir detalles de UI/UX, y asegurar que todas las funcionalidades estén completamente integradas. El equipo acordó que para el Sprint 4 será crucial finalizar todas las funcionalidades pendientes, corregir errores identificados, y asegurar que el despliegue completo funcione sin problemas. |
+| **Sprint 4 Goal** | Our focus is on the final delivery and optimization of the complete VolunPath platform, where we connect all core backend functionalities with the frontend and improve the overall user experience. We believe it delivers a reliable, polished, and intuitive platform that supports smooth navigation and seamless data flow across all features. This will be confirmed when users can seamlessly access different sections of the platform without facing navigation issues, data loading problems, or integration errors, and when all features (registration, profiles, publications, messaging, notifications) work flawlessly together. |
+| **Sprint 4 Velocity** | 80 |
+| **Sum of Story Points** | 80 |
+
+##### 5.2.4.2. Aspect Leaders and Collaborators
+
+En esta sección el equipo incluye la elaboración de un artefacto Leadership-and-Collaboration Matrix (LACX), que indique por cada aspecto dentro del alcance del Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto, con el fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo.
+
+En este Sprint 4, el equipo se enfocó en finalizar y optimizar todas las funcionalidades de la plataforma VolunPath. Los aspectos principales que se tomaron en cuenta para este sprint incluyen: la optimización del backend, la corrección de errores en el frontend, la mejora de la integración entre frontend y backend, la optimización de consultas y rendimiento, la corrección de detalles de UI/UX, y el despliegue completo del sistema.
+
+A continuación, se presenta la matriz de Liderazgo y Colaboración (LACX) que indica, para cada aspecto del Sprint, quién es el líder (L) y quiénes son los colaboradores (C), con el fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo.
+
+| Team Member (Last Name, First Name) | GitHub Username | Backend Optimization (L/C) | Frontend Bug Fixes (L/C) | Integration Testing (L/C) | Performance Optimization (L/C) | UI/UX Improvements (L/C) | Final Deployment (L/C) |
+|------------------------------------|------------------|---------------------------|--------------------------|---------------------------|-------------------------------|--------------------------|----------------------|
+| Orellana Rodriguez, Mel Andree | melandree8 | L | L | L | L | L | L |
+
+##### 5.2.4.3. Sprint Backlog 4
+
+Una sección de Sprint Backlog debe iniciar con una introducción que resuma el objetivo principal del Sprint y a continuación presente un screenshot del Board para el Sprint en la herramienta de control indicada (por ejemplo, Trello), junto con el URL público del Board.
+
+En esta cuarta iteración, el objetivo fue finalizar y optimizar todas las funcionalidades de la plataforma VolunPath. Esto implica que, al concluir el Sprint, todas las funcionalidades desarrolladas en sprints anteriores deben estar completamente integradas, optimizadas y funcionando sin errores. Además, se utilizó una tabla en Trello para gestionar los Work-Items de manera eficiente, permitiendo un seguimiento detallado del progreso de cada tarea y facilitando la coordinación entre los miembros del equipo.
+
+**URL del Board de Trello:** [Sprint 4 Board](https://trello.com/b/[board-id]/sprint-4)
+
+| Sprint # | **Sprint 4** | **Status** |
+|----------|--------------|------------|
+| **User Story Id** | **User Story Title** | **Work-Item Id** | **Work-Item Title** | **Description** | **Est. (Hours)** | **Assigned To** | **Status** |
+| TS13 | Optimización del backend | 01 | Optimización de consultas y rendimiento | Como developer, quiero optimizar las consultas de la base de datos y mejorar el rendimiento general del backend. | 6 | melandree8 | Done |
+| TS14 | Corrección de errores en frontend | 02 | Fix de bugs y errores identificados | Como developer, quiero corregir todos los errores identificados en el frontend para mejorar la estabilidad. | 8 | melandree8 | Done |
+| TS15 | Mejora de integración frontend-backend | 03 | Optimización de comunicación API | Como developer, quiero mejorar la integración entre frontend y backend para asegurar una comunicación fluida. | 6 | melandree8 | Done |
+| TS16 | Optimización de UI/UX | 04 | Mejoras visuales y de experiencia de usuario | Como developer, quiero mejorar la interfaz de usuario y la experiencia general de la plataforma. | 8 | melandree8 | Done |
+| TS17 | Testing y validación completa | 05 | Pruebas integrales del sistema | Como developer, quiero realizar pruebas completas de todas las funcionalidades para asegurar que todo funcione correctamente. | 6 | melandree8 | Done |
+| TS18 | Documentación final | 06 | Documentación completa del sistema | Como developer, quiero completar la documentación final del sistema, incluyendo guías de usuario y documentación técnica. | 4 | melandree8 | Done |
+| TS19 | Despliegue final | 07 | Despliegue completo y verificación | Como developer, quiero asegurar que el despliegue completo funcione correctamente y verificar que todos los servicios estén operativos. | 4 | melandree8 | Done |
+
+
+##### 5.2.4.4. Development Evidence for Sprint Review
+
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Landing Page, Web Applications, Web Services. La sección inicia con una introducción que resume los principales avances en la implementación.
+
+En esta sección se detallan los avances logrados en la implementación del producto durante el sprint, centrados en la optimización del backend, la corrección de errores en el frontend, y la mejora de la integración entre ambos componentes. El enfoque principal ha sido finalizar todas las funcionalidades pendientes, optimizar el rendimiento del sistema, y asegurar que todos los componentes estén completamente integrados y funcionando correctamente.
+
+Durante este Sprint 4, se realizaron múltiples commits que reflejan las mejoras continuas y las correcciones implementadas. Se trabajó en la optimización de consultas de base de datos, corrección de errores en el frontend, mejora de la integración entre frontend y backend, optimización de UI/UX, y validación completa del sistema. Además, se realizaron mejoras importantes relacionadas con el rendimiento, la estabilidad, y la experiencia de usuario.
+
+A continuación, se muestra una tabla que documenta los commits clave asociados con la implementación de cada repositorio del proyecto, lo que facilita la visualización del progreso del desarrollo técnico a lo largo de este sprint.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| Frontend/melandree8 | main | [commit-id-1] | fix: optimize frontend performance and fix UI issues | Optimización del rendimiento del frontend y corrección de problemas de UI | 29/11/2025 |
+| Backend/melandree8 | main | [commit-id-2] | perf: optimize database queries and improve response times | Optimización de consultas de base de datos y mejora de tiempos de respuesta | 29/11/2025 |
+| Frontend/melandree8 | main | [commit-id-3] | fix: improve error handling and user feedback | Mejora del manejo de errores y retroalimentación al usuario | 30/11/2025 |
+| Backend/melandree8 | main | [commit-id-4] | feat: add data synchronization improvements | Mejoras en la sincronización de datos entre usuarios y perfiles | 30/11/2025 |
+
+##### 5.2.4.5. Execution Evidence for Sprint Review
+
+Esta sección inicia con un resumen que explica lo alcanzado en este Sprint y presenta screenshots de las principales vistas implementadas, junto con un enlace a un video que ilustre y explique la visualización y navegación logrados en este Sprint.
+
+En este cuarto Sprint del proyecto, hemos logrado finalizar y optimizar completamente la plataforma VolunPath. Se realizaron mejoras significativas en el rendimiento del backend, se corrigieron todos los errores identificados en el frontend, se optimizó la integración entre ambos componentes, y se mejoró la experiencia de usuario en general. La plataforma ahora está completamente funcional, con todas las funcionalidades integradas y funcionando sin errores.
+
+Se implementaron optimizaciones en las consultas de base de datos, mejoras en el manejo de errores, correcciones en la UI/UX, y validación completa de todas las funcionalidades. El sistema ahora ofrece una experiencia fluida y sin interrupciones para los usuarios, tanto voluntarios como organizaciones.
+
+A continuación, se presentan capturas de pantalla de las mejoras implementadas:
+
+![Optimización del Dashboard](Assets/Chapter-05/sprint4-dashboard.png)
+
+![Mejoras en Mensajería](Assets/Chapter-05/sprint4-messages.png)
+
+![Optimización de Publicaciones](Assets/Chapter-05/sprint4-publications.png)
+
+**Enlace al video demostrativo:** [Video Sprint 4 - Final Optimization and Deployment](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/[video-id])
+
+##### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+En esta sección se incluye la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint. La sección inicia con una introducción en la que se resume los logros alcanzados en relación con Documentación de Web Services para este Sprint.
+
+Esta sección recopila los endpoints desarrollados y validados durante el Sprint 4, manteniendo la misma estructura de endpoints del Sprint 3 pero con mejoras en el rendimiento, estabilidad y documentación. Se mantuvieron todos los endpoints del sprint anterior junto a sus rutas respectivas, pero se optimizaron las consultas y se mejoró la documentación mediante OpenAPI/Swagger.
+
+Los servicios web documentados incluyen:
+- Servicios de autenticación (sign-in, sign-up)
+- Servicios de gestión de usuarios, voluntarios y organizaciones
+- Servicios de publicaciones
+- Servicios de mensajería
+- Servicios de notificaciones
+
+**URL del repositorio de Web Services:** [Backend Repository](https://github.com/OpenSource-VolunPath-7369/backend)
+
+**URL de la documentación Swagger desplegada:** [Swagger UI](https://backend-production-edc9.up.railway.app/swagger-ui.html)
+
+**Commits relacionados con documentación:**
+- `[commit-id-2]` - perf: optimize database queries and improve response times
+- `[commit-id-4]` - feat: add data synchronization improvements
+
+A continuación, se presentan capturas de pantalla que demuestran la interacción con los servicios web optimizados a través de Swagger UI:
+
+![Swagger UI - Endpoints Optimizados](Assets/Chapter-05/swagger-sprint4-1.png)
+
+![Swagger UI - Ejemplo de Endpoint](Assets/Chapter-05/swagger-sprint4-2.png)
+
+##### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+En esta sección se resume los procesos realizados en relación con Deployment durante este Sprint. La sección inicia con una introducción explicando qué se ha realizado con respecto a despliegue durante este Sprint. Abarca actividades de creación de cuentas, configuración de recursos en cloud providers, configuración de proyectos de desarrollo para integración o automatización de labor de Deployment, entre otros.
+
+Durante este Sprint 4, se realizó la verificación y optimización del despliegue completo de la plataforma VolunPath. Se verificó que tanto el frontend como el backend estén correctamente desplegados y funcionando sin problemas. Se realizaron ajustes en las configuraciones de despliegue para optimizar el rendimiento y asegurar la estabilidad del sistema.
+
+**URL de despliegue del Frontend:** [Frontend Desplegado](https://volunpath.netlify.app)
+
+**URL de despliegue del Backend:** [Backend API](https://backend-production-edc9.up.railway.app)
+
+A continuación, se detallan los pasos realizados durante la verificación y optimización del despliegue:
+
+**Paso 1:** Verificación del despliegue del Frontend
+Se verificó que el frontend desplegado en Netlify esté funcionando correctamente y que todas las funcionalidades estén operativas.
+
+![Frontend Deployment Verification](Assets/Chapter-05/frontend-deploy-sprint4-1.png)
+
+**Paso 2:** Verificación del despliegue del Backend
+Se verificó que el backend desplegado en Railway esté funcionando correctamente y que todos los endpoints estén disponibles.
+
+![Backend Deployment Verification](Assets/Chapter-05/backend-deploy-sprint4-1.png)
+
+**Paso 3:** Verificación de la integración
+Se verificó que la integración entre frontend y backend funcione correctamente, probando todas las funcionalidades principales.
+
+![Integration Verification](Assets/Chapter-05/integration-sprint4-1.png)
+
+**Paso 4:** Optimización de configuraciones
+Se realizaron ajustes en las configuraciones de despliegue para optimizar el rendimiento y asegurar la estabilidad del sistema.
+
+![Deployment Optimization](Assets/Chapter-05/deploy-optimization-sprint4-1.png)
+
+##### 5.2.4.8. Team Collaboration Insights during Sprint
+
+En esta sección el equipo explica cómo se han desarrollado las actividades de implementación y se presenta capturas en imagen de los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo. Todos los miembros del equipo deben tener participación en la implementación de cada uno de los productos según corresponda en el Sprint: Landing Page, Web Applications, Web Services.
+
+Durante el Sprint 4, el equipo trabajó de manera coordinada para finalizar y optimizar todas las funcionalidades de la plataforma VolunPath. Las responsabilidades se distribuyeron de manera que se pudiera avanzar eficientemente en todas las áreas: optimización del backend, corrección de errores en el frontend, mejora de la integración, y validación completa del sistema.
+
+La comunicación se mantuvo constante a través de reuniones virtuales y herramientas de gestión de proyectos como Trello para coordinar las actividades y asegurar que todas las mejoras y correcciones fueran implementadas correctamente. Se establecieron reuniones de seguimiento regulares para revisar el progreso y resolver cualquier inconveniente que surgiera durante el proceso de optimización.
+
+A continuación, se presenta un análisis de la colaboración del equipo durante este sprint, incluyendo capturas de los analíticos de colaboración en GitHub que reflejan la participación de cada miembro del equipo.
+
+**Análisis de Commits por Miembro del Equipo:**
+
+![GitHub Contributors Sprint 4](Assets/Chapter-05/github-contributors-sprint4.png)
+
+**Gráfico de Actividad durante el Sprint 4:**
+
+![GitHub Activity Sprint 4](Assets/Chapter-05/github-activity-sprint4.png)
+
+
+**Resumen de Colaboración:**
+
+Durante este sprint, el trabajo se concentró principalmente en la optimización y finalización del sistema completo. Se realizaron mejoras en el rendimiento del backend, correcciones de errores en el frontend, optimización de la integración entre componentes, y validación completa de todas las funcionalidades. La comunicación se mantuvo constante a través de reuniones virtuales y el uso de herramientas de gestión de proyectos como Trello.
+
+El equipo identificó que las mejoras implementadas en este sprint mejoraron significativamente la estabilidad y el rendimiento del sistema. Se establecieron buenas prácticas de optimización, incluyendo la optimización de consultas de base de datos, el mejoramiento del manejo de errores, y la validación completa de todas las funcionalidades antes del despliegue final.
+
+
+
 
 ### 5.3. Validation Interviews
 
@@ -2174,9 +2479,6 @@ El diseño de las entrevistas se centra en comprender:
 
 
 
-
-
-
 ##### 5.4 Video About-the-Product
 
 La sección proporciona un panorama general del producto, resaltando su objetivo, características principales y el valor que brinda a sus usuarios. Esta introducción facilita la comprensión del contexto del producto y su orientación a cubrir las demandas de los usuarios, sincronizando sus características y habilidades con las metas de la solución sugerida.
@@ -2192,4 +2494,5 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
