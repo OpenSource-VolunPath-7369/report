@@ -2475,6 +2475,30 @@ El diseño de las entrevistas se centra en comprender:
 
 #### 5.3.2. Registro de Entrevistas 
 
+
+| **Campo** | **Detalle** |
+|----------|-------------|
+| **Entrevista** | Entrevista 1 – VolunPath |
+| **Entrevistador** | Jean Pool |
+| **Entrevistado** | Smith Ovalle |
+| **Rol** | Coordinador Comunitario |
+| **Organización** | Manos del Barrio |
+| **Fecha** | 29-11-2025 |
+| **Imagen** | ![Entrevista Smith](Assets/Chapter-05/Entrevista-Smith.png) |
+| **Resumen** | Smith Ovale considera que VolunPath tiene un diseño moderno y agradable, aunque algunos elementos no funcionan correctamente, como el selector de idioma y el botón de WhatsApp. Señala que el propósito de la plataforma se entiende rápidamente, pero algunas secciones parecen dirigidas solo a voluntarios y otras lucen vacías sin contenido. También identificó fallas en acciones importantes como guardar el perfil y enviar mensajes, ya que no existe retroalimentación clara que confirme la acción. Sugiere corregir estos problemas y añadir guías o indicaciones para las organizaciones que ingresan por primera vez. |
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### 5.3.3. Evaluaciones según heurísticas 
 
 
@@ -2494,5 +2518,6 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
 
