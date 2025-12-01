@@ -2510,6 +2510,16 @@ El diseño de las entrevistas se centra en comprender:
 | **Resumen** | Maou De La Cruz considera que VolunPath tiene un diseño moderno, ordenado y acorde al propósito social, aunque algunas pantallas se sienten vacías. Entendió el objetivo de la plataforma rápidamente, pero al inicio tuvo dudas sobre dónde ver las oportunidades debido a la falta de una guía inicial. Percibió la navegación como sencilla, aunque el selector de idioma y el botón de WhatsApp no funcionaron. El registro fue fácil, pero no logró actualizar su perfil porque el botón de guardar no respondía. Además, notó falta de retroalimentación en acciones como enviar mensajes o editar información. Sugiere implementar un tour para nuevos usuarios, activar correctamente las funciones de idioma y WhatsApp, y solucionar la falla del guardado de perfil para mejorar la experiencia del voluntario. |
 
 
+| **Campo** | **Detalle** |
+|----------|-------------|
+| **Entrevista** | Entrevista 4 – VolunPath |
+| **Entrevistador** | Jean Pool |
+| **Entrevistado** | Cesar León |
+| **Rol** | Voluntario |
+| **Fecha** | 29-11-2025 |
+| **Imagen** | ![Entrevista Cesar](Assets/Chapter-05/Entrevista-Cesar.png) |
+| **Video** | [Ver entrevista en YouTube](https://youtu.be/177TEfwCi1Q) |
+| **Resumen** | Cesar León percibe que VolunPath tiene un diseño atractivo, limpio y centrado en el voluntariado, aunque algunas secciones lucen vacías cuando no hay contenido. Afirma que el propósito de la plataforma es claro, pero inicialmente sintió la ausencia de una guía que indique los primeros pasos. Considera que la navegación es buena, aunque detectó fallos como el cambio de idioma y el botón de WhatsApp sin funcionamiento. El registro fue sencillo, pero no pudo actualizar su perfil debido al botón de guardar inactivo, y al enviar mensajes no recibió confirmación alguna. Recomienda mejorar la retroalimentación visual en las acciones, corregir los botones inactivos y añadir una guía inicial para facilitar la adaptación de nuevos voluntarios. |
 
 
 
@@ -2537,6 +2547,7 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
 
 
