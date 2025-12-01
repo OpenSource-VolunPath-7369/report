@@ -1,19 +1,23 @@
 <div align ="center">
 
-<h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
 <img alt="upc-logo" src="/Assets/UPC_logo_transparente.png" width="200"/><br>
 
-<strong>Ingeniería de Software - 2025-2</strong><br>
-<strong>1ASI0729 - Desarrollo de Aplicaciones Open Source</strong><br>
+<h3>Universidad Peruana de Ciencias Aplicadas</h3>
+<strong>Ingeniería de Software</strong><br>
+<br>
+
+<strong>2025-20</strong><br>
+<br>
+<strong> Desarrollo de Aplicaciones Open Source</strong><br>
 <strong>NRC: 7369</strong><br>
+<br>
 <strong>Profesor: Wilder Julio Espinoza Bravo</strong><br>
-
 <br><strong>Informe del Trabajo Final</strong><br><br>
-
 <strong>Startup: InnovaSocial </strong><br>
+<br>
 <strong>Producto: VolunPath </strong><br>
-
+<br>
 
 
 ### Team Members:
@@ -23,6 +27,7 @@
 |  Bertha Roxmeri Román Rodriguez |   u20211c654   |
 | Mel Andree Orellana Rodriguez | U202116018 |
 |  Jean Pool Huaman De La Cruz |    U20201E781     |
+<br>
 
 <strong> Setiembre 2025</strong><br>
 </div>
@@ -1827,4 +1832,5 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
