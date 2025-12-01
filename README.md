@@ -2139,6 +2139,29 @@ Además, se incluyen capturas de pantalla que demuestran la interacción con los
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas 
+Para validar la usabilidad y la claridad del propósito de la plataforma **VolunPath**, se diseñó un conjunto de entrevistas dirigidas a voluntarios, coordinadores de organizaciones sociales y usuarios interesados en actividades de impacto comunitario.
+
+Estas entrevistas tienen como finalidad evaluar la experiencia de usuario al interactuar con la plataforma, identificar posibles puntos de mejora y verificar si las funcionalidades principales cumplen con las expectativas de los usuarios finales.
+
+El diseño de las entrevistas se centra en comprender:
+
+- **La percepción del diseño visual y la primera impresión.**
+- **La claridad del mensaje principal de la plataforma.**
+- **La facilidad de navegación por la landing page y las secciones internas.**
+- **La accesibilidad de la información sobre oportunidades y organizaciones.**
+- **La intuición del flujo de registro, postulación y uso general.**
+- **El valor percibido de VolunPath como herramienta social.**
+- **Posibles confusiones, dificultades o mejoras sugeridas.**
+
+**Preguntas empleadas en las entrevistas:**
+
+1. ¿Cómo calificarías el diseño visual general de VolunPath?
+2. ¿Te resultó clara y fácil de entender la plataforma al ingresar por primera vez?
+3. ¿Qué tan sencilla fue la navegación por las diferentes secciones (comunidad, mensajes, soporte, perfil)?
+4. ¿Pudiste realizar sin problemas las acciones principales como registrarte, postularte, enviar mensajes o editar tu perfil?
+5. ¿El sistema te mostró retroalimentación clara al realizar acciones importantes (guardar, enviar, registrarse)?
+6. ¿Qué aspectos de la plataforma mejorarías para que sea más fácil de usar?
+
 
 #### 5.3.2. Registro de Entrevistas 
 
@@ -2164,5 +2187,6 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
 
