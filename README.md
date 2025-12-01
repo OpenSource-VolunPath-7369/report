@@ -180,6 +180,11 @@
             - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
             - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
             - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+            - [5.3. Validation Interviews](#53-validation-interviews)
+            - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+            - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+            - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+
 - [Conclusiones](#conclusiones)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Video About-the-Team](#video-about-the-team)
@@ -2127,6 +2132,23 @@ Además, se incluyen capturas de pantalla que demuestran la interacción con los
 
 <img width="1316" height="676" alt="eje3" src="https://github.com/user-attachments/assets/a07a6b04-b3b8-4aa2-bdad-fb0d453cecbf" />
 
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review 
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review 
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+### 5.3. Validation Interviews
+
+#### 5.3.1. Diseño de Entrevistas 
+
+#### 5.3.2. Registro de Entrevistas 
+
+#### 5.3.3. Evaluaciones según heurísticas 
+
+
+
+
+
+
 ##### 5.4 Video About-the-Product
 
 La sección proporciona un panorama general del producto, resaltando su objetivo, características principales y el valor que brinda a sus usuarios. Esta introducción facilita la comprensión del contexto del producto y su orientación a cubrir las demandas de los usuarios, sincronizando sus características y habilidades con las metas de la solución sugerida.
@@ -2142,4 +2164,5 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
