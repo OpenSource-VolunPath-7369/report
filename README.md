@@ -2488,6 +2488,16 @@ El diseño de las entrevistas se centra en comprender:
 | **Resumen** | Smith Ovale considera que VolunPath tiene un diseño moderno y agradable, aunque algunos elementos no funcionan correctamente, como el selector de idioma y el botón de WhatsApp. Señala que el propósito de la plataforma se entiende rápidamente, pero algunas secciones parecen dirigidas solo a voluntarios y otras lucen vacías sin contenido. También identificó fallas en acciones importantes como guardar el perfil y enviar mensajes, ya que no existe retroalimentación clara que confirme la acción. Sugiere corregir estos problemas y añadir guías o indicaciones para las organizaciones que ingresan por primera vez. |
 
 
+| **Campo** | **Detalle** |
+|----------|-------------|
+| **Entrevista** | Entrevista 2 – VolunPath |
+| **Entrevistador** | Jean Pool |
+| **Entrevistado** | Marco Aurelio Arango |
+| **Rol** | Coordinador de Programa Social |
+| **Organización** | Fundación Luz y Futuro |
+| **Fecha** | 29-11-2025 |
+| **Imagen** | ![Entrevista Marco](Assets/Chapter-05/Entrevista-Marco.png) |
+| **Resumen** | Marco Aurelio Arango percibe que VolunPath tiene un diseño profesional y adecuado para proyectos sociales, aunque los formularios presentan demasiado espacio en blanco. Comenta que el propósito de la plataforma es claro desde el inicio, pero la interfaz no diferencia bien las funciones para organizaciones, lo que dificultó encontrar su ruta de uso. Considera que la navegación es fluida, aunque el selector de idioma no funciona y la sección de mensajes luce vacía sin guía. Señala fallas importantes como la imposibilidad de guardar el perfil y la falta de retroalimentación en acciones clave. Sugiere implementar un panel exclusivo para organizaciones, corregir botones inactivos y reforzar confirmaciones visuales para generar confianza en las operaciones. |
 
 
 
@@ -2518,6 +2528,7 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
 
 
