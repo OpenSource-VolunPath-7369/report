@@ -2151,11 +2151,6 @@ Esta sección recopila los endpoints desarrollados y validados durante el Sprint
 
 **URL de la documentación Swagger desplegada:** [Swagger UI](https://backend-production-edc9.up.railway.app/swagger-ui.html)
 
-**Commits relacionados con documentación:**
-- `5bf8b61` - chore(project): backend structure setup in progress
-- `[commit-id-2]` - feat(api): add OpenAPI/Swagger configuration
-- `[commit-id-3]` - docs(api): document all endpoints with OpenAPI annotations
-
 A continuación, se presenta una tabla detallada de los endpoints implementados:
 
 | Endpoint | Método HTTP | Descripción | Parámetros | Response |
@@ -2218,22 +2213,19 @@ A continuación, se detallan los pasos realizados durante la verificación y opt
 **Paso 1:** Verificación del despliegue del Frontend
 Se verificó que el frontend desplegado en Netlify esté funcionando correctamente y que todas las funcionalidades estén operativas.
 
-![Frontend Deployment Verification](Assets/Chapter-05/frontend-deploy-sprint4-1.png)
+![Frontend Deployment Verification](Assets/Chapter-05/desploy-frontend.png)
 
 **Paso 2:** Verificación del despliegue del Backend
 Se verificó que el backend desplegado en Railway esté funcionando correctamente y que todos los endpoints estén disponibles.
 
-![Backend Deployment Verification](Assets/Chapter-05/backend-deploy-sprint4-1.png)
+![Backend Deployment Verification](Assets/Chapter-05/desploy-backend.png)
 
 **Paso 3:** Verificación de la integración
 Se verificó que la integración entre frontend y backend funcione correctamente, probando todas las funcionalidades principales.
 
-![Integration Verification](Assets/Chapter-05/integration-sprint4-1.png)
+![Integration Verification](Assets/Chapter-05/punto-3.png)
 
-**Paso 4:** Optimización de configuraciones
-Se realizaron ajustes en las configuraciones de despliegue para optimizar el rendimiento y asegurar la estabilidad del sistema.
 
-![Deployment Optimization](Assets/Chapter-05/deploy-optimization-sprint4-1.png)
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -2259,7 +2251,6 @@ A continuación, se presenta un análisis de la colaboración del equipo durante
 Durante este sprint, el trabajo se concentró principalmente en la optimización y finalización del sistema completo. Se realizaron mejoras en el rendimiento del backend, correcciones de errores en el frontend, optimización de la integración entre componentes, y validación completa de todas las funcionalidades. La comunicación se mantuvo constante a través de reuniones virtuales y el uso de herramientas de gestión de proyectos como Trello.
 
 El equipo identificó que las mejoras implementadas en este sprint mejoraron significativamente la estabilidad y el rendimiento del sistema. Se establecieron buenas prácticas de optimización, incluyendo la optimización de consultas de base de datos, el mejoramiento del manejo de errores, y la validación completa de todas las funcionalidades antes del despliegue final.
-
 
 
 
@@ -2646,6 +2637,7 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
 
 
