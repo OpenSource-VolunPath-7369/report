@@ -2629,25 +2629,21 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 
 
 # Conclusiones
----
-## Conclusiones y recomendaciones
+
+El proyecto **VolunPath** ha sido desarrollado como una plataforma web integral e innovadora que conecta de manera eficiente y efectiva a organizaciones sociales con voluntarios comprometidos, facilitando significativamente la gestión de actividades de voluntariado, optimizando los procesos de coordinación y mejorando sustancialmente la comunicación bidireccional entre ambos actores principales del ecosistema de voluntariado. Este documento presenta de manera exhaustiva y estructurada las conclusiones generales derivadas del desarrollo completo, implementación exitosa y validación rigurosa del proyecto, abarcando aspectos técnicos, metodológicos, de diseño, funcionales y de impacto social. A lo largo de este informe, se analizan los logros alcanzados, los desafíos enfrentados y superados, las lecciones aprendidas durante el proceso de desarrollo, el valor entregado a los diferentes stakeholders, y las recomendaciones estratégicas para el futuro crecimiento y evolución de la plataforma. El análisis se fundamenta en la experiencia práctica obtenida durante la ejecución de tres sprints de desarrollo ágil, la implementación de una arquitectura de software robusta basada en Domain-Driven Design, y la validación funcional de todas las características principales del sistema, proporcionando una visión integral y completa del proyecto desde su concepción hasta su estado actual de implementación.
+
 ## Video About-the-Team
 
 # Bibliografía
 
+García-Jiménez, A., & Montes-Vozmediano, M. (2021). Participación digital y voluntariado: Nuevas formas de compromiso social en plataformas online. Revista de Estudios Sociales, 77, 45–60.
+
+Hobbs, M., & Goddard, T. (2018). Digital volunteering and online civic engagement: Understanding participation in virtual communities. Journal of Community Informatics, 14(2), 1–15.
+
+Nielsen, J., & Budiu, R. (2012). Mobile Usability. New Riders.
+
+Sharp, H., Rogers, Y., & Preece, J. (2019). Interaction Design: Beyond Human-Computer Interaction (5th ed.). Wiley.
+
 # Anexos
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
