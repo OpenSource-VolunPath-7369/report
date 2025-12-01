@@ -2509,6 +2509,7 @@ El diseño de las entrevistas se centra en comprender:
 | **Rol** | Voluntario |
 | **Fecha** | 29-11-2025 |
 | **Imagen** | ![Entrevista Maou](Assets/Chapter-05/Entrevista-Maou.png) |
+| **Video** | [Ver entrevista en YouTube](https://youtu.be/2AQ34eDtcu8) |
 | **Resumen** | Maou De La Cruz considera que VolunPath tiene un diseño moderno, ordenado y acorde al propósito social, aunque algunas pantallas se sienten vacías. Entendió el objetivo de la plataforma rápidamente, pero al inicio tuvo dudas sobre dónde ver las oportunidades debido a la falta de una guía inicial. Percibió la navegación como sencilla, aunque el selector de idioma y el botón de WhatsApp no funcionaron. El registro fue fácil, pero no logró actualizar su perfil porque el botón de guardar no respondía. Además, notó falta de retroalimentación en acciones como enviar mensajes o editar información. Sugiere implementar un tour para nuevos usuarios, activar correctamente las funciones de idioma y WhatsApp, y solucionar la falla del guardado de perfil para mejorar la experiencia del voluntario. |
 
 
@@ -2549,6 +2550,7 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
 
 
