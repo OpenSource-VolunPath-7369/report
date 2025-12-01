@@ -2499,6 +2499,15 @@ El diseño de las entrevistas se centra en comprender:
 | **Imagen** | ![Entrevista Marco](Assets/Chapter-05/Entrevista-Marco.png) |
 | **Resumen** | Marco Aurelio Arango percibe que VolunPath tiene un diseño profesional y adecuado para proyectos sociales, aunque los formularios presentan demasiado espacio en blanco. Comenta que el propósito de la plataforma es claro desde el inicio, pero la interfaz no diferencia bien las funciones para organizaciones, lo que dificultó encontrar su ruta de uso. Considera que la navegación es fluida, aunque el selector de idioma no funciona y la sección de mensajes luce vacía sin guía. Señala fallas importantes como la imposibilidad de guardar el perfil y la falta de retroalimentación en acciones clave. Sugiere implementar un panel exclusivo para organizaciones, corregir botones inactivos y reforzar confirmaciones visuales para generar confianza en las operaciones. |
 
+| **Campo** | **Detalle** |
+|----------|-------------|
+| **Entrevista** | Entrevista 3 – VolunPath |
+| **Entrevistador** | Jean Pool |
+| **Entrevistado** | Maou De La Cruz |
+| **Rol** | Voluntario |
+| **Fecha** | 29-11-2025 |
+| **Imagen** | ![Entrevista Maou](Assets/Chapter-05/Entrevista-Maou.png) |
+| **Resumen** | Maou De La Cruz considera que VolunPath tiene un diseño moderno, ordenado y acorde al propósito social, aunque algunas pantallas se sienten vacías. Entendió el objetivo de la plataforma rápidamente, pero al inicio tuvo dudas sobre dónde ver las oportunidades debido a la falta de una guía inicial. Percibió la navegación como sencilla, aunque el selector de idioma y el botón de WhatsApp no funcionaron. El registro fue fácil, pero no logró actualizar su perfil porque el botón de guardar no respondía. Además, notó falta de retroalimentación en acciones como enviar mensajes o editar información. Sugiere implementar un tour para nuevos usuarios, activar correctamente las funciones de idioma y WhatsApp, y solucionar la falla del guardado de perfil para mejorar la experiencia del voluntario. |
 
 
 
@@ -2528,6 +2537,7 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
 
 
