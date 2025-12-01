@@ -1,6 +1,7 @@
-<div align ="center">
 
 <h3>Universidad Peruana de Ciencias Aplicadas</h3>
+
+<div align ="center">
 
 <img alt="upc-logo" src="/Assets/UPC_logo_transparente.png" width="200"/><br>
 
@@ -1284,6 +1285,7 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 # Bibliografía
 
 # Anexos
+
 
 
 
