@@ -2527,7 +2527,7 @@ El diseño de las entrevistas se centra en comprender:
 #### 5.3.3. Evaluaciones según heurísticas 
 
 Plataforma evaluada: VolunPath – Sistema Web para Conexión de Voluntarios y Organizaciones  
-### **Tareas evaluadas**
+#### **Tareas evaluadas**
 El análisis heurístico se aplicó a las siguientes tareas clave:
 
 - Registro de usuarios  
@@ -2546,7 +2546,7 @@ El análisis heurístico se aplicó a las siguientes tareas clave:
 - Landing Page  
 
 ---
-# **Tabla resumen de problemas (versión optimizada)**
+#### **Tabla resumen de problemas (versión optimizada)**
 
 | # | Problema identificado | Severidad | Heurística/principio violado |
 |---|------------------------|-----------|------------------------------|
@@ -2560,7 +2560,65 @@ El análisis heurístico se aplicó a las siguientes tareas clave:
 
 ---
 
+# **Descripción de problemas**
 
+---
+
+#### **PROBLEMA 1: Botón “Guardar perfil” sin funcionamiento**  
+**Severidad:** 3  
+**Heurística violada:** Control del usuario / Visibilidad del sistema  
+**Descripción:** Los usuarios no pueden actualizar su información debido a que el botón “Guardar” no produce ninguna acción ni muestra retroalimentación.  
+**Recomendación:** Corregir el manejador de acciones, validar el formulario y mostrar mensajes de éxito o error.
+
+---
+
+#### **PROBLEMA 2: Selector de idioma y botón de WhatsApp sin respuesta**  
+**Severidad:** 3  
+**Heurísticas violadas:** Consistencia y estándares / Ayuda al usuario  
+**Descripción:** Ambos elementos parecen interactivos pero no generan ningún cambio, lo que transmite sensación de producto incompleto.  
+**Recomendación:** Implementar la funcionalidad real o deshabilitar el botón hasta completar su desarrollo.
+
+---
+
+#### **PROBLEMA 3: Falta de retroalimentación al enviar mensajes o acciones clave**  
+**Severidad:** 2  
+**Heurística violada:** Visibilidad del estado del sistema  
+**Descripción:** Al enviar mensajes o realizar acciones importantes, no aparece confirmación visual.  
+**Recomendación:** Incluir notificaciones breves, animaciones o microinteracciones.
+
+---
+
+#### **PROBLEMA 4: Secciones vacías sin guías iniciales**  
+**Severidad:** 2  
+**Heurística violada:** Ayuda y documentación  
+**Descripción:** Vistas como “Mensajes” o “Soporte” se muestran completamente vacías cuando no hay información, sin mensajes explicativos.  
+**Recomendación:** Agregar textos guía para orientar al usuario ante la ausencia de contenido.
+
+---
+
+#### **PROBLEMA 5: Falta de guía inicial (onboarding)**  
+**Severidad:** 3  
+**Heurística violada:** Ayuda al usuario / Reconocimiento vs. recuerdo  
+**Descripción:** Los usuarios no reciben un recorrido inicial que explique cómo empezar a utilizar la plataforma.  
+**Recomendación:** Incorporar un tutorial o tour interactivo.
+
+---
+
+#### **PROBLEMA 6: Dificultad para encontrar la sección de oportunidades al inicio**  
+**Severidad:** 2  
+**Heurística violada:** Reconocimiento vs. recuerdo  
+**Descripción:** Algunos voluntarios no identificaron de inmediato dónde revisar las oportunidades.  
+**Recomendación:** Destacar la sección de “Oportunidades” en la pantalla principal.
+
+---
+
+#### **PROBLEMA 7: Interfaz poco diferenciada entre voluntarios y organizaciones**  
+**Severidad:** 2  
+**Heurística violada:** Consistencia y estándares  
+**Descripción:** Coordinadores de organizaciones expresaron dificultad para distinguir sus funciones debido a que la vista inicial es similar a la de voluntarios.  
+**Recomendación:** Crear un panel específico para organizaciones que destaque sus herramientas clave.
+
+---
 
 
 
@@ -2588,6 +2646,7 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
 
 
