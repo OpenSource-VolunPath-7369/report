@@ -2498,6 +2498,7 @@ El diseño de las entrevistas se centra en comprender:
 | **Organización** | Fundación Luz y Futuro |
 | **Fecha** | 29-11-2025 |
 | **Imagen** | ![Entrevista Marco](Assets/Chapter-05/Entrevista-Marco.png) |
+| **Video** | [Ver entrevista en YouTube](https://youtu.be/pXjcYBtVH7A) |
 | **Resumen** | Marco Aurelio Arango percibe que VolunPath tiene un diseño profesional y adecuado para proyectos sociales, aunque los formularios presentan demasiado espacio en blanco. Comenta que el propósito de la plataforma es claro desde el inicio, pero la interfaz no diferencia bien las funciones para organizaciones, lo que dificultó encontrar su ruta de uso. Considera que la navegación es fluida, aunque el selector de idioma no funciona y la sección de mensajes luce vacía sin guía. Señala fallas importantes como la imposibilidad de guardar el perfil y la falta de retroalimentación en acciones clave. Sugiere implementar un panel exclusivo para organizaciones, corregir botones inactivos y reforzar confirmaciones visuales para generar confianza en las operaciones. |
 
 | **Campo** | **Detalle** |
@@ -2548,6 +2549,7 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
 
 
