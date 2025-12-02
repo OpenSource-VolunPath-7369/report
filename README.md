@@ -18,7 +18,13 @@
 <br>
 <strong>Producto: VolunPath </strong><br>
 <br>
+### Team Members:
 
+|             Code              |    Member   |
+|:-------------------------------:|:----------:|
+| U202116018 | Mel Andree Orellana Rodriguez |
+|  U20201E781 |    Jean Pool Huaman De La Cruz | 
+<br>
 
 <strong> Setiembre 2025</strong><br>
 </div>
@@ -2269,7 +2275,7 @@ A continuación, se muestra un cuadro resumen que estructura los datos important
 | Attendees (to planning meeting) | Mel Andree Orellana Rodriguez |
 | **Sprint 3 Review Summary** | En el Sprint 3 se completó exitosamente el desarrollo del backend completo de la aplicación web VolunPath. Se logró implementar todos los servicios web necesarios, incluyendo autenticación, gestión de usuarios, voluntarios, organizaciones, publicaciones, mensajería y notificaciones. El backend fue desplegado en Railway y está disponible públicamente en https://backend-production-edc9.up.railway.app, con documentación completa mediante Swagger/OpenAPI. Este logro estableció la base para la integración completa con el frontend y permitió que todas las funcionalidades desarrolladas en el Sprint 2 funcionaran correctamente. Los miembros del equipo expresaron satisfacción con la arquitectura implementada y el product owner destacó la importancia de mantener la calidad del código y la documentación. |
 | **Sprint 3 Retrospective Summary** | El equipo identificó que el desarrollo del backend fue efectivo y se logró una buena estructura basada en Domain-Driven Design. Se reconoció la importancia de mantener una arquitectura modular y escalable. Como oportunidad de mejora, se acordó optimizar el rendimiento de las consultas, mejorar el manejo de errores en el frontend, corregir detalles de UI/UX, y asegurar que todas las funcionalidades estén completamente integradas. El equipo acordó que para el Sprint 4 será crucial finalizar todas las funcionalidades pendientes, corregir errores identificados, y asegurar que el despliegue completo funcione sin problemas. |
-| **Sprint 4 Goal** | Our focus is on the final delivery and optimization of the complete VolunPath platform, where we connect all core backend functionalities with the frontend and improve the overall user experience. We believe it delivers a reliable, polished, and intuitive platform that supports smooth navigation and seamless data flow across all features. This will be confirmed when users can seamlessly access different sections of the platform without facing navigation issues, data loading problems, or integration errors, and when all features (registration, profiles, publications, messaging, notifications) work flawlessly together. |
+| **Sprint 4 Goal** | Nos centramos en la entrega final y la optimización de la plataforma completa de VolunPath, donde conectamos todas las funcionalidades principales del backend con el frontend y mejoramos la experiencia general del usuario. Creemos que ofrece una plataforma fiable, pulida e intuitiva que facilita una navegación fluida y un flujo de datos fluido en todas las funciones. Esto se confirmará cuando los usuarios puedan acceder sin problemas a las diferentes secciones de la plataforma sin problemas de navegación, carga de datos ni errores de integración, y cuando todas las funciones (registro, perfiles, publicaciones, mensajería y notificaciones) funcionen a la perfección. |
 | **Sprint 4 Velocity** | 80 |
 | **Sum of Story Points** | 80 |
 
@@ -2526,7 +2532,7 @@ El análisis heurístico se aplicó a las siguientes tareas clave:
 - Publicación de actividades (organizaciones)  
 - Landing Page  
 
----
+
 #### **Tabla resumen de problemas (versión optimizada)**
 
 | # | Problema identificado | Severidad | Heurística/principio violado |
@@ -2539,11 +2545,11 @@ El análisis heurístico se aplicó a las siguientes tareas clave:
 | 6 | Dificultad inicial para encontrar oportunidades de voluntariado | 2 | Reconocimiento vs. recuerdo |
 | 7 | La interfaz no diferencia bien entre vista de voluntario y de organización | 2 | Consistencia y estándares |
 
----
+
 
 # **Descripción de problemas**
 
----
+
 
 #### **PROBLEMA 1: Botón “Guardar perfil” sin funcionamiento**  
 **Severidad:** 3  
@@ -2551,7 +2557,7 @@ El análisis heurístico se aplicó a las siguientes tareas clave:
 **Descripción:** Los usuarios no pueden actualizar su información debido a que el botón “Guardar” no produce ninguna acción ni muestra retroalimentación.  
 **Recomendación:** Corregir el manejador de acciones, validar el formulario y mostrar mensajes de éxito o error.
 
----
+
 
 #### **PROBLEMA 2: Selector de idioma y botón de WhatsApp sin respuesta**  
 **Severidad:** 3  
@@ -2559,7 +2565,7 @@ El análisis heurístico se aplicó a las siguientes tareas clave:
 **Descripción:** Ambos elementos parecen interactivos pero no generan ningún cambio, lo que transmite sensación de producto incompleto.  
 **Recomendación:** Implementar la funcionalidad real o deshabilitar el botón hasta completar su desarrollo.
 
----
+
 
 #### **PROBLEMA 3: Falta de retroalimentación al enviar mensajes o acciones clave**  
 **Severidad:** 2  
@@ -2567,7 +2573,7 @@ El análisis heurístico se aplicó a las siguientes tareas clave:
 **Descripción:** Al enviar mensajes o realizar acciones importantes, no aparece confirmación visual.  
 **Recomendación:** Incluir notificaciones breves, animaciones o microinteracciones.
 
----
+
 
 #### **PROBLEMA 4: Secciones vacías sin guías iniciales**  
 **Severidad:** 2  
@@ -2575,7 +2581,7 @@ El análisis heurístico se aplicó a las siguientes tareas clave:
 **Descripción:** Vistas como “Mensajes” o “Soporte” se muestran completamente vacías cuando no hay información, sin mensajes explicativos.  
 **Recomendación:** Agregar textos guía para orientar al usuario ante la ausencia de contenido.
 
----
+
 
 #### **PROBLEMA 5: Falta de guía inicial (onboarding)**  
 **Severidad:** 3  
@@ -2583,7 +2589,7 @@ El análisis heurístico se aplicó a las siguientes tareas clave:
 **Descripción:** Los usuarios no reciben un recorrido inicial que explique cómo empezar a utilizar la plataforma.  
 **Recomendación:** Incorporar un tutorial o tour interactivo.
 
----
+
 
 #### **PROBLEMA 6: Dificultad para encontrar la sección de oportunidades al inicio**  
 **Severidad:** 2  
@@ -2591,21 +2597,13 @@ El análisis heurístico se aplicó a las siguientes tareas clave:
 **Descripción:** Algunos voluntarios no identificaron de inmediato dónde revisar las oportunidades.  
 **Recomendación:** Destacar la sección de “Oportunidades” en la pantalla principal.
 
----
+
 
 #### **PROBLEMA 7: Interfaz poco diferenciada entre voluntarios y organizaciones**  
 **Severidad:** 2  
 **Heurística violada:** Consistencia y estándares  
 **Descripción:** Coordinadores de organizaciones expresaron dificultad para distinguir sus funciones debido a que la vista inicial es similar a la de voluntarios.  
 **Recomendación:** Crear un panel específico para organizaciones que destaque sus herramientas clave.
-
----
-
-
-
-
-
-
 
 
 
@@ -2627,6 +2625,7 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
 
 
