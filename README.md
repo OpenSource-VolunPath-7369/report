@@ -2606,13 +2606,84 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 
 
 # Conclusiones
+El desarrollo de **VolunPath** permitió consolidar una comprensión profunda sobre los desafíos reales que enfrentan tanto las organizaciones sociales como los voluntarios. A través de metodologías de investigación, análisis y diseño, se identificaron problemas clave como la falta de centralización, la desorganización en la gestión, la comunicación fragmentada y la ausencia de métricas claras de impacto.
+
+La plataforma creada responde directamente a estas necesidades, integrando funcionalidades que permiten una gestión interna más eficiente, un mejor seguimiento de actividades, mayor visibilidad pública de los proyectos y herramientas que motivan a los voluntarios mediante logros, historial y reconocimientos.
+
+El trabajo en equipo, apoyado en sprints iterativos, retrospectivas y planificación colaborativa, fortaleció la calidad final del producto. La arquitectura basada en principios de DDD, API RESTful y buenas prácticas de desarrollo asegura una base sólida, escalable y adaptable para futuras mejoras.
+
+VolunPath representa un paso importante hacia la profesionalización del voluntariado en América Latina, ofreciendo una herramienta accesible y funcional que contribuye al fortalecimiento social y al impacto comunitario.
+
 ---
-## Conclusiones y recomendaciones
-## Video About-the-Team
+
+# Conclusiones y recomendaciones
+
+## Recomendaciones para el producto
+- Continuar ampliando módulos clave como certificaciones, videollamadas y gamificación.
+- Implementar una versión móvil para mejorar la accesibilidad en campo.
+- Integrar análisis predictivo basado en IA para optimizar la asignación de voluntarios y recursos.
+- Desarrollar dashboards orientados a donantes y aliados estratégicos.
+
+## Recomendaciones técnicas
+- Mantener la estructura basada en Domain-Driven Design para facilitar la escalabilidad.
+- Incorporar pruebas unitarias, integración continua y monitoreo del rendimiento.
+- Migrar hacia microservicios cuando crezca el número de organizaciones.
+- Optimizar el manejo de archivos e imágenes para mejorar costos y tiempos de carga.
+
+## Recomendaciones para investigación y diseño
+- Ampliar las entrevistas hacia organizaciones medianas y grandes.
+- Realizar pruebas de usabilidad con prototipos de alta fidelidad.
+- Incorporar métricas UX como SUS, TAM y CSAT para evaluar la experiencia del usuario.
+- Diseñar un onboarding dinámico para mejorar la retención inicial de voluntarios.
+
+---
+
+# Video About-the-Team
+
+
+---
 
 # Bibliografía
 
+Plataforma del Voluntariado de España. (2023). *Informe sobre la gestión del voluntariado y tendencias digitales*. https://www.plataformavoluntariado.org
+
+Idealist. (2024). *Oportunidades globales de voluntariado*. https://www.idealist.org
+
+VolunteerMatch. (2024). *Conectando organizaciones y voluntarios*. https://www.volunteermatch.org
+
+GoVolunteer. (2024). *Proyectos sociales y comunitarios*. https://www.govolunteer.com
+
+InnovaSocial. (2025). *VolunPath – Documentación del proyecto y arquitectura de software*. (Repositorio interno del curso).
+
+Miro. (2025). *Lean UX Canvas – VolunPath*. https://miro.com
+
+GitHub – Startup 7369. (2025). *Project Report Collaboration Insights*. https://github.com/curso-nombre-startup-7369/report/tree/develop
+
+---
+
 # Anexos
+
+### Repositorio del proyecto
+- **GitHub – Report del proyecto VolunPath**  
+  https://github.com/curso-nombre-startup-7369/report/tree/develop
+
+### Entrevistas – Líderes de Organización
+- Entrevista a **Luis Espiritu**  
+- Entrevista a **Kevin – Co-Fundador de Educere**
+
+### Entrevistas – Voluntarios
+- Entrevista a **George**  
+- Entrevista a **Carmen Rosa Quispe**  
+- Entrevista a **Romina Lopa**
+
+### Herramientas y referencias externas
+- Lean UX Canvas (Miro): https://miro.com  
+- Idealist: https://www.idealist.org  
+- VolunteerMatch: https://www.volunteermatch.org  
+- GoVolunteer: https://www.govolunteer.com  
+
+
+
 
 
 
