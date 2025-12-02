@@ -84,6 +84,9 @@
 # Project Report Collaboration Insights
 
 - URL Project Report (Github): https://github.com/curso-nombre-startup-7369/report/tree/develop
+
+<img alt="upc-logo" src="Assets/Chapter-05/capt.png" width="100%"/>
+
   
 
 ## Tabla de contenidos
@@ -2625,6 +2628,7 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
+
 
 
 
