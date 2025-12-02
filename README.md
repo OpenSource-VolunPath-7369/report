@@ -20,15 +20,6 @@
 <br>
 
 
-### Team Members:
-
-|             Member              |    Code    |
-|:-------------------------------:|:----------:|
-|  Bertha Roxmeri Román Rodriguez |   u20211c654   |
-| Mel Andree Orellana Rodriguez | U202116018 |
-|  Jean Pool Huaman De La Cruz |    U20201E781     |
-<br>
-
 <strong> Setiembre 2025</strong><br>
 </div>
 
@@ -2636,17 +2627,6 @@ URL: Microsfot Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021160
 # Bibliografía
 
 # Anexos
-
-
-
-
-
-
-
-
-
-
-
 
 
 
