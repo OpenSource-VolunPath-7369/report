@@ -107,10 +107,12 @@
     
 # Project Report Collaboration Insights
 
-- URL Project Report (Github): https://github.com/curso-nombre-startup-7369/report/tree/develop
+- URL Project Report (Github):  
+  https://github.com/OpenSource-VolunPath-7369/report/graphs/contributors
 
-<img alt="upc-logo" src="Assets/Chapter-05/capt.png" width="100%"/>
+<img alt="contributors-table" src="Assets/Contributors-table.png" width="100%"/>
 
+<img alt="contributors-graph" src="Assets/Contributors.png" width="100%"/>
   
 
 ## Tabla de contenidos
@@ -2727,6 +2729,7 @@ GitHub – Startup 7369. (2025). *Project Report Collaboration Insights*. https:
 - Idealist: https://www.idealist.org  
 - VolunteerMatch: https://www.volunteermatch.org  
 - GoVolunteer: https://www.govolunteer.com  
+
 
 
 
