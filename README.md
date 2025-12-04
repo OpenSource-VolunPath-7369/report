@@ -1,7 +1,7 @@
 <div align ="center">
 
 
-<img alt="upc-logo" src="/Assets/UPC_logo_transparente.png" width="200"/><br>
+<img alt="upc-logo" src="Assets/UPC_logo_transparente.png" width="200"/><br>
 
 <h3>Universidad Peruana de Ciencias Aplicadas</h3>
 <strong>Ingeniería de Software</strong><br>
@@ -830,13 +830,13 @@ Segmento Objetivo 1: Organizaciones sociales
 
 Kevin Pachas
 
-<img alt="mapping-organizador" src="/Assets/Chapter-03/mapping_organizadores.jpg" width="2000"/><br>
+<img alt="mapping-organizador" src="Assets/Chapter-03/mapping_organizadores.jpg" width="2000"/><br>
 
 Segmento Objetivo 2: Voluntarios
 
 Carmen Quispe
 
-<img alt="mapping-voluntario" src="/Assets/Chapter-03/mapping_voluntarios.jpg" width="2000"/><br>
+<img alt="mapping-voluntario" src="Assets/Chapter-03/mapping_voluntarios.jpg" width="2000"/><br>
 
 ### 3.2. User Stories
 
@@ -924,13 +924,13 @@ Segmento Objetivo 1: Organizaciones sociales
 
 Kevin Pachas
 
-<img alt="impact-organizadores" src="/Assets/Chapter-03/Impact-map-Volu-1.png" width="2000"/><br>
+<img alt="impact-organizadores" src="Assets/Chapter-03/Impact-map-Volu-1.png" width="2000"/><br>
 
 Segmento Objetivo 2: Voluntarios
 
 Carmen Quispe
 
-<img alt="impact-voluntarios" src="/Assets/Chapter-03/Impact-map-Volu-2.png" width="2000"/><br>
+<img alt="impact-voluntarios" src="Assets/Chapter-03/Impact-map-Volu-2.png" width="2000"/><br>
 
 ### 3.4. Product Backlog
 
@@ -1078,48 +1078,48 @@ Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a 
 ### 4.3. Landing Page UI Design
 #### 4.3.1. Landing Page Wireframe
 
-<img alt="boceto 1" src="/Assets/Chapter-04/boceto1.png" width="2000"/><br>
+<img alt="boceto 1" src="Assets/Chapter-04/boceto1.png" width="2000"/><br>
 
-<img alt="boceto 2" src="/Assets/Chapter-04/boceto2.png" width="2000"/><br>
+<img alt="boceto 2" src="Assets/Chapter-04/boceto2.png" width="2000"/><br>
 
-<img alt="boceto 3" src="/Assets/Chapter-04/boceto3.png" width="2000"/><br>
+<img alt="boceto 3" src="Assets/Chapter-04/boceto3.png" width="2000"/><br>
 
-<img alt="boceto 4" src="/Assets/Chapter-04/boceto4.png" width="2000"/><br>
+<img alt="boceto 4" src="Assets/Chapter-04/boceto4.png" width="2000"/><br>
 
 
 #### 4.3.2. Landing Page Mock-up
 
-<img alt="landing 1" src="/Assets/Chapter-04/landing1.png" width="2000"/><br>
+<img alt="landing 1" src="Assets/Chapter-04/landing1.png" width="2000"/><br>
 
-<img alt="landing 2" src="/Assets/Chapter-04/landing2.png" width="2000"/><br>
+<img alt="landing 2" src="Assets/Chapter-04/landing2.png" width="2000"/><br>
 
-<img alt="landing 3" src="/Assets/Chapter-04/landing3.png" width="2000"/><br>
+<img alt="landing 3" src="Assets/Chapter-04/landing3.png" width="2000"/><br>
 
-<img alt="landing 4" src="/Assets/Chapter-04/landing4.png" width="2000"/><br>
+<img alt="landing 4" src="Assets/Chapter-04/landing4.png" width="2000"/><br>
 
 
 ### 4.4. Web Applications UX/UI Design
 #### 4.4.1. Web Applications Wireframes
 
-<img alt="inicio sesion wireframe" src="/Assets/Chapter-04/iniciar-sesion-wireframe.png" width="2000"/><br>
+<img alt="inicio sesion wireframe" src="Assets/Chapter-04/iniciar-sesion-wireframe.png" width="2000"/><br>
 
-<img alt="escoger que registrar wireframe" src="/Assets/Chapter-04/registrar-escoger-wireframe.png" width="2000"/><br>
+<img alt="escoger que registrar wireframe" src="Assets/Chapter-04/registrar-escoger-wireframe.png" width="2000"/><br>
 
-<img alt="registrar voluntario wireframe" src="/Assets/Chapter-04/registrar-voluntario-wireframe.png" width="2000"/><br>
+<img alt="registrar voluntario wireframe" src="Assets/Chapter-04/registrar-voluntario-wireframe.png" width="2000"/><br>
 
-<img alt="registrar organizacion wireframe" src="/Assets/Chapter-04/registrar-organizacion-wireframe.png" width="2000"/><br>
+<img alt="registrar organizacion wireframe" src="Assets/Chapter-04/registrar-organizacion-wireframe.png" width="2000"/><br>
 
-<img alt="wireframe 01" src="/Assets/Chapter-04/wireframe01.png" width="2000"/><br>
+<img alt="wireframe 01" src="Assets/Chapter-04/wireframe01.png" width="2000"/><br>
 
-<img alt="wireframe 02" src="/Assets/Chapter-04/wireframe2.png" width="2000"/><br>
+<img alt="wireframe 02" src="Assets/Chapter-04/wireframe2.png" width="2000"/><br>
 
-<img alt="wireframe 03" src="/Assets/Chapter-04/wireframe3.png" width="2000"/><br>
+<img alt="wireframe 03" src="Assets/Chapter-04/wireframe3.png" width="2000"/><br>
 
-<img alt="wireframe 04" src="/Assets/Chapter-04/wireframe4.png" width="2000"/><br>
+<img alt="wireframe 04" src="Assets/Chapter-04/wireframe4.png" width="2000"/><br>
 
-<img alt="wireframe 05" src="/Assets/Chapter-04/wireframe5.png" width="2000"/><br>
+<img alt="wireframe 05" src="Assets/Chapter-04/wireframe5.png" width="2000"/><br>
 
-<img alt="wireframe 06" src="/Assets/Chapter-04/wireframe6.png" width="2000"/><br>
+<img alt="wireframe 06" src="Assets/Chapter-04/wireframe6.png" width="2000"/><br>
 
 
 
@@ -1138,23 +1138,23 @@ Estos sistemas garantizan una navegación que es clara, intuitiva y adaptable a 
 
 ![registrar voluntario mockup](Assets/Chapter-04/registrar-voluntario-mockup.png)
 
-<img alt="mockup 01" src="/Assets/Chapter-04/mockup01.png" width="2000"/><br>
+<img alt="mockup 01" src="Assets/Chapter-04/mockup01.png" width="2000"/><br>
 
-<img alt="mockup 02" src="/Assets/Chapter-04/mockup02.png" width="2000"/><br>
+<img alt="mockup 02" src="Assets/Chapter-04/mockup02.png" width="2000"/><br>
 
-<img alt="mockup 03" src="/Assets/Chapter-04/mockup03.png" width="2000"/><br>
+<img alt="mockup 03" src="Assets/Chapter-04/mockup03.png" width="2000"/><br>
 
-<img alt="mockup 04" src="/Assets/Chapter-04/mockup04.png" width="2000"/><br>
+<img alt="mockup 04" src="Assets/Chapter-04/mockup04.png" width="2000"/><br>
 
-<img alt="mockup 05" src="/Assets/Chapter-04/mockup05.png" width="2000"/><br>
+<img alt="mockup 05" src="Assets/Chapter-04/mockup05.png" width="2000"/><br>
 
-<img alt="mockup 06" src="/Assets/Chapter-04/mockup06.png" width="2000"/><br>
+<img alt="mockup 06" src="Assets/Chapter-04/mockup06.png" width="2000"/><br>
 
-<img alt="mockup 07" src="/Assets/Chapter-04/mockup07.png" width="2000"/><br>
+<img alt="mockup 07" src="Assets/Chapter-04/mockup07.png" width="2000"/><br>
 
-<img alt="mockup 08" src="/Assets/Chapter-04/mockup08.png" width="2000"/><br>
+<img alt="mockup 08" src="Assets/Chapter-04/mockup08.png" width="2000"/><br>
 
-<img alt="mockup 09" src="/Assets/Chapter-04/mockup09.png" width="2000"/><br>
+<img alt="mockup 09" src="Assets/Chapter-04/mockup09.png" width="2000"/><br>
 
 
 #### 4.4.4. Web Applications User Flow Diagrams
@@ -1167,7 +1167,7 @@ Este documento describe los **User Flow Diagrams** (Diagramas de Flujo de Usuari
 
 **Descripción:** Este flujo muestra cómo los usuarios inician sesión en el sistema, con validación de credenciales y redirección al dashboard principal. También incluye el proceso de registro para nuevos usuarios (voluntarios y organizaciones) y la recuperación de contraseña.
 
-<img alt="user flow 1" src="/Assets/Chapter-04/user-flow-1.png" width="2000"/><br>
+<img alt="user flow 1" src="Assets/Chapter-04/user-flow-1.png" width="2000"/><br>
 
 ## 2. Creación de Publicación (Organización)
 
@@ -1175,7 +1175,7 @@ Este documento describe los **User Flow Diagrams** (Diagramas de Flujo de Usuari
 
 **Descripción:** Permite que las organizaciones creen y publiquen contenido sobre sus actividades, proyectos y oportunidades de voluntariado. Las publicaciones pueden incluir texto, imágenes y tags para mejor categorización.
 
-<img alt="user flow 2" src="/Assets/Chapter-04/user-flow-2.jpg" width="2000"/><br>
+<img alt="user flow 2" src="Assets/Chapter-04/user-flow-2.jpg" width="2000"/><br>
 
 ## 3. Exploración de la Organización 
 
@@ -1183,7 +1183,7 @@ Este documento describe los **User Flow Diagrams** (Diagramas de Flujo de Usuari
 
 **Descripción:** Permite que los usuarios exploren el contenido publicado por las organizaciones, ver detalles de publicaciones, interactuar con ellas mediante likes, y descubrir nuevas organizaciones y oportunidades de voluntariado.
 
-<img alt="user flow 3" src="/Assets/Chapter-04/user-flow-3.jpg" width="2000"/><br>
+<img alt="user flow 3" src="Assets/Chapter-04/user-flow-3.jpg" width="2000"/><br>
 
 ## 4. Edición de Perfil
 
@@ -1191,7 +1191,7 @@ Este documento describe los **User Flow Diagrams** (Diagramas de Flujo de Usuari
 
 **Descripción:** Permite que los usuarios actualicen su información de perfil en cualquier momento. Los cambios se reflejan inmediatamente en la plataforma y son visibles para otros usuarios.
 
-<img alt="user flow 4" src="/Assets/Chapter-04/user-flow-4.jpg" width="2000"/><br>
+<img alt="user flow 4" src="Assets/Chapter-04/user-flow-4.jpg" width="2000"/><br>
 
 
 
@@ -1360,8 +1360,6 @@ Este **Class Dictionary** describe las principales entidades de dominio, sus atr
 #### 4.8.1. Database Diagram
 
 ![Database_Diagram](Assets/Chapter-04/diagramadb.png)
-
-=======
 
 
 ## Capítulo V: Product Implementation, Validation & Deployment
@@ -2729,6 +2727,7 @@ GitHub – Startup 7369. (2025). *Project Report Collaboration Insights*. https:
 - Idealist: https://www.idealist.org  
 - VolunteerMatch: https://www.volunteermatch.org  
 - GoVolunteer: https://www.govolunteer.com  
+
 
 
 
