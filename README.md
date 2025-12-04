@@ -2688,32 +2688,38 @@ VolunPath representa un paso importante hacia la profesionalización del volunta
 
 # Video About-the-Team
 
+[![About the Team Video](https://img.shields.io/badge/video-About%20the%20Team-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=K4tSlP2UUjU)
+
+Conclusiones sobre el video  
+El video presenta la visión general del equipo desarrollador de VolunPath, sus motivaciones y la importancia del impacto social mediante tecnología. Permite contextualizar el propósito del proyecto y la dinámica colaborativa del grupo.
+
+---
+
+# Landing Page
+
+[![Landing Page](https://img.shields.io/badge/Visit-Landing%20Page-blue?style=for-the-badge&logo=githubpages&logoColor=white)](https://opensource-volunpath-7369.github.io/landing/)
+
+Esta es la versión pública desplegada mediante GitHub Pages, donde se muestra el diseño, estructura y contenido principal del producto VolunPath.
 
 ---
 
 # Bibliografía
 
-Plataforma del Voluntariado de España. (2023). *Informe sobre la gestión del voluntariado y tendencias digitales*. https://www.plataformavoluntariado.org
-
-Idealist. (2024). *Oportunidades globales de voluntariado*. https://www.idealist.org
-
-VolunteerMatch. (2024). *Conectando organizaciones y voluntarios*. https://www.volunteermatch.org
-
-GoVolunteer. (2024). *Proyectos sociales y comunitarios*. https://www.govolunteer.com
-
-InnovaSocial. (2025). *VolunPath – Documentación del proyecto y arquitectura de software*. (Repositorio interno del curso).
-
-Miro. (2025). *Lean UX Canvas – VolunPath*. https://miro.com
-
-GitHub – Startup 7369. (2025). *Project Report Collaboration Insights*. https://github.com/curso-nombre-startup-7369/report/tree/develop
+- Plataforma del Voluntariado de España. (2023). *Informe sobre la gestión del voluntariado y tendencias digitales*. https://www.plataformavoluntariado.org  
+- Idealist. (2024). *Oportunidades globales de voluntariado*. https://www.idealist.org  
+- VolunteerMatch. (2024). *Conectando organizaciones y voluntarios*. https://www.volunteermatch.org  
+- GoVolunteer. (2024). *Proyectos sociales y comunitarios*. https://www.govolunteer.com  
+- InnovaSocial. (2025). *VolunPath – Documentación del proyecto y arquitectura de software*. (Repositorio interno del curso).  
+- Miro. (2025). *Lean UX Canvas – VolunPath*. https://miro.com  
+- GitHub – Startup 7369. (2025). *Project Report Collaboration Insights*.  
+  https://github.com/OpenSource-VolunPath-7369/report  
 
 ---
 
 # Anexos
 
 ### Repositorio del proyecto
-- **GitHub – Report del proyecto VolunPath**  
-  https://github.com/OpenSource-VolunPath-7369/report
+[![Report Repository](https://img.shields.io/badge/Report-Repository-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OpenSource-VolunPath-7369/report)
 
 ### Entrevistas – Líderes de Organización
 - Entrevista a **Luis Espiritu**  
@@ -2729,8 +2735,6 @@ GitHub – Startup 7369. (2025). *Project Report Collaboration Insights*. https:
 - Idealist: https://www.idealist.org  
 - VolunteerMatch: https://www.volunteermatch.org  
 - GoVolunteer: https://www.govolunteer.com  
-
-
 
 
 
