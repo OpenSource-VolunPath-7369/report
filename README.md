@@ -257,6 +257,19 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
       </td>
       <td>He demostrado una comunicación oral efectiva a lo largo del proyecto. Utilicé códigos apropiados para la audiencia (técnicos para el equipo, más simples para stakeholders), empleé medios audiovisuales adecuados (presentaciones, diagramas, demos) y me enfoqué en objetivos específicos en cada presentación. La escucha objetiva antes del juicio crítico fue evidente en las reuniones de retrospectiva, donde busqué la conciliación y mejora continua.</td>
     </tr>
+      <tr>
+  <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
+  <td>Jean Pool Huaman De La Cruz</td>
+  <td>
+    TB1: Participé en reuniones grupales aportando claridad en la identificación de necesidades del proyecto y facilitando la alineación del equipo respecto al alcance y objetivos iniciales.<br>
+    TP: Durante el Sprint 1, documenté y comuniqué las decisiones tomadas en el Sprint Planning, asegurando una transmisión clara del avance y los criterios de trabajo hacia el resto del equipo.<br>
+    TB2: Expuse hallazgos derivados de la validación del Capítulo III, explicando de forma concisa las mejoras necesarias en User Stories, Product Backlog e Impact Mapping.<br>
+    TF: Presenté resultados de pruebas funcionales, reportando incidencias relevantes y comunicando recomendaciones de mejora para el MVP, adaptando la explicación tanto para perfiles técnicos como no técnicos.
+  </td>
+  <td>
+    He demostrado una comunicación oral efectiva transmitiendo avances, problemas y propuestas de solución con claridad y estructura, adaptando mi lenguaje según la audiencia. Durante las distintas reuniones y validaciones, mantuve una escucha activa y objetiva que permitió mejorar procesos internos y resolver dudas de manera eficiente. La forma en que expuse los resultados de pruebas y análisis contribuyó a una mejor toma de decisiones en el equipo.
+  </td>
+</tr>
     <!-- Criterio 2 -->
     <tr>
       <td>Comunica por escrito con efectividad a diferentes rangos de audiencia </td>
@@ -269,6 +282,20 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
       </td>
       <td>He demostrado competencia en comunicación escrita a lo largo del proyecto. Preparé reportes técnicos según estándares establecidos, validando atributos de calidad antes de la presentación. Evidencié la capacidad de sintetizar ideas básicas y conceptos de manera empática para la audiencia objetivo, utilizando lenguaje y medios escritos apropiados de forma sistemática. La documentación del proyecto refleja un uso consistente de convenciones establecidas y una estructura clara que facilita la comprensión.</td>
     </tr>
+      <tr>
+  <td>Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
+  <td>Jean Pool Huaman De La Cruz</td>
+  <td>
+    TB1: Apoyé en la organización y revisión del contenido inicial del informe, asegurando coherencia entre las secciones del Capítulo I y los requerimientos levantados.<br>
+    TP: Durante el desarrollo del Sprint 1, redacté reportes y registros de decisiones técnicas, manteniendo una comunicación clara entre documentación y ejecución del proyecto.<br>
+    TB2: Revisé y actualicé la documentación del Capítulo III, asegurando claridad en la redacción de User Stories, Impact Mapping y Product Backlog; además, realicé una verificación de calidad editorial.<br>
+    TF: Contribuí en la consolidación de la documentación final, revisando capítulos IV y V, organizando anexos y redactando observaciones derivadas de pruebas y validación del sistema.
+  </td>
+  <td>
+    He demostrado competencia en comunicación escrita mediante una documentación clara, estructurada y consistente durante todas las fases del proyecto. Mis aportes permitieron mejorar la legibilidad, coherencia y calidad de los entregables. Utilicé lenguaje preciso y adecuado para diferentes audiencias, aplicando estándares académicos y técnicos. La documentación generada y revisada refleja una escritura organizada y orientada al cumplimiento de los requisitos del curso.
+  </td>
+</tr>
+
   </tbody>
 </table>
 </div>
@@ -2702,6 +2729,7 @@ GitHub – Startup 7369. (2025). *Project Report Collaboration Insights*. https:
 - Idealist: https://www.idealist.org  
 - VolunteerMatch: https://www.volunteermatch.org  
 - GoVolunteer: https://www.govolunteer.com  
+
 
 
 
