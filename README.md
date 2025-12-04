@@ -294,11 +294,8 @@ Ser reconocidos como un startup líder en América Latina en el desarrollo de pl
 
 | Estudiante | Descripción | Conocimientos |
 |------------|-------------|---------------|
-|  <img src="Assets/ImageMembers/FotoAldair.jpg" height="150" /> <br> Aldair Joaquin Ramos Aguirre <br> U20201F051 | Soy estudiante de Ingeniería de software en la UPC, me gusta todo lo relacionado a la tecnología y desarrollo. Confió en que puedo aportar algo para el desarrollo de este proyecto.  | Conocimientos mayormente en C++, Python, CSS, HMTL Y SQL |
-| <img src="Assets/ImageMembers/fotoAlex.jpg" height="150" /> <br> Alex Gabriel Cusimayta Lobo <br> U202019131 | Soy estudiante de Ingeniería de Software y productor musical con experiencia en proyectos de desarrollo web. Me interesa la innovación tecnológica y cómo aplicar la inteligencia artificial para optimizar procesos. | Tengo conocimientos en Javascript, python, c++, css+html, typescript, react, sql|
-| <img src="Assets/ImageMembers/fotoBertha.PNG" height="150" /> <br> Bertha Roxmeri Román Rodriguez <br> u20211c654 | En estos momentos estoy cursando la carrera de ingeniería de software, en la cual obtengo conocimientos variados ya que integra distintas ciencias como computación, ciencias básicas y ciencias aplicadas. Puedo usar estos conocimientos para transformarlos en un producto industrial usando bases de la ingeniería para desarrollar algo innovador. | Conocimientos de HTML, CSS, C++ y Python |
-| <img src="Assets/ImageMembers/Integrante-Mel-Andree-Orellana.jpeg" height="150" /> <br> Mel Andree Oreellana Rodriguez  <br> U202116018 | Estudiante de Ingeniería de Software, comprometido con el trabajo en equipo, proactivo y orientado a resultados, con interés en aportar soluciones tecnológicas innovadoras. | HTML, CSS, JavaScript, SQL (frontend y bases de datos), Python (programación, automatización y análisis). |
-| <img src="Assets/ImageMembers/fotoJean.png" height="150" /> <br> Jean Pool Huaman De La Cruz <br> U20201E781 | Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 22 años. A lo largo de mi formación me he destacado por mi compromiso con el aprendizaje constante, siempre buscando reforzar mis conocimientos y mejorar en las áreas que lo requieren. | Conocimientos en Python, C++ y otros lenguajes de programación. |
+| <img src="Assets/ImageMembers/Integrante-Mel-Andree-Orellana.jpeg" height="150" /> <br> Mel Andree Orellana Rodriguez <br> U202116018 | Estudiante de Ingeniería de Software, comprometido con el trabajo en equipo, proactivo y orientado a resultados, con interés en aportar soluciones tecnológicas innovadoras. | HTML, CSS, JavaScript, SQL (frontend y bases de datos), Python (programación, automatización y análisis). |
+| <img src="Assets/ImageMembers/fotoJean.png" height="150" /> <br> Jean Pool Huaman De La Cruz <br> U20201E781 | Soy estudiante de Ingeniería de Software en la UPC. Me caracterizo por el compromiso, la responsabilidad y la mejora continua durante mi formación académica. | Conocimientos en Python y C++. |
 
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
@@ -2705,6 +2702,7 @@ GitHub – Startup 7369. (2025). *Project Report Collaboration Insights*. https:
 - Idealist: https://www.idealist.org  
 - VolunteerMatch: https://www.volunteermatch.org  
 - GoVolunteer: https://www.govolunteer.com  
+
 
 
 
