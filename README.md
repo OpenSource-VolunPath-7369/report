@@ -40,6 +40,12 @@
 | TB1      | 20/09/2025  | Orellana Rodriguez, Mel Andree|Incorporación del Database Diagram |
 | TB1      | 20/09/2025  | Orellana Rodriguez, Mel Andree|Incorporación del Web Applications Wireframes |
 | TB1      | 20/09/2025  | Orellana Rodriguez, Mel Andree|Incorporación del Web Applications Wireflow Diagrams |
+| TB1      | 21/09/2025  | Huaman De La Cruz, Jean Pool       | Revisión inicial del planteamiento del problema y alcance del proyecto |
+| TB1      | 22/09/2025  | Huaman De La Cruz, Jean Pool       | Organización de requerimientos derivados de entrevistas |
+| TB1      | 22/09/2025  | Huaman De La Cruz, Jean Pool       | Alineación conceptual entre análisis de usuarios y solución |
+| TB1      | 23/09/2025  | Huaman De La Cruz, Jean Pool       | Correcciones de estructura en Capítulo I |
+| TB1      | 23/09/2025  | Huaman De La Cruz, Jean Pool       | Validación de segmentos objetivo |
+| TB1      | 23/09/2025  | Huaman De La Cruz, Jean Pool       | Revisión editorial del informe en TB1 |
 
 
 | Versión  | Fecha       | Autor                              | Descripción de modificación                                                    |
@@ -50,6 +56,12 @@
 | TP      | 27/09/2025  | Orellana Rodriguez, Mel Andree|Implementación del módulo de autenticación y sesión (profile)  |
 | TP      | 27/09/2025  | Orellana Rodriguez, Mel Andree|Conexión del frontend con la API           |
 | TP      | 27/09/2025  | Orellana Rodriguez, Mel Andree|Documentación de endpoints del backend con Swagger  |
+| TP       | 26/09/2025  | Huaman De La Cruz, Jean Pool       | Priorización inicial del backlog funcional |
+| TP       | 26/09/2025  | Huaman De La Cruz, Jean Pool       | Registro y documentación de decisiones del Sprint Planning 1 |
+| TP       | 27/09/2025  | Huaman De La Cruz, Jean Pool       | Observaciones para reforzar consistencia entre entrevistas y User Personas |
+| TP       | 27/09/2025  | Huaman De La Cruz, Jean Pool       | Revisión técnica del Sprint 1 antes de su inclusión en el informe |
+| TP       | 28/09/2025  | Huaman De La Cruz, Jean Pool       | Ajustes en el Capítulo II para mejorar el análisis de necesidades |
+| TP       | 29/09/2025  | Huaman De La Cruz, Jean Pool       | Consolidación del material del Sprint Review 1 |
 
 
 
@@ -63,6 +75,12 @@
 | TB2      | 05/11/2025  | Orellana Rodriguez, Mel Andree| Integración con base de datos externa para recopilación de datos     |
 | TB2      | 05/11/2025  | Orellana Rodriguez, Mel Andree| Configuración de variables de entorno para despliegue automatizado  |
 | TB2      | 05/11/2025  | Orellana Rodriguez, Mel Andree| Optimización de experiencia de usuario en dispositivos  |
+| TB2      | 01/11/2025  | Huaman De La Cruz, Jean Pool       | Ajustes en To-Be Scenario Mapping para mayor claridad |
+| TB2      | 01/11/2025  | Huaman De La Cruz, Jean Pool       | Revisión de estructura del Capítulo III |
+| TB2      | 02/11/2025  | Huaman De La Cruz, Jean Pool       | Actualización del Product Backlog |
+| TB2      | 03/11/2025  | Huaman De La Cruz, Jean Pool       | Validación de la relación entre User Stories y Epics |
+| TB2      | 04/11/2025  | Huaman De La Cruz, Jean Pool       | Revisión técnica de Impact Mapping |
+| TB2      | 05/11/2025  | Huaman De La Cruz, Jean Pool       | Control de calidad editorial del documento |
 
 
 
@@ -75,6 +93,12 @@
 | TF      | 29/11/2025  | Orellana Rodriguez, Mel Andree|Revisión general del sistema para entrega  |
 | TF      | 29/11/2025  | Orellana Rodriguez, Mel Andree|Documentación final del sistema y arquitectura implementada|
 | TF      | 29/11/2025  | Orellana Rodriguez, Mel Andree|Preparación del entregable final y presentación del sistema|
+| TF       | 23/11/2025  | Huaman De La Cruz, Jean Pool       | Ejecución de pruebas funcionales del MVP |
+| TF       | 24/11/2025  | Huaman De La Cruz, Jean Pool       | Registro de incidencias y análisis de errores |
+| TF       | 25/11/2025  | Huaman De La Cruz, Jean Pool       | Revisión de capítulos IV y V del informe |
+| TF       | 26/11/2025  | Huaman De La Cruz, Jean Pool       | Organización de evidencias de sprints y anexos |
+| TF       | 27/11/2025  | Huaman De La Cruz, Jean Pool       | Correcciones de estilo y formato del informe |
+| TF       | 29/11/2025  | Huaman De La Cruz, Jean Pool       | Validación final del documento para entrega |
 
 
 
@@ -2681,6 +2705,7 @@ GitHub – Startup 7369. (2025). *Project Report Collaboration Insights*. https:
 - Idealist: https://www.idealist.org  
 - VolunteerMatch: https://www.volunteermatch.org  
 - GoVolunteer: https://www.govolunteer.com  
+
 
 
 
