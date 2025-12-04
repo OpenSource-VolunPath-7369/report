@@ -2713,7 +2713,7 @@ GitHub – Startup 7369. (2025). *Project Report Collaboration Insights*. https:
 
 ### Repositorio del proyecto
 - **GitHub – Report del proyecto VolunPath**  
-  https://github.com/curso-nombre-startup-7369/report/tree/develop
+  https://github.com/OpenSource-VolunPath-7369/report
 
 ### Entrevistas – Líderes de Organización
 - Entrevista a **Luis Espiritu**  
@@ -2729,6 +2729,7 @@ GitHub – Startup 7369. (2025). *Project Report Collaboration Insights*. https:
 - Idealist: https://www.idealist.org  
 - VolunteerMatch: https://www.volunteermatch.org  
 - GoVolunteer: https://www.govolunteer.com  
+
 
 
 
